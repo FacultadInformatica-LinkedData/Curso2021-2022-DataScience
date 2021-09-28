@@ -2,26 +2,25 @@
 @base <http://temperatura.org/>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
-@prefix temp: <http://temperatura.org/medición#>.
-
+@prefix property: <http://temperatura.org/property#>.
 
 <Class01> 
-	temp:includes <Sensor029>;
-	temp:includes <Computer101>;
-	temp:name "Class01".
+	property:includes <Sensor029>;
+	property:includes <Computer101>;
+	property:name "Class01".
 
 <Computer101>
-        temp:name "Computer101";
-	temp:hasOwner <User10A>.
+        property:name "Computer101";
+	property:hasOwner <User10A>.
 
 <User10A>
 	foaf:name "Pedro".
 
 <Sensor029>
-	temp:name "Sensor029";
-	temp:hasMeasurement <Measurement8401>.
+	property:name "Sensor029";
+	property:hasMeasurement <Measurement8401>.
 
 <Measurement8401>
-	temp:name "Measurement8401";
-	temp:hasTemperature 29;
-	temp:atTime "2010-06-12T12:00:12".
+	property:name "Measurement8401";
+	property:hasTemperature 29;
+	property:atTime "2010-06-12T12:00:12".
