@@ -1,0 +1,15 @@
+@base <http://www.example.org/class>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix file: <http://example.org/file>.
+
+:Class01 	file:includes :Sensor029; 
+			file:includes :Computer101.
+
+:Sensor029 	file:hasMeasurement :Measurement8401.
+
+:Measurement8401 	file:hasTemperature "29"^^xsd:integer;
+			        file:atTime "2010-0612T12:00:12"^^xsd:dateTime.
+
+:Computer101 	file:hasOwner :User10A.
+
+:User10A  	file:hasName "Pedro".
