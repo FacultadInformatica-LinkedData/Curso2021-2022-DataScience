@@ -4,23 +4,23 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix property: <http://temperatura.org/property#>.
 
-<Class01> 
-	property:includes <Sensor029>;
-	property:includes <Computer101>;
+:Class01
+	property:includes :Sensor029;
+	property:includes :Computer101;
 	property:name "Class01".
 
-<Computer101>
+:Computer101
         property:name "Computer101";
-	property:hasOwner <User10A>.
+	property:hasOwner :User10A.
 
-<User10A>
+:User10A
 	foaf:name "Pedro".
 
-<Sensor029>
+:Sensor029
 	property:name "Sensor029";
-	property:hasMeasurement <Measurement8401>.
+	property:hasMeasurement :Measurement8401.
 
-<Measurement8401>
+:Measurement8401
 	property:name "Measurement8401";
 	property:hasTemperature 29;
 	property:atTime "2010-06-12T12:00:12^^xsd:dateTime".
