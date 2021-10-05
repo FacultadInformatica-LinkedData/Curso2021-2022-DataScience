@@ -1,0 +1,25 @@
+@base <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix element: <http://www.element.org>.
+
+:Class01 a rdf:class.
+:Class01 element:includes :Sensor029.
+:Class01 element:includes :Computer101 .
+
+:hasOwner a rdf:Property.
+:Computer101 :hasOwner :User10A.
+
+:hasName a rdf:Property.
+:User10A :hasName "Pedro".
+
+:hasMeasurement a rdf:Property.
+:Sensor029 :hasMeasurement :Measurement8401.
+
+:hasTemperature a rdf:Property.
+:hasTemperature rdf:type "xsd:int".
+:Measurement8401 :hasTemperature "29".
+
+:atTime a rdf:Property.
+:atTime rdf:type "xsd:dateTime".
+:Measurement8401 :atTime "2010-06-12T12:00:12".
