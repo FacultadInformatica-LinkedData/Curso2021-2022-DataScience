@@ -20,4 +20,4 @@
 
 :Measurement8401
 	property:hasTemperature 29;
-	property:atTime "2010-06-12T12:00:12".
+	property:atTime "2010-06-12T12:00:12^^xsd:dateTime".
