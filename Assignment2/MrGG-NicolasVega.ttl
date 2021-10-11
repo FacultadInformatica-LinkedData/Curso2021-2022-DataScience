@@ -16,6 +16,6 @@ computer:Computer101 :hasOwner user:User10A.
 
 user:User10A :hasName "Pedro".
 
-measurement:Measurement8401 :hasTemperature "29";
+measurement:Measurement8401 :hasTemperature 29;
                             :atTime "2010-06-12T12:00:12"^^xsd:dateTime;
 .
