@@ -1,0 +1,9 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+env/*
+env_3.9/*
+
+Assignment4/.ipynb_checkpoints/*
+Assignment4/course_materials/notebooks/.ipynb_checkpoints/*
