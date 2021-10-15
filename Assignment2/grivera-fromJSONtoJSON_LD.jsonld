@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "persona": "https://www.persona.es/personas/españa#",
+        "briefDescription": "rdf:comment",
+        "name": "http://schema.org/name",
+        "fullName": "name:fullName",
+        "firstName": "name:firstName",
+        "secondName": "name:secondName",
+        "thirdName": "name:thirdName",
+        "hometown": "rdfs:label",
+        "age": "rdfs:label",
+        "almaMmater": "rdfs:label",
+        "fatherName": "rdfs:label",
+        "motherName": "rdfs:label",
+        "subjects": "rdfs:container"
+    },
+    "@id": "http://www.persona.es/recurso/gonzaloR",
+    "@type": "persona:estudiante",
+    "fullName": {
+        "@id": "http://www.persona.es/recurso/fullName/Gonzalo/Rivera/delPino",
+        "@type": "Name",
+        "firstName": "Gonzalo",
+        "secondName": "Rivera",
+        "thirdName": "del Pino"
+    },
+    "hometown": "Madrid",
+    "age": 18,
+    "almaMmater": "UPM",
+    "fatherName": "Gonzalo",
+    "motherName": "Juana",
+    "subjects": [
+        {   
+            "@id": "http://www.persona.es/recurso/collegueSubject/IA",
+            "@type": "universitySubject",
+            "name": "IA",
+            "teacher": "Asun",
+            "briefDescription": "Artifical intelligence from a general view"
+        },
+        {   
+            "@id": "http://www.persona.es/recurso/collegueSubject/KG",
+            "@type": "universitySubject",
+            "name": "KG",
+            "teacher": "Óscar",
+            "briefDescription":"Knowledge graphs, Linked data and Semantic web"
+        },
+        {
+            "@id": "http://www.persona.es/recurso/collegueSubject/programm",
+            "@type": "universitySubject",
+            "name": "Programmation",
+            "teacher": "Juan",
+            "briefDescription": "Programming oriented tu big data"
+        }
+    ]
+
+}
