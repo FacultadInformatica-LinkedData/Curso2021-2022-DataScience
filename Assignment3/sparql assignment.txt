@@ -1,0 +1,49 @@
+
+
+# 1. Get all the properties that can be applied to instances of the Politician class (<http://dbpedia.org/ontology/Politician> or its equivalent in Wikidata)
+
+SELECT DISTINCT ?prop
+WHERE {
+?person a <http://dbpedia.org/ontology/Politician> .
+?person ?prop ?value
+}
+
+# 2. Get all the properties, except for rdf:type, that are applied to instances of the Politician class
+
+SELECT DISTINCT ?prop
+WHERE {
+?person a <http://dbpedia.org/ontology/Politician> .
+?person ?prop ?value .
+FILTER(?prop != <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>)
+}
+
+# 3. Which different values exist for the properties, except for rdf:type, of the instances of the Politician class?
+# INTERPRETADO COMO: ¿Qué valores toman las propiedades para la totalidad de objetos a los que se refieren?)
+
+SELECT DISTINCT ?prop ?value2
+WHERE {
+?person a <http://dbpedia.org/ontology/Politician> .
+?person ?prop ?value .
+?person2 ?prop ?value2
+
+FILTER(?prop != <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>)
+} LIMIT 1000
+
+# 4. For each of these properties, except for rdf:type, which different values do they take in those instances?
+# INTERPRETADO COMO: ¿Qué valores toman las propiedades para las instancias de la clase 'Politician'?)
+
+SELECT DISTINCT ?prop ?value
+WHERE {
+?person a <http://dbpedia.org/ontology/Politician> .
+?person ?prop ?value .
+FILTER(?prop != <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>)
+} 
+
+# 5. For each of the properties, except for rdf:type, how many distinct values do they take?
+
+SELECT DISTINCT ?prop (count(distinct ?value) as ?count)
+WHERE {
+?person a <http://dbpedia.org/ontology/Politician> .
+?person ?prop ?value .
+FILTER(?prop != <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>)
+}
