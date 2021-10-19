@@ -1,0 +1,41 @@
+{
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "person": "https://www.people.com/2002/#",
+        "briefDescription": "rdf:comment",
+      	"name": "rdfs:label",
+      	"fullname": "rdfs:label",
+        "hometown": "rdfs:label",
+        "age": "rdfs:literal",
+        "almaMmater": "rdfs:label",
+        "fatherName": "rdfs:label",
+        "motherName": "rdfs:label",
+        "subjects": "https://www.subjects.com/#",
+      	"teacher": "https://www.teachers.com/#" 
+    },
+    "@id": "http://www.persona.es/recurso/gonzaloR",
+    "@type": "persona:estudiante",
+    "fullName": "André Queiroz Costa",
+    "hometown": "Sao Paulo",
+    "age": 19,
+    "almaMater": "UPM",
+    "fathersName": "André",
+    "mothersName": "Viviany",
+    "subjects": [
+        {   
+            "@id": "https://www.subjects.com/subject/Knowledge-Graphs",
+          	"@type": "subjects:subject",
+            "name": "Knowledge Graphs",
+          	"teacher": "teacher:Óscar Corcho",
+            "briefDescription": "Semantic Web, Linked Data & Knowledge Graphs"
+        },
+        {   
+            "@id": "https://www.subjects.com/subject/Artificial-Intelligence",
+          	"@type": "subjects:subject",
+            "name": "Artificial Intelligence",
+          	"teacher": "teacher:Asunción Gómez Pérez",
+          	"briefDescription": "Software and possibly also systems designed by humans that, perceive info and decide a course of action"
+        }
+    ]
+
+}
