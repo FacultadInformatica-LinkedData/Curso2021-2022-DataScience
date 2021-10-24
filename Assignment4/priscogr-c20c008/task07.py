@@ -55,20 +55,13 @@ for s3,p3,o3 in g.triples((None,RDF.type, ns.Person)):
 # SPARQL
 q2 = prepareQuery('''
   SELECT ?Subject WHERE { 
-    ?Subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://somewhere#Researcher>
-  }
-  '''
-)
-q3 = prepareQuery('''
-  SELECT ?Subject WHERE { 
-    ?Subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://somewhere#Person>
+    {?Subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://somewhere#Researcher>} UNION
+    {?Subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://somewhere#Person>}
   }
   '''
 )
 
 for r in g.query(q2):
-  print("SPARQL: ", r.Subject)
-for r in g.query(q3):
   print("SPARQL: ", r.Subject)
 
 """**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**
@@ -88,28 +81,16 @@ for s4,p4,o4 in g.triples((None,RDF.type, ns.Person)):
       print("RDFLIB: ",s5,p5,o5)      
 
 # SPARQL
-q4 = prepareQuery('''
-  SELECT ?p ?o WHERE { 
-    <http://somewhere#JaneSmith> ?p ?o
-  }
-  '''
-)
-q5 = prepareQuery('''
-  SELECT ?p ?o WHERE { 
-    <http://somewhere#SaraJones> ?p ?o
-  }
-  '''
-)
-q6 = prepareQuery('''
+q3 = prepareQuery('''
   SELECT ?s ?p ?o WHERE { 
-    <http://somewhere#JohnSmith> ?p ?o
+    {?s rdf:type ns:Person} UNION 
+    {?s rdf:type ?tipo.
+    ?tipo rdfs:subClassOf ns:Person}
+    ?s ?p ?o
   }
-  '''
+  ''',
+  initNs = {"rdf":RDF, "ns":ns,"rdfs":RDFS}
 )
-
-for r in g.query(q4):
-  print("SPARQL: ", r.p, r.o)
-for r in g.query(q5):
-  print("SPARQL: ", r.p, r.o)  
-for r in g.query(q6):
-  print("SPARQL: ", r.p, r.o)
+# Visualize the results
+for r in g.query(q3):
+  print("SPARQL: ", r.s, r.p, r.o)
