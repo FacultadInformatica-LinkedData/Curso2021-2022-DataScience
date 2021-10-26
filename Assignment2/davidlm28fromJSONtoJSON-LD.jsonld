@@ -1,0 +1,48 @@
+{
+    "@context": {"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        		 "persona": "http://www.example.org/persona#",
+         		 "foaf": "http://xmlns.com/foaf/0.1/",
+        		 "fullName": "foaf:name",
+        		 "hometown": "rdfs:label",
+        		 "age": "rdfs:label",
+        		 "almaMmater": "rdfs:label",
+                 "fathersName": "foaf:name",
+                 "mothersName": "foaf:name",
+        		 "subjects": "rdfs:container",
+                 "teacher": "foaf:name",
+                 "briefDescription": "rdf:comment"},
+    
+    
+    "@id": "http://www.example.org/recurso/David",
+    "@type": "example:Persona",
+    "fullName":"David Lázaro Martín",
+    "hometown": "Segovia",
+    "age": "19",
+    "almaMater": "Politécnica de Madrid",
+    "fatherName": "Roberto Lázaro",
+    "motherName": "Pilar Martín",
+    "subjects": [
+        {   
+            "@id": "http://www.example.org/recurso/Asignatura/KnowledgeGraphs",
+            "@type": "Asignatura",
+            "name": "Knowledge Graphs",
+            "teacher": "Oscar Corcho",
+            "briefDescription": "Web Semántica, Linked Data, Queries..."
+        },
+        {   
+            "@id": "http://www.example.org/recurso/Asignatura/AlgoritmicaNumerica",
+            "@type": "Asignatura",
+            "name": "Algorítmica Numérica",
+            "teacher": "Antonio Tabernero",
+            "briefDescription": "Aprender el funcionamiento interno de las operaciones en el interior del ordenador"
+        },
+      {   
+            "@id": "http://www.example.org/recurso/Asignatura/InteligenciaArtificial",
+            "@type": "Asignatura",
+            "name": "Inteligencia Artificial",
+            "teacher": "Asunción",
+            "briefDescription": "Introducción a las bases de la Inteligencia Artificial"
+        }
+]
+
+}
