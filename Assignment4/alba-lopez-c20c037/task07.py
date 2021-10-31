@@ -9,7 +9,7 @@ Original file is located at
 **Task 07: Querying RDF(s)**
 """
 
-!pip install rdflib 
+#!pip install rdflib 
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2021-2022/master/Assignment4/course_materials"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
@@ -26,6 +26,12 @@ g.parse(github_storage+"/rdf/example6.rdf", format="xml")
 # TO DO
 from rdflib.plugins.sparql import prepareQuery
 
+# with RDFLib
+ns = Namespace('http://somewhere#')
+for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
+  print(s)
+
+# with SPARQL
 q1 = prepareQuery('''
    SELECT ?Subject WHERE { 
       ?Subject rdfs:subClassOf ns:Person.
@@ -34,8 +40,7 @@ q1 = prepareQuery('''
     initNs={"rdfs": RDFS, "ns": ns}
 )
 
-# Visualize the results
-
+# Visualize the SPARQL results
 for r in g.query(q1):
   print(r.Subject)
 
@@ -44,18 +49,36 @@ for r in g.query(q1):
 """
 
 # TO DO
+
+# with RDFLib
+for s,p,o in g.triples((None, RDF.type, ns.Person)):  
+  print(s)
+for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):  
+  for s2,p2,o2 in g.triples((None, RDF.type, s)):
+    print(s2)
+
+# with SPARQL
 q2 = prepareQuery('''
    SELECT ?Subject WHERE { 
-      { ?Subject rdf:type ns:Person .}
-      UNION
-      { ?Subject rdf:type ?person. {?person rdfs:subClassOf ns:Person}}
+        ?Subject rdf:type ns:Person .
+    } 
+    ''',
+    initNs = {"rdf": RDF, "ns": ns}
+)
+
+q3 = prepareQuery('''
+   SELECT ?Subject WHERE { 
+      ?Subject rdf:type ?person . 
+      ?person rdfs:subClassOf ns:Person .
     } 
     ''',
     initNs = {"rdfs": RDFS, "rdf": RDF, "ns": ns}
 )
 
-# Visualize the results
+# Visualize the SPARQL results
 for r in g.query(q2):
+  print(r.Subject)
+for r in g.query(q3):
   print(r.Subject)
 
 """**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**
@@ -63,14 +86,40 @@ for r in g.query(q2):
 """
 
 # TO DO
-q3 = prepareQuery('''
+
+# with RDFLib
+for s,p,o in g.triples((None, RDF.type, ns.Person)):
+  for s2,p2,o2 in g.triples((s, None, None)):
+    print(s2,p2)
+
+for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):  
+  for s2,p2,o2 in g.triples((None, RDF.type, s)):
+    for s3,p3,o3 in g.triples((s2, None, None)):
+      print(s2,p2)
+
+
+# with SPARQL
+q4 = prepareQuery('''
    SELECT ?Subject ?prop WHERE { 
       ?Subject rdf:type ns:Person .
-      ?Subject ?prop ?value
+      ?Subject ?prop ?value .
     } 
     ''',
     initNs = {"rdf": RDF, "ns": ns}
 )
-# Visualize the results
-for r in g.query(q3):
+
+q5 = prepareQuery('''
+   SELECT ?Subject ?prop WHERE { 
+      ?Subject rdf:type ?person .
+      ?person rdfs:subClassOf ns:Person .
+      ?Subject ?prop ?value .
+    } 
+    ''',
+    initNs = {"rdfs": RDFS, "rdf": RDF, "ns": ns}
+)
+
+# Visualize the SPARQL results
+for r in g.query(q4):
+  print(r.Subject + ", " + r.prop)
+for r in g.query(q5):
   print(r.Subject + ", " + r.prop)
