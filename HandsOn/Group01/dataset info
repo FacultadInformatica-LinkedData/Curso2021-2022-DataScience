@@ -1,0 +1,25 @@
+para el datasetRequirements.html:
+
+Datasets must satisfy the following requirements:
+- R1. Data are in one of the selected smart city domains. 
+- R2. Data are available as a CSV file. 
+- R3. Data have an open license so they can be published. 
+- R4. Data can be easily linked with generic real-world entities (e.g., locations). 
+- R5. Documentation exists for the data (optional). 
+- R6. Data can come from multiple data sources (optional).
+
+COMPLETE THE FOLLOWING SENTENCES:
+The licenses of the selected datasets are:
+https://datos.madrid.es/egob/catalogo/aviso-legal
+
+The entities in the selected datasets that can be linked with entities in other datasets are:
+ 
+The entities in other datasets that can be linked with entities in the selected datasets are:
+
+
+
+-------------------------------------------------------------------------------------------
+
+para el applicationRequirements.html:
+
+Description of the application user interface:
