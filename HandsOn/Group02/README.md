@@ -11,9 +11,9 @@ smart cities y las universidad. Para ver más [ver](https://htmlpreview.github.i
 ## Colaboradores
 ### TODO No se quienes estamos (Eliminar linea despues de completar)
 
-- [David](https://github.com/davidlm28)
-- []()
-- []()
+- [David Lázaro](https://github.com/davidlm28)
+- [Pablo Martín]()
+- [Lara Herrera]()
 - [Rubén Cid](https://github.com/RubenCid35)
 
 
