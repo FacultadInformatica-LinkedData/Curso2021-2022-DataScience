@@ -8,6 +8,32 @@ Datasets must satisfy the following requirements:
 - R5. Documentation exists for the data (optional). 
 - R6. Data can come from multiple data sources (optional).
 
+OPCIÓN 1: 
+Our datasets: 
+1. Museos en el ayuntamiento de madrid.
+
+Link to retrieve our dataset in different formats: 
+1. https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=118f2fdbecc63410VgnVCM1000000b205a0aRCRD&
+
+Link to retrieve our dataset in CSV:
+1. https://datos.madrid.es/egob/catalogo/201132-0-museos.csv
+
+The license of the selected dataset is:
+1. https://datos.madrid.es/egob/catalogo/aviso-legal (concretamente https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default)
+
+The entities in the selected datasets that can be linked with entities in other datasets are:
+1. Los diferentes museos
+ 
+The entities in other datasets that can be linked with entities in the selected datasets are:
+1. Los diferentes museos, y en caso de no existir en dbepedia en español, la clase museo.
+
+para el applicationRequirements.html:
+
+Description of the application user interface:
+El objetivo de aplicacion OPCIÓN 1 es facilitar informacion relevante para visitar los distintos museos de Madrid, como los horarios de visita, tarifas y estaciones de metro y bus cercanas. 
+
+
+OPCIÓN 2:
 Our datasets: 
 1. Instalaciones municipales con zonas wifi gratuitas en Madrid.
 2. Zonas Wifi públicas en Alcobendas.
@@ -29,40 +55,13 @@ The license of the selected dataset is:
 3. http://www.opendefinition.org/licenses/odc-by
 
 The entities in the selected datasets that can be linked with entities in other datasets are:
+1, 2 y 3. Los diferentes lugares.
  
 The entities in other datasets that can be linked with entities in the selected datasets are:
-
-
-
--------------------------------------------------------------------------------------------
+1, 2 y 3. Los diferentes lugares, y en caso de no existir en dbepedia en español, la clase a la que correspondieran (bibliotecas, universidades, ...).
 
 para el applicationRequirements.html:
 
 Description of the application user interface:
-
---------------------------------------------------------------------------------------------
-
-Our datasets: 
-1. Museos en el ayuntamiento de madrid.
-
-Link to retrieve our dataset in different formats: 
-1. https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=118f2fdbecc63410VgnVCM1000000b205a0aRCRD&
-
-Link to retrieve our dataset in CSV:
-1. https://datos.madrid.es/egob/catalogo/201132-0-museos.csv
-
-The license of the selected dataset is:
-1. https://datos.madrid.es/egob/catalogo/aviso-legal
-
-The entities in the selected datasets that can be linked with entities in other datasets are:
-1. Los diferentes museos
- 
-The entities in other datasets that can be linked with entities in the selected datasets are:
-1. Los diferentes museos, y en caso de no existir en dbepedia en español, la clase museo.
-
-para el applicationRequirements.html:
-
-Description of the application user interface:
-El objetivo de nuestra aplicacion es facilitar informacion sobre a la hora de visitar distintos museos de Madrid cuales son los más cercanos entre ellos. 
-
+El objetivo de aplicacion OPCIÓN 2 es facilitar información sobre la disponibilidad de una red wifi pública en determinados lugares de Madrid y alrededores.
 
