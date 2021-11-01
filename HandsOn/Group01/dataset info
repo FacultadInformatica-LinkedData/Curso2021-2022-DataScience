@@ -8,8 +8,13 @@ Datasets must satisfy the following requirements:
 - R5. Documentation exists for the data (optional). 
 - R6. Data can come from multiple data sources (optional).
 
-COMPLETE THE FOLLOWING SENTENCES:
-The licenses of the selected datasets are:
+Link to retrieve our dataset in different formats: 
+https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=c182d9b9d34df410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
+
+Link to retrieve our dataset in CSV:
+https://datos.madrid.es/egob/catalogo/216619-0-wifi-municipal.csv
+
+The license of the selected dataset is:
 https://datos.madrid.es/egob/catalogo/aviso-legal
 
 The entities in the selected datasets that can be linked with entities in other datasets are:
