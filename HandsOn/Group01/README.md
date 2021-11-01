@@ -11,9 +11,9 @@ smart cities y las centros culturales. Para ver más [ver](https://htmlpreview.g
 ## Colaboradores
 ### TODO No se quienes estamos (Eliminar linea despues de completar)
 
-- [David](https://github.com/davidlm28)
-- []()
-- []()
+- [David Lázaro](https://github.com/davidlm28)
+- [Lara Herrera](https://github.com/laraherrerafernandez)
+- [Pablo Martín](https://github.com/pablomartinescobar1)
 - [Rubén Cid](https://github.com/RubenCid35)
 
 
