@@ -40,6 +40,22 @@ para el applicationRequirements.html:
 
 Description of the application user interface:
 
+--------------------------------------------------------------------------------------------
 
-DATASET MUSEOS:
-https://datos.madrid.es/egob/catalogo/201132-0-museos.csv
+Our datasets: 
+
+Link to retrieve our dataset in different formats: 
+
+
+Link to retrieve our dataset in CSV:
+1. https://datos.madrid.es/egob/catalogo/201132-0-museos.csv
+
+The license of the selected dataset is:
+
+
+The entities in the selected datasets that can be linked with entities in other datasets are:
+1. los diferentes museos
+ 
+The entities in other datasets that can be linked with entities in the selected datasets are:
+1. los diferentes museos, y en caso de no existir en dbepedia en español, la clase museo.
+
