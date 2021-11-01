@@ -8,20 +8,25 @@ Datasets must satisfy the following requirements:
 - R5. Documentation exists for the data (optional). 
 - R6. Data can come from multiple data sources (optional).
 
+Our datasets: 
+1. Instalaciones municipales con zonas wifi gratuitas en Madrid.
+2. Zonas Wifi públicas en Alcobendas.
+3. Antenas WI-FI públicas en Arganda del Rey.
+
 Link to retrieve our dataset in different formats: 
-https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=c182d9b9d34df410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
-https://datos.gob.es/es/catalogo/l01280066-zonas-wifi-publicas1
-https://datos.gob.es/es/catalogo/l01280148-antenas-wi-fi-publicas
+1. https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=c182d9b9d34df410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default
+2. https://datos.gob.es/es/catalogo/l01280066-zonas-wifi-publicas1
+3. https://datos.gob.es/es/catalogo/l01280148-antenas-wi-fi-publicas
 
 Link to retrieve our dataset in CSV:
-https://datos.madrid.es/egob/catalogo/216619-0-wifi-municipal.csv
-https://datos.alcobendas.org/dataset/8b6af980-27e2-4f1f-9c8e-9bfca476c790/resource/0d4f4069-5f81-40f0-98e6-a58fe475842c/download/zonas-wifi.csv
-https://datosabiertos.ayto-arganda.es/dataset/aba4f272-f390-4e51-8ef1-0ba8433e26ba/resource/3780293e-dc17-46a1-a566-a8f253a43e1e/download/antenaswifipublica.csv
+1. https://datos.madrid.es/egob/catalogo/216619-0-wifi-municipal.csv
+2. https://datos.alcobendas.org/dataset/8b6af980-27e2-4f1f-9c8e-9bfca476c790/resource/0d4f4069-5f81-40f0-98e6-a58fe475842c/download/zonas-wifi.csv
+3. https://datosabiertos.ayto-arganda.es/dataset/aba4f272-f390-4e51-8ef1-0ba8433e26ba/resource/3780293e-dc17-46a1-a566-a8f253a43e1e/download/antenaswifipublica.csv
 
 The license of the selected dataset is:
-https://datos.madrid.es/egob/catalogo/aviso-legal
-http://www.opendefinition.org/licenses/odc-by
-http://www.opendefinition.org/licenses/odc-by
+1. https://datos.madrid.es/egob/catalogo/aviso-legal (concretamente https://datos.madrid.es/portal/site/egob/menuitem.3efdb29b813ad8241e830cc2a8a409a0/?vgnextoid=108804d4aab90410VgnVCM100000171f5a0aRCRD&vgnextchannel=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default)
+2. http://www.opendefinition.org/licenses/odc-by
+3. http://www.opendefinition.org/licenses/odc-by
 
 The entities in the selected datasets that can be linked with entities in other datasets are:
  
