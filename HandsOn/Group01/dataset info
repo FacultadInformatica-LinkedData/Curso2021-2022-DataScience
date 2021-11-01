@@ -43,19 +43,26 @@ Description of the application user interface:
 --------------------------------------------------------------------------------------------
 
 Our datasets: 
+1. Museos en el ayuntamiento de madrid.
 
 Link to retrieve our dataset in different formats: 
-
+1. https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=118f2fdbecc63410VgnVCM1000000b205a0aRCRD&
 
 Link to retrieve our dataset in CSV:
 1. https://datos.madrid.es/egob/catalogo/201132-0-museos.csv
 
 The license of the selected dataset is:
-
+1. https://datos.madrid.es/egob/catalogo/aviso-legal
 
 The entities in the selected datasets that can be linked with entities in other datasets are:
-1. los diferentes museos
+1. Los diferentes museos
  
 The entities in other datasets that can be linked with entities in the selected datasets are:
-1. los diferentes museos, y en caso de no existir en dbepedia en español, la clase museo.
+1. Los diferentes museos, y en caso de no existir en dbepedia en español, la clase museo.
+
+para el applicationRequirements.html:
+
+Description of the application user interface:
+El objetivo de nuestra aplicacion es facilitar informacion sobre a la hora de visitar distintos museos de Madrid cuales son los más cercanos entre ellos. 
+
 
