@@ -1,0 +1,15 @@
+@prefix : <http://example.org/#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix attr: <http://example.org/Attributes#>.
+
+:Class01    attr:includes :Sensor029;
+            attr:includes :Computer101.
+
+:Sensor029  attr:hasMeasurement :Measurement8401.
+
+:Computer101 attr:hasOwner :User10A.
+
+:User10A    attr:hasName "Pedro".
+
+:Measurement8401 attr:atTime "2010-06-12T12:00:12"^xsd:dateTime;
+                 attr:hasTemperature "29"^^xsd:integer.
