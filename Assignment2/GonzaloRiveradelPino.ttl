@@ -1,0 +1,23 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <http://example.org/#> .
+@prefix property: <http://example.org/property#>.
+
+
+:Class01
+	property:includes :Sensor029;
+	property:includes :Computer101.
+
+:Computer101
+	property:hasOwner :User10A.
+
+:User10A
+	foaf:hasName "Pedro".
+
+:Sensor029
+	property:hasMeasurement :Measurement8401.
+
+:Measurement8401
+	property:hasTemperature 29.
+	property:atTime "2010-06-12T12:00:12^^xsd:dateTime".
