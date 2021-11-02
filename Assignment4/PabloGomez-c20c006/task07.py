@@ -9,7 +9,7 @@ Original file is located at
 **Task 07: Querying RDF(s)**
 """
 
-!pip install rdflib 
+#!pip install rdflib 
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2021-2022/master/Assignment4/course_materials"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
@@ -56,17 +56,18 @@ for s,p,o in g.triples((None,RDF.type,ns.Person)):
   print(s,p,o)
 print("------------")
 q1 = prepareQuery('''
- SELECT  ?Object  
+ SELECT  ?Subject  
  WHERE { 
-    ?Subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://somewhere#Researcher>.
+    ?Subject rdf:type ns:Person.
   } 
-  ''')
+  ''',initNs = {"rdf": RDF, "ns": ns})
 q2 = prepareQuery('''
- SELECT  ?Object  
+ SELECT  ?Subject 
  WHERE { 
-    ?Subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://somewhere#Person>.
+    ?Subject rdf:type ?Person.
+    ?Person rdfs:SubClassOf ns:Person.
   } 
-  ''')
+  ''',initNs = {"rdf": RDF, "ns": ns,"rdfs": RDFS})
 for r in g.query(q1):
   print(r)
 for t in g.query(q2):
@@ -93,19 +94,20 @@ for s,p,o in g.triples((None,RDF.type,ns.Person)):
 print("------------")
 
 q1 = prepareQuery('''
- SELECT  ?Properties ?Object  
+ SELECT  ?Subject ?Properties  
  WHERE { 
-    ?Subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://somewhere#Researcher>.
-    ?Subject ?Properties ?Object
+    ?Subject rdf:type ns:Person.
+    ?Subject ?Properties ?value
   } 
-  ''')
+  ''',initNs = { "rdf": RDF, "ns": ns})
 q2 = prepareQuery('''
- SELECT ?Properties ?Object  
+ SELECT ?Subject ?Properties
  WHERE { 
-    ?Subject <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://somewhere#Person>.
-    ?Subject ?Properties ?Object
+    ?Subject rdf:type ?Person.
+    ?Person rdfs:subClassOf ns:Person.
+    ?Subject ?Properties ?value
   } 
-  ''')
+  ''',initNs = { "rdf": RDF, "ns": ns,"rdfs": RDFS})
   
 for r in g.query(q1):
   print(r)

@@ -52,7 +52,7 @@ for s, p, o in g:
 # TO DO
 # Visualize the results
 from rdflib import XSD
-#g.add((ns.JaneSmith,RDF.type,ns.Researcher))
+g.add((ns.JaneSmith,RDF.type,ns.Researcher))
 for s, p, o in g:
   print(s,p,o)
 
