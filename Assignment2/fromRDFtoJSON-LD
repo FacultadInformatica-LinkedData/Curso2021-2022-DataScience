@@ -1,0 +1,29 @@
+{
+ "@context":{
+   "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+   "foaf" :"http://xmlns.com/foaf/0.1/",
+   "property":"http://example.org/property#",
+   "property:atTime":{"@type": 
+                      "xsd:dataTime"}
+	},
+  
+ "Class01":{
+ "property:includes":{
+   "Sensor029":{
+      "property:hasMeasurement":
+          {"Measurement8401":
+            {"property:hasTemperature":"29",
+              "property:atTime":"2020-06-12T12:00:12"}
+				}
+			}
+		},
+   
+   "Computer101":{
+       "property:hasOwner":{
+          "User10A":{
+            "foaf:hasName":"Pedro"}
+       		}
+   		}
+	}
+ 
+}
