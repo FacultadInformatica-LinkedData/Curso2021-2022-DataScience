@@ -1,44 +1,34 @@
-﻿Cuenta: Ayuntamiento de Las Rozas;;;;;;;;;
-Usuario: Santamarta;;;;;;;;;
-Generado: 04/11/2021;;;;;;;;;
-Razón de recolección: Octubre 6  2021 - Noviembre 4  2021;;;;;;;;;
-Filtros:  ;;;;;;;;;
-tipo de residuo: Todos;;;;;;;;;
-Grupos: Todos;;;;;;;;;
-Ruta ordenada: Todos;;;;;;;;;
-;;;;;;;;;
-;;;;;;;;;
-Serie;Descripción;Capacidad;Razón;Nivel de llenado;Tiempo de respuesta de recolección;Última recoleccion;Promedio de dias para llegar a lleno;Tipo de flujo;
-1527406;Puntagalea;Alto;Llenado;80%;142.3 días;10/22/21 19:40;116.2 dias;Residuos;
-1528780;Kiosko Cantizal;Alto;No listo;60%;-;11/01/2021 12:35;-;Residuos;
-1528780;Kiosko Cantizal;Alto;No listo;0%;-;11/02/2021 18:23;-;Residuos;
-1528785;Parque Frente Al Zola;Alto;Llenado;80%;2.6 días;10/18/21 10:52;112.3 dias;Residuos;
-1528792;"Parque Paris; Entrada Avioneta";Alto;No listo;0%;-;10/07/2021 21:07;-;Residuos;
-1528797;Calle Real N°35 (Bar La Caleta);Alto;No listo;0%;-;10/08/2021 8:09;13.1 dias;Residuos;
-1528797;Calle Real N°35 (Bar La Caleta);Alto;Llenado;80%;< 1.0 horas;10/21/21 11:17;13.1 dias;Residuos;
-1528797;Calle Real N°35 (Bar La Caleta);Alto;No listo;0%;-;10/22/21 10:07;13.1 dias;Residuos;
-1528798;Espíritu De Ermua Marazuela;Alto;No listo;40%;-;10/07/2021 10:42;-;Residuos;
-1528804;"Bulevar Camilo José Cela; Barco Pirata";Alto;No listo;40%;-;10/07/2021 9:39;-;Residuos;
-1528805;"Plaza De España; Bar Los Amigos";Alto;Llenado;80%;14.0 horas;10/24/21 09:52;18.3 dias;Residuos;
-1528807;"Calle Real; Banco Sabadell";Alto;Llenado;80%;11.0 horas;10/08/2021 9:08;4.9 dias;Residuos;
-1528807;"Calle Real; Banco Sabadell";Alto;No listo;60%;-;10/15/21 10:46;4.9 dias;Residuos;
-1528807;"Calle Real; Banco Sabadell";Alto;No listo;20%;-;10/20/21 13:59;4.9 dias;Residuos;
-1528807;"Calle Real; Banco Sabadell";Alto;No listo;60%;-;10/24/21 07:50;4.9 dias;Residuos;
-1528807;"Calle Real; Banco Sabadell";Alto;Llenado;80%;12.0 horas;10/30/21 07:46;4.9 dias;Residuos;
-1528807;"Calle Real; Banco Sabadell";Alto;No listo;0%;-;11/02/2021 12:12;4.9 dias;Residuos;
-1528808;"Calle Real; Banco Sabadell";Alto;No listo;40%;-;10/08/2021 9:07;5.2 dias;Botellas/latas;
-1528808;"Calle Real; Banco Sabadell";Alto;Llenado;80%;12.0 horas;10/15/21 10:45;5.2 dias;Botellas/latas;
-1528808;"Calle Real; Banco Sabadell";Alto;Llenado;80%;< 1.0 horas;10/20/21 13:55;5.2 dias;Botellas/latas;
-1528808;"Calle Real; Banco Sabadell";Alto;Llenado;80%;21.0 horas;10/25/21 10:46;5.2 dias;Botellas/latas;
-1528808;"Calle Real; Banco Sabadell";Alto;No listo;20%;-;10/30/21 07:46;5.2 dias;Botellas/latas;
-1528808;"Calle Real; Banco Sabadell";Alto;No listo;40%;-;11/02/2021 12:11;5.2 dias;Botellas/latas;
-1528809;"Salida San Miguel; Parada BUS";Alto;Llenado;80%;10.0 horas;10/23/21 07:22;58.4 dias;Residuos;
-1528810;Travesía Heron-las Rozas;Alto;Llenado;80%;1.0 horas;10/08/2021 14:22;33.3 dias;Residuos;
-1528810;Travesía Heron-las Rozas;Alto;Llenado;80%;3.0 horas;11/04/2021 7:05;33.3 dias;Residuos;
-1528817;Estación Cercanías Las Matas;Alto;No listo;0%;-;10/15/21 13:15;20.3 dias;Residuos;
-1528818;"Calle Real; Javerianas";Alto;No listo;20%;-;10/08/2021 8:43;14.4 dias;Residuos;
-1528818;"Calle Real; Javerianas";Alto;Llenado;80%;< 1.0 horas;10/22/21 19:58;14.4 dias;Residuos;
-1528819;Mercedes Formica;Alto;Llenado;80%;1.0 horas;11/02/2021 11:05;43.0 dias;Residuos;
-1528820;"Bulevar Camilo José Cela; Barco Pirata";Alto;Llenado;80%;1.2 días;10/07/2021 9:36;21.7 dias;Botellas/latas;
-1528822;Estación Cercanías Las Matas;Alto;No listo;0%;-;10/15/21 13:11;-;Botellas/latas;
-1528822;Estación Cercanías Las Matas;Alto;Alerta;  Alert - Unknown Fullness;< 1.0 horas;10/15/21 13:21;-;Botellas/latas;
+﻿Serie;Descripción;Capacidad;Razón;Nivel de llenado;Tiempo de respuesta de recolección;Última recoleccion;Promedio de dias para llegar a lleno;Tipo de flujo
+1527406;Puntagalea;Alto;Llenado;80%;142.3 días;10/22/21 19:40;116.2 dias;Residuos
+1528780;Kiosko Cantizal;Alto;No listo;60%;-;11/01/2021 12:35;-;Residuos
+1528780;Kiosko Cantizal;Alto;No listo;0%;-;11/02/2021 18:23;-;Residuos
+1528785;Parque Frente Al Zola;Alto;Llenado;80%;2.6 días;10/18/21 10:52;112.3 dias;Residuos
+1528792;"Parque Paris; Entrada Avioneta";Alto;No listo;0%;-;10/07/2021 21:07;-;Residuos
+1528797;Calle Real N°35 (Bar La Caleta);Alto;No listo;0%;-;10/08/2021 8:09;13.1 dias;Residuos
+1528797;Calle Real N°35 (Bar La Caleta);Alto;Llenado;80%;< 1.0 horas;10/21/21 11:17;13.1 dias;Residuos
+1528797;Calle Real N°35 (Bar La Caleta);Alto;No listo;0%;-;10/22/21 10:07;13.1 dias;Residuos
+1528798;Espíritu De Ermua Marazuela;Alto;No listo;40%;-;10/07/2021 10:42;-;Residuos
+1528804;"Bulevar Camilo José Cela; Barco Pirata";Alto;No listo;40%;-;10/07/2021 9:39;-;Residuos
+1528805;"Plaza De España; Bar Los Amigos";Alto;Llenado;80%;14.0 horas;10/24/21 09:52;18.3 dias;Residuos
+1528807;"Calle Real; Banco Sabadell";Alto;Llenado;80%;11.0 horas;10/08/2021 9:08;4.9 dias;Residuos
+1528807;"Calle Real; Banco Sabadell";Alto;No listo;60%;-;10/15/21 10:46;4.9 dias;Residuos
+1528807;"Calle Real; Banco Sabadell";Alto;No listo;20%;-;10/20/21 13:59;4.9 dias;Residuos
+1528807;"Calle Real; Banco Sabadell";Alto;No listo;60%;-;10/24/21 07:50;4.9 dias;Residuos
+1528807;"Calle Real; Banco Sabadell";Alto;Llenado;80%;12.0 horas;10/30/21 07:46;4.9 dias;Residuos
+1528807;"Calle Real; Banco Sabadell";Alto;No listo;0%;-;11/02/2021 12:12;4.9 dias;Residuos
+1528808;"Calle Real; Banco Sabadell";Alto;No listo;40%;-;10/08/2021 9:07;5.2 dias;Botellas/latas
+1528808;"Calle Real; Banco Sabadell";Alto;Llenado;80%;12.0 horas;10/15/21 10:45;5.2 dias;Botellas/latas
+1528808;"Calle Real; Banco Sabadell";Alto;Llenado;80%;< 1.0 horas;10/20/21 13:55;5.2 dias;Botellas/latas
+1528808;"Calle Real; Banco Sabadell";Alto;Llenado;80%;21.0 horas;10/25/21 10:46;5.2 dias;Botellas/latas
+1528808;"Calle Real; Banco Sabadell";Alto;No listo;20%;-;10/30/21 07:46;5.2 dias;Botellas/latas
+1528808;"Calle Real; Banco Sabadell";Alto;No listo;40%;-;11/02/2021 12:11;5.2 dias;Botellas/latas
+1528809;"Salida San Miguel; Parada BUS";Alto;Llenado;80%;10.0 horas;10/23/21 07:22;58.4 dias;Residuos
+1528810;Travesía Heron-las Rozas;Alto;Llenado;80%;1.0 horas;10/08/2021 14:22;33.3 dias;Residuos
+1528810;Travesía Heron-las Rozas;Alto;Llenado;80%;3.0 horas;11/04/2021 7:05;33.3 dias;Residuos
+1528817;Estación Cercanías Las Matas;Alto;No listo;0%;-;10/15/21 13:15;20.3 dias;Residuos
+1528818;"Calle Real; Javerianas";Alto;No listo;20%;-;10/08/2021 8:43;14.4 dias;Residuos
+1528818;"Calle Real; Javerianas";Alto;Llenado;80%;< 1.0 horas;10/22/21 19:58;14.4 dias;Residuos
+1528819;Mercedes Formica;Alto;Llenado;80%;1.0 horas;11/02/2021 11:05;43.0 dias;Residuos
+1528820;"Bulevar Camilo José Cela; Barco Pirata";Alto;Llenado;80%;1.2 días;10/07/2021 9:36;21.7 dias;Botellas/latas
+1528822;Estación Cercanías Las Matas;Alto;No listo;0%;-;10/15/21 13:11;-;Botellas/latas
+1528822;Estación Cercanías Las Matas;Alto;Alerta;  Alert - Unknown Fullness;< 1.0 horas;10/15/21 13:21;-;Botellas/latas
