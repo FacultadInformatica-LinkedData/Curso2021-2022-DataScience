@@ -1,0 +1,30 @@
+
+
+{
+ "@context":{
+   "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+   "property":"http://example.org/property#"
+   "property:atTime":{"@type": "xsd:dataTime"}
+   "foaf" :"http://xmlns.com/foaf/0.1/"
+
+ },
+ "Class01":{
+ "property:includes":{
+   "Sensoe029":{
+      "property:hasMeasurement":
+          {"Measurement8401":
+            {"property:hasTemperature":"29"
+              "property:atTime":"2020-06-12T12:00:12"}
+           }
+              }
+
+
+ }
+   "Computer10":{
+       "property:hasOwner":{
+          "User10A":{"foaf:hasName":"Pedro"}
+                            }
+              }
+           }
+ 
+}
