@@ -85,6 +85,8 @@ upm = ns.UPM
 g.add((upm, RDF.type, ns.University))
 g.add((jane, VCARD.Work, upm))
 
+
 print("\n\n[TASK 5]")
 for s, p, o in g:
   print(s, p, o)
+

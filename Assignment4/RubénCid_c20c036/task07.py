@@ -95,6 +95,7 @@ for subs, p1, o1 in g.triples((None, RDF.type, ns.Person)):
 
 
 
+
 q = prepareQuery("""
     SELECT DISTINCT ?person ?prop ?value
     WHERE {
