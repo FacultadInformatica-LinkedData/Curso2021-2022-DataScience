@@ -18,7 +18,7 @@ WHERE{
     ?name a <http://dbpedia.org/ontology/Politician>.
     ?name ?prop ?value.
     FILTER(?prop != rdf:type).
-}
+} 
 
 # Ejercicio 3.
 
