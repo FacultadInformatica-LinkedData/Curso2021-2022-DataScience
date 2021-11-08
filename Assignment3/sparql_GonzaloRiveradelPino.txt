@@ -1,0 +1,43 @@
+1
+PREFIX db: <http://dbpedia.org/ontology/>
+select distinct ?prop
+where{
+db:Politician ?prop ?else.
+?prop a rdf:Property
+}
+
+2
+PREFIX db: <http://dbpedia.org/ontology/>
+select distinct ?prop
+where{
+db:Politician ?prop ?else.
+?prop a rdf:Property.
+FILTER(?prop != rdf:type)
+}
+
+3
+PREFIX db: <http://dbpedia.org/ontology/>
+select distinct ?value
+where{
+db:Politician ?prop ?value.
+?prop a rdf:Property.
+FILTER(?prop != rdf:type)
+}
+
+4
+PREFIX db: <http://dbpedia.org/ontology/>
+select ?prop ?value
+where{
+db:Politician ?prop ?value.
+?prop a rdf:Property.
+FILTER(?prop != rdf:type)
+}
+
+5
+PREFIX db: <http://dbpedia.org/ontology/>
+select distinct ?prop ?value
+where{
+db:Politician ?prop ?value.
+?prop a rdf:Property.
+FILTER(?prop != rdf:type)
+}
