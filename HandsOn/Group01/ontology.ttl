@@ -1,0 +1,113 @@
+@prefix base:      <https://www.mapmadrid.es/group01/ontologies/>.
+@prefix clases:    <https://www.mapmadrid.es/group01/ontologies/classes>.
+@prefix prop:      <https://www.mapmadrid.es/group01/ontologies/properties>.
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema:    <https://www.scheme.org/>.
+@prefix dbpedia:   <https://dbpedia.org/ontology/>.
+@prefix xsd:       <https://www.w3.org/XMLSchema/>.
+@prefix owl:       <http://www.w3.org/2002/07/owl#> .
+
+: a owl:Ontology .
+
+
+### CLASES
+clases:distance a owl:DatatypeProperty ;
+    rdfs:label "distance" ;
+    rdfs:domain clases:Measure ;
+    rdfs:range xsd:decimal .
+
+clases:milesPerGallon a owl:DatatypeProperty ;
+    rdfs:label "m p g" ;
+    rdfs:domain clases:MuseoEfficiency ;
+    rdfs:range xsd:decimal .
+
+clases:ID a owl:DatatypeProperty ;
+    rdfs:label "number i d" ;
+    rdfs:domain clases:GovID ;
+    rdfs:range xsd:string .
+
+clases:odometer a owl:DatatypeProperty ;
+    rdfs:label "odometer" ;
+    rdfs:domain clases:Measure ;
+    rdfs:range xsd:decimal .
+
+clases:unit_of_Measurement a owl:DatatypeProperty ;
+    rdfs:label "unit_of_ measurement" ;
+    rdfs:domain clases:Measure ;
+    rdfs:range xsd:string .
+
+clases:clasesModel a owl:DatatypeProperty ;
+    rdfs:label "clases model" ;
+    rdfs:domain clases:Brand ;
+    rdfs:range xsd:string .
+
+clases:MuseoType a owl:DatatypeProperty ;
+    rdfs:label "Museo type" ;
+    rdfs:domain clases:Museo ;
+    rdfs:range xsd:string .
+
+clases:registration a owl:DatatypeProperty ;
+    rdfs:label "registration" ;
+    rdfs:domain clases:clasesIdentifier ;
+    rdfs:range xsd:string .
+
+
+#########################
+### Object Properties ###
+#########################
+
+clases:hasMuseoType a owl:ObjectProperty ;
+    rdfs:label "has Museo type" ;
+    rdfs:domain clases:CulturalSite ;
+    rdfs:range clases:Museo .
+
+clases:hasID a owl:ObjectProperty ;
+    rdfs:label "has i d" ;
+    rdfs:domain clases:CulturalSite ;
+    rdfs:range clases:GovID .
+
+clases:hasMPG a owl:ObjectProperty ;
+    rdfs:label "has m p g" ;
+    rdfs:domain clases:CulturalSite ;
+    rdfs:range clases:MuseoEfficiency .
+
+clases:hasMeasurement a owl:ObjectProperty ;
+    rdfs:label "has measurement" ;
+    rdfs:domain clases:CulturalSite ;
+    rdfs:range clases:Measure .
+
+clases:hasTypeclases a owl:ObjectProperty ;
+    rdfs:label "has model clases" ;
+    rdfs:domain clases:CulturalSite ;
+    rdfs:range clases:Brand .
+
+clases:hasRegistration a owl:ObjectProperty ;
+    rdfs:label "has registration" ;
+    rdfs:domain clases:CulturalSite ;
+    rdfs:range clases:clasesIdentifier .
+
+
+#################
+#### Classes ####
+#################
+
+clases:Brand a owl:Class ;
+    rdfs:label "Brand" .
+
+clases:clasesIdentifier a owl:Class ;
+    rdfs:label "clases Identifier" .
+
+clases:Museo a owl:Class ;
+    rdfs:label "Museo" .
+
+clases:MuseoEfficiency a owl:Class ;
+    rdfs:label "Museo Efficiency" .
+
+clases:GovID a owl:Class ;
+    rdfs:label "Gov I D" .
+
+clases:Measure a owl:Class ;
+    rdfs:label "Measure" .
+
+clases:CulturalSite a owl:Class ;
+    rdfs:label "CulturalSite" .
