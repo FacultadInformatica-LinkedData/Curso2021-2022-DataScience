@@ -1,0 +1,110 @@
+@prefix : <http://www.semanticweb.org/nacho/ontologies/2021/10/untitled-ontology-6> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/smartcity/mobiliario_urbano/> .
+
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#recolectadaDe
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#recolectadaDe> rdf:type owl:ObjectProperty ;
+                                                                        rdfs:domain <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Recolecciones_pasadas> ;
+                                                                        rdfs:range <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Contenedor> .
+
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#tieneRecoleccion
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#tieneRecoleccion> rdf:type owl:ObjectProperty ;
+                                                                           rdfs:domain <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Contenedor> ;
+                                                                           rdfs:range <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Recolecciones_pasadas> .
+
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#ubicacionDe
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#ubicacionDe> rdf:type owl:ObjectProperty ;
+                                                                      owl:inverseOf <http://www.semanticweb.org/smartcity/mobiliario_urbano/#ubicadoEn> ;
+                                                                      rdfs:domain <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Ubicacion> ;
+                                                                      rdfs:range <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Contenedor> .
+
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#ubicadoEn
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#ubicadoEn> rdf:type owl:ObjectProperty ;
+                                                                    rdfs:domain <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Contenedor> ;
+                                                                    rdfs:range <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Ubicacion> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#fecha
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#fecha> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:domain <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Recolecciones_pasadas> ;
+                                                                rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#frecuencia_media_recolecciones
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#frecuencia_media_recolecciones> rdf:type owl:DatatypeProperty ;
+                                                                                         rdfs:domain <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Contenedor> ;
+                                                                                         rdfs:range xsd:float ;
+                                                                                         rdfs:comment "Frecuencia media de recolecciones medida en dias"@es .
+
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#litros_recolectados
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#litros_recolectados> rdf:type owl:DatatypeProperty ;
+                                                                              rdfs:domain <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Recolecciones_pasadas> ;
+                                                                              rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#material
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#material> rdf:type owl:DatatypeProperty ;
+                                                                   rdfs:domain <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Contenedor> ;
+                                                                   rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#motivo_de_recoleccion
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#motivo_de_recoleccion> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:domain <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Recolecciones_pasadas> ;
+                                                                                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#porcentaje_de_llenado
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#porcentaje_de_llenado> rdf:type owl:DatatypeProperty ;
+                                                                                rdfs:domain <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Contenedor> ;
+                                                                                rdfs:range xsd:nonNegativeInteger .
+
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#tiempo_respuesta_aviso
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#tiempo_respuesta_aviso> rdf:type owl:DatatypeProperty ;
+                                                                                 rdfs:domain <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Recolecciones_pasadas> ;
+                                                                                 rdfs:range xsd:float ;
+                                                                                 rdfs:comment "Tiempo de respuesta a aviso medido en horas"@es .
+
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#tieneId
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#tieneId> rdf:type owl:DatatypeProperty ;
+                                                                  rdfs:domain <http://www.semanticweb.org/smartcity/mobiliario_urbano/#Contenedor> ;
+                                                                  rdfs:range xsd:nonNegativeInteger .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#Contenedor
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#Contenedor> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#Recolecciones_pasadas
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#Recolecciones_pasadas> rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/smartcity/mobiliario_urbano/#Ubicacion
+<http://www.semanticweb.org/smartcity/mobiliario_urbano/#Ubicacion> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
