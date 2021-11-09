@@ -1,0 +1,21 @@
+, , FECHA, AUTORES, PDF, NOMBRE-VIA, CLASE-VIAL, TIPO-NUM, NUM, PLANTA, PUERTA, ESCALERAS, ORIENTACION, LOCALIDAD, PROVINCIA, CODIGO-POSTAL, BARRIO, DISTRITO, , TELEFONO, FAX, EMAIL, TIPO, 
+, HORARIO, EQUIPAMIENTO, , DESCRIPCION, ACCESIBILIDAD, , NOMBRE-VIA, CLASE-VIAL, TIPO-NUM, NUM, PLANTA, PUERTA, ESCALERAS, ORIENTACION, LOCALIDAD, PROVINCIA, CODIGO-POSTAL, , , TELEFONO, FAX, EMAIL, TIPO, 
+
+SUBTIPO: TODO Crear
+TIPO: TODO Crear
+
+Autor: foaf:Person 
+Place:
+Coordinates: https://w3id.org/arco/ontology/location/Coordinates
+
+
+PLACES:
+Address: https://schema.org/PostalAddress
+
+CONTENT-URL: https://w3.org/2006/vcard/ns#url
+BARRIO: https://dbpedia.org/ontology/CityDistrict
+DISTRITO: https://dbpedia.org/ontology/CityDistrict
+
+TRANSPORTE: http
+
+CUTLINKED

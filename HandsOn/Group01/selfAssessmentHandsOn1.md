@@ -31,11 +31,3 @@ _(If required)_
 <br>
 <br>
 
-----
-## Hands-on assignment 2 – Self assessment
-
-<br>
-
-### Lista de Tareas
-
----
