@@ -1,0 +1,22 @@
+{ "@context":{"base":"http://www.example.org/",
+              "xml":"http://www.w3.org/2001/XMLSchema#",
+              "vcard": "http://www.w3.org/2006/vcard/ns#",
+			  "foaf": "http://xmlns.com/foaf/0.1/",
+              "prop": "base:property/",
+              "prop:atTime":{"@type":"vcard:rev"},
+              "prop:hasTemperature":{"@type":"xsd:integer"},
+              "foaf:hasName":{"@type":"foaf:name"}
+			  },
+ 
+   "Class01":{"prop:includes":
+            {"Sensor029":{"prop:hasMeasurement":
+                          {"Measurement8401":{"prop:hasTemperature":"29",
+                                             "prop:atTime":"2010-06-12T12:00:12"}
+                          }
+                         },
+   			
+             "Computer101":{"prop:hasOwner":
+                            {"User10A":{"foaf:hasName":"Pedro"}}}
+ }
+           }
+}
