@@ -1,0 +1,64 @@
+{
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "persona": "https://www.persona.es/personas/españa#",
+        "briefDescription": "rdf:comment",
+        "name": "http://schema.org/name",
+        "fullName": "name:fullName",
+        "firstName": "name:firstName",
+        "secondName": "name:secondName",
+        "thirdName": "name:thirdName",
+        "hometown": "rdfs:label",
+        "age": "rdfs:label",
+        "almaMmater": "rdfs:label",
+        "fatherName": "rdfs:label",
+        "motherName": "rdfs:label",
+        "subjects": "rdfs:container"
+    },
+    "@id": "http://www.persona.es/recurso/Ignacio",
+    "@type": "persona:estudiante",
+    "fullName": {
+        "@id": "http://www.persona.es/recurso/fullName/Ignacio/García/Luengo",
+        "@type": "Name",
+        "firstName": "Ignacio",
+        "secondName": "García",
+        "thirdName": "Luengo"
+    },
+    "hometown": "Madrid",
+    "age": 19,
+    "almaMmater": "UPM",
+    "fatherName": "Victor",
+    "motherName": "Piedad",
+    "subjects": [
+        {   
+            "@id": "http://www.persona.es/recurso/collegueSubject/AI",
+            "@type": "universitySubject",
+            "name": "AI",
+            "teacher": "Asun",
+            "briefDescription": "Introduction to AI concepts"
+        },
+        {   
+            "@id": "http://www.persona.es/recurso/collegueSubject/KG-LD-SW",
+            "@type": "universitySubject",
+            "name": "KG-LD-SW",
+            "teacher": "Óscar",
+            "briefDescription":"Knowledge graphs, Linked data and Semantic web"
+        },
+        {
+            "@id": "http://www.persona.es/recurso/collegueSubject/programming",
+            "@type": "universitySubject",
+            "name": "Programmation oriented to data science",
+            "teacher": "Juan",
+            "briefDescription": "Programming oriented to data science concepts"
+        },
+      
+         {
+            "@id": "http://www.persona.es/recurso/collegueSubject/DataExchange",
+            "@type": "universitySubject",
+            "name": "Data Exchange",
+            "teacher": "Jose Ramon",
+            "briefDescription": "XML and JSON syntax comprehension oriented to data science"
+        }
+    ]
+
+}
