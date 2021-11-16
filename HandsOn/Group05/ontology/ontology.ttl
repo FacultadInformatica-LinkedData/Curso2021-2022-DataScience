@@ -1,0 +1,139 @@
+ @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix ns: <http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#> .
+@prefix schema: <http://www.schema.org/> .
+@prefix dbpedia-owl: <https://dbpedia.org/ontology/> .
+@prefix org: <httporg:> .
+@prefix http: <http://www.w3.org/2006/vcard/ns> .
+@prefix /: <http/> .
+@prefix vcard: <httpvcard:> .
+@prefix juso: <http://rdfs.co/juso/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos/> .
+@prefix a-loc: <https://w3id.org/arco/ontology/location/> .
+@prefix arp: <http://www.arpenteur.org/ontology/Arpenteur.owl/> .
+@base <http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#> .
+
+<http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#> rdf:type owl:Ontology ;
+			dc:description "Ontology code created by Chowlk" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+### vcard:hasAddress
+vcard:hasAddress rdf:type owl:ObjectProperty ;
+		rdfs:domain org:Site ;
+		rdfs:range schema:PostalAddress ;
+		rdfs:label "has address" .
+
+### ns:hasNearbyStop
+ns:hasNearbyStop rdf:type owl:ObjectProperty ;
+		rdfs:domain org:Site ;
+		rdfs:range ns:Stop ;
+		rdfs:label "has nearby stop" .
+
+### schema:geo
+schema:geo rdf:type owl:ObjectProperty ;
+		rdfs:domain schema:PostalAddress ;
+		rdfs:range a-loc:Coordinates ;
+		rdfs:label "geo" .
+
+#################################################################
+#    Data Properties
+#################################################################
+
+### schema:addressRegion
+schema:addressRegion rdf:type owl:DatatypeProperty ;
+		rdfs:label "address region" .
+
+### dbpedia-owl:routeLine
+dbpedia-owl:routeLine rdf:type owl:DatatypeProperty ;
+		rdfs:label "route line" .
+
+### dbpedia-owl:relatedMeanOfTransportation
+dbpedia-owl:relatedMeanOfTransportation rdf:type owl:DatatypeProperty ;
+		rdfs:label "related mean of transportation" .
+
+### dbpedia-owl:name
+dbpedia-owl:name rdf:type owl:DatatypeProperty ;
+		rdfs:label "name" .
+
+### schema:WebSite
+schema:WebSite rdf:type owl:DatatypeProperty ;
+		rdfs:label "web site" .
+
+### schema:telephone
+schema:telephone rdf:type owl:DatatypeProperty ;
+		rdfs:label "telephone" .
+
+### schema:description
+schema:description rdf:type owl:DatatypeProperty ;
+		rdfs:label "description" .
+
+### schema:openingHours
+schema:openingHours rdf:type owl:DatatypeProperty ;
+		rdfs:label "opening hours" .
+
+### dbpedia-owl:equipment
+dbpedia-owl:equipment rdf:type owl:DatatypeProperty ;
+		rdfs:label "equipment" .
+
+#################################################################
+#    Classes
+#################################################################
+
+### dbpedia-owl:Monument
+dbpedia-owl:Monument rdf:type owl:Class ;
+	rdfs:label "Monument" ;
+	rdfs:subClassOf org:Site .
+
+### ns:CulturalFondation
+ns:CulturalFondation rdf:type owl:Class ;
+	rdfs:label "Cultural Fondation" ;
+	rdfs:subClassOf org:Site .
+
+### ns:Planetary
+ns:Planetary rdf:type owl:Class ;
+	rdfs:label "Planetary" ;
+	rdfs:subClassOf org:Site .
+
+### ns:BusinessOrganism
+ns:BusinessOrganism rdf:type owl:Class ;
+	rdfs:label "Business Organism" ;
+	rdfs:subClassOf org:Site .
+
+### dbpedia-owl:museum
+dbpedia-owl:museum rdf:type owl:Class ;
+	rdfs:label "museum" ;
+	rdfs:subClassOf org:Site .
+
+### ns:Stop
+ns:Stop rdf:type owl:Class ;
+	rdfs:label "Stop" .
+
+### schema:PostalAddress
+schema:PostalAddress rdf:type owl:Class ;
+	rdfs:label "Postal Address" .
+
+### a-loc:Coordinates
+a-loc:Coordinates rdf:type owl:Class ;
+	rdfs:label "Coordinates" .
+
+### org:Site
+org:Site rdf:type owl:Class ;
+	rdfs:label "Site" .
+
+#################################################################
+#    Instances
+#################################################################
+
+#################################################################
+#    General Axioms
+#################################################################
+
