@@ -27,6 +27,9 @@ class:Monument      rdf:type owl:Class;
                     rdfs:subClassOf class:CulturalSite;
                     rdfs:label "Monument".
 
+class:MuseumType    rdf:type owl:Class;
+                    rdfs:label "Monument Type"
+
 ### Object Properties
 prop:isLocated      rdf:type owl:ObjectProperty;
                     rdfs:label "is Located";
@@ -47,6 +50,11 @@ prop:hasXYCoordinates rdf:type owl:ObjectProperty;
                     rdfs:label "has XY Coordinates";
                     rdfs:domain class:Localization;
                     rdfs:range class:XYCoordinates.
+
+prop:isType         rfd:type owl:ObjectProperty;
+                    rdfs:label "is of type ";
+                    rdfs:domain class:Museum;
+                    rdfs:range class:MuseumType;
 
 ### Data Properties
 
@@ -124,3 +132,14 @@ prop:contactEmail   rdf:type owl:DatatypeProperty;
                     rdfs:label "Contact Email";
                     rdfs:domain class:Museum;
                     rdfs:domain xsd:string.
+
+prop:creationDate   rdf:type owl:DatatypeProperty;
+                    rdfs:label "Year when it was created"
+                    rdfs:domain class:Monument;
+                    rdfs:range xsd:gYear.
+
+prop:fullType       rdf:type owl:DatatypeProperty;
+                    rdfs:label "Full Type Path"
+                    rdfs:domain class:MuseumType;
+                    rdfs:range xsd:string.
+
