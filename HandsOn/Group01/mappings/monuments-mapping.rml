@@ -1,0 +1,29 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.          
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ex: <http://example.com/ns#>.
+@base <http://example.com/ns#>.
+
+
+<#LocationMapping_CSV>
+  rml:logicalSource [
+    rml:source "./data/linkeddatamadrid-updated.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "https://www.mapmadrid.org/resources/Museums/{PK}"
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ex:lat;
+    rr:objectMap [
+      rml:reference "latitude" 
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate ex:long;
+    rr:objectMap [
+      rml:reference "longitude"
+    ]
+  ].

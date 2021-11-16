@@ -1,4 +1,4 @@
-@prefix class:    <https://www.mapmadrid.org/ontology/0.1.0/Classes/>.
+@prefix class:     <https://www.mapmadrid.org/ontology/0.1.0/Classes/>.
 @prefix prop:      <https://www.mapmadrid.org/ontology/0.1.0/Properties/>.
 @prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:      <http://www.w3.org/TR/rdf-schema/>.
@@ -23,11 +23,15 @@ class:Museum        rdf:type owl:Class;
                     rdfs:subClassOf class:CulturalSite;
                     rdfs:label "Museum".
 
+
+class:MuseumType    rdf:type owl:Class;
+                    rdfs:label "Monument Type"
+
 class:Monument      rdf:type owl:Class;
                     rdfs:subClassOf class:CulturalSite;
                     rdfs:label "Monument".
 
-class:MuseumType    rdf:type owl:Class;
+class:MonumentType  rdf:type owl:Class;
                     rdfs:label "Monument Type"
 
 ### Object Properties
@@ -36,6 +40,11 @@ prop:isLocated      rdf:type owl:ObjectProperty;
                     rdfs:domain class:CulturalSite;
                     rdfs:range class:Localization.
 
+prop:isinLocation   rdf:type owl:ObjectProperty;
+                    rdfs:label "The culturalPlace in the location is";
+                    rdfs:domain class:Localization;
+                    rdfs:range class:CulturalSite.
+                    
 prop:hasCoordinates rdf:type owl:ObjectProperty;
                     rdfs:label "is Located";
                     rdfs:domain class:Localization;
@@ -56,6 +65,10 @@ prop:isType         rfd:type owl:ObjectProperty;
                     rdfs:domain class:Museum;
                     rdfs:range class:MuseumType;
 
+prop:isSubType      rdfs:type owl:ObjectProperty;
+                    rdfs:label "is of subtype";
+                    rdfs:domain class:Monument;
+                    rdfs:range class:MonumentType; 
 ### Data Properties
 
 prop:inDistrict     rdf:type owl:DatatypeProperty;
@@ -143,3 +156,7 @@ prop:fullType       rdf:type owl:DatatypeProperty;
                     rdfs:domain class:MuseumType;
                     rdfs:range xsd:string.
 
+prop:hasName        rdf:type owl:DatatypeProperty;
+                    rdfs:label "has name";
+                    rdfs:domain class:CulturalSite;
+                    rdfs:range xsd:string.
