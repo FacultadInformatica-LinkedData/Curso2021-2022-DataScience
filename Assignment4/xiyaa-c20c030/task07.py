@@ -9,7 +9,7 @@ Original file is located at
 **Task 07: Querying RDF(s)**
 """
 
-!pip install rdflib 
+#!pip install rdflib 
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2021-2022/master/Assignment4/course_materials"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
@@ -31,7 +31,7 @@ for s,p,o in g.triples((None, RDFS.subClassOf, ns.Person)):
 from rdflib.plugins.sparql import prepareQuery
 q1 = prepareQuery('''
   SELECT ?Subject WHERE { 
-    ?Subject rdfs:subClassOf ns:Person
+    ?Subject rdfs:subClassOf ns:Person.
   }
   ''',
   initNs={"rdfs": RDFS, "ns": ns}
@@ -54,32 +54,25 @@ for s,p,o in g.triples((None, RDF.type, subclass)):
 #WITH SPARQL
 q2 = prepareQuery('''
   SELECT ?Subject WHERE { 
-    ?Subject rdf:type ns:Person
+    ?Subject rdf:type ns:Person.
   }
   ''',
   initNs={"rdf": RDF, "ns": ns}
 )
 q3 = prepareQuery('''
   SELECT ?Subject WHERE { 
-    ?Subject rdfs:subClassOf ns:Person
+    ?Subclass rdfs:subClassOf ns:Person.
+    ?Subject rdf:type ?Subclass.
   }
   ''',
-  initNs={"rdfs": RDFS, "ns": ns}
+  initNs={"rdfs": RDFS,'rdf': RDF, "ns": ns}
 )
 
 # Visualize the results
 for r in g.query(q2):
   print(r.Subject)
 for r in g.query(q3):
-  q4 = prepareQuery('''
-  SELECT ?Subject WHERE { 
-    ?Subject rdf:type <r>
-  }
-  ''',
-  initNs={"rdf": RDF}
-)
-  for r1 in g.query(q4):
-    print(r1.Subject)
+  print(r.Subject)
 
 """**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**
 
@@ -109,11 +102,12 @@ q4 = prepareQuery('''
 
 q5 = prepareQuery('''
   SELECT ?Subject ?prop ?val WHERE { 
-    ?Subject rdf:type <http://somewhere#Researcher> .
+    ?Subclass rdfs:subClassOf ns:Person.
+    ?Subject rdf:type ?Subclass.
     ?Subject ?prop ?val
   }
   ''',
-  initNs={"rdf": RDF, "ns": ns}
+  initNs={'rdfs':RDFS, "rdf": RDF, "ns": ns}
 )
 
 # Visualize the results
