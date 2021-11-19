@@ -1,0 +1,25 @@
+{
+	"@content":{
+		"prop": "http://www.oeg-upm.net/Properties#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"prop:atTime": {"@type": "xsd:dateTime"}
+		},
+	"Class01":{
+		"prop:includes": {
+			"Sensor029":{
+				"prop:hasMeasurement":{
+					"Measurement8401":{
+						"prop:hasTemperature": "29",
+						"prop:atTime": "2010-06-12T12:00:12"}
+				}
+			},
+			"Computer101": {
+				"prop:hasOwner":{
+					"User10A":{
+						"foaf:hasName": "Pedro"}
+				}
+			}
+		}
+	}
+}
