@@ -1,3 +1,4 @@
+@prefix base:      <https://www.mapmadrid.org/ontology/0.1.0/>. 
 @prefix class:     <https://www.mapmadrid.org/ontology/0.1.0/Classes/>.
 @prefix prop:      <https://www.mapmadrid.org/ontology/0.1.0/Properties/>.
 @prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -25,14 +26,14 @@ class:Museum        rdf:type owl:Class;
 
 
 class:MuseumType    rdf:type owl:Class;
-                    rdfs:label "Monument Type"
+                    rdfs:label "Monument Type".
 
 class:Monument      rdf:type owl:Class;
                     rdfs:subClassOf class:CulturalSite;
                     rdfs:label "Monument".
 
 class:MonumentType  rdf:type owl:Class;
-                    rdfs:label "Monument Type"
+                    rdfs:label "Monument Type".
 
 ### Object Properties
 prop:isLocated      rdf:type owl:ObjectProperty;
@@ -60,15 +61,15 @@ prop:hasXYCoordinates rdf:type owl:ObjectProperty;
                     rdfs:domain class:Localization;
                     rdfs:range class:XYCoordinates.
 
-prop:isType         rfd:type owl:ObjectProperty;
+prop:isType         rdf:type owl:ObjectProperty;
                     rdfs:label "is of type ";
                     rdfs:domain class:Museum;
-                    rdfs:range class:MuseumType;
+                    rdfs:range class:MuseumType.
 
-prop:isSubType      rdfs:type owl:ObjectProperty;
+prop:isSubType      rdf:type owl:ObjectProperty;
                     rdfs:label "is of subtype";
                     rdfs:domain class:Monument;
-                    rdfs:range class:MonumentType; 
+                    rdfs:range class:MonumentType.
 ### Data Properties
 
 prop:inDistrict     rdf:type owl:DatatypeProperty;
@@ -114,45 +115,45 @@ prop:createdBy      rdf:type owl:DatatypeProperty;
 prop:extraInfo      rdf:type owl:DatatypeProperty;
                     rdfs:label "PDF Info";
                     rdfs:domain class:Monument;
-                    rdfs:domain xsd:string.
+                    rdfs:range xsd:string.
 
 prop:openingHours   rdf:type owl:DatatypeProperty;
                     rdfs:label "opens at";
                     rdfs:domain class:Museum;
-                    rdfs:domain xsd:string.
+                    rdfs:range xsd:string.
 
 prop:nearTransport  rdf:type owl:DatatypeProperty;
                     rdfs:label "near Transport";
                     rdfs:domain class:Museum;
-                    rdfs:domain xsd:string.
+                    rdfs:range xsd:string.
 
 prop:contactPhone   rdf:type owl:DatatypeProperty;
                     rdfs:label "Contact Phone";
                     rdfs:domain class:Museum;
-                    rdfs:domain xsd:string.
+                    rdfs:range xsd:string.
 
 prop:equpiment      rdf:type owl:DatatypeProperty;
                     rdfs:label "Accesible Equipment";
                     rdfs:domain class:Museum;
-                    rdfs:domain xsd:string.
+                    rdfs:range xsd:string.
                     
 prop:hasEntityDescription   rdf:type owl:DatatypeProperty;
                     rdfs:label "has Entity Description";
                     rdfs:domain class:Museum;
-                    rdfs:domain xsd:string.
+                    rdfs:range xsd:string.
                     
 prop:contactEmail   rdf:type owl:DatatypeProperty;
                     rdfs:label "Contact Email";
                     rdfs:domain class:Museum;
-                    rdfs:domain xsd:string.
+                    rdfs:range xsd:string.
 
 prop:creationDate   rdf:type owl:DatatypeProperty;
-                    rdfs:label "Year when it was created"
+                    rdfs:label "Year when it was created";
                     rdfs:domain class:Monument;
                     rdfs:range xsd:gYear.
 
 prop:fullType       rdf:type owl:DatatypeProperty;
-                    rdfs:label "Full Type Path"
+                    rdfs:label "Full Type Path";
                     rdfs:domain class:MuseumType;
                     rdfs:range xsd:string.
 

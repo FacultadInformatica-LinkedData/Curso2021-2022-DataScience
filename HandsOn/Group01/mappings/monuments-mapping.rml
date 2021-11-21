@@ -5,25 +5,17 @@
 @base <http://example.com/ns#>.
 
 
-<#LocationMapping_CSV>
+@prefix class: <https://www.mapmadrid.org/ontology/0.1.0/Clases/>.
+@prefix prop: <https://www.mapmadrid.org/ontology/0.1.0/Propiedades/>.
+
+<#MonumentosMappigng>
   rml:logicalSource [
     rml:source "./data/linkeddatamadrid-updated.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
-    rr:template "https://www.mapmadrid.org/resources/Museums/{PK}"
+    rr:template "https://www.mapmadrid.org/resources/Monuments/{PK}"
   ];
 
-  rr:predicateObjectMap [
-    rr:predicate ex:lat;
-    rr:objectMap [
-      rml:reference "latitude" 
-    ]
-  ];
 
-  rr:predicateObjectMap [
-    rr:predicate ex:long;
-    rr:objectMap [
-      rml:reference "longitude"
-    ]
-  ].
+].
