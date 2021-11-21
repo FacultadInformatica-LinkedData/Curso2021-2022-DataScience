@@ -1,0 +1,47 @@
+Alumno: Isaac de Taranco Yáñez
+Username: PachecoSA
+
+# Querie1
+
+SELECT ?y
+WHERE {
+?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>.
+?x ?y ?z.
+}
+
+# Querie2
+
+SELECT ?y
+WHERE {
+?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>.
+?x ?y ?z.
+
+FILTER(?y != <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>)
+}
+
+# Querie3
+SELECT DISTINCT ?y
+WHERE {
+?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>.
+?x ?y ?z.
+
+FILTER(?y != <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>)
+}
+
+# Querie4
+SELECT DISTINCT ?y ?z
+WHERE {
+?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>.
+?x ?y ?z.
+
+FILTER(?y != <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>)
+}
+
+# Querie5
+SELECT DISTINCT ?y (SUM(1) as ?valueSum)
+WHERE {
+?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>.
+?x ?y ?z.
+
+FILTER(?y != <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>)
+}
