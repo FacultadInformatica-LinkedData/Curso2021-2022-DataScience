@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <http://example.org/#> .
+
+:Class01 rdf:includes :Sensor029, :Computer101.
+
+:Sensor029 rdf:hasMeasurement :Measurement8401.
+
+:Measurement8401 rdf:hasTemperature 29;
+rdf:atTime "2010-06-12T12:00:12".
+
+:Computer101 rdf:hasOwner :User10A.
+
+:User10A foaf:hasName "Pedro".
+
+
+
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <http://example.org/#> .
+@prefix properties: <http://www.oeg-upm.net/Properties#> .
+
+:Class01 properties:includes :Sensor029, :Computer101.
+
+:Sensor029 properties:hasMeasurement :Measurement8401.
+
+:Measurement8401 properties:hasTemperature 29;
+property:atTime "2010-06-12T12:00:12".
+
+:Computer101 properties:hasOwner :User10A.
+
+:User10A foaf:hasName "Pedro".
