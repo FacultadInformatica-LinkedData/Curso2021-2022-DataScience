@@ -5,6 +5,10 @@ prop:https://www.mapmadrid.org/ontology/0.1.0/Propiedades/
 
 // GENERAL URIS: (URI Creation Procedure)
 
+https://github.com/oeg-upm/helio/wiki/Streamlined-use-cases#materialising-rdf-from-csv--xml-and-json-files-using-rml
+
+java -jar C:\CodeZone\LinkedData\materialiser-0.3.14.jar --mappings=mappings --write=output.ttl --close
+
 PK: Identificador PK (se saca directamente de los datos)
 subtype: última parte los datos de subtipos
 type: última parte de la columnda de tipo de los datos
@@ -26,3 +30,7 @@ https://www.mapmadrid.org/resources/CoordenadasXY/<ID>
 <https://www.mapmadrid.org/resource/Monuments/MuseoPrado> prop:hasPk 2131231^^xsd:nonNegativeInteger.
 
 <https://www.mapmadrid.org/resource/Monuments/MuseoPrado> prop:isLocated <https://www.mapmadrid.org/resources/Localizations/<>>.
+
+
+// Puedes escribir aqui
+

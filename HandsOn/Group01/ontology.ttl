@@ -70,6 +70,7 @@ prop:isSubType      rdf:type owl:ObjectProperty;
                     rdfs:label "is of subtype";
                     rdfs:domain class:Monument;
                     rdfs:range class:MonumentType.
+
 ### Data Properties
 
 prop:inDistrict     rdf:type owl:DatatypeProperty;
@@ -151,11 +152,6 @@ prop:creationDate   rdf:type owl:DatatypeProperty;
                     rdfs:label "Year when it was created";
                     rdfs:domain class:Monument;
                     rdfs:range xsd:gYear.
-
-prop:fullType       rdf:type owl:DatatypeProperty;
-                    rdfs:label "Full Type Path";
-                    rdfs:domain class:MuseumType;
-                    rdfs:range xsd:string.
 
 prop:hasName        rdf:type owl:DatatypeProperty;
                     rdfs:label "has name";
