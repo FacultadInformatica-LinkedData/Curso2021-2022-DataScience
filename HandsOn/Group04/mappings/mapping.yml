@@ -1,0 +1,72 @@
+prefixes:
+    rr: <http://www.w3.org/ns/r2rml#>.
+    rml: <http://semweb.mmlab.be/ns/rml#>.
+    sm: <http://www.semanticweb.org/smartcity/>
+
+
+mappings:
+
+    contenedor:
+        sources:
+            - [contenedores_lasrozas-csv-updated.csv~csv]
+        s: http://www.semanticweb.org/smartcity/mobiliario_urbano/Contenedor/$(ID)
+        po:
+            - [a, sm:Contenedor]
+            - [sm:frecuencia_media_recolecciones, $(Promedio de dias para llegar a lleno)]
+            - [sm:material, $(material)]
+            - [sm:tieneId, $(ID)]
+            - p: sm:ubicadoEn
+              o:
+                - mapping: ubicacion
+                  condition:
+                    function: equal
+                    parameters:
+                    - [str1,$(ID)]
+                    - [str2,$(Ubicacion)]
+            - p: sm:tieneRecoleccion
+              o:
+                - mapping: recoleccion
+                  condition:
+                    function: equal
+                    parameters:
+                    - [str1,$(ID)]
+                    - [str2,$(ID_recolecciones)]
+            
+
+
+    recoleccion:
+        sources:
+            - [contenedores_lasrozas-csv-updated.csv~csv]
+        s: http://www.semanticweb.org/smartcity/Recolecciones_pasadas/$(ID_recolecciones)
+        po:
+            - [a, sm:Recolecciones_pasadas]
+            - [sm:fecha, $(Recolecciones)]
+            - [sm:motivo_de_recoleccion, $(Razón)]
+            - [sm:tiempo_respuesta_aviso, $(Tiempo de respuestas (h))]
+            - [sm:porcentaje_de_llenado, $(%Lleno)]
+            - [sm:tieneId, $(ID_recolecciones)]
+            - p: sm:recolectadoDe
+              o:
+                - mapping: contenedor
+                  condition:
+                    function: equal
+                    parameters:
+                    - [str1,$(ID_recolecciones)]
+                    - [str2,$(ID)]
+            
+
+
+    ubicacion:
+        sources:
+            - [contenedores_lasrozas-csv-updated.csv~csv]
+        s: http://www.semanticweb.org/smartcity/Ubicacion/$(Ubicacion)
+        po:
+            - [a, sm:Ubicacion]
+            - p: sm:ubicionDe
+              o:
+                - mapping: ubicacion
+                  condition:
+                    function: equal
+                    parameters:
+                    - [str1,$(Ubicacion)]
+                    - [str2,$(ID)]
