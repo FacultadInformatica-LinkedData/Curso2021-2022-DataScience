@@ -15,10 +15,10 @@
 ###################
 
 ###  http://www.grafosconocimiento.es/lcc/resources/Vehicle/12
-<http://www.grafosconocimiento.es/lcc/resources/Vehicle/12> rdf:type owl:NamedIndividual ,
-                                                                     car:Vehicle ;
+<http://www.grafosconocimiento.es/lcc/resources/GovID/12> rdf:type owl:NamedIndividual ,
+                                                                     car:GovID ;
+                                                            car:numberID "12"^^xsd:string ;
                                                             car:hasFueLType <http://www.grafosconocimiento.es/lcc/resources/Fuel/Diesel> ;
-                                                            car:hasID <http://www.grafosconocimiento.es/estudiocoches/GovID/12> ;
                                                             car:hasMPG <http://www.grafosconocimiento.es/lcc/resources/FuelEfficiency/5002> ;
                                                             car:hasMeasurement <http://www.grafosconocimiento.es/lcc/resources/Measure/measure12> ;
                                                             car:hasModelCar <http://www.grafosconocimiento.es/lcc/Brand/Jaguar> ;
@@ -29,11 +29,6 @@
 <http://www.grafosconocimiento.es/lcc/CarIdentifier/FL65FBA> rdf:type owl:NamedIndividual ,
                                                                       car:Vehicle ;
                                                              car:registration "FL65FBA"^^xsd:string .
-
-###  http://www.grafosconocimiento.es/resources/lcc/GovID/12
-<http://www.grafosconocimiento.es/estudiocoches/GovID/12> rdf:type owl:NamedIndividual ,
-                                                                   car:GovID ;
-                                                          car:numberID "12"^^xsd:string .
 
 ###  http://www.grafosconocimiento.es/lcc/resources/Brand/Jaguar
 <http://www.grafosconocimiento.es/lcc/Brand/Jaguar> rdf:type owl:NamedIndividual ,
