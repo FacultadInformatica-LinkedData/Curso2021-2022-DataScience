@@ -117,7 +117,7 @@
   rr:predicateObjectMap [
     rr:predicate prop:isLocated;
     rr:objectMap [
-      rr:template "https://www.mapmadrid.org/resources/Monumentos/SubTipos/{SubTipoParseado}";
+      rr:template "https://www.mapmadrid.org/resources/Localizaciones/{ParsedStreet}";
     ]
   ].
 

@@ -75,7 +75,7 @@
   rr:predicateObjectMap [ 
     rr:predicateMap [ rr:constant prop:isLocated; rr:termType rr:IRI ];
     rr:objectMap [ 
-      rr:template "https://www.mapmadrid.org/resources/Localizations/{ParsedStreet}"; 
+      rr:template "https://www.mapmadrid.org/resources/Localizaciones/{ParsedStreet}"; 
       rr:termType rr:Literal ] 
   ].
 

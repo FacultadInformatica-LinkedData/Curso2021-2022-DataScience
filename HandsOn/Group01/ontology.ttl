@@ -7,7 +7,7 @@
 @prefix xsd:       <https://www.w3.org/XMLSchema/>.
 @prefix owl:       <http://www.w3.org/2002/07/owl#> .
 
-<https://www.mapmadrid.org/ontology/0.1.0/> rdf:type owl:Ontology.
+: rdf:type owl:Ontology.
 
 
 ### CLASSES #####

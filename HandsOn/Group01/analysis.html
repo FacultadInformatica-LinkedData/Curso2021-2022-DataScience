@@ -73,14 +73,57 @@
     <div id="estrategia" class="respuesta">
         <h2>Resource Naming Strategy</h2>
         <hr>
+        <p>
+            Las uris se dividirán en dos tipos:
+            <ul>
+                <li> Uris para la definición de la ontología </li>
+                <li> Uris para la definición de los recursos inicializados</li>
+            </ul>
+
+            <h4 style="font-size: 24">Uris de la Ontologia</h4>
+            <p>
+                Todas ellas comienzan por: <b> https://www.mapmadrid.org/ontology/0.1.0/ </b>
+                <br> Estas Uris a su vez se dividen:
+                <ul>
+                    <li> Uris para la definición de la Clases </li>
+                    <li> Uris para la definición de Propiedades</li>
+                </ul>
+
+                Las uris de definición de clases tienen el siguiente formato: <b> https://www.mapmadrid.org/ontology/0.1.0/Clases/ </b>
+                <br> Las uris de definición de propiedades tienen el siguiente formato: <b> https://www.mapmadrid.org/ontology/0.1.0/Propiedades/ </b>
+            </p>
+            <h4 style="font-size: 24">Uris de los Recursos</h4>
+            <p>
+                Todas ellas comienzan por: <b>https://www.mapmadrid.org/Recursos</b>
+                <br> Hay tres uris principales:
+                <ul>
+                    <li>
+                        <h4 style="font-size: 24">En esta categoria: las uris tienen esta forma:</h4> En esta categoria: las uris tienen esta forma: <b> https://www.mapmadrid.org/resources/Museos/ </b>
+                        <br> También se pueden encontrar las uris que inicializados el tipo de museos (Esto es útil para filtrar en una busqueda más eficientemente).
+                        <br> Estas tienen este formato: <b> https://www.mapmadrid.org/resources/MuseumType/ </b>
+                    </li><br>
+                    <li>
+                        <h4 style="font-size: 24">Uris para los Monumentos:</h4> En esta categoria: las uris tienen esta forma: <b> https://www.mapmadrid.org/resources/Monumentos/</b>
+                        <br> También se pueden encontrar las uris en lasque inicializados el subtipo de Monumentos (Esto es útil para filtrar en una busqueda más eficientemente).
+                        <br> Estas tienen este formato: <b> //www.mapmadrid.org/resources/MonumentType/ </b>
+                    </li><br>
+                    <li>
+                        <h4 style="font-size: 24">Uris para los localización:</h4> En esta categoria: las uris tienen esta forma: <b> https://www.mapmadrid.org/resources/Localizaciones/</b>
+                        <br> También se pueden encontrar las uris en las que inicializados y guardamos las coordenadas y otros subnodos de localización .
+                    </li>
+                </ul>
+            </p>
+        </p>
+        <h4 style="font-size: 24">Ejemplos de URIs </h4>
         <ol>
             <li>Base uri: www.mapmadrid.es/group01/</li>
-            <li>Class uri: www.mapmadrid.es/group01/ontologies/Location</li>
-            <li>Property uri: www.mapmadrid.es/group01/ontologies/Location#hasDistrict</li>
-            <li>Individual uri: www.mapmadrid.es/group01/resource/Museos#MuseodelPrado</li>
-            <li>Individual uri: www.mapmadrid.es/group01/resource/Monumentos#MuseodelPrado</li>
-            <li>Individual uri: www.mapmadrid.es/group01/resource/Localizaciones#MuseodelPrado</li>
+            <li>Class uri: https://www.mapmadrid.org/ontology/0.1.0/Clases/Museos</li>
+            <li>Property uri: https://www.mapmadrid.org/ontology/0.1.0/Propiedades/hasPK</li>
+            <li>Individual uri: https://www.mapmadrid.org/resources/Monuments/2312321</li>
+            <li>Individual uri: https://www.mapmadrid.org/resources/Museos/232131241</li>
+            <li>Individual uri: https://www.mapmadrid.org/resources/Localizaciones/CalleAmaniel</li>
         </ol>
+
     </div>
 </body>
 
