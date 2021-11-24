@@ -9,7 +9,7 @@ Original file is located at
 **Task 07: Querying RDF(s)**
 """
 
-!pip install rdflib 
+#!pip install rdflib 
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2021-2022/master/Assignment4/course_materials"
 
 """Leemos el fichero RDF de la forma que lo hemos venido haciendo"""
@@ -54,7 +54,20 @@ while len(ListaClaseSuperior) != 0:
   for s, p, o in g.triples((None, RDF.type, clase)):
     print(s) # visualize the results
 
-ListaClaseSuperior = ["http://somewhere#Person"] # this list will contain ns.person and all of its subclasses
+q2 = prepareQuery('''
+  SELECT DISTINCT ?Persons ?PersonsS WHERE { 
+    ?Persons RDF:type ns:Person.
+    ?Subclass RDFS:subClassOf ns:Person.
+    ?PersonsS RDF:type ?Subclass
+  }
+  ''',
+  initNs={"ns": ns, "RDFS": RDFS, "RDF": RDF})
+
+for r in g.query(q2):
+    print(r.Persons)
+    print(r.PersonsS)
+
+"""ListaClaseSuperior = ["http://somewhere#Person"] # this list will contain ns.person and all of its subclasses
 listaElementos = []
 while len(ListaClaseSuperior) != 0:
   clase = Namespace(ListaClaseSuperior[0]) 
@@ -76,8 +89,7 @@ while len(ListaClaseSuperior) != 0:
 for i in listaElementos:
   print(i)
 
-"""**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**
-
+**TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**
 """
 
 # TO DO
@@ -92,6 +104,21 @@ while len(ListaClaseSuperior) != 0:
     for s2, p2, o2 in g.triples((s, None, None)): # all properties of "s" individual
       print(s2, p2, o2) # Visualize the results
 
+q2 = prepareQuery('''
+  SELECT ?Persons ?P ?O ?PersonsS ?PS ?OS WHERE { 
+    ?Persons RDF:type ns:Person.
+    ?Subclass RDFS:subClassOf ns:Person.
+    ?PersonsS RDF:type ?Subclass.
+    ?Persons ?P ?O.
+    ?PersonsS ?PS ?OS.
+  }
+  ''',
+  initNs={"ns": ns, "RDFS": RDFS, "RDF": RDF})
+
+for r in g.query(q2):
+  print(r.Persons, r.P, r.O)
+
+"""
 ListaClaseSuperior = ["http://somewhere#Person"] # this list will contain ns.person and all of its subclasses
 listaElementos = []
 while len(ListaClaseSuperior) != 0:
@@ -120,3 +147,4 @@ while len(ListaClaseSuperior) != 0:
         print(r.Instance, s.P, s.O)
 
     ListaClaseSuperior += [r.Subclases]
+"""
