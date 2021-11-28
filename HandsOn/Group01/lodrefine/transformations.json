@@ -445,5 +445,374 @@
     "oldColumnName": "TELEFONO 1",
     "newColumnName": "TELEFONO",
     "description": "Rename column TELEFONO 1 to TELEFONO"
+  },
+  
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Clase",
+      "expression": "value.trim()",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column Clase using expression value.trim()"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "Clase",
+      "expression": "jython:MAP_TILDES = {ord(e) : \"#\" + a for a,e in zip('aeiouu','áéíóúü')}\nreturn value.strip().translate(MAP_TILDES).translate({ord(\",\" ) : \"_\"})",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column Clase using expression jython:MAP_TILDES = {ord(e) : \"#\" + a for a,e in zip('aeiouu','áéíóúü')}\nreturn value.strip().translate(MAP_TILDES).translate({ord(\",\" ) : \"_\"})"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "PK",
+      "expression": "jython:MAP_TILDES = {ord(e) : \"#\" + a for a,e in zip('aeiouu','áéíóúü')}\nreturn value.strip().translate(MAP_TILDES).translate({ord(\",\" ) : \"_\"})",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column PK using expression jython:MAP_TILDES = {ord(e) : \"#\" + a for a,e in zip('aeiouu','áéíóúü')}\nreturn value.strip().translate(MAP_TILDES).translate({ord(\",\" ) : \"_\"})"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "expression": "jython:MAP_TILDES = {ord(e) : \"#\" + a for a,e in zip('aeiouu','áéíóúü')}\n\nreturn value.strip().translate(MAP_TILDES).translate({ord(\",\" ) : \"_\"})",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column NOMBRE using expression jython:MAP_TILDES = {ord(e) : \"#\" + a for a,e in zip('aeiouu','áéíóúü')}\n\nreturn value.strip().translate(MAP_TILDES).translate({ord(\",\" ) : \"_\"})"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NOMBRE",
+      "expression": "jython:MAP_TILDES = {ord(e) : \"#\" + a for a,e in zip('aeiouu','áéíóúü')}\nreturn value.replace(\"ó\",\"#o\").replace(\"á\",\"#a\").replace(\"é\",\"#e\").replace(\"í\",\"#i\").replace(\"ú\",\"#u\").replace(\",\",\"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column NOMBRE using expression jython:MAP_TILDES = {ord(e) : \"#\" + a for a,e in zip('aeiouu','áéíóúü')}\nreturn value.replace(\"ó\",\"#o\").replace(\"á\",\"#a\").replace(\"é\",\"#e\").replace(\"í\",\"#i\").replace(\"ú\",\"#u\").replace(\",\",\"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DESCRIPCION-ENTIDAD",
+      "expression": "jython:return value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column DESCRIPCION-ENTIDAD using expression jython:return value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "HORARIO",
+      "expression": "jython:return value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column HORARIO using expression jython:return value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "EQUIPAMIENTO",
+      "expression": "jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column EQUIPAMIENTO using expression jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "TRANSPORTE",
+      "expression": "jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column TRANSPORTE using expression jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DESCRIPCION",
+      "expression": "jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column DESCRIPCION using expression jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DIRECCION",
+      "expression": "jython:return value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column DIRECCION using expression jython:return value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "ParsedStreet",
+      "expression": "jython:return value.replace(\"á\", \"a\").replace(\"é\", \"e\").replace(\"í\", \"i\").replace(\"ó\", \"o\").replace(\"ú\", \"u\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column ParsedStreet using expression jython:return value.replace(\"á\", \"a\").replace(\"é\", \"e\").replace(\"í\", \"i\").replace(\"ó\", \"o\").replace(\"ú\", \"u\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NUM",
+      "expression": "jython:return value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column NUM using expression jython:return value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "NUM",
+      "expression": "jython:return value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column NUM using expression jython:return value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "BARRIO",
+      "expression": "jython:return value if value is None elsevalue.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column BARRIO using expression jython:return value if value is None elsevalue.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "DISTRITO",
+      "expression": "jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column DISTRITO using expression jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "EMAIL",
+      "expression": "jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column EMAIL using expression jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "TIPO",
+      "expression": "jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column TIPO using expression jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "AUTORES",
+      "expression": "jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column AUTORES using expression jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "PDF",
+      "expression": "jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column PDF using expression jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    {
+      "op": "core/text-transform",
+      "engineConfig": {
+        "facets": [],
+        "mode": "row-based"
+      },
+      "columnName": "SubTipoParseado",
+      "expression": "jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")",
+      "onError": "keep-original",
+      "repeat": false,
+      "repeatCount": 10,
+      "description": "Text transform on cells in column SubTipoParseado using expression jython:return value if value is None else value.replace(\"á\", \"#a\").replace(\"é\", \"#e\").replace(\"í\", \"#i\").replace(\"ó\", \"#o\").replace(\"ú\", \"#u\").replace(\",\", \"_\")"
+    },
+    
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ParsedStreet",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "NoDireccion"
+      }
+    ],
+    "description": "Mass edit cells in column ParsedStreet"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ParsedStreet",
+    "expression": "jython:import random\nreturn value + \"Num{}\".format(random.randint(1,99999))",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ParsedStreet using expression jython:import random\nreturn value + \"Num{}\".format(random.randint(1,99999))"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CODIGO-POSTAL",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "10000"
+      }
+    ],
+    "description": "Mass edit cells in column CODIGO-POSTAL"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "CODIGO-POSTAL",
+    "expression": "jython:import random\nreturn value + \"N{}\".format(random.randint(1, 99999))",
+    "onError": "set-to-blank",
+    "newColumnName": "ParsedPostal",
+    "columnInsertIndex": 15,
+    "description": "Create column ParsedPostal at index 15 based on column CODIGO-POSTAL using expression jython:import random\nreturn value + \"N{}\".format(random.randint(1, 99999))"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LATITUD",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "000000000000000"
+      }
+    ],
+    "description": "Mass edit cells in column LATITUD"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "LATITUD",
+    "expression": "jython:import random\nreturn value[3:] + \"N{}\".format(random.randint(1, 10000))",
+    "onError": "set-to-blank",
+    "newColumnName": "CoorParsed",
+    "columnInsertIndex": 19,
+    "description": "Create column CoorParsed at index 19 based on column LATITUD using expression jython:import random\nreturn value[3:] + \"N{}\".format(random.randint(1, 10000))"
   }
+
 ]

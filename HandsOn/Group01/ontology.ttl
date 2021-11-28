@@ -7,15 +7,11 @@
 @prefix xsd:       <https://www.w3.org/XMLSchema/>.
 @prefix owl:       <http://www.w3.org/2002/07/owl#> .
 
-: rdf:type owl:Ontology.
 
 
 ### CLASSES #####
 class:Localization  rdf:type owl:Class;
                     rdfs:label "Localization".
-
-class:XYCoordinates rdf:type owl:Class;
-                    rdfs:label "XY Coordinates".
 
 class:CulturalSite  rdf:type owl:Class;
                     rdfs:label "Cultural Site".
@@ -25,7 +21,7 @@ class:Museum        rdf:type owl:Class;
                     rdfs:label "Museum".
 
 
-class:MuseumType    rdf:type owl:Class;
+class:MuseoTipo    rdf:type owl:Class;
                     rdfs:label "Monument Type".
 
 class:Monument      rdf:type owl:Class;
@@ -40,12 +36,6 @@ prop:isLocated      rdf:type owl:ObjectProperty;
                     rdfs:label "is Located";
                     rdfs:domain class:CulturalSite;
                     rdfs:range class:Localization.
-
-prop:isinLocation   rdf:type owl:ObjectProperty;
-                    rdfs:label "The culturalPlace in the location is";
-                    rdfs:domain class:Localization;
-                    rdfs:range class:CulturalSite.
-                    
 prop:hasCoordinates rdf:type owl:ObjectProperty;
                     rdfs:label "is Located";
                     rdfs:domain class:Localization;
@@ -56,15 +46,10 @@ prop:hasAddress     rdf:type owl:ObjectProperty;
                     rdfs:domain class:Localization;
                     rdfs:range schema:PostalAddress.
 
-prop:hasXYCoordinates rdf:type owl:ObjectProperty;
-                    rdfs:label "has XY Coordinates";
-                    rdfs:domain class:Localization;
-                    rdfs:range class:XYCoordinates.
-
 prop:isType         rdf:type owl:ObjectProperty;
                     rdfs:label "is of type ";
                     rdfs:domain class:Museum;
-                    rdfs:range class:MuseumType.
+                    rdfs:range class:MuseoTipo.
 
 prop:isSubType      rdf:type owl:ObjectProperty;
                     rdfs:label "is of subtype";
@@ -101,11 +86,6 @@ prop:hasPK          rdf:type owl:DatatypeProperty;
 prop:hasDescription rdf:type owl:DatatypeProperty;
                     rdfs:label "has Description";
                     rdfs:domain class:CulturalSite;
-                    rdfs:range xsd:string.
-
-prop:wasCreated     rdf:type owl:DatatypeProperty;
-                    rdfs:label "was Created";
-                    rdfs:domain class:Monument;
                     rdfs:range xsd:string.
 
 prop:createdBy      rdf:type owl:DatatypeProperty;
@@ -151,7 +131,7 @@ prop:contactEmail   rdf:type owl:DatatypeProperty;
 prop:creationDate   rdf:type owl:DatatypeProperty;
                     rdfs:label "Year when it was created";
                     rdfs:domain class:Monument;
-                    rdfs:range xsd:gYear.
+                    rdfs:range xsd:string.
 
 prop:hasName        rdf:type owl:DatatypeProperty;
                     rdfs:label "has name";
