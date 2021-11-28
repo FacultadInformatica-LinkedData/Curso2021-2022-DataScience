@@ -60,5 +60,5 @@
 
 ###  http://www.grafosconocimiento.es/lcc/resources/Unit_of_Measure/Miles
 <http://www.grafosconocimiento.es/lcc/resources/Unit_of_Measure/Miles> rdf:type owl:NamedIndividual ,
-                                                                            car:Measure ;
+                                                                            car:Unit_of_Measure ;
                                                                        car:unit_of_Measurement "Miles"^^xsd:string .
