@@ -9,7 +9,7 @@ Original file is located at
 **Task 04: Graph querying**
 """
 
-!pip install rdflib
+#!pip install rdflib
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2020-2021/master/Assignment4"
 
 from rdflib import Graph, Namespace, Literal
@@ -94,12 +94,12 @@ q5 = prepareQuery('''
     ?Subject ?Given
   WHERE {
     ?Subject foaf:knows ?JaneSmith.
-		?JaneSmith vcard:FN ?JaneSmithFullName.
+		?JaneSmith vcard:FN 'JaneSmith'^^<https://www.w3.org/2001/XMLSchema#string>.
 		?Subject vcard:Given ?Given.
   }  
   ''',
   initNs = { "foaf": FOAF, "vcard": VCARD, "xsd":XSD}
 )
 
-for r in g.query(q5, initBindings = {'?JaneSmithFullName' : Literal('Jane Smith', datatype=XSD.string)}):
+for r in g.query(q5):
   print(r.Subject, VCARD.Given, r.Given)

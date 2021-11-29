@@ -11,7 +11,7 @@ Original file is located at
 Comenzamos con un grafo vacío
 """
 
-!pip install rdflib
+#!pip install rdflib
 github_storage = "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/Curso2020-2021/master/Assignment4"
 
 from rdflib import Graph, Namespace, Literal
@@ -51,5 +51,5 @@ from rdflib import FOAF
 g.add((EX.JohnSmith, FOAF.knows, EX.JaneSmith))
 
 """Vemos el resultado conjunto"""
-
-print(g.serialize(format="ttl").decode("UTF-8"))
+g.namespace_manager.bind('ex', EX)
+print(g.serialize(format="ttl"))
