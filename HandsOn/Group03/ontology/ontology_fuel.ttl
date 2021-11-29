@@ -47,7 +47,10 @@ car:unit_of_Measurement a owl:DatatypeProperty ;
     rdfs:domain car:Unit_of_Measure ;
     rdfs:range xsd:string .
 
-
+car:milesPerGallon a owl:DatatypeProperty ;
+    rdfs:label "miles per gallon" ;
+    rdfs:domain car:FuelEfficiency ;
+    rdfs:range xsd:decimal .
 
 #########################
 ### Object Properties ###
@@ -83,11 +86,6 @@ car:hasRegistration a owl:ObjectProperty ;
     rdfs:label "has registration" ;
     rdfs:domain car:GovID ;
     rdfs:range car:CarIdentifier .
-
-car:milesPerGallon a owl:DatatypeProperty ;
-    rdfs:label "miles per gallon" ;
-    rdfs:domain car:FuelEfficiency ;
-    rdfs:range xsd:decimal .
 
 car:yearDistance a owl:ObjectProperty ;
     rdfs:label "year distance" ;
