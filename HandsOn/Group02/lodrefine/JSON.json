@@ -1,0 +1,192 @@
+
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "NOMBRE",
+    "expression": "grel:substring(value,0,lastIndexOf(value,'('))",
+    "onError": "set-to-blank",
+    "newColumnName": "NOMBRE 2.0",
+    "columnInsertIndex": 2,
+    "description": "Create column NOMBRE 2.0 at index 2 based on column NOMBRE using expression grel:substring(value,0,lastIndexOf(value,'('))"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "NOMBRE",
+    "description": "Remove column NOMBRE"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "NOMBRE 2.0",
+    "newColumnName": "NOMBRE ",
+    "description": "Rename column NOMBRE 2.0 to NOMBRE "
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Bus:",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column TRANSPORTE by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TRANSPORTE 1",
+    "newColumnName": "METRO",
+    "description": "Rename column TRANSPORTE 1 to METRO"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column TRANSPORTE 2 using expression value.toLowercase()"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "(cercanías)?\\srenfe:",
+    "regex": true,
+    "maxColumns": 0,
+    "description": "Split column TRANSPORTE 2 by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TRANSPORTE 2 1",
+    "newColumnName": "BUS",
+    "description": "Rename column TRANSPORTE 2 1 to BUS"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BUS",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "bicimad:",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column BUS by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "BUS 2",
+    "newColumnName": "BICIMAD 1",
+    "description": "Rename column BUS 2 to BICIMAD 1"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "bicimad:",
+    "regex": false,
+    "maxColumns": 0,
+    "description": "Split column TRANSPORTE 2 2 by separator"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TRANSPORTE 2 2 2",
+    "newColumnName": "BICIMAD 2",
+    "description": "Rename column TRANSPORTE 2 2 2 to BICIMAD 2"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TRANSPORTE 2 2 1",
+    "newColumnName": "RENFE",
+    "description": "Rename column TRANSPORTE 2 2 1 to RENFE"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "BICIMAD 1",
+    "expression": "join ([coalesce(cells['BICIMAD 1'].value,''),coalesce(cells['BICIMAD 2'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column BICIMAD 1 using expression join ([coalesce(cells['BICIMAD 1'].value,''),coalesce(cells['BICIMAD 2'].value,'')],'')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "BICIMAD 2",
+    "description": "Remove column BICIMAD 2"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": true,
+    "description": "Star rows"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "starred": false,
+    "description": "Unstar rows"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "METRO",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "(Metro:)",
+    "regex": true,
+    "maxColumns": 0,
+    "description": "Split column METRO by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "METRO 1",
+    "description": "Remove column METRO 1"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "METRO 2",
+    "newColumnName": "METRO ",
+    "description": "Rename column METRO 2 to METRO "
+  }
+]
