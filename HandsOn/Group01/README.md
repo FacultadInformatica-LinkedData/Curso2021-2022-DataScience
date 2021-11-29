@@ -12,8 +12,8 @@ smart cities y las centros culturales. Para ver más [ver](https://htmlpreview.g
 
 ## Problemas Con la aplicación Helio
 Durante el proceso de mapear los datos y pasarlos a rdf utilizando RML. No pudimos completar dado que la
-aplicación de helio presentaba problemas si intentabamos correr todos los datos en conjunto de datos
-medianos ( +100 lineas) y grandes. Daba errores con algun elemento interno que ejecuta Queries SQL y por alguna razón,
+aplicación de helio presentaba problemas si intentabamos ejecutar los mappings con conjuntos de datos
+medianos ( +100 lineas del CSV) y grandes. Daba errores con algun elemento interno que ejecuta Queries SQL y por alguna razón,
 estas se rompian y daban error al introducir ciertos datos en ellas.
 Por si acaso y para demostrar que funciona, se han parseado correctamente para todos los museos y alrededor de 100 monumentos.
         
