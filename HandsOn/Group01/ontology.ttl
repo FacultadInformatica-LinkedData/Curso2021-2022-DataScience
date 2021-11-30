@@ -1,4 +1,3 @@
-@prefix base:      <https://www.mapmadrid.org/ontology/0.1.0/>. 
 @prefix class:     <https://www.mapmadrid.org/ontology/0.1.0/Classes/>.
 @prefix prop:      <https://www.mapmadrid.org/ontology/0.1.0/Properties/>.
 @prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
