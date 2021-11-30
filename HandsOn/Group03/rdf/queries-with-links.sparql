@@ -1,0 +1,28 @@
+PREFIX base: <http://www.grafosconocimiento.es/>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX car: <http://www.grafosconocimiento.es/lcc/ontology/estudiocoches#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+# QUERY 1: Get all the brands of the class Brand with their link on Wikidata
+SELECT ?brand ?wiki
+WHERE
+{
+    ?brand rdf:type car:Brand .
+    ?brand owl:sameAs ?wiki .
+}
+
+# QUERY 2: Show all fuel type and the URIs of entities that represent the same fuel type
+SELECT ?fuel ?wiki
+WHERE
+{
+    ?fuel rdf:type car:Fuel .
+    ?fuel owl:sameAs ?wiki .
+}
+
+# QUERY 3
+SELECT ?unit ?wiki
+WHERE
+{
+    ?unit rdf:type car:Unit_of_Measure .
+    ?unit owl:sameAs ?wiki .
+}

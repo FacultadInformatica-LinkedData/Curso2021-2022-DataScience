@@ -1,0 +1,913 @@
+Number,Registration,Details,same_as_wikidata_marcas,Product,same_as_wikidata_combustibles,Odometer,Distance,Unit,same_as_wikidata_medidas,MPG
+0012,FL65FBA,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,9329,2849,mile,https://wikidata.org/entity/Q253276,50.04
+0013,MJ16XMY,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,29064,5369,mile,https://wikidata.org/entity/Q253276,39.29
+0016,BP16MKK,Nissan,https://wikidata.org/entity/Q20165,diesel,https://wikidata.org/entity/Q38423,42233,1052,mile,https://wikidata.org/entity/Q253276,56.17
+0018,YD16NAK,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,115020,36100,mile,https://wikidata.org/entity/Q253276,50.79
+0019,BP16OPD,Nissan,https://wikidata.org/entity/Q20165,diesel,https://wikidata.org/entity/Q38423,15559,948,mile,https://wikidata.org/entity/Q253276,36.04
+0020,YH17VCF,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,37352,14202,mile,https://wikidata.org/entity/Q253276,34.75
+0023,YE19FLS,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,16270,16244,mile,https://wikidata.org/entity/Q253276,37.09
+0024,YG69UKP,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,8103,8066,mile,https://wikidata.org/entity/Q253276,42.22
+0025,YG69UKR,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,6187,6160,mile,https://wikidata.org/entity/Q253276,36.93
+0026,YH69ZYT,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,6378,6361,mile,https://wikidata.org/entity/Q253276,35.21
+0031,YG20GRF,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,691,656,mile,https://wikidata.org/entity/Q253276,20.03
+0032,YG20AHU,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,366,299,mile,https://wikidata.org/entity/Q253276,16.18
+0033,YG20GRU,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,1075,1044,mile,https://wikidata.org/entity/Q253276,29.36
+0034,YG20GRK,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,784,756,mile,https://wikidata.org/entity/Q253276,26.26
+0035,YG20YGZ,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,393,318,mile,https://wikidata.org/entity/Q253276,18.5
+0039,YG20WFR,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,350,300,mile,https://wikidata.org/entity/Q253276,17.98
+0080,YC59GZB,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,83027,7311,mile,https://wikidata.org/entity/Q253276,36.89
+0081,YG10KZP,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,223513,13264,mile,https://wikidata.org/entity/Q253276,58.76
+0082,YG10ZHL,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,233374,7010,mile,https://wikidata.org/entity/Q253276,46.89
+0084,YG10TZO,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,88679,6204,mile,https://wikidata.org/entity/Q253276,34.02
+0085,YG10KZK,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,112787,782,mile,https://wikidata.org/entity/Q253276,20.78
+0086,YP59ZSK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,57892,4819,mile,https://wikidata.org/entity/Q253276,31.4
+0095,YL63CHZ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,38763,6976,mile,https://wikidata.org/entity/Q253276,32.41
+0098,YD14UWM,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,58386,2952,mile,https://wikidata.org/entity/Q253276,38.03
+0099,YG63ETR,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,8342,508,mile,https://wikidata.org/entity/Q253276,23.02
+0106,YF13TLN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,43780,4475,mile,https://wikidata.org/entity/Q253276,42.93
+0107,YB13YCG,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,55372,6885,mile,https://wikidata.org/entity/Q253276,46.73
+0108,FP15SRO,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,78563,4363,mile,https://wikidata.org/entity/Q253276,58.36
+0110,FP15PUO,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,59217,1676,mile,https://wikidata.org/entity/Q253276,44.65
+0111,FP15SMV,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,43059,2685,mile,https://wikidata.org/entity/Q253276,42.1
+0112,FP15SOA,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,37260,901,mile,https://wikidata.org/entity/Q253276,33.92
+0113,FP15RKK,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,74909,4397,mile,https://wikidata.org/entity/Q253276,53.71
+0115,FP15RPO,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,58353,2721,mile,https://wikidata.org/entity/Q253276,50.38
+0116,FP15PWF,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,63765,3236,mile,https://wikidata.org/entity/Q253276,51.73
+0118,FP15SKE,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,23113,1887,mile,https://wikidata.org/entity/Q253276,44.83
+0119,FP15SVA,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,21239,679,mile,https://wikidata.org/entity/Q253276,38.63
+0120,FP15PVA,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,36178,2609,mile,https://wikidata.org/entity/Q253276,53.58
+0121,FP15SJX,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,62982,6067,kilometre,https://wikidata.org/entity/Q828224,41.91
+0122,FP15RSX,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,42173,1651,mile,https://wikidata.org/entity/Q253276,47.59
+0123,FP15SJU,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,42270,2012,mile,https://wikidata.org/entity/Q253276,41.42
+0124,FP15SLZ,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,49500,3938,mile,https://wikidata.org/entity/Q253276,49.5
+0125,FP15SBO,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,35334,1937,mile,https://wikidata.org/entity/Q253276,41.76
+0201,YJ16CVB,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,46057,12467,mile,https://wikidata.org/entity/Q253276,20
+0202,YJ16CVA,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,51200,8689,mile,https://wikidata.org/entity/Q253276,18.45
+0203,YJ16CVX,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,60932,9188,mile,https://wikidata.org/entity/Q253276,18.72
+0204,YJ16CVR,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,47993,12716,mile,https://wikidata.org/entity/Q253276,18.92
+0205,YJ16CVS,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,89005,14410,mile,https://wikidata.org/entity/Q253276,18.97
+0206,YJ16CVT,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,39415,7112,mile,https://wikidata.org/entity/Q253276,17.97
+0207,YJ16CRZ,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,49801,12449,mile,https://wikidata.org/entity/Q253276,18.3
+0208,YJ16CRX,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,66485,18169,mile,https://wikidata.org/entity/Q253276,19.69
+0209,YJ16 CRV,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,89844,16460,mile,https://wikidata.org/entity/Q253276,19.37
+0210,YJ16CUO,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,62435,11404,mile,https://wikidata.org/entity/Q253276,18.25
+0211,YJ16CUC,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,56759,15551,mile,https://wikidata.org/entity/Q253276,20.78
+0212,YJ16CVF,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,60345,14258,mile,https://wikidata.org/entity/Q253276,18.82
+0213,YJ16CPY,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,56241,13020,mile,https://wikidata.org/entity/Q253276,19.08
+0214,YJ16CPX,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,48977,10784,mile,https://wikidata.org/entity/Q253276,19.51
+0215,YJ16CPZ,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,50038,10393,mile,https://wikidata.org/entity/Q253276,17.73
+0216,YJ16CPU,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,46831,12041,mile,https://wikidata.org/entity/Q253276,20.94
+0217,YJ16CPN,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,46390,11875,mile,https://wikidata.org/entity/Q253276,19.91
+0218,YJ16CSZ,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,70635,16515,mile,https://wikidata.org/entity/Q253276,21.19
+0219,YJ16CRF,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,37974,10133,mile,https://wikidata.org/entity/Q253276,21.24
+0220,YJ16CSY,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,65998,14357,mile,https://wikidata.org/entity/Q253276,20.61
+0221,YJ16CPV,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,54448,12703,mile,https://wikidata.org/entity/Q253276,19.28
+0222,YJ16CTV,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,58514,12023,mile,https://wikidata.org/entity/Q253276,18.26
+0223,YJ16CSU,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,72496,16285,mile,https://wikidata.org/entity/Q253276,18.67
+0224,YJ16CSV,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,46432,10001,mile,https://wikidata.org/entity/Q253276,18.83
+0225,YJ16CUV,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,61195,11015,mile,https://wikidata.org/entity/Q253276,19.6
+0226,YJ16CSF,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,60056,12549,mile,https://wikidata.org/entity/Q253276,20.83
+0227,YJ16CSX,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,66322,9404,mile,https://wikidata.org/entity/Q253276,18.29
+0228,YJ16CPO,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,50920,13295,mile,https://wikidata.org/entity/Q253276,19.67
+0229,YJ16CRK,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,18532,4954,mile,https://wikidata.org/entity/Q253276,20.21
+0230,YJ66EAF,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,41808,11833,mile,https://wikidata.org/entity/Q253276,17.41
+0231,YJ66EAA,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,44911,12263,mile,https://wikidata.org/entity/Q253276,20.48
+0232,YJ66EAE,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,65801,19627,mile,https://wikidata.org/entity/Q253276,21.78
+0233,YJ66EAC,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,46779,9543,mile,https://wikidata.org/entity/Q253276,17.78
+0234,YJ66EAG,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,77132,20049,mile,https://wikidata.org/entity/Q253276,20.03
+0235,YJ66EAM,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,51481,16211,mile,https://wikidata.org/entity/Q253276,20.46
+0236,YJ66EAO,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,44557,10655,mile,https://wikidata.org/entity/Q253276,21.27
+0237,YJ66EAP,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,49435,10855,mile,https://wikidata.org/entity/Q253276,21.6
+0238,YJ66EAK,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,36118,9575,mile,https://wikidata.org/entity/Q253276,19.4
+0239,YJ66EBF,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,49706,11064,mile,https://wikidata.org/entity/Q253276,20.58
+0240,YJ66EBL,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,34652,8701,mile,https://wikidata.org/entity/Q253276,22.35
+0241,YJ66EBK,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,77096,22818,mile,https://wikidata.org/entity/Q253276,22.05
+0242,YJ66EBG,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,40818,11316,mile,https://wikidata.org/entity/Q253276,20.79
+0246,YJ19BZA,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,8962,8881,mile,https://wikidata.org/entity/Q253276,19.53
+0247,YJ19BZB,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,10325,10220,mile,https://wikidata.org/entity/Q253276,18.8
+0248,YJ19BZC,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,5479,5389,mile,https://wikidata.org/entity/Q253276,18.28
+0249,YJ69 BYV,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,4844,4771,mile,https://wikidata.org/entity/Q253276,17.12
+0250,YJ69BYX,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,5264,5183,mile,https://wikidata.org/entity/Q253276,20.16
+0251,YJ69BYZ,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,6850,6766,mile,https://wikidata.org/entity/Q253276,19.94
+0253,YJ69BYY,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,6467,6384,mile,https://wikidata.org/entity/Q253276,19.46
+0260P,YJ11LWT,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,138775,6789,mile,https://wikidata.org/entity/Q253276,23.06
+0263P,YJ11LWX,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,123590,3313,mile,https://wikidata.org/entity/Q253276,18.19
+0265P,YJ11LWR,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,133736,2484,mile,https://wikidata.org/entity/Q253276,18.21
+0271P,YJ62EXB,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,115922,2776,mile,https://wikidata.org/entity/Q253276,23.66
+0272P,YJ62EWR,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,101762,4106,mile,https://wikidata.org/entity/Q253276,21.15
+0273P,YJ62EWT,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,102465,5244,mile,https://wikidata.org/entity/Q253276,22.38
+0274P,YJ62EUF,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,86013,2084,mile,https://wikidata.org/entity/Q253276,22.69
+0275P,YJ62EOC,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,103940,3476,mile,https://wikidata.org/entity/Q253276,21.01
+0277D,YJ62EKU,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,96454,5200,mile,https://wikidata.org/entity/Q253276,17.49
+0278D,YJ62ETV,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,82610,4948,mile,https://wikidata.org/entity/Q253276,20.63
+0279D,YJ62ESN,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,107707,6130,mile,https://wikidata.org/entity/Q253276,21.23
+0280D,YJ62EPX,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,123726,7122,mile,https://wikidata.org/entity/Q253276,21.2
+0281P,YJ62ENF,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,101188,7926,mile,https://wikidata.org/entity/Q253276,18.63
+0282P,YJ62EPF,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,116875,6030,mile,https://wikidata.org/entity/Q253276,20.87
+0284P,YB63HPY,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,77947,6654,mile,https://wikidata.org/entity/Q253276,19.34
+0285D,YG14DRO,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,87666,9239,mile,https://wikidata.org/entity/Q253276,23.57
+0286D,YG14LGD,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,88827,6860,mile,https://wikidata.org/entity/Q253276,21.32
+0287D,YG14LFZ,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,88955,9921,mile,https://wikidata.org/entity/Q253276,20.57
+0288,YG14RHZ,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,98198,5469,mile,https://wikidata.org/entity/Q253276,22.08
+0289,YG14YKN,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,79712,3561,mile,https://wikidata.org/entity/Q253276,20.55
+0290,YH14EHJ,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,71174,4674,mile,https://wikidata.org/entity/Q253276,17.51
+0291,YH14NFU,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,72784,6273,mile,https://wikidata.org/entity/Q253276,20.67
+0292,YH14ZPN,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,82469,10169,mile,https://wikidata.org/entity/Q253276,22.31
+0293,YC14VKZ,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,80991,7486,mile,https://wikidata.org/entity/Q253276,21.37
+0294,YJ66EBM,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,56854,18683,mile,https://wikidata.org/entity/Q253276,20.54
+0295,YJ66DSV,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,56132,16564,mile,https://wikidata.org/entity/Q253276,20.98
+0296,YJ66EAW,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,40496,13499,mile,https://wikidata.org/entity/Q253276,19.15
+0297,YJ66DSU,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,48177,13402,mile,https://wikidata.org/entity/Q253276,21.66
+0358,YH08CKO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,53739,2453,mile,https://wikidata.org/entity/Q253276,33.07
+0368,YG59GBV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,106827,10019,mile,https://wikidata.org/entity/Q253276,36.6
+0369,YB60HYK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,55439,2538,mile,https://wikidata.org/entity/Q253276,34.75
+0375,YH14FNO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,20860,2176,mile,https://wikidata.org/entity/Q253276,37.87
+0376,YF65FKA,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,28747,10392,mile,https://wikidata.org/entity/Q253276,35.44
+0377,YF65FKR,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,21705,923,mile,https://wikidata.org/entity/Q253276,26.81
+0378,MW17UZU,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,6853,2578,kilometre,https://wikidata.org/entity/Q828224,3.03
+0379,MV17BKA,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,17990,3920,mile,https://wikidata.org/entity/Q253276,55.18
+0401,SF68LJL,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,18284,12059,mile,https://wikidata.org/entity/Q253276,21.07
+0402,SF68LJK,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,18385,12080,mile,https://wikidata.org/entity/Q253276,20.14
+0403,LX65AUM,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,62009,9136,mile,https://wikidata.org/entity/Q253276,18.6
+0404,SF68LJJ,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,30063,19909,mile,https://wikidata.org/entity/Q253276,20.74
+0405,SF68LJC,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,14088,10100,mile,https://wikidata.org/entity/Q253276,19.92
+0406,SF68LJE,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,18090,11998,mile,https://wikidata.org/entity/Q253276,15.48
+0407,SF68LHZ,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,20743,13344,mile,https://wikidata.org/entity/Q253276,20.81
+0408,SF68LHX,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,14899,9979,mile,https://wikidata.org/entity/Q253276,18.81
+0409,SF68LJA,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,21024,13989,mile,https://wikidata.org/entity/Q253276,23.36
+0410,LX65AUN,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,48505,9255,mile,https://wikidata.org/entity/Q253276,17.94
+0411,LX65AUH,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,70037,9178,mile,https://wikidata.org/entity/Q253276,18.54
+0412,LX65AUJ,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,70162,14253,mile,https://wikidata.org/entity/Q253276,18.77
+0413,LX65AUL,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,49745,9510,mile,https://wikidata.org/entity/Q253276,18.09
+0414,LX65AUK,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,80926,14308,mile,https://wikidata.org/entity/Q253276,20.66
+0415,LX65AUF,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,67124,15827,mile,https://wikidata.org/entity/Q253276,17.35
+0416,LX65AUE,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,69626,9392,mile,https://wikidata.org/entity/Q253276,17.74
+0417,LV16HLF,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,82153,14757,mile,https://wikidata.org/entity/Q253276,18.37
+0418,LV16HLG,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,87129,10630,mile,https://wikidata.org/entity/Q253276,17.41
+0419,LV16HLA,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,53777,9821,mile,https://wikidata.org/entity/Q253276,17.14
+0420,LV16HLC,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,62745,13873,mile,https://wikidata.org/entity/Q253276,21.65
+0421,LV16HLD,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,60475,12664,mile,https://wikidata.org/entity/Q253276,18.75
+0422,LV16HLE,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,63029,14034,mile,https://wikidata.org/entity/Q253276,21.33
+0423,LV16HLR,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,65440,18797,mile,https://wikidata.org/entity/Q253276,20.09
+0424,SF68LHY,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,23150,16158,mile,https://wikidata.org/entity/Q253276,20.76
+0425,SF68LHW,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,18573,13015,mile,https://wikidata.org/entity/Q253276,18.77
+0426,SF68LHT,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,22580,17277,mile,https://wikidata.org/entity/Q253276,24.12
+0427,SF68LHP,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,26433,21365,mile,https://wikidata.org/entity/Q253276,20.49
+0428,SF68LHU,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,16761,12179,mile,https://wikidata.org/entity/Q253276,20.32
+0429,SF68LHR,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,14640,11356,mile,https://wikidata.org/entity/Q253276,19.52
+0430,LX68BNA,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,17978,17521,mile,https://wikidata.org/entity/Q253276,20.76
+0431,LX68BNB,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,28214,26138,mile,https://wikidata.org/entity/Q253276,18.52
+0432,LX68CZL,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,20439,18615,mile,https://wikidata.org/entity/Q253276,17.25
+0433,LX19BCE,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,19091,18181,mile,https://wikidata.org/entity/Q253276,18.99
+0433dd,YJ14DXX,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,74759,526,mile,https://wikidata.org/entity/Q253276,20.02
+0434,LX19AYJ,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,13016,12562,mile,https://wikidata.org/entity/Q253276,15.83
+0434D,YJ14DXG,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,77342,2461,mile,https://wikidata.org/entity/Q253276,18.46
+0436,LX19AYO,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,11399,11188,mile,https://wikidata.org/entity/Q253276,15.37
+0437,LX19BBJ,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,21237,21085,mile,https://wikidata.org/entity/Q253276,16.56
+0438,LX19BAV,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,11856,11669,mile,https://wikidata.org/entity/Q253276,16.29
+0439,LX19AYH,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,18522,18287,mile,https://wikidata.org/entity/Q253276,17.25
+0440,LX19BBO,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,14106,13830,mile,https://wikidata.org/entity/Q253276,17.33
+0440D,YJ14DXV,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,65748,199,mile,https://wikidata.org/entity/Q253276,17.56
+0441,LX19BCU,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,11349,11087,mile,https://wikidata.org/entity/Q253276,16.92
+0444,YJ14DXP,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,86888,1629,mile,https://wikidata.org/entity/Q253276,19.23
+0446,LX66AHJ,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,43358,11345,mile,https://wikidata.org/entity/Q253276,21.43
+0447,LX66 AFY,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,50280,16158,mile,https://wikidata.org/entity/Q253276,21.16
+0448,LX66ALO,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,50184,9368,mile,https://wikidata.org/entity/Q253276,18.36
+0449,LX66AMU,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,36754,8686,mile,https://wikidata.org/entity/Q253276,18.22
+0450,LX66AJY,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,38501,10164,mile,https://wikidata.org/entity/Q253276,16.67
+0451,LX66AHE,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,54460,12663,mile,https://wikidata.org/entity/Q253276,19.78
+0452,SF68LHV,Fiat,https://wikidata.org/entity/Q27597,diesel,https://wikidata.org/entity/Q38423,14738,9816,mile,https://wikidata.org/entity/Q253276,19.49
+0453,LX68BJO,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,13180,12248,mile,https://wikidata.org/entity/Q253276,17.86
+0454,LX68BTF,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,21509,19772,mile,https://wikidata.org/entity/Q253276,17.3
+0456,LX68BOV,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,22806,20683,mile,https://wikidata.org/entity/Q253276,19.41
+0457,LX68BPE,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,21845,20345,mile,https://wikidata.org/entity/Q253276,18.68
+0458,LX68BPF,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,23651,21582,mile,https://wikidata.org/entity/Q253276,19.29
+0459,LX68BNY,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,14436,13154,mile,https://wikidata.org/entity/Q253276,16.76
+0460,LX68BNL,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,15187,14244,mile,https://wikidata.org/entity/Q253276,18.3
+0461P,YJ64BJO,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,54614,3507,mile,https://wikidata.org/entity/Q253276,21.27
+0462P,YJ64BJK,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,62595,6051,mile,https://wikidata.org/entity/Q253276,18.86
+0463P,YJ64BJF,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,77033,7397,mile,https://wikidata.org/entity/Q253276,20.83
+0464P,YJ64BJU,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,74303,10177,mile,https://wikidata.org/entity/Q253276,19.91
+0465P,YJ64BJE,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,86945,8932,mile,https://wikidata.org/entity/Q253276,17.21
+0466P,YJ64NYO,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,71310,10225,mile,https://wikidata.org/entity/Q253276,21.09
+0468P,YJ64BJY,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,46681,7102,mile,https://wikidata.org/entity/Q253276,18.26
+0469,YG19CEP,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,12628,12540,mile,https://wikidata.org/entity/Q253276,19.76
+0469P,YJ64BJX,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,62894,9063,mile,https://wikidata.org/entity/Q253276,20.49
+0470,YD19SDL,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,7869,7728,mile,https://wikidata.org/entity/Q253276,17.83
+0470D,YJ64NYG,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,79182,12501,mile,https://wikidata.org/entity/Q253276,21.93
+0471,YJ19BYW,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,10372,10290,mile,https://wikidata.org/entity/Q253276,17.66
+0471D,YJ64BKV,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,76014,9016,mile,https://wikidata.org/entity/Q253276,22.06
+0472,YJ19BYV,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,11522,11437,mile,https://wikidata.org/entity/Q253276,19.15
+0472D,YJ64NYH,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,69793,10273,mile,https://wikidata.org/entity/Q253276,18.07
+0473D,YJ64NYK,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,51010,6110,mile,https://wikidata.org/entity/Q253276,18.28
+0474D,YJ64NYL,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,66995,8032,mile,https://wikidata.org/entity/Q253276,20.1
+0475D,YJ64NYN,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,82288,8871,mile,https://wikidata.org/entity/Q253276,18.79
+0476,YJ64NYM,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,105281,11708,mile,https://wikidata.org/entity/Q253276,20.54
+0477,YJ64NYV,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,69373,10550,mile,https://wikidata.org/entity/Q253276,19.61
+0478,YJ64NYX,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,65533,3595,mile,https://wikidata.org/entity/Q253276,15.88
+0479,YJ64NYW,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,71310,10448,mile,https://wikidata.org/entity/Q253276,21.4
+0480,YJ64NYY,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,54960,4639,mile,https://wikidata.org/entity/Q253276,20.81
+0481,YJ64NYZ,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,53799,5539,mile,https://wikidata.org/entity/Q253276,18.34
+0482,YJ64NZB,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,84922,14744,mile,https://wikidata.org/entity/Q253276,21.24
+0483,YJ64NZA,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,71168,11436,mile,https://wikidata.org/entity/Q253276,19.51
+0484,YJ64NZC,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,68420,6592,mile,https://wikidata.org/entity/Q253276,19.1
+0485,YJ64NYU,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,101356,17465,mile,https://wikidata.org/entity/Q253276,19.65
+0486,YJ64NZP,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,71052,10156,mile,https://wikidata.org/entity/Q253276,21.41
+0487,YJ64NYT,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,47788,5768,mile,https://wikidata.org/entity/Q253276,18.19
+0488,YJ64NZM,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,94059,8585,mile,https://wikidata.org/entity/Q253276,22.59
+0489,YJ64NZO,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,83558,9638,mile,https://wikidata.org/entity/Q253276,20.25
+0490,YJ64NZN,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,75465,11577,mile,https://wikidata.org/entity/Q253276,20.28
+0491,YJ64NZH,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,71189,11898,mile,https://wikidata.org/entity/Q253276,18.43
+0492,YJ64NZK,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,66185,7277,mile,https://wikidata.org/entity/Q253276,20.89
+0493,YJ64NZD,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,63762,14153,mile,https://wikidata.org/entity/Q253276,21.96
+0494,YJ64NZG,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,58630,9194,mile,https://wikidata.org/entity/Q253276,21.49
+0495,YJ64NZE,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,73348,8703,mile,https://wikidata.org/entity/Q253276,24.08
+0496,YJ64NZF,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,73800,8753,mile,https://wikidata.org/entity/Q253276,18.23
+0497,YJ15BXE,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,61331,10200,mile,https://wikidata.org/entity/Q253276,20.5
+0527,YH59OLN,Mitsubishi Motors,https://wikidata.org/entity/Q36033,diesel,https://wikidata.org/entity/Q38423,53746,1887,mile,https://wikidata.org/entity/Q253276,24.37
+0530,YC63CPN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,36624,3078,mile,https://wikidata.org/entity/Q253276,69.38
+0531,YB63OJW,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,34751,6022,mile,https://wikidata.org/entity/Q253276,26.52
+0532,YL17PHV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,6358,451,mile,https://wikidata.org/entity/Q253276,19.81
+0533,YL17OYR,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,28244,750,mile,https://wikidata.org/entity/Q253276,17.94
+0534,YL17PMO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,14406,1784,mile,https://wikidata.org/entity/Q253276,26.46
+0535,YL17PLF,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,7963,2738,mile,https://wikidata.org/entity/Q253276,19.97
+0536,YL17PHN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,9718,4244,mile,https://wikidata.org/entity/Q253276,28.92
+0700,MJ16XMA,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,30632,7824,mile,https://wikidata.org/entity/Q253276,61.46
+0701,MJ16XLX,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,28260,6095,mile,https://wikidata.org/entity/Q253276,53.15
+0702,MJ16XLY,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,58080,9725,mile,https://wikidata.org/entity/Q253276,61.56
+0704,MW16DBX,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,23983,5012,mile,https://wikidata.org/entity/Q253276,43.92
+0705,MW16DCF,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,27025,6326,mile,https://wikidata.org/entity/Q253276,54.95
+0706,MW16CZC,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,46771,9506,mile,https://wikidata.org/entity/Q253276,53.4
+0707,MW16CZD,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,26674,3115,mile,https://wikidata.org/entity/Q253276,52.6
+0708,MW16CYZ,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,40600,16036,mile,https://wikidata.org/entity/Q253276,70.2
+0709,MW16CZA,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,15270,3118,mile,https://wikidata.org/entity/Q253276,44.09
+0710,MW16DFA,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,19026,5660,mile,https://wikidata.org/entity/Q253276,58.96
+0711,MW16CZU,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,31512,10763,mile,https://wikidata.org/entity/Q253276,56.09
+0712,MW16CZP,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,38000,9975,mile,https://wikidata.org/entity/Q253276,53.94
+0713,MW16CZM,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,28461,8445,mile,https://wikidata.org/entity/Q253276,52.93
+0714,MW16CZL,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,17323,2912,mile,https://wikidata.org/entity/Q253276,47.35
+0715,MW16CZR,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,27555,4079,mile,https://wikidata.org/entity/Q253276,53.99
+0716,MW16CZT,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,26513,7885,mile,https://wikidata.org/entity/Q253276,57.27
+0722,MW66YYB,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,17272,3953,mile,https://wikidata.org/entity/Q253276,45.61
+0727,MW16DCZ,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,19810,5750,mile,https://wikidata.org/entity/Q253276,57.26
+0728,MW16DDU,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,24520,7122,mile,https://wikidata.org/entity/Q253276,54.14
+0729,MW16DDV,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,35916,9849,mile,https://wikidata.org/entity/Q253276,62.21
+0730,MW16CZZ,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,52166,8977,mile,https://wikidata.org/entity/Q253276,55.12
+0731,MW16DDL,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,17580,2740,mile,https://wikidata.org/entity/Q253276,56.22
+0732,MW16DBU,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,39079,4629,mile,https://wikidata.org/entity/Q253276,62.37
+0733,MW16DDN,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,30679,2392,mile,https://wikidata.org/entity/Q253276,48.5
+0734,MW16DBO,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,24178,2233,mile,https://wikidata.org/entity/Q253276,46.51
+0735,MV17DDO,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,11913,3522,mile,https://wikidata.org/entity/Q253276,40.6
+0736,MV17CPY,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,34461,12307,mile,https://wikidata.org/entity/Q253276,55.2
+0737,MV17CPZ,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,26779,11163,mile,https://wikidata.org/entity/Q253276,63.01
+0740,MW16DCY,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,32602,8764,mile,https://wikidata.org/entity/Q253276,52.88
+0743,YF10WXR,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,74098,5365,mile,https://wikidata.org/entity/Q253276,70.58
+0746,MW16DDZ,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,38417,3361,mile,https://wikidata.org/entity/Q253276,49.26
+0748,MW16CZY,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,37461,3454,mile,https://wikidata.org/entity/Q253276,56.87
+0753,MW16DDJ,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,34903,5454,mile,https://wikidata.org/entity/Q253276,60.83
+0754,MW16DAU,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,55072,4772,mile,https://wikidata.org/entity/Q253276,57.93
+0853,YF08BFZ,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,67898,4624,mile,https://wikidata.org/entity/Q253276,31.66
+0957,YE07FAF,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,78094,2033,mile,https://wikidata.org/entity/Q253276,43.77
+0959,YC07ONJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,95895,6117,mile,https://wikidata.org/entity/Q253276,40.08
+0976,YF07GGZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,82661,5215,mile,https://wikidata.org/entity/Q253276,38.35
+1006,YB63URX,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,62776,2831,mile,https://wikidata.org/entity/Q253276,38.87
+1007,YB63URZ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,79930,4567,mile,https://wikidata.org/entity/Q253276,48.03
+1008,YB63USC,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,26071,576,mile,https://wikidata.org/entity/Q253276,27.65
+1009,YB63UOV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,82474,14874,mile,https://wikidata.org/entity/Q253276,41.1
+1010,YB63UOW,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,54866,12545,mile,https://wikidata.org/entity/Q253276,47.02
+1011,YB63UOX,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,33607,4707,mile,https://wikidata.org/entity/Q253276,38.78
+1012,YB63UOY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,74571,21575,mile,https://wikidata.org/entity/Q253276,43.61
+1013,YB63UPA,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,36019,4311,mile,https://wikidata.org/entity/Q253276,38.98
+1014,YB63UPC,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,28496,2300,mile,https://wikidata.org/entity/Q253276,34.28
+1015,YB63UPD,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,46556,6380,mile,https://wikidata.org/entity/Q253276,41.17
+1016,YB63UPE,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,90143,13234,mile,https://wikidata.org/entity/Q253276,44.55
+1017,YB63UPF,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,26950,3604,mile,https://wikidata.org/entity/Q253276,47.8
+1018,YB63UPG,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,48980,7591,mile,https://wikidata.org/entity/Q253276,49.67
+1019,YB63UPH,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,51520,6396,mile,https://wikidata.org/entity/Q253276,43.35
+1020,YB63UPJ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,54379,9337,mile,https://wikidata.org/entity/Q253276,44.62
+1021,YB63UPK,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,31672,3032,mile,https://wikidata.org/entity/Q253276,35.86
+1022,YB63UPL,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,58042,5166,mile,https://wikidata.org/entity/Q253276,45.81
+1023,YB63UPM,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,58548,10273,mile,https://wikidata.org/entity/Q253276,35.6
+1024,YB63UPN,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,37744,2437,mile,https://wikidata.org/entity/Q253276,33.05
+1025,YB63UPO,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,50129,9507,mile,https://wikidata.org/entity/Q253276,36.12
+1026,YC63ERY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,44660,5036,mile,https://wikidata.org/entity/Q253276,45.37
+1027,YF63HCD,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,44795,7011,mile,https://wikidata.org/entity/Q253276,41.49
+1028,YF63HCG,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,50593,5048,mile,https://wikidata.org/entity/Q253276,44.41
+1029,YF63HCJ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,47396,6762,mile,https://wikidata.org/entity/Q253276,44.09
+1030,YF63HCK,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,36278,5812,mile,https://wikidata.org/entity/Q253276,31.85
+1031,YG63ETU,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,43427,4527,mile,https://wikidata.org/entity/Q253276,44.37
+1032,YG63ETV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,55385,7023,mile,https://wikidata.org/entity/Q253276,43.65
+1033,YG63ETX,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,40292,6076,mile,https://wikidata.org/entity/Q253276,40.18
+1034,YG63ETY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,50489,4394,mile,https://wikidata.org/entity/Q253276,48.89
+1035,YG63ETZ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,59214,7271,mile,https://wikidata.org/entity/Q253276,39.09
+1036,YG63EUA,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,53110,6690,mile,https://wikidata.org/entity/Q253276,36.31
+1037,YB63URL,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,80285,16760,mile,https://wikidata.org/entity/Q253276,43.95
+1038,YB63URM,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,51442,7938,mile,https://wikidata.org/entity/Q253276,41.79
+1039,YB63URN,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,50404,6848,mile,https://wikidata.org/entity/Q253276,40
+1040,YB63URO,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,52603,9239,mile,https://wikidata.org/entity/Q253276,39.71
+1041,YB63URP,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,82201,8130,mile,https://wikidata.org/entity/Q253276,45.15
+1042,YG14PFZ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,36962,5726,mile,https://wikidata.org/entity/Q253276,88.41
+1043,YG14USC,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,45398,7334,mile,https://wikidata.org/entity/Q253276,39.53
+1044,YD14UWO,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,41068,5470,mile,https://wikidata.org/entity/Q253276,42.53
+1045,YD14UWP,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,38138,7078,mile,https://wikidata.org/entity/Q253276,45.96
+1046,YG14PGF,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,105854,4005,mile,https://wikidata.org/entity/Q253276,39.39
+1047,YG64RYA,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,22974,1886,mile,https://wikidata.org/entity/Q253276,35.27
+1049,YH64YYU,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,37109,6012,mile,https://wikidata.org/entity/Q253276,31.02
+1050,YC14UTL,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,44344,4823,mile,https://wikidata.org/entity/Q253276,40.95
+1051,YD14UWR,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,60890,10575,mile,https://wikidata.org/entity/Q253276,45.05
+1052,YG14PGZ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,39134,4887,mile,https://wikidata.org/entity/Q253276,45.89
+1053,YG14PGE,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,33396,5112,mile,https://wikidata.org/entity/Q253276,34.48
+1054,YG14PHA,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,26662,4064,mile,https://wikidata.org/entity/Q253276,43.48
+1055,YG14RZR,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,39880,7132,mile,https://wikidata.org/entity/Q253276,38.63
+1056,YG14RZS,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,36600,5815,mile,https://wikidata.org/entity/Q253276,39.74
+1057,YD14UWL,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,35066,5491,mile,https://wikidata.org/entity/Q253276,41.08
+1058,YG14RZT,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,39051,9149,mile,https://wikidata.org/entity/Q253276,41.01
+1059,YG14RZU,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,47282,5823,mile,https://wikidata.org/entity/Q253276,40.65
+1060,YG14SBZ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,51030,9358,mile,https://wikidata.org/entity/Q253276,44.15
+1061,YG14PGV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,35841,7118,mile,https://wikidata.org/entity/Q253276,39.2
+1062,YG14URU,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,46905,5160,mile,https://wikidata.org/entity/Q253276,36.98
+1063,YG14USB,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,31157,2050,mile,https://wikidata.org/entity/Q253276,33.72
+1064,YG14PGU,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,36205,6696,mile,https://wikidata.org/entity/Q253276,38.99
+1065,YG14URY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,38538,7222,mile,https://wikidata.org/entity/Q253276,40.72
+1066,YG14URZ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,29505,7696,mile,https://wikidata.org/entity/Q253276,37.67
+1067,YD64OKP,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,37665,1696,mile,https://wikidata.org/entity/Q253276,36.42
+1068,YB15WDT,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,41766,7407,mile,https://wikidata.org/entity/Q253276,37.58
+1069,YB15WDU,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,38465,6374,mile,https://wikidata.org/entity/Q253276,38.77
+1070,YB15WDR,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,55749,13499,mile,https://wikidata.org/entity/Q253276,42.61
+1071,YB15ODV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,41638,16009,mile,https://wikidata.org/entity/Q253276,39.73
+1072,YB15OEE,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,19797,4810,mile,https://wikidata.org/entity/Q253276,37.53
+1073,YB15OEC,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,49030,14298,mile,https://wikidata.org/entity/Q253276,41.66
+1075,YB15WDV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,35758,4191,mile,https://wikidata.org/entity/Q253276,40.22
+1076,YJ65XUR,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,68673,18249,mile,https://wikidata.org/entity/Q253276,49.41
+1077,YJ65XTG,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,80530,20981,mile,https://wikidata.org/entity/Q253276,48.68
+1078,YJ65XXD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,76325,25374,mile,https://wikidata.org/entity/Q253276,48.14
+1079,YC65MTF,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,49386,16333,mile,https://wikidata.org/entity/Q253276,47.94
+1080,YC65GMF,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,48883,5283,mile,https://wikidata.org/entity/Q253276,50.13
+1081,YC65MVD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,45633,3449,mile,https://wikidata.org/entity/Q253276,44.5
+1082,YC65MUU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,74595,15539,mile,https://wikidata.org/entity/Q253276,48.76
+1083,YC65MVA,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,45807,2091,mile,https://wikidata.org/entity/Q253276,35.72
+1084,YF65NUE,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,34146,9457,mile,https://wikidata.org/entity/Q253276,43.72
+1100,FL65EFY,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,22502,5086,mile,https://wikidata.org/entity/Q253276,39.3
+1101,YJ65HWN,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,11842,7727,mile,https://wikidata.org/entity/Q253276,35.75
+1115,ML60LXS,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,71515,2590,mile,https://wikidata.org/entity/Q253276,46.96
+1122,YJ13ZLX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,28956,2649,mile,https://wikidata.org/entity/Q253276,40.27
+1124,YJ13ZFX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,54887,1249,mile,https://wikidata.org/entity/Q253276,35.03
+1126,YJ13ZPN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,24197,1347,mile,https://wikidata.org/entity/Q253276,33.37
+1127,YK13UTM,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,34630,3218,mile,https://wikidata.org/entity/Q253276,37.51
+1128,YE13NPJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,69875,10435,mile,https://wikidata.org/entity/Q253276,37.45
+1129,YE13ULH,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,36336,5972,mile,https://wikidata.org/entity/Q253276,34.25
+1131,YE13NVB,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,36014,6927,mile,https://wikidata.org/entity/Q253276,36.12
+1132,YF13TLX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,47844,6322,mile,https://wikidata.org/entity/Q253276,33.13
+1133,YF13TLU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,49250,5573,mile,https://wikidata.org/entity/Q253276,35.72
+1135,YF13TMO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,49205,2507,mile,https://wikidata.org/entity/Q253276,33.78
+1136,YF13TMX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,45405,3655,mile,https://wikidata.org/entity/Q253276,35.19
+1137,YF13WCT,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,55510,6193,mile,https://wikidata.org/entity/Q253276,31.39
+1138,YF13TKU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,41530,4892,mile,https://wikidata.org/entity/Q253276,30.9
+1139,YF13VCP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,54380,8280,mile,https://wikidata.org/entity/Q253276,35.25
+1140,YF13WCD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,46005,5409,mile,https://wikidata.org/entity/Q253276,33.64
+1141,YF13VBP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,48089,6736,mile,https://wikidata.org/entity/Q253276,37.75
+1142,YF13VBN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,39592,2399,mile,https://wikidata.org/entity/Q253276,32.7
+1143,YF13VBY,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,40728,2906,mile,https://wikidata.org/entity/Q253276,35.77
+1144,YF13VCJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,34470,2840,mile,https://wikidata.org/entity/Q253276,30.08
+1145,YF13TNN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,46551,4201,mile,https://wikidata.org/entity/Q253276,28.55
+1147,YB13YBS,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,50822,7041,mile,https://wikidata.org/entity/Q253276,34.27
+1148,YF13TKZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,34309,1909,mile,https://wikidata.org/entity/Q253276,33.63
+1149,YF13TMY,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,45100,8829,mile,https://wikidata.org/entity/Q253276,31.53
+1150,YB13FRU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,33761,2386,mile,https://wikidata.org/entity/Q253276,31.73
+1151,YB13LTZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,66825,11337,mile,https://wikidata.org/entity/Q253276,28.49
+1152,YB13PHK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,57216,10035,mile,https://wikidata.org/entity/Q253276,37.14
+1153,YB13PGO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,52126,9096,mile,https://wikidata.org/entity/Q253276,36.09
+1154,YB13LSX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,69980,7399,mile,https://wikidata.org/entity/Q253276,33.96
+1155,YB13LTJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,47911,7218,mile,https://wikidata.org/entity/Q253276,22.44
+1156,YB13LTA,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,40254,5160,mile,https://wikidata.org/entity/Q253276,32.89
+1157,YB13LTO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,59065,10435,mile,https://wikidata.org/entity/Q253276,32.03
+1158,YF13TKV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,60667,4173,mile,https://wikidata.org/entity/Q253276,28.7
+1160,YF13EPK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,59351,8626,mile,https://wikidata.org/entity/Q253276,30.42
+1161,YF13TMU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,67970,9070,mile,https://wikidata.org/entity/Q253276,37.05
+1162,YF13VCO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,67370,9662,mile,https://wikidata.org/entity/Q253276,35.54
+1164,YF13TLV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,47334,3946,mile,https://wikidata.org/entity/Q253276,28.36
+1165,YF13VBO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,71246,8561,mile,https://wikidata.org/entity/Q253276,29.89
+1166,YF13TNE,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,61536,10127,mile,https://wikidata.org/entity/Q253276,35.39
+1167,YF13VBX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,70630,8657,mile,https://wikidata.org/entity/Q253276,32.2
+1168,YF13VBU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,58868,9795,mile,https://wikidata.org/entity/Q253276,29.87
+1169,YF13EPD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,74921,13162,mile,https://wikidata.org/entity/Q253276,34.64
+1170,YA13YMT,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,65869,1289,mile,https://wikidata.org/entity/Q253276,24.21
+1172,YC14UTS,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,55280,7395,mile,https://wikidata.org/entity/Q253276,38.61
+1174,YA63TWP,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,67844,7185,mile,https://wikidata.org/entity/Q253276,46.3
+1175,YL63CBX,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,45226,8498,mile,https://wikidata.org/entity/Q253276,46.27
+1176,YL63CBY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,69412,10534,mile,https://wikidata.org/entity/Q253276,46.02
+1177,YL63CBV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,33691,3064,mile,https://wikidata.org/entity/Q253276,41.13
+1178,YL63CCA,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,42659,4183,mile,https://wikidata.org/entity/Q253276,36.65
+1179,YD14UWS,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,59785,12531,mile,https://wikidata.org/entity/Q253276,42.88
+1180,YG14PGK,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,39354,4969,mile,https://wikidata.org/entity/Q253276,37.21
+1181,YG14PGO,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,31315,4580,mile,https://wikidata.org/entity/Q253276,41.05
+1182,YD14VPU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,61954,9655,mile,https://wikidata.org/entity/Q253276,44.5
+1183,YD14VTN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,48601,13723,mile,https://wikidata.org/entity/Q253276,44.36
+1184,YD14VTP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,37792,5944,mile,https://wikidata.org/entity/Q253276,46.26
+1185,YG14FUV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,33351,9454,mile,https://wikidata.org/entity/Q253276,44.72
+1186,YG14WWP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,82399,9695,mile,https://wikidata.org/entity/Q253276,39.11
+1187,YG14WXL,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,87497,13629,mile,https://wikidata.org/entity/Q253276,42.13
+1188,YG14WWN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,37706,1419,mile,https://wikidata.org/entity/Q253276,37.04
+1189,YG14FUJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,83248,6278,mile,https://wikidata.org/entity/Q253276,39.72
+1190,YG14WXJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,84754,13660,mile,https://wikidata.org/entity/Q253276,41.06
+1192,YG14PFY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,55006,7406,mile,https://wikidata.org/entity/Q253276,42.51
+1193,YL63CCD,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,28620,313,mile,https://wikidata.org/entity/Q253276,21.12
+1194,YB63URT,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,52943,5985,mile,https://wikidata.org/entity/Q253276,43.89
+1195,YB63URU,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,70150,12503,mile,https://wikidata.org/entity/Q253276,46.69
+1196,YB63URV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,28210,3215,mile,https://wikidata.org/entity/Q253276,49.34
+1201,YA16FXG,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,20801,3950,mile,https://wikidata.org/entity/Q253276,41.82
+1202,YL16RZT,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,22661,5756,mile,https://wikidata.org/entity/Q253276,41.83
+1203,YL16RZU,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,21207,5679,mile,https://wikidata.org/entity/Q253276,43.8
+1204,YL16RZV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,16422,3866,mile,https://wikidata.org/entity/Q253276,41.95
+1206,YL16RZX,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,30612,7538,mile,https://wikidata.org/entity/Q253276,45.77
+1207,YL16ZFV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,27831,10101,mile,https://wikidata.org/entity/Q253276,47.75
+1208,YL16ZFX,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,25333,9466,mile,https://wikidata.org/entity/Q253276,48.82
+1209,YL16ZFW,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,20941,5867,mile,https://wikidata.org/entity/Q253276,40.52
+1210,YL16ZFY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,16397,4516,mile,https://wikidata.org/entity/Q253276,44.69
+1211,YL16ZFZ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,27821,2436,mile,https://wikidata.org/entity/Q253276,42.67
+1212,YL16ZFT,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,101867,8691,mile,https://wikidata.org/entity/Q253276,45.61
+1213,YL16ZGA,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,112891,6214,mile,https://wikidata.org/entity/Q253276,41.21
+1214,YL16ZFS,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,28377,14996,mile,https://wikidata.org/entity/Q253276,41.59
+1215,YD54GZG,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,97721,3702,mile,https://wikidata.org/entity/Q253276,31.55
+1216,YF16MYG,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,30726,7779,mile,https://wikidata.org/entity/Q253276,43.07
+1217,YF16MYD,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,19263,4427,mile,https://wikidata.org/entity/Q253276,37.57
+1218,YF16MYB,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,27506,6696,mile,https://wikidata.org/entity/Q253276,51.74
+1219,YF16MYA,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,31699,6922,mile,https://wikidata.org/entity/Q253276,42.68
+1220,YF16MYH,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,42328,11530,mile,https://wikidata.org/entity/Q253276,46.43
+1221,YF16ZYG,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,30072,7282,mile,https://wikidata.org/entity/Q253276,37.49
+1222,YF16ZYK,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,36832,10302,mile,https://wikidata.org/entity/Q253276,43.08
+1223,YF16ZYH,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,28015,4183,mile,https://wikidata.org/entity/Q253276,34.18
+1224,YF16ZYJ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,36577,8786,mile,https://wikidata.org/entity/Q253276,48.26
+1225,YF16ZYO,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,40500,10820,mile,https://wikidata.org/entity/Q253276,48.08
+1226,YA16FXB,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,27575,4704,mile,https://wikidata.org/entity/Q253276,41
+1227,YA16FWY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,31347,7801,mile,https://wikidata.org/entity/Q253276,48.18
+1228,YA16FWZ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,16380,4040,mile,https://wikidata.org/entity/Q253276,44.32
+1229,YA16FXF,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,38283,11439,mile,https://wikidata.org/entity/Q253276,47.39
+1230,YK16DED,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,30508,9067,mile,https://wikidata.org/entity/Q253276,50.23
+1232,YK16DEM,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,120516,21508,mile,https://wikidata.org/entity/Q253276,45.89
+1233,YK16DEF,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,22030,5288,mile,https://wikidata.org/entity/Q253276,49.77
+1234,YK16DFS,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,21580,1513,mile,https://wikidata.org/entity/Q253276,38.14
+1235,YK16DET,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,19051,3977,mile,https://wikidata.org/entity/Q253276,39.47
+1236,YD16NBC,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,50079,13954,mile,https://wikidata.org/entity/Q253276,44.79
+1242,YA19TMY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,6106,5843,mile,https://wikidata.org/entity/Q253276,38.2
+1243,YA19TNE,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,1666,1359,mile,https://wikidata.org/entity/Q253276,33.59
+1244,YA19TMZ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,4802,4586,mile,https://wikidata.org/entity/Q253276,41.72
+13/22,YJ13CPO,John Deere,https://wikidata.org/entity/Q98642757,diesel,https://wikidata.org/entity/Q38423,3373,392,mile,https://wikidata.org/entity/Q253276,0.61
+1340,YD13GPX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,56711,1564,mile,https://wikidata.org/entity/Q253276,20.12
+1341,YG13OAJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,41636,1692,mile,https://wikidata.org/entity/Q253276,20.24
+1342,YD13BXE,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,56954,2129,mile,https://wikidata.org/entity/Q253276,24.62
+1343,YJ13ZKW,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,61090,2493,mile,https://wikidata.org/entity/Q253276,25.87
+1344,YG13FHR,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,50106,1651,mile,https://wikidata.org/entity/Q253276,30.74
+1345,YJ13ZMX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,52285,1448,mile,https://wikidata.org/entity/Q253276,28.35
+1346,YJ13ZHX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,49116,649,mile,https://wikidata.org/entity/Q253276,15.37
+1347,YG13OEW,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,41306,479,mile,https://wikidata.org/entity/Q253276,14.22
+1350,YD13GPZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,49490,2043,mile,https://wikidata.org/entity/Q253276,22.21
+1351,YC13DXJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,33557,238,mile,https://wikidata.org/entity/Q253276,12.87
+1352,YC13HVZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,58023,2086,mile,https://wikidata.org/entity/Q253276,38.47
+1353,YC13DVJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,45240,1357,mile,https://wikidata.org/entity/Q253276,28.45
+1355,YC13DNJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,46313,1571,mile,https://wikidata.org/entity/Q253276,26.4
+1358,YC13DYP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,54314,1118,mile,https://wikidata.org/entity/Q253276,17.21
+1359,YL66UWA,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,41104,13352,mile,https://wikidata.org/entity/Q253276,32.07
+1360,YL66UVU,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,39008,12905,mile,https://wikidata.org/entity/Q253276,30.81
+1416,YG69JMV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,4348,4173,mile,https://wikidata.org/entity/Q253276,30.84
+1418,YG69JKU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,1673,1566,mile,https://wikidata.org/entity/Q253276,26.05
+1419,YG69JKV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,2476,2356,mile,https://wikidata.org/entity/Q253276,26.86
+1420,YG69JOA,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,4219,4142,mile,https://wikidata.org/entity/Q253276,30.49
+1421,YG69JOH,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,1311,1235,mile,https://wikidata.org/entity/Q253276,23.68
+1423,YG69JNF,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,3054,2978,mile,https://wikidata.org/entity/Q253276,29.79
+1424,YG69JNX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,3926,3850,mile,https://wikidata.org/entity/Q253276,30.58
+1425,YG69JMX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,4373,4297,mile,https://wikidata.org/entity/Q253276,29.11
+1428,YG69JLV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,3510,3431,mile,https://wikidata.org/entity/Q253276,29.19
+1429,YG69JKY,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,3901,3759,mile,https://wikidata.org/entity/Q253276,31.3
+1435,YB07UGO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,100200,314,mile,https://wikidata.org/entity/Q253276,40.65
+1453,YG57SOE,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,76471,960,mile,https://wikidata.org/entity/Q253276,25.64
+1454,YH57DSY,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,105447,1447,mile,https://wikidata.org/entity/Q253276,22.1
+1477,YB13LSL,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,39031,1756,mile,https://wikidata.org/entity/Q253276,28.27
+1478,YB13LUA,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,54725,2424,mile,https://wikidata.org/entity/Q253276,27.94
+1479,YB13LSV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,77967,1964,mile,https://wikidata.org/entity/Q253276,29.58
+1480,YB13LTT,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,55792,7223,mile,https://wikidata.org/entity/Q253276,29.05
+1481,YB13VBP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,68332,10985,mile,https://wikidata.org/entity/Q253276,28.48
+1482,YL63CEF,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,65141,7001,mile,https://wikidata.org/entity/Q253276,36.62
+1483,YL63CCE,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,61576,7913,mile,https://wikidata.org/entity/Q253276,38.95
+1484,YL63CCF,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,37727,3129,mile,https://wikidata.org/entity/Q253276,29.58
+1486,YG14SBO,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,70040,7560,mile,https://wikidata.org/entity/Q253276,39.04
+1496,FV69ZTU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,1713,1623,mile,https://wikidata.org/entity/Q253276,27.11
+1497,FV69ZZS,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,4026,3928,mile,https://wikidata.org/entity/Q253276,26.94
+1498,FT69AVK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,1397,1309,mile,https://wikidata.org/entity/Q253276,23.21
+1501,YL63CCJ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,42202,4002,mile,https://wikidata.org/entity/Q253276,34.12
+1502,YL63CCK,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,38348,3966,mile,https://wikidata.org/entity/Q253276,33.16
+1503,YL63CCN,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,59864,7951,mile,https://wikidata.org/entity/Q253276,38.32
+1504,YF63HBX,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,65357,6436,mile,https://wikidata.org/entity/Q253276,31.25
+1505,YL63CEA,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,51549,3552,mile,https://wikidata.org/entity/Q253276,34.37
+1506,YL63CEN,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,59222,5683,mile,https://wikidata.org/entity/Q253276,33.22
+1507,YL63CEO,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,64511,7482,mile,https://wikidata.org/entity/Q253276,33.84
+1508,YL63CEU,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,49411,4226,mile,https://wikidata.org/entity/Q253276,28.89
+1509,YL63CEV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,74304,1604,mile,https://wikidata.org/entity/Q253276,24.83
+1510,YL63CEX,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,34947,2308,mile,https://wikidata.org/entity/Q253276,29.71
+1511,YL63CEY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,52081,5694,mile,https://wikidata.org/entity/Q253276,34.77
+1512,YL63CFA,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,56868,6688,mile,https://wikidata.org/entity/Q253276,36.01
+1513,YL63CHK,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,46285,4993,mile,https://wikidata.org/entity/Q253276,34.71
+1514,YL63CHN,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,53290,3135,mile,https://wikidata.org/entity/Q253276,41.69
+1515,YL63CHO,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,37570,3915,mile,https://wikidata.org/entity/Q253276,31.35
+1516,YL63CHV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,36115,3840,mile,https://wikidata.org/entity/Q253276,30.4
+1517,YL63CHX,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,75578,6836,mile,https://wikidata.org/entity/Q253276,34.12
+1518,YL63CHY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,50607,3686,mile,https://wikidata.org/entity/Q253276,29.32
+1519,YA14WSF,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,98358,13254,mile,https://wikidata.org/entity/Q253276,27.45
+1520,YF15ZHP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,34474,5368,mile,https://wikidata.org/entity/Q253276,25.08
+1521,YB15DMU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,48591,9778,mile,https://wikidata.org/entity/Q253276,28.51
+1522,YF15ZGC,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,27516,5612,mile,https://wikidata.org/entity/Q253276,22.22
+1523,YB15DNJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,34647,7524,mile,https://wikidata.org/entity/Q253276,26.43
+1524,YB15DKD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,41480,4865,mile,https://wikidata.org/entity/Q253276,23.43
+1525,YB15DKF,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,51415,9897,mile,https://wikidata.org/entity/Q253276,29.79
+1526,YB15DKJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,34990,11171,mile,https://wikidata.org/entity/Q253276,32.89
+1527,YF15ZFZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,49008,10092,mile,https://wikidata.org/entity/Q253276,29.44
+1528,YB15DLF,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,30163,5792,mile,https://wikidata.org/entity/Q253276,26.97
+1529,YE15VNW,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,47502,6887,mile,https://wikidata.org/entity/Q253276,24.78
+1530,YB15DND,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,25807,5705,mile,https://wikidata.org/entity/Q253276,27.85
+1531,YB15DKV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,48442,10473,mile,https://wikidata.org/entity/Q253276,28.79
+1532,YF15LLW,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,31835,6724,mile,https://wikidata.org/entity/Q253276,26.4
+1533,YF15LSE,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,41249,7775,mile,https://wikidata.org/entity/Q253276,23.22
+1534,YB15DMY,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,29144,4742,mile,https://wikidata.org/entity/Q253276,26.67
+1535,YB15DKX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,25270,5206,mile,https://wikidata.org/entity/Q253276,28.57
+1536,YB15DLK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,30814,6137,mile,https://wikidata.org/entity/Q253276,25.19
+1537,YB15DNO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,40670,7696,mile,https://wikidata.org/entity/Q253276,26.32
+1538,YB15DLY,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,20290,4011,mile,https://wikidata.org/entity/Q253276,22.63
+1539,YF15LWD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,40290,4664,mile,https://wikidata.org/entity/Q253276,24.92
+1540,YB15DLZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,22650,1817,mile,https://wikidata.org/entity/Q253276,28.09
+1541,YF15LLA,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,60210,17482,mile,https://wikidata.org/entity/Q253276,31.24
+1542,YF15LMJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,41569,8343,mile,https://wikidata.org/entity/Q253276,28.1
+1543,YF15LUD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,37939,5471,mile,https://wikidata.org/entity/Q253276,27.02
+1544,YF15LJN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,42824,8002,mile,https://wikidata.org/entity/Q253276,25.43
+1545,YF15LRJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,37564,7852,mile,https://wikidata.org/entity/Q253276,28.74
+1546,YF15LPE,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,48721,5650,mile,https://wikidata.org/entity/Q253276,30.46
+1547,YF15LWO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,34209,5549,mile,https://wikidata.org/entity/Q253276,29.37
+1548,YF15LJY,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,33797,7631,mile,https://wikidata.org/entity/Q253276,26.33
+1549,YE15VFD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,50942,10481,mile,https://wikidata.org/entity/Q253276,25.25
+1550,YF15LNU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,54287,8777,mile,https://wikidata.org/entity/Q253276,30.8
+1551,YF15LKN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,42045,7352,mile,https://wikidata.org/entity/Q253276,29.77
+1552,YF15LLK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,27958,5419,mile,https://wikidata.org/entity/Q253276,26.57
+1553,YF15LWU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,37362,4042,mile,https://wikidata.org/entity/Q253276,28.31
+1554,YF15LKJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,123754,20033,mile,https://wikidata.org/entity/Q253276,32.72
+1555,YF15LKE,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,58274,12374,mile,https://wikidata.org/entity/Q253276,28.94
+1556,YF15LLV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,38440,10186,mile,https://wikidata.org/entity/Q253276,29.29
+1557,YB15ZZN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,49696,12074,mile,https://wikidata.org/entity/Q253276,31.54
+1558,YA15AHL,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,39370,7754,mile,https://wikidata.org/entity/Q253276,22.97
+1559,YA15GPO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,36482,7148,mile,https://wikidata.org/entity/Q253276,29.52
+1560,YA15GPK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,27690,4933,mile,https://wikidata.org/entity/Q253276,25.15
+1561,YF15LNW,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,47026,10541,mile,https://wikidata.org/entity/Q253276,29.43
+1562,YJ16EGW,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,19686,4899,mile,https://wikidata.org/entity/Q253276,26.84
+1563,YJ16EGM,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,41357,8435,mile,https://wikidata.org/entity/Q253276,29.5
+1564,YJ16EJR,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,12963,2383,mile,https://wikidata.org/entity/Q253276,25.48
+1565,YJ16MTS,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,19944,5174,mile,https://wikidata.org/entity/Q253276,26.94
+1566,YJ16EJP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,24987,7047,mile,https://wikidata.org/entity/Q253276,26.28
+1567,YJ16EGS,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,32271,7820,mile,https://wikidata.org/entity/Q253276,27.04
+1568,YJ16MTP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,21813,6099,mile,https://wikidata.org/entity/Q253276,21.29
+1569,YJ16MTC,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,35683,4775,mile,https://wikidata.org/entity/Q253276,27.42
+1570,YJ16MSS,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,23367,4696,mile,https://wikidata.org/entity/Q253276,29.87
+1571,YJ16MSW,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,38564,9928,mile,https://wikidata.org/entity/Q253276,34.9
+1572,YJ16EEK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,22953,6942,mile,https://wikidata.org/entity/Q253276,27.88
+1573,YJ16CBK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,22770,4996,mile,https://wikidata.org/entity/Q253276,23.51
+1574,YJ16CBZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,39314,6758,mile,https://wikidata.org/entity/Q253276,27.6
+1575,YJ16MSZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,17692,5448,mile,https://wikidata.org/entity/Q253276,30.81
+1576,YJ16EGT,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,23572,5989,mile,https://wikidata.org/entity/Q253276,28.52
+1577,YJ16EJT,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,21341,5702,mile,https://wikidata.org/entity/Q253276,32.08
+1578,YJ16EJS,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,24977,6512,mile,https://wikidata.org/entity/Q253276,29.02
+1579,YJ16MTL,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,22567,6620,mile,https://wikidata.org/entity/Q253276,26.63
+1580,YJ16MTW,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,31867,8430,mile,https://wikidata.org/entity/Q253276,30.1
+1581,YJ16EGA,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,28573,6774,mile,https://wikidata.org/entity/Q253276,28.73
+1582,YJ16MSR,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,33953,5869,mile,https://wikidata.org/entity/Q253276,25.29
+1583,YJ16MUR,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,26921,6654,mile,https://wikidata.org/entity/Q253276,32.83
+1584,YJ16MSP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,42347,13135,mile,https://wikidata.org/entity/Q253276,33.3
+1585,YJ16EJB,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,25948,6619,mile,https://wikidata.org/entity/Q253276,26.42
+1586,YJ16EHA,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,45548,11917,mile,https://wikidata.org/entity/Q253276,28.69
+1587,YJ16EED,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,30936,7107,mile,https://wikidata.org/entity/Q253276,28.27
+1588,YJ16MTR,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,59914,15734,mile,https://wikidata.org/entity/Q253276,32.53
+1589,YL16XLX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,19172,1805,mile,https://wikidata.org/entity/Q253276,22.32
+1590,YL16ZXD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,27030,12107,mile,https://wikidata.org/entity/Q253276,30.73
+1591,YL16ZYA,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,32583,8807,mile,https://wikidata.org/entity/Q253276,30.27
+1592,YL16ZXB,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,41587,10591,mile,https://wikidata.org/entity/Q253276,29.99
+1593,YL16XVT,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,22746,3958,mile,https://wikidata.org/entity/Q253276,29.31
+1594,YL16ZXE,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,40915,12506,mile,https://wikidata.org/entity/Q253276,33.56
+1595,YD16MGT,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,30765,7539,mile,https://wikidata.org/entity/Q253276,28.51
+1596,YL16ZXW,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,38573,10592,mile,https://wikidata.org/entity/Q253276,30.92
+1597,YH66UPG,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,40599,14695,mile,https://wikidata.org/entity/Q253276,30.74
+1598,YH66UPF,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,19180,5885,mile,https://wikidata.org/entity/Q253276,26.97
+1599,YH66URE,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,29188,8291,mile,https://wikidata.org/entity/Q253276,26.97
+1600,YH66UPJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,42926,12106,mile,https://wikidata.org/entity/Q253276,32.89
+1602,YL66AWR,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,23505,6296,mile,https://wikidata.org/entity/Q253276,33.13
+1605,MH68FWL,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,4304,3858,mile,https://wikidata.org/entity/Q253276,26.59
+1606,MH68FWK,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,3010,2539,mile,https://wikidata.org/entity/Q253276,18.82
+1607,MH68FWG,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,7028,6953,mile,https://wikidata.org/entity/Q253276,31.05
+1608,ML19HKY,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,5017,4938,mile,https://wikidata.org/entity/Q253276,27.18
+1609,MH68FWE,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,7126,6316,mile,https://wikidata.org/entity/Q253276,27.55
+1610,MH68FWD,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,5535,5057,mile,https://wikidata.org/entity/Q253276,28.1
+1611,MH68FWC,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,7382,6896,mile,https://wikidata.org/entity/Q253276,28.74
+1612,MH68FWB,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,6568,6078,mile,https://wikidata.org/entity/Q253276,31.94
+1613,MH68FWA,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,3365,2841,mile,https://wikidata.org/entity/Q253276,25.61
+1614,MH68FVY,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,18033,17179,mile,https://wikidata.org/entity/Q253276,32.34
+1615,MH68FVZ,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,4780,3998,mile,https://wikidata.org/entity/Q253276,26.22
+1616,ML19HMF,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,5158,4532,mile,https://wikidata.org/entity/Q253276,22.8
+1617,ML19HPJ,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,6461,5786,mile,https://wikidata.org/entity/Q253276,25.04
+1618,ML19HPK,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,11398,9898,mile,https://wikidata.org/entity/Q253276,24.24
+1619,ML19HMG,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,6710,6273,mile,https://wikidata.org/entity/Q253276,28.93
+1620,ML19HKX,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,10681,10236,mile,https://wikidata.org/entity/Q253276,32.54
+1622,MH68FVR,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,5429,4929,mile,https://wikidata.org/entity/Q253276,21.84
+1623,ML19HKV,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,11978,10971,mile,https://wikidata.org/entity/Q253276,32.66
+1624,ML19HPF,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,7928,7386,mile,https://wikidata.org/entity/Q253276,27.08
+1625,MH68FVN,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,10792,9870,mile,https://wikidata.org/entity/Q253276,30.26
+1626,ML19HME,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,5393,4748,mile,https://wikidata.org/entity/Q253276,25.43
+1627,ML19HKT,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,11906,11368,mile,https://wikidata.org/entity/Q253276,30.65
+1628,ML19HNV,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,11349,10918,mile,https://wikidata.org/entity/Q253276,29.9
+1629,ML19HNU,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,3474,3323,mile,https://wikidata.org/entity/Q253276,23.79
+1630,ML19HNT,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,9540,8138,mile,https://wikidata.org/entity/Q253276,27.1
+1631,ML19HNR,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,4156,3736,mile,https://wikidata.org/entity/Q253276,25.44
+1632,ML19HPC,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,4566,4068,mile,https://wikidata.org/entity/Q253276,25.29
+1633,ML19HNP,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,5425,5079,mile,https://wikidata.org/entity/Q253276,27.58
+1634,ML19HNO,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,11130,11054,mile,https://wikidata.org/entity/Q253276,33.89
+1635,ML19HNN,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,19072,18518,mile,https://wikidata.org/entity/Q253276,32.07
+1636,MH68FVA,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,5684,5191,mile,https://wikidata.org/entity/Q253276,28.15
+1637,ML19HNM,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,9452,8910,mile,https://wikidata.org/entity/Q253276,24.72
+1638,ML19HNK,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,7210,7096,mile,https://wikidata.org/entity/Q253276,31.68
+1640,ML19HNH,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,8331,8256,mile,https://wikidata.org/entity/Q253276,29.19
+1641,ML19HPE,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,5965,5895,mile,https://wikidata.org/entity/Q253276,24.97
+1644,ML19HMV,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,9457,9377,mile,https://wikidata.org/entity/Q253276,30.35
+1646,ML19HMV,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,10176,10097,mile,https://wikidata.org/entity/Q253276,30.91
+1647,ML19HNE,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,7290,7215,mile,https://wikidata.org/entity/Q253276,30.18
+1648,ML19HND,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,10261,10182,mile,https://wikidata.org/entity/Q253276,31.07
+1649,ML19HNC,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,4714,4627,mile,https://wikidata.org/entity/Q253276,31.62
+1650,ML19HNB,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,4285,4205,mile,https://wikidata.org/entity/Q253276,28.44
+1651,ML19HNA,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,6262,6169,mile,https://wikidata.org/entity/Q253276,26.62
+1652,ML19HMZ,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,10415,10336,mile,https://wikidata.org/entity/Q253276,31.73
+1653,ML19HMY,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,10459,9898,mile,https://wikidata.org/entity/Q253276,30.44
+1654,ML19HMX,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,8055,7570,mile,https://wikidata.org/entity/Q253276,25.34
+1655,MH68FTT,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,6419,5454,mile,https://wikidata.org/entity/Q253276,28.52
+1656,MH68FTP,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,15360,14441,mile,https://wikidata.org/entity/Q253276,26.17
+1657,ML19HMK,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,13098,13021,mile,https://wikidata.org/entity/Q253276,30.05
+1658,ML19HMJ,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,7097,7013,mile,https://wikidata.org/entity/Q253276,28.59
+1659,ML19HMH,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,7407,7333,mile,https://wikidata.org/entity/Q253276,35.39
+1739,YF13HZJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,39837,4721,mile,https://wikidata.org/entity/Q253276,25.93
+1740,YB13VYK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,65366,5614,mile,https://wikidata.org/entity/Q253276,27.65
+1741,YF13WXN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,56019,7651,mile,https://wikidata.org/entity/Q253276,27.2
+1742,YF13WYO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,70288,5951,mile,https://wikidata.org/entity/Q253276,24.78
+1749,YF13TKX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,77750,4244,mile,https://wikidata.org/entity/Q253276,25.09
+1750,YL63CMY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,71419,8612,mile,https://wikidata.org/entity/Q253276,28.44
+1800,YG17FWW,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,37172,13879,mile,https://wikidata.org/entity/Q253276,20.89
+1801,YH17VCG,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,38032,13929,mile,https://wikidata.org/entity/Q253276,27.91
+1802,MW17UYJ,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,17074,5963,mile,https://wikidata.org/entity/Q253276,22.26
+1803,MW17UYK,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,49060,14061,mile,https://wikidata.org/entity/Q253276,27.87
+18/57,YG68HXT,John Deere,https://wikidata.org/entity/Q98642757,diesel,https://wikidata.org/entity/Q38423,644,137,mile,https://wikidata.org/entity/Q253276,0.6
+1866,MK16YUY,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,29443,7358,mile,https://wikidata.org/entity/Q253276,26.71
+1872,YP57YXK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,184059,2755,mile,https://wikidata.org/entity/Q253276,35.31
+1874,YL08KHP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,70822,4280,mile,https://wikidata.org/entity/Q253276,18.48
+1879,YH09VPC,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,65854,1180,mile,https://wikidata.org/entity/Q253276,22.74
+1880,YH09VOY,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,125640,5125,mile,https://wikidata.org/entity/Q253276,30.14
+1881,YH09OSE,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,59742,712,mile,https://wikidata.org/entity/Q253276,27.54
+1882,YC09DWO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,82063,1477,mile,https://wikidata.org/entity/Q253276,19.48
+1890,YF13WCP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,84859,10077,mile,https://wikidata.org/entity/Q253276,26.1
+1891,YL63CEJ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,99217,13228,mile,https://wikidata.org/entity/Q253276,26.32
+1893,YG14RZV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,62864,9094,mile,https://wikidata.org/entity/Q253276,24.64
+1894,YD14UWB,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,61588,7930,mile,https://wikidata.org/entity/Q253276,27.11
+1895,YG14RZW,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,90971,13017,mile,https://wikidata.org/entity/Q253276,22.4
+1948,YE07FBN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,136474,668,mile,https://wikidata.org/entity/Q253276,32.53
+1955,YB57ZKL,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,84765,4822,mile,https://wikidata.org/entity/Q253276,20.34
+1960,YE12PHV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,45948,3294,mile,https://wikidata.org/entity/Q253276,27.85
+1961,YC12UFR,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,66171,12190,mile,https://wikidata.org/entity/Q253276,33.59
+1962,YJ63UWY,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,46566,8766,mile,https://wikidata.org/entity/Q253276,23.29
+1963,YJ63UUZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,50810,3165,mile,https://wikidata.org/entity/Q253276,19.89
+1964,YJ14SJU,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,57830,3936,mile,https://wikidata.org/entity/Q253276,22.82
+1965,YJ65HWD,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,46123,12102,mile,https://wikidata.org/entity/Q253276,28.41
+1966,YB65WZP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,42863,8647,mile,https://wikidata.org/entity/Q253276,24.68
+1967,YB65NSZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,49957,10777,mile,https://wikidata.org/entity/Q253276,25.57
+1968,YF65BZH,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,40460,7079,mile,https://wikidata.org/entity/Q253276,18.5
+1969,YF65VVH,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,60093,8683,mile,https://wikidata.org/entity/Q253276,22.76
+1970,YH17UAP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,21665,7653,mile,https://wikidata.org/entity/Q253276,25.47
+1971,YH17UBG,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,53213,22352,mile,https://wikidata.org/entity/Q253276,28.26
+1972,YH17TXC,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,7844,1937,mile,https://wikidata.org/entity/Q253276,22.33
+1973,YB66XRY,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,23424,7114,mile,https://wikidata.org/entity/Q253276,23.72
+1974,YB66XNC,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,32941,11061,mile,https://wikidata.org/entity/Q253276,26.03
+1975,YB17CUV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,19154,10364,mile,https://wikidata.org/entity/Q253276,22.85
+1976,YA17KHB,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,24649,2041,mile,https://wikidata.org/entity/Q253276,28.27
+1977,MIK19TEV,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,9165,9001,mile,https://wikidata.org/entity/Q253276,22.42
+1978,MK19TEY,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,5889,5648,mile,https://wikidata.org/entity/Q253276,22.49
+1979,MK19TDZ,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,6487,6339,mile,https://wikidata.org/entity/Q253276,23.45
+1980,MK19RWV,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,4108,3953,mile,https://wikidata.org/entity/Q253276,21.24
+1981,YG69OAD,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,642,484,mile,https://wikidata.org/entity/Q253276,12.24
+1984,YG69OAE,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,1539,1410,mile,https://wikidata.org/entity/Q253276,9.53
+1985,YG69OAJ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,2071,1887,mile,https://wikidata.org/entity/Q253276,20.32
+2211,YG08XBT,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,112206,3232,mile,https://wikidata.org/entity/Q253276,19.95
+2214,PO58JDF,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,11991,659,mile,https://wikidata.org/entity/Q253276,11.27
+2217,YJ58OUA,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,20080,281,mile,https://wikidata.org/entity/Q253276,6.57
+2218,YJ58OTZ,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,19449,589,mile,https://wikidata.org/entity/Q253276,12.35
+2219,YJ58OTY,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,27610,1253,mile,https://wikidata.org/entity/Q253276,21.89
+2220,YG58LZC,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,96213,1818,mile,https://wikidata.org/entity/Q253276,33.55
+2221,YJ58BDU,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,25266,2868,mile,https://wikidata.org/entity/Q253276,19.16
+2222,YJ58OTG,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,52600,5026,mile,https://wikidata.org/entity/Q253276,30.89
+2223,YJ60CZS,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,29154,3395,mile,https://wikidata.org/entity/Q253276,29.84
+2224,YJ60CZT,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,14870,2079,mile,https://wikidata.org/entity/Q253276,11.72
+2225,YJ60MSV,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,9424,438,mile,https://wikidata.org/entity/Q253276,9.49
+2226,YJ14SVN,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,57767,10092,mile,https://wikidata.org/entity/Q253276,19.8
+2607,MV67KYC,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,33568,16463,mile,https://wikidata.org/entity/Q253276,19.51
+2608,MV67KYF,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,24519,9118,mile,https://wikidata.org/entity/Q253276,16.89
+2609,MV67KYN,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,31329,11907,mile,https://wikidata.org/entity/Q253276,19.03
+2610,MV67KXW,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,43638,16674,mile,https://wikidata.org/entity/Q253276,19.72
+2611,MV67KXX,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,29304,9541,mile,https://wikidata.org/entity/Q253276,18.34
+2612,MV67KVS,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,22058,9033,mile,https://wikidata.org/entity/Q253276,17.29
+2613,MV67KVH,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,39868,12104,mile,https://wikidata.org/entity/Q253276,16.79
+2614,MV67KVJ,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,21521,8942,mile,https://wikidata.org/entity/Q253276,19.32
+2615,MV67KXN,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,36786,15705,mile,https://wikidata.org/entity/Q253276,18.56
+2616,MV67KXU,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,39810,13523,mile,https://wikidata.org/entity/Q253276,22.01
+2617,MV67KWN,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,17882,6558,mile,https://wikidata.org/entity/Q253276,17.26
+2618,MV67KTA,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,25349,10697,mile,https://wikidata.org/entity/Q253276,16.72
+2619,MV67KTL,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,28091,9351,mile,https://wikidata.org/entity/Q253276,17.52
+2620,MV17CVW,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,25537,9416,mile,https://wikidata.org/entity/Q253276,19.49
+2623,YK06YZV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,106030,253,mile,https://wikidata.org/entity/Q253276,18.5
+2680,YC63CUV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,90562,13738,mile,https://wikidata.org/entity/Q253276,33.82
+2681,MV17CNX,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,18747,398,mile,https://wikidata.org/entity/Q253276,11.64
+2682,MW17CWR,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,30066,3754,mile,https://wikidata.org/entity/Q253276,19.37
+2683,MV17CYA,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,16826,1646,mile,https://wikidata.org/entity/Q253276,15.85
+2684,MV17CXU,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,23794,4155,mile,https://wikidata.org/entity/Q253276,17.24
+2686,MV17CWK,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,22247,5722,mile,https://wikidata.org/entity/Q253276,25.4
+2687,MV17CWL,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,21372,1505,mile,https://wikidata.org/entity/Q253276,17.75
+2688,MV17DDL,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,20742,1750,mile,https://wikidata.org/entity/Q253276,14.68
+2689,MV17CUH,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,17715,3485,mile,https://wikidata.org/entity/Q253276,23.82
+2690,MV17CUG,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,24025,2733,mile,https://wikidata.org/entity/Q253276,19.68
+2691,MV17CZK,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,12288,1596,mile,https://wikidata.org/entity/Q253276,15.84
+2692,MV17CFY,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,9403,1367,mile,https://wikidata.org/entity/Q253276,19.46
+2693,MV17DGF,Vauxhall,https://wikidata.org/entity/Q59187,diesel,https://wikidata.org/entity/Q38423,23277,1451,mile,https://wikidata.org/entity/Q253276,16.43
+2702,YB63HFS,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,74359,2828,mile,https://wikidata.org/entity/Q253276,21.55
+2703,YB63HFN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,53277,1802,mile,https://wikidata.org/entity/Q253276,18.12
+2704,YB63HFR,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,44639,1876,mile,https://wikidata.org/entity/Q253276,16.4
+2705,YB63HFP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,52853,2676,mile,https://wikidata.org/entity/Q253276,16.22
+2706,YB63HGA,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,59621,2051,mile,https://wikidata.org/entity/Q253276,14.58
+2707,YB63HFT,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,64686,2015,mile,https://wikidata.org/entity/Q253276,16.04
+2708,YB63HFU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,42419,3129,mile,https://wikidata.org/entity/Q253276,18.5
+2709,YB63HFV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,43410,2559,mile,https://wikidata.org/entity/Q253276,16.04
+2711,YB63HGU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,39456,2326,mile,https://wikidata.org/entity/Q253276,17.62
+2712,YB63HGX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,51712,1655,mile,https://wikidata.org/entity/Q253276,10.73
+2713,YB63HHA,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,66707,11259,mile,https://wikidata.org/entity/Q253276,22.85
+2714,YB63HGF,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,48699,3249,mile,https://wikidata.org/entity/Q253276,27.39
+2715,YB63HGL,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,46188,2709,mile,https://wikidata.org/entity/Q253276,18.54
+2716,YB63HFY,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,64004,6394,mile,https://wikidata.org/entity/Q253276,37.66
+2717,YB63HGJ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,79836,6376,mile,https://wikidata.org/entity/Q253276,40.78
+2718,YB63HGG,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,50964,6329,mile,https://wikidata.org/entity/Q253276,37.41
+2719,YB63HGK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,55671,2362,mile,https://wikidata.org/entity/Q253276,22.97
+2721,YB63HGZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,38902,2917,mile,https://wikidata.org/entity/Q253276,26.44
+2723,YB63HGD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,60806,11126,mile,https://wikidata.org/entity/Q253276,22.7
+2724,YB63HGM,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,66066,778,mile,https://wikidata.org/entity/Q253276,13.66
+2725,YB63HGN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,46124,1651,mile,https://wikidata.org/entity/Q253276,17.73
+2727,YB63HGC,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,48391,1448,mile,https://wikidata.org/entity/Q253276,18.49
+2729,YB63HGE,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,48543,5780,mile,https://wikidata.org/entity/Q253276,50.05
+2731,YA63UPG,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,63652,1961,mile,https://wikidata.org/entity/Q253276,19.27
+2733,YJ14SJX,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,25305,1281,mile,https://wikidata.org/entity/Q253276,16.98
+2734,YJ14SJY,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,41600,5052,mile,https://wikidata.org/entity/Q253276,21.5
+2735,YJ14SJV,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,22383,2911,mile,https://wikidata.org/entity/Q253276,17.11
+3001,YK68OXZ,Peugeot,https://wikidata.org/entity/Q6742,diesel,https://wikidata.org/entity/Q38423,730,563,mile,https://wikidata.org/entity/Q253276,14.71
+3002,YC68TGR,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,15891,14113,mile,https://wikidata.org/entity/Q253276,23.46
+3104,YJ58OTF,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,124107,828,mile,https://wikidata.org/entity/Q253276,18.08
+3113,YG14LFU,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,11468,519,mile,https://wikidata.org/entity/Q253276,12.75
+3114,YG14LGA,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,20937,414,mile,https://wikidata.org/entity/Q253276,13.88
+3115,YG14LFX,Volkswagen,https://wikidata.org/entity/Q246,diesel,https://wikidata.org/entity/Q38423,28530,255,mile,https://wikidata.org/entity/Q253276,9.16
+3116,YF17CHO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,17016,5277,mile,https://wikidata.org/entity/Q253276,20.4
+3117,YF17PRZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,13667,7699,mile,https://wikidata.org/entity/Q253276,22.09
+3118,YF17CJE,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,38490,12940,mile,https://wikidata.org/entity/Q253276,19.74
+3201,YF67OJV,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,18539,12082,mile,https://wikidata.org/entity/Q253276,19
+3301,YJ10LCG,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,107593,7587,mile,https://wikidata.org/entity/Q253276,22.87
+3302,YJ10OHK,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,125412,7084,mile,https://wikidata.org/entity/Q253276,21.19
+3305,KE53ENK,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,80476,1921,mile,https://wikidata.org/entity/Q253276,13.56
+3310,YJ09DZG,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,114361,10688,mile,https://wikidata.org/entity/Q253276,18.33
+3311,YG14YBA,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,43533,3373,mile,https://wikidata.org/entity/Q253276,16.89
+3312,PO14FNC,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,46564,8180,mile,https://wikidata.org/entity/Q253276,18.62
+3336,PF69HFK,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,817,387,mile,https://wikidata.org/entity/Q253276,14.17
+3337,PF69HFJ,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,1118,440,mile,https://wikidata.org/entity/Q253276,11.04
+3406,YH19TZA,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,3336,3265,mile,https://wikidata.org/entity/Q253276,16.08
+3407,YH19TZC,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,4289,2395,mile,https://wikidata.org/entity/Q253276,13.57
+3408,YH19TZD,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,1973,1893,kilometre,https://wikidata.org/entity/Q828224,10.56
+3409,YH19TZE,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,797,404,mile,https://wikidata.org/entity/Q253276,10.12
+3419,YJ07ZVB,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,138437,2029,mile,https://wikidata.org/entity/Q253276,20.54
+3431,YJ10KWK,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,11494,7445,mile,https://wikidata.org/entity/Q253276,18.22
+3432,YC63WSY,Mitsubishi Motors,https://wikidata.org/entity/Q36033,diesel,https://wikidata.org/entity/Q38423,25400,123,mile,https://wikidata.org/entity/Q253276,12.02
+3439,YD67KFU,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,6086,2725,mile,https://wikidata.org/entity/Q253276,16.76
+3441,YD67JBV,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,58157,26241,mile,https://wikidata.org/entity/Q253276,26.89
+3442,YD67JBX,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,25890,11373,mile,https://wikidata.org/entity/Q253276,15.13
+3443,YD67JBY,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,30007,19781,mile,https://wikidata.org/entity/Q253276,38.4
+3444,YD67JBZ,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,22642,8984,mile,https://wikidata.org/entity/Q253276,17.67
+3445,YD67JCJ,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,55132,36168,mile,https://wikidata.org/entity/Q253276,37.57
+3446,YD67JCO,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,37075,14193,mile,https://wikidata.org/entity/Q253276,24.53
+3447,YD67JCV,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,32479,19101,mile,https://wikidata.org/entity/Q253276,47.32
+3448,YD67JCX,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,27522,13696,mile,https://wikidata.org/entity/Q253276,16.86
+3449,YD67JNJ,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,20588,9031,mile,https://wikidata.org/entity/Q253276,17.12
+3450,YD67KGA,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,19711,7910,mile,https://wikidata.org/entity/Q253276,14.43
+3451,YD67KGE,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,25361,11304,mile,https://wikidata.org/entity/Q253276,16.89
+3452,YD67KGF,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,17170,8033,mile,https://wikidata.org/entity/Q253276,14.83
+3453,YD67KGJ,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,27278,12941,mile,https://wikidata.org/entity/Q253276,16.53
+3454,YD67KGK,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,14123,6068,mile,https://wikidata.org/entity/Q253276,14.47
+3455,YD67KGN,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,27431,9055,mile,https://wikidata.org/entity/Q253276,16.6
+3456,YD67KGO,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,24922,10469,mile,https://wikidata.org/entity/Q253276,16.45
+3457,YD67KGP,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,24245,9443,mile,https://wikidata.org/entity/Q253276,15.13
+3458,YD67KGX,Mitsubishi Fuso Truck and Bus Corporation,https://wikidata.org/entity/Q1190247,diesel,https://wikidata.org/entity/Q38423,40001,24389,kilometre,https://wikidata.org/entity/Q828224,25.24
+3501,PE63VRG,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,66722,9155,mile,https://wikidata.org/entity/Q253276,17.18
+3502,PE63VRK,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,53929,5203,mile,https://wikidata.org/entity/Q253276,18.62
+3503,PE63VRJ,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,33892,695,mile,https://wikidata.org/entity/Q253276,19.07
+3504,YH68EBA,Iveco,https://wikidata.org/entity/Q29913,compressed natural gas,https://wikidata.org/entity/Q720050,4270,3192,mile,https://wikidata.org/entity/Q253276,12.98
+3505,YH68DXT,Iveco,https://wikidata.org/entity/Q29913,compressed natural gas,https://wikidata.org/entity/Q720050,12299,10240,mile,https://wikidata.org/entity/Q253276,15.42
+3901,YJ66VYU,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,16440,4913,mile,https://wikidata.org/entity/Q253276,6.58
+3905,PO14FND,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,59225,3123,mile,https://wikidata.org/entity/Q253276,8
+4400,YT60VHY,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,123115,5788,kilometre,https://wikidata.org/entity/Q828224,1.98
+4401D,YF63HWC,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,142118,17821,kilometre,https://wikidata.org/entity/Q828224,3.43
+4402D,YF63HWB,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,104234,11482,kilometre,https://wikidata.org/entity/Q828224,2.87
+4403D,YF63HWP,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,117474,13276,kilometre,https://wikidata.org/entity/Q828224,2.85
+4404D,YF63HWJ,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,100817,11071,kilometre,https://wikidata.org/entity/Q828224,2.73
+4405D,YF63HWE,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,108305,13009,kilometre,https://wikidata.org/entity/Q828224,2.77
+4406D,YF63HWG,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,95094,9814,kilometre,https://wikidata.org/entity/Q828224,2.43
+4407D,YF63HWH,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,109707,13862,kilometre,https://wikidata.org/entity/Q828224,2.97
+4408D,YF63HWD,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,111377,14094,kilometre,https://wikidata.org/entity/Q828224,2.99
+4409D,YF63HWR,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,120379,13647,kilometre,https://wikidata.org/entity/Q828224,3.01
+4411D,YF63HWM,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,106546,12954,kilometre,https://wikidata.org/entity/Q828224,2.85
+4412D,YF63HWN,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,101460,12516,kilometre,https://wikidata.org/entity/Q828224,2.68
+4413,YF63HWS,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,107886,15073,kilometre,https://wikidata.org/entity/Q828224,3.09
+4414,YF63HWO,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,91267,9927,kilometre,https://wikidata.org/entity/Q828224,2.46
+4415D,YF63HWK,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,113609,13862,kilometre,https://wikidata.org/entity/Q828224,3.51
+4416D,YF63HWL,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,107778,11364,kilometre,https://wikidata.org/entity/Q828224,3.02
+4419,YK15GPF,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,99129,18810,kilometre,https://wikidata.org/entity/Q828224,3.45
+4420,YK15GPJ,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,54460,9335,kilometre,https://wikidata.org/entity/Q828224,1.91
+4421,YK15GPU,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,50048,9000,kilometre,https://wikidata.org/entity/Q828224,1.96
+4422,YK15GOX,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,56679,10634,kilometre,https://wikidata.org/entity/Q828224,2.11
+4423,YK15GOP,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,75238,13660,kilometre,https://wikidata.org/entity/Q828224,2.26
+4424,YK15GOU,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,61201,12186,kilometre,https://wikidata.org/entity/Q828224,1.99
+4425,YK15GPE,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,76079,13857,kilometre,https://wikidata.org/entity/Q828224,2.4
+4426,YK15GPV,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,67378,11726,kilometre,https://wikidata.org/entity/Q828224,2.81
+4427,YK15GPO,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,50632,9812,kilometre,https://wikidata.org/entity/Q828224,2.04
+4428,YK15GPX,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,84818,18211,kilometre,https://wikidata.org/entity/Q828224,3.26
+4429,YK15HNZ,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,77878,15942,kilometre,https://wikidata.org/entity/Q828224,3.89
+4433,YJ65DJF,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,88841,16614,kilometre,https://wikidata.org/entity/Q828224,2.99
+4434,YJ65DJD,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,90334,14641,kilometre,https://wikidata.org/entity/Q828224,3.22
+4435,LX68AOZ,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,9872,8449,kilometre,https://wikidata.org/entity/Q828224,1.48
+4436,YJ16ZWD,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,38341,16452,kilometre,https://wikidata.org/entity/Q828224,3.41
+4437,YJ16 ZWB,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,44308,6083,kilometre,https://wikidata.org/entity/Q828224,1.23
+4438,YJ16 ZWC,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,68780,36361,kilometre,https://wikidata.org/entity/Q828224,6.99
+4439,YJ16 ZWK,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,77132,39827,kilometre,https://wikidata.org/entity/Q828224,8.13
+4440,YJ16 ZWL,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,46020,11586,kilometre,https://wikidata.org/entity/Q828224,2.68
+4441,YJ16 ZWM,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,34107,7166,kilometre,https://wikidata.org/entity/Q828224,1.93
+4442,YJ16 ZWP,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,74643,16734,kilometre,https://wikidata.org/entity/Q828224,3.5
+4443,YJ16 ZWR,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,38314,9532,kilometre,https://wikidata.org/entity/Q828224,1.88
+4444,YJ16 ZWS,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,36241,8570,kilometre,https://wikidata.org/entity/Q828224,1.73
+4445,YJ16 ZWE,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,57793,7197,kilometre,https://wikidata.org/entity/Q828224,2.51
+4446,YJ16ZWF,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,64617,15872,kilometre,https://wikidata.org/entity/Q828224,2.31
+4447,YJ16ZWG,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,94236,23884,kilometre,https://wikidata.org/entity/Q828224,3.48
+4448,YJ16ZWH,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,65254,15573,kilometre,https://wikidata.org/entity/Q828224,2.23
+4474D,YK59HYC,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,202233,9446,kilometre,https://wikidata.org/entity/Q828224,2.85
+4475D,YK59HXX,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,186101,12804,kilometre,https://wikidata.org/entity/Q828224,3.15
+4476D,YK59HYA,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,186602,12406,kilometre,https://wikidata.org/entity/Q828224,3.39
+4477D,YK59HXY,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,176960,9744,kilometre,https://wikidata.org/entity/Q828224,3.28
+4478D,YK59HXZ,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,162646,10518,kilometre,https://wikidata.org/entity/Q828224,3.24
+4480D,YK59HYF,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,171463,11998,kilometre,https://wikidata.org/entity/Q828224,3.08
+4481D,YE11YHB,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,153284,11421,kilometre,https://wikidata.org/entity/Q828224,2.82
+4495,YJ13MTX,Mercedes,https://wikidata.org/entity/Q172721,compressed natural gas,https://wikidata.org/entity/Q720050,85852,9604,mile,https://wikidata.org/entity/Q253276,4.68
+4498,YF62EAY,Mercedes,https://wikidata.org/entity/Q172721,compressed natural gas,https://wikidata.org/entity/Q720050,76293,5086,mile,https://wikidata.org/entity/Q253276,5.05
+4597,YF62EAX,Mercedes,https://wikidata.org/entity/Q172721,compressed natural gas,https://wikidata.org/entity/Q720050,93305,8338,mile,https://wikidata.org/entity/Q253276,4.19
+4598,YJ13MTV,Mercedes,https://wikidata.org/entity/Q172721,compressed natural gas,https://wikidata.org/entity/Q720050,89560,9729,mile,https://wikidata.org/entity/Q253276,5.17
+4610,PO13AYP,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,169587,1759,kilometre,https://wikidata.org/entity/Q828224,4.72
+4616,YE16YPR,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,95112,16494,kilometre,https://wikidata.org/entity/Q828224,4.61
+5020,PN07VWA,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,143536,1018,mile,https://wikidata.org/entity/Q253276,9.3
+5021,PO58OWD,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,142105,784,mile,https://wikidata.org/entity/Q253276,8.9
+5022,PO58OWA,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,141670,1703,mile,https://wikidata.org/entity/Q253276,10.3
+5023,PO58OWB,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,125444,1448,mile,https://wikidata.org/entity/Q253276,10.54
+5024,PO58OWC,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,133396,2489,mile,https://wikidata.org/entity/Q253276,12.34
+5025,PN09TVV,Renault,https://wikidata.org/entity/Q6686,diesel,https://wikidata.org/entity/Q38423,134476,1156,mile,https://wikidata.org/entity/Q253276,9.74
+5045,YC66JKJ,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,42124,9435,mile,https://wikidata.org/entity/Q253276,11.5
+5046,YC66JKF,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,45793,10869,mile,https://wikidata.org/entity/Q253276,11.32
+5047,YC66WSN,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,42618,9712,mile,https://wikidata.org/entity/Q253276,10.95
+5048,YC66WSL,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,41331,10652,mile,https://wikidata.org/entity/Q253276,10.82
+5049,YE66JTV,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,29425,6651,mile,https://wikidata.org/entity/Q253276,5.96
+78004,YK53CDF,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,34405,1130,mile,https://wikidata.org/entity/Q253276,23.64
+78016,YS54OHG,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,28619,606,mile,https://wikidata.org/entity/Q253276,15.3
+78043,GN56NHB,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,22329,723,mile,https://wikidata.org/entity/Q253276,19.1
+78058,YK60WKV,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,220524,20511,mile,https://wikidata.org/entity/Q253276,20.45
+78080,YO54AXP,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,69115,1639,mile,https://wikidata.org/entity/Q253276,24.43
+78084,YJ56UVD,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,26628,1770,mile,https://wikidata.org/entity/Q253276,17.23
+78092,HJ12URD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,152419,6182,mile,https://wikidata.org/entity/Q253276,20.14
+784464,YE58SYU,Mercedes,https://wikidata.org/entity/Q172721,diesel,https://wikidata.org/entity/Q38423,205257,11620,kilometre,https://wikidata.org/entity/Q828224,3.35
+784499,YR09CXN,Mercedes,https://wikidata.org/entity/Q172721,compressed natural gas,https://wikidata.org/entity/Q720050,137023,6579,kilometre,https://wikidata.org/entity/Q828224,2.48
+784500,YK53FLP,Iveco,https://wikidata.org/entity/Q29913,diesel,https://wikidata.org/entity/Q38423,161253,1529,kilometre,https://wikidata.org/entity/Q828224,6.04
+86902,EU66CWJ,Volvo,https://wikidata.org/entity/Q163810,diesel,https://wikidata.org/entity/Q38423,2117,788,mile,https://wikidata.org/entity/Q253276,0.85
+86903,EU66CWK,Volvo,https://wikidata.org/entity/Q163810,diesel,https://wikidata.org/entity/Q38423,1403,326,mile,https://wikidata.org/entity/Q253276,0.65
+880101,YA10HUV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,48409,4495,mile,https://wikidata.org/entity/Q253276,41.62
+880102,YH60OYD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,69100,3790,mile,https://wikidata.org/entity/Q253276,44.02
+880103,YH60OUY,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,77629,8359,mile,https://wikidata.org/entity/Q253276,51.62
+880104,YH60OYB,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,43030,3706,mile,https://wikidata.org/entity/Q253276,43.66
+880105,YA10HVO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,56990,2298,mile,https://wikidata.org/entity/Q253276,40.61
+880739,YE59YVZ,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,60377,6457,mile,https://wikidata.org/entity/Q253276,53.46
+880741,YF59YLS,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,42743,5467,mile,https://wikidata.org/entity/Q253276,49.03
+880749,YD56VMA,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,63675,1358,mile,https://wikidata.org/entity/Q253276,32.76
+880752,YG56KLV,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,63176,682,mile,https://wikidata.org/entity/Q253276,30.39
+880755,YG56VUT,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,50312,839,mile,https://wikidata.org/entity/Q253276,34.11
+880928,YG06COU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,70504,964,mile,https://wikidata.org/entity/Q253276,26.54
+880945,YA07ZVX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,67562,7705,mile,https://wikidata.org/entity/Q253276,41.99
+880953,YC07ORX,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,113448,11049,mile,https://wikidata.org/entity/Q253276,31.57
+880980,YF07GFU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,105330,3429,mile,https://wikidata.org/entity/Q253276,29.15
+880993,YF57PJU,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,76033,1273,mile,https://wikidata.org/entity/Q253276,32.84
+881106,YK58UDO,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,91350,4998,mile,https://wikidata.org/entity/Q253276,27.56
+881108,YK58UDD,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,86223,6762,mile,https://wikidata.org/entity/Q253276,31.46
+881111,YK09KDN,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,81221,3758,mile,https://wikidata.org/entity/Q253276,37.04
+881114,YH60OXC,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,98830,1948,mile,https://wikidata.org/entity/Q253276,29.03
+881951,YA07XMB,Ford Motor Company,https://wikidata.org/entity/Q44294,diesel,https://wikidata.org/entity/Q38423,67305,919,mile,https://wikidata.org/entity/Q253276,13.69
