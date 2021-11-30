@@ -1,0 +1,35 @@
+
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      	"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"property": "http://properties.com/#",
+      	"Sensor029": "rdfs:label",
+      	"Measurement8401": "rdfs:label",
+      	"Compter101": "rdfs:label",
+      	"User10A": "rdfs:label",
+		"property:atTime": {
+			"@type": "https://www.w3.org/TR/xmlschema-2/dateTime"
+		}		
+	},
+	"Class01": {
+		"property:includes": {
+			"Sensor029": {
+				"property:hasMeasurement": {
+					"Measurement8401":{
+						"property:hasTemperature": "29",
+						"property:atTime": "2010-06-12T12:00:12"
+					}
+				}	
+			},
+ 			"Computer101": {
+ 				"property:hasOwner": {
+ 					"User10A": {
+ 						"property:hasName": "Pedro"
+ 					}
+ 				} 
+ 			}
+ 		}
+ 	}
+	
+}
