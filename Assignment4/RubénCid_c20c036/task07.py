@@ -112,3 +112,4 @@ initNs={
 
 for subs, prop, val in g.query(q):
     print(f"[SPARQL] ALL: {subs} {prop} {val}")
+    

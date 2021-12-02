@@ -9,7 +9,7 @@
 
 <#Localizaciones_Mapping> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/monumentos.csv" ;
+    rml:source "./data/museos.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
@@ -55,7 +55,7 @@
 
 <#Coordenadas_Mapping> a rr:TriplesMap;
     rml:logicalSource[
-        rml:source "./data/monumentos.csv";
+        rml:source "./data/museos.csv";
         rml:referenceFormulation ql:CSV
     ];
     
@@ -81,7 +81,7 @@
 
 <#Postaldress_Mapping> a rr:TriplesMap;
     rml:logicalSource[
-        rml:source "./data/monumentos.csv";
+        rml:source "./data/museos.csv";
         rml:referenceFormulation ql:CSV
     ];
     rr:subjectMap[

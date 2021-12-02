@@ -4,12 +4,13 @@
 @prefix ex: <http://example.com/ns#>.
 @prefix clases: <https://www.mapmadrid.org/ontology/0.1.0/Clases/>.
 @prefix schema: <http://www.schema.org/>.
+@prefix owl: <http://www.w3.org/2002/07/owl>.
 @prefix prop: <https://www.mapmadrid.org/ontology/0.1.0/Propiedades/>.
 @prefix xsd: <https://www.w3.org/XMLSchema/>.
 
 <#Localizaciones_Mapping> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/museos.csv" ;
+    rml:source "./data/monumentos_linked.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
@@ -25,6 +26,13 @@
     ]
   ];
   
+    rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+    rr:objectMap [
+      rml:reference "same_as_distrito" ;
+      rr:datatype xsd:anyURI]
+    ];
+
 
   rr:predicateObjectMap [
     rr:predicate prop:inNeighborhood;
@@ -32,6 +40,13 @@
       rml:reference "BARRIO" 
     ]
   ];
+
+    rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+    rr:objectMap [
+      rml:reference "same_as_barrio" ;
+      rr:datatype xsd:anyURI]
+    ];
 
   rr:predicateObjectMap [
     rr:predicate prop:hasAddress;
@@ -54,7 +69,7 @@
 
 <#Coordenadas_Mapping> a rr:TriplesMap;
     rml:logicalSource[
-        rml:source "./data/monumentos.csv";
+        rml:source "./data/monumentos_linked.csv";
         rml:referenceFormulation ql:CSV
     ];
     
@@ -80,7 +95,7 @@
 
 <#Postaldress_Mapping> a rr:TriplesMap;
     rml:logicalSource[
-        rml:source "./data/monumentos.csv";
+        rml:source "./data/monumentos_linked.csv";
         rml:referenceFormulation ql:CSV
     ];
     rr:subjectMap[
@@ -129,21 +144,7 @@
     rr:predicateObjectMap [
     rr:predicate owl:sameAs;
     rr:objectMap [
-      rml:reference "same_as_barrio" ;
-      rr:datatype xsd:anyURI]
-    ];
-
-    rr:predicateObjectMap [
-    rr:predicate owl:sameAs;
-    rr:objectMap [
       rml:reference "same_as_provincia" ;
-      rr:datatype xsd:anyURI]
-    ];
-
-    rr:predicateObjectMap [
-    rr:predicate owl:sameAs;
-    rr:objectMap [
-      rml:reference "same_as_distrito" ;
       rr:datatype xsd:anyURI]
     ];
 
