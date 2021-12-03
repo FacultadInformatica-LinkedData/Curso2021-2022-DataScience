@@ -1,0 +1,55 @@
+select distinct ?prop ?values
+
+where {
+
+?politico rdf:type <http://dbpedia.org/ontology/Politician>.
+?politico ?prop ?values
+
+} 
+
+LIMIT 100
+
+
+select distinct ?prop ?values
+
+where {
+
+?politico rdf:type <http://dbpedia.org/ontology/Politician>.
+?politico ?prop ?values.
+
+FILTER(?prop != rdf:type)
+
+
+} 
+
+
+select distinct ?prop ?values
+
+where {
+
+?politico rdf:type <http://dbpedia.org/ontology/Politician>.
+?politico ?prop ?values.
+
+FILTER(?prop != rdf:type)
+
+
+} 
+
+SELECT DISTINCT ?propValue
+where
+{
+ ?name a <http://dbpedia.org/ontology/Politician> .
+ ?name ?prop ?value.
+ FILTER(?prop != rdf:type)
+}
+
+
+# Ejercicios 5.
+
+select distinct  ?prop,
+         COUNT(DISTINCT ?values) as ?posibleValues
+where{ 
+    ?name a <http://dbpedia.org/ontology/Politician>.
+    ?name ?prop ?values.
+    FILTER(?prop != rdf:type).
+}
