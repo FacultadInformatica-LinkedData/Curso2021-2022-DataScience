@@ -95,9 +95,17 @@
    rr:template "http://www.semanticweb.org/smartcity/Ubicacion/{Ubicacion}";
    rr:termType rr:IRI; 
    rr:class sm:Ubicacion ];
+   
  rr:predicateObjectMap [
     rr:predicateMap [ rr:constant sm:ubicacionDe; rr:termType rr:IRI ];
     rr:objectMap [
       rr:template "http://www.semanticweb.org/smartcity/Contenedor/{ID}";
+	  rr:termType rr:Literal] 
+	];
+	  
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:nombre; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "Ubicacion";
 	  rr:termType rr:Literal]
     ].
