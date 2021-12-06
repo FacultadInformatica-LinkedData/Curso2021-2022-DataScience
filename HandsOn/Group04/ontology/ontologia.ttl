@@ -42,6 +42,11 @@
 #    Data properties
 #################################################################
 
+###  http://www.semanticweb.org/smartcity/nombre
+:nombre rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Ubicacion .
+
+
 ###  http://www.semanticweb.org/smartcity/#fecha
 <http://www.semanticweb.org/smartcity/#fecha> rdf:type owl:DatatypeProperty ;
                                               rdfs:domain :Recolecciones_pasadas ;
