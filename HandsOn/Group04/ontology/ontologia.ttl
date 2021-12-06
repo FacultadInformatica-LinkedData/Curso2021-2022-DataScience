@@ -99,12 +99,7 @@
 #################################################################
 
 ###  http://www.semanticweb.org/smartcity/Contenedor
-:Contenedor rdf:type owl:Class ;
-            rdfs:subClassOf :Mobiliario_Urbano .
-
-
-###  http://www.semanticweb.org/smartcity/Mobiliario_Urbano
-:Mobiliario_Urbano rdf:type owl:Class .
+:Contenedor rdf:type owl:Class .
 
 
 ###  http://www.semanticweb.org/smartcity/Recolecciones_pasadas
