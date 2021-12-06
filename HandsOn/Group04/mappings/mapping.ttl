@@ -10,7 +10,7 @@
  rr:subjectMap [
    rr:template "http://www.semanticweb.org/smartcity/Contenedor/{ID}";
    rr:termType rr:IRI; 
-   rr:class sm:mobiliario_urbano ];
+   rr:class sm:Contenedor ];
  rr:predicateObjectMap [
     rr:predicateMap [ rr:constant sm:frecuencia_media_recolecciones; rr:termType rr:IRI ];
     rr:objectMap [
