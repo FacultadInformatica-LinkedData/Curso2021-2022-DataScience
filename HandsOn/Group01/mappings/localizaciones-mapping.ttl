@@ -21,19 +21,21 @@
   # Data Properties
   rr:predicateObjectMap [
     rr:predicate prop:inDistrict;
-    rr:objectMap [
-      rml:reference "DISTRITO"; 
+    rr:objectMap [ 
+        rr:parentTriplesMap <#Distrito_Mapping>;
+        rr:joinCondition [
+            rr:child "DISTRITO";  rr:parent "DISTRITO";];
     ]
   ];
-  
 
   rr:predicateObjectMap [
     rr:predicate prop:inNeighborhood;
-    rr:objectMap [
-      rml:reference "BARRIO" 
+    rr:objectMap [ 
+        rr:parentTriplesMap <#Barrio_Mapping>;
+        rr:joinCondition [
+            rr:child "BARRIO";  rr:parent "BARRIO";];
     ]
   ];
-
   rr:predicateObjectMap [
     rr:predicate prop:hasAddress;
     rr:objectMap [ 
@@ -68,14 +70,16 @@
     rr:predicateObjectMap [
       rr:predicate schema:latitude;
       rr:objectMap [
-        rml:reference "LATITUD" 
+        rml:reference "LATITUD";
+        rr:termType schema:Number
       ]
     ];
 
     rr:predicateObjectMap [
       rr:predicate schema:longitude;
       rr:objectMap [
-        rml:reference "LONGITUD" 
+        rml:reference "LONGITUD";
+        rr:termType schema:Number
       ]
     ].
 
@@ -87,7 +91,7 @@
     rr:subjectMap[
         rr:template "https://www.mapmadrid.org/resources/Localizaciones/Postal/{ParsedPostal}";
         rr:termType rr:IRI;
-        rr:class schema:PostalAddress;
+        rr:class schema:PostalAddress
     ];
 
     rr:predicateObjectMap [
@@ -124,4 +128,27 @@
       rr:objectMap [
         rml:reference "DIRECCION" 
       ]
+    ].
+
+<#Barrio_Mapping> a rr:TriplesMap;
+    rml:logicalSource[
+        rml:source "./data/museos.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    rr:subjectMap[
+        rr:template "https://www.mapmadrid.org/recursos/Localizacion/Barrio/{BARRIO}";
+        rr:termType rr:IRI;
+        rr:class clases:Barrio
+    ].
+
+
+<#Distrito_Mapping> a rr:TriplesMap;
+    rml:logicalSource[
+        rml:source "./data/museos.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    rr:subjectMap[
+        rr:template "https://www.mapmadrid.org/recursos/Localizacion/Distrito/{DISTRITO}";
+        rr:termType rr:IRI;
+        rr:class clases:Barrio
     ].

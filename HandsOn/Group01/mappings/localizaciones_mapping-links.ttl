@@ -2,10 +2,10 @@
 @prefix rml: <http://semweb.mmlab.be/ns/rml#>.
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.          
 @prefix ex: <http://example.com/ns#>.
-@prefix clases: <https://www.mapmadrid.org/ontology/0.1.0/Clases/>.
+@prefix clases: <https://www.mapmadrid.org/ontology/Clases/>.
 @prefix schema: <http://www.schema.org/>.
 @prefix owl: <http://www.w3.org/2002/07/owl>.
-@prefix prop: <https://www.mapmadrid.org/ontology/0.1.0/Propiedades/>.
+@prefix prop: <https://www.mapmadrid.org/ontology/Propiedades/>.
 @prefix xsd: <https://www.w3.org/XMLSchema/>.
 
 <#Localizaciones_Mapping> a rr:TriplesMap;
@@ -82,14 +82,16 @@
     rr:predicateObjectMap [
       rr:predicate schema:latitude;
       rr:objectMap [
-        rml:reference "LATITUD" 
+        rml:reference "LATITUD";
+        rr:termType schema:Number
       ]
     ];
 
     rr:predicateObjectMap [
       rr:predicate schema:longitude;
       rr:objectMap [
-        rml:reference "LONGITUD" 
+        rml:reference "LONGITUD"; 
+        rr:termType schema:Number
       ]
     ].
 

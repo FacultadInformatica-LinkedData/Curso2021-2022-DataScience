@@ -5,28 +5,24 @@ from rdflib.plugins.sparql import prepareQuery
 
 
 G = Graph()
-G.parse("./rdf/museos.ttl", format="ttl")
-
+G.parse(r"./Group01/rdf/linked_museos.ttl", format="ttl")
+print("TEXT PARSED")
 # Carga de los Namespaces
 
-prop = Namespace("https://www.mapmadrid.org/ontology/0.1.0/Propiedades/")
-clases = Namespace("https://www.mapmadrid.org/ontology/0.1.0/Clases/")
+prop = Namespace("https://www.mapmadrid.org/ontologia/Propiedades/")
+clases = Namespace("https://www.mapmadrid.org/ontologia/Clases/")
 
 #
 
-q = prepareQuery("""
-    SELECT ?l
+q = prepareQuery("""SELECT DISTINCT ?value
     WHERE{
-        ?x prop:isLocated ?loc.
-        ?loc prop:hasCoordinates ?lat.
-        ?lat schema:latitude ?l.
-    }   
-    """,
-    initNs={
-        "prop": "https://www.mapmadrid.org/ontology/0.1.0/Propiedades/",
-        "schema": "http://www.schema.org/"
-        }
+        ?name rdf:type <https://www.mapmadrid.org/ontology/0.1.0/Clases/Museos>.
+        ?name <https://www.mapmadrid.org/ontology/0.1.0/Propiedades/isLocated> ?loc.
+        ?loc <https://www.mapmadrid.org/ontology/0.1.0/Propiedades/inNeighborhood> ?value.
+    }
+    """
 )
 
-for name in G.query(q):
-    print(name[0])
+print("[DOING QUERY]")
+for dist in G.query(q):
+    print(dist)

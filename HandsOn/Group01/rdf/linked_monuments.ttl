@@ -1,4 +1,5 @@
 @base          <http://helio.linkeddata.es/> .
+
 <https://www.mapmadrid.org/resources/Localizaciones/Coordenadas/42899985474432N7550>
         a       <http://www.schema.org/GeoCoordinatess> ;
         <http://www.schema.org/latitude>

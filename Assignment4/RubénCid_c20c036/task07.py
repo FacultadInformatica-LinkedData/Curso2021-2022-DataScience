@@ -27,6 +27,8 @@ from rdflib.plugins.sparql import prepareQuery
 ns = Namespace("http://somewhere#")
 
 # RDFLIB
+print("[TASK 1]\n")
+
 for subs, _, _ in g.triples((None, RDFS.subClassOf, ns.Person)):
     print(f"[RDFLIB] SUBCLASSES: {subs}")
 
@@ -48,7 +50,7 @@ for subs in g.query(q):
 **TASK 7.2: List all individuals of "Person" with RDFLib and SPARQL (remember the subClasses)**
 """
 # RDFLIB
-print()
+print("\n[TASK 2]\n")
 # Subclasses First
 
 for subs, p1, o1 in g.triples((None, RDF.type, None)):
@@ -80,18 +82,18 @@ for subs in g.query(q):
 **TASK 7.3: List all individuals of "Person" and all their properties including their class with RDFLib and SPARQL**
 """
 
-print()
+print("\n[TASK 3]\n")
 # 
 for subs, p1, o1 in g.triples((None, RDF.type, None)):
     for _ in g.triples((o1, RDFS.subClassOf, ns.Person)):
         for s, p, o in g.triples((subs, None, None)):
-            print(f"[RDFLIB] ALL: {subs} {p} {o}")
+            print(f"[RDFLIB] ALL INDIVIDUALS: {subs} {p} {o}")
 
 
 # Actual Instances of Person
 for subs, p1, o1 in g.triples((None, RDF.type, ns.Person)):
     for s, p, o in g.triples((subs, None, None)):
-        print(f"[RDFLIB] ALL: {subs} {p} {o}")
+        print(f"[RDFLIB] ALL INDIVIDUALS: {subs} {p} {o}")
 
 
 
@@ -111,5 +113,5 @@ initNs={
 
 
 for subs, prop, val in g.query(q):
-    print(f"[SPARQL] ALL: {subs} {prop} {val}")
+    print(f"[SPARQL] ALL INDIVIDUALS: {subs} {prop} {val}")
     
