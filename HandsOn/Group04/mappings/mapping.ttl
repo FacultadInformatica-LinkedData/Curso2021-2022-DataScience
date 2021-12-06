@@ -91,6 +91,7 @@
  rml:logicalSource [
    rml:source "./data/contenedores.csv";
    rml:referenceFormulation ql:CSV ];
+   
  rr:subjectMap [
    rr:template "http://www.semanticweb.org/smartcity/Ubicacion/{Ubicacion}";
    rr:termType rr:IRI; 
