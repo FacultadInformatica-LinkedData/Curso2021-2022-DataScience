@@ -74,7 +74,7 @@
 
 ###  http://www.semanticweb.org/smartcity/#porcentaje_de_llenado
 <http://www.semanticweb.org/smartcity/#porcentaje_de_llenado> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:domain <http://www.semanticweb.org/smartcity/#Contenedor> ;
+                                                              rdfs:domain <http://www.semanticweb.org/smartcity/#Recolecciones_pasadas> ;
                                                               rdfs:range xsd:nonNegativeInteger .
 
 
