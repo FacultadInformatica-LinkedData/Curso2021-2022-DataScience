@@ -22,5 +22,7 @@
 - [x] Includes a description of the application user interface
 
 ## Comments on the self-assessment
-- [x] Includes a description of the application user interface
-- We have included a second project in case the main one ends up being too ambitious.
+
+
+
+
