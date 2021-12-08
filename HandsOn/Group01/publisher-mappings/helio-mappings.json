@@ -1,0 +1,21 @@
+{
+    "datasources":[
+        {
+            "id": "Monumentos",
+            "handler": {"type": "RDFHandler", "format": "TTL"},
+            "provider": {"type": "FileProvider", "file": "./rdf/monumentos_linked.ttl"}
+        },
+        {
+            "id": "Museos",
+            "handler": {"type": "RDFHandler", "format": "TTL"},
+            "provider": {"type": "FileProvider", "file": "./rdf/museos_linked.ttl"}
+        }
+    
+    ],
+    "resource_rules":[
+        {
+            "id": "RDF file rules",
+            "datasource_ids": ["Monumentos", "Museos"]
+        }
+    ]
+}
