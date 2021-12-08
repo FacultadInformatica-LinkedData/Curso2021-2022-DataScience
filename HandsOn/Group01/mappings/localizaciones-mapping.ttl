@@ -1,0 +1,124 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.          
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ex: <http://example.com/ns#>.
+@prefix clases: <https://www.mapmadrid.org/ontology/0.1.0/Clases/>.
+@prefix schema: <http://www.schema.org/>.
+@prefix prop: <https://www.mapmadrid.org/ontology/0.1.0/Propiedades/>.
+@prefix xsd: <https://www.w3.org/XMLSchema/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<#Localizaciones_Mapping> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/monumentos.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "https://www.mapmadrid.org/resources/Localizaciones/{ParsedStreet}";
+    rr:termType rr:IRI; rr:class clases:Localizaciones;
+  ];
+
+  # Data Properties
+  rr:predicateObjectMap [
+    rr:predicate prop:inDistrict;
+    rr:objectMap [
+      rml:reference "DISTRITO"; 
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:inNeighborhood;
+    rr:objectMap [
+      rml:reference "BARRIO" 
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:hasAddress;
+    rr:objectMap [ 
+        rr:parentTriplesMap <#Postaldress_Mapping>;
+        rr:joinCondition [
+            rr:child "ParsedPostal";  rr:parent "ParsedPostal";];
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate prop:hasCoordinates;
+    rr:objectMap [ 
+        rr:parentTriplesMap <#Coordenadas_Mapping>;
+        rr:joinCondition [
+            rr:child "CoorParsed";  rr:parent "CoorParsed";];
+    ]
+].
+
+<#Coordenadas_Mapping> a rr:TriplesMap;
+    rml:logicalSource[
+        rml:source "./data/monumentos.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+    rr:subjectMap [
+      rr:template "https://www.mapmadrid.org/resources/Localizaciones/Coordenadas/{CoorParsed}";
+      rr:termType rr:IRI;
+      rr:class schema:GeoCoordinatess;
+    ];
+    
+    rr:predicateObjectMap [
+      rr:predicate schema:latitude;
+      rr:objectMap [
+        rml:reference "LATITUD" 
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate schema:longitude;
+      rr:objectMap [
+        rml:reference "LONGITUD" 
+      ]
+    ].
+
+<#Postaldress_Mapping> a rr:TriplesMap;
+    rml:logicalSource[
+        rml:source "./data/monumentos.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    rr:subjectMap[
+        rr:template "https://www.mapmadrid.org/resources/Localizaciones/Postal/{ParsedPostal}";
+        rr:termType rr:IRI;
+        rr:class schema:PostalAddress;
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate schema:addressCountry;
+      rr:objectMap [
+        rml:constant "España";
+        rr:termType rr:Literal
+      ]
+    ]; 
+
+    rr:predicateObjectMap [
+      rr:predicate schema:addressLocality;
+      rr:objectMap [
+        rml:reference "LOCALIDAD" 
+      ]
+    ]; 
+
+    rr:predicateObjectMap [
+      rr:predicate schema:addressRegion;
+      rr:objectMap [
+        rml:reference "PROVINCIA" 
+      ]
+    ]; 
+
+    rr:predicateObjectMap [
+      rr:predicate schema:postalCode;
+      rr:objectMap [
+        rml:reference "CODIGO-POSTAL" 
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate schema:streetAddress;
+      rr:objectMap [
+        rml:reference "DIRECCION" 
+      ]
+    ].

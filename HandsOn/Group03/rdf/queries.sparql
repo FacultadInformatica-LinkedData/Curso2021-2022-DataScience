@@ -1,0 +1,56 @@
+PREFIX base: <http://www.grafosconocimiento.es/>
+PREFIX rdf: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX car: <http://www.grafosconocimiento.es/lcc/ontology/estudiocoches#>
+PREFIX rs: <http://www.grafosconocimiento.es/resources/GovID/>
+
+
+# QUERY 1: Devuelve los vehículos cuyo combustible es Gas Natural
+
+SELECT DISTINCT ?number
+WHERE
+{
+    ?number car:hasFuelType <http://www.grafosconocimiento.es/resources/Fuel/CNG>.
+    ?number ?prop ?value.
+} 
+
+
+# QUERY 2: Devuelve los 100 primeros modelos de la base de datos
+
+SELECT DISTINCT ?value
+WHERE
+{
+    ?number car:hasModelCar ?value.
+    ?number ?prop ?value.
+} LIMIT 100
+
+
+# QUERY 3: Devuelve el vehículo cuya matrícula es YJ13ZMX
+
+SELECT DISTINCT ?number
+WHERE
+{
+    ?number car:hasRegistration <http://www.grafosconocimiento.es/resources/CarIdentifier/YJ13ZMX>
+    ?number ?prop ?value.
+} 
+
+
+# QUERY 4: Devuelve el número de coches cuyo consumo es 21.24 MPG
+
+SELECT DISTINCT ?prop COUNT(?value)
+WHERE
+{
+	?number car:hasMPG <http://www.grafosconocimiento.es/resources/FuelEfficiency/21.24> .
+	?number ?prop ?value.
+} LIMIT 50
+
+
+# QUERY 5: Devuelve la distancia recorrida del coche número 1141 desde su primer uso
+
+SELECT DISTINCT ?value
+WHERE 
+{
+	?rs:1141 car:hasOdometer ?value.
+	?number ?prop ?value.
+} 

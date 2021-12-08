@@ -1,0 +1,47 @@
+
+// Monumentos
+class:https://www.mapmadrid.org/ontology/0.1.0/Clases/
+prop:https://www.mapmadrid.org/ontology/0.1.0/Propiedades/
+
+// GENERAL URIS: (URI Creation Procedure)
+
+https://github.com/oeg-upm/helio/wiki/Streamlined-use-cases#materialising-rdf-from-csv--xml-and-json-files-using-rml
+
+// Comando 
+java -jar materialiser-0.3.14.jar --mappings=mappings --write=output2.ttl --close --clear
+
+PK: Identificador PK (se saca directamente de los datos)
+subtype: última parte los datos de subtipos
+type: última parte de la columnda de tipo de los datos
+calle: Formatedo de la calle: Quitar espacios y primera palabra letra de cada palabra en mayúscula
+LATLON: unir las 3 primeras cifras de latitud y la longitud
+XY: unir las 3 primeras cifras de las coordenadas X e Y.
+
+https://www.mapmadrid.org/resources/Monuments/<PK>
+https://www.mapmadrid.org/resources/Museums/<PK>
+
+Localizaciones .https://www.mapmadrid.org/resources/Localizations/<calle>
+
+https://www.mapmadrid.org/resources/Coordenadas/{CoorParsed} // Pertenece a schema.org
+https://www.mapmadrid.org/resources/Postal/<> // Pertenece a schema.org 
+
+https://www.mapmadrid.org/resources/MonumentType/<subtype>
+https://www.mapmadrid.org/resources/MuseumType/<type><ID>
+
+// EJEMPLO
+<https://www.mapmadrid.org/resource/Museums/MuseoPrado> rdf:type class:Museums.
+<https://www.mapmadrid.org/resource/Monuments/MuseoPrado> prop:hasName "Museo Prado"^^xsd:string.
+<https://www.mapmadrid.org/resource/Monuments/MuseoPrado> prop:hasPk 2131231^^xsd:nonNegativeInteger.
+
+<https://www.mapmadrid.org/resource/Monuments/MuseoPrado> prop:isLocated <https://www.mapmadrid.org/resources/Localizations/<>>.
+
+
+// Puedes escribir aqui
+Cambiar las tildes por TT
+Cambair puntuación por _
+
+
+// NOtas
+Latitud
+40.414358466555235
+414358466555235

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Analysis Group 03</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class = "container border border-dark ">
+        <p class="text-center"><b class="h1">Analysis of Data</b></p>
+        </div>
+
+        <div class="container">
+            <br>
+        <h2><b>License of the Data Source</b></h2>
+
+            <p><b>License of the dataset:</b> Open Government Licence v3.0.<br>
+            <b>Righstholder:</b> the UK goverment <br>
+            <b>Publisher:</b> The National Archives from the UK goverment</p>
+            <b>With this license we are free to: </b>
+            <ul>
+                <li>copy, publish, distribute and transmit the Information</li>
+                <li>adapt the Information</li>
+                <li>exploit the Information commercially and non-commercially for example,
+                    by combining it with other Information, or by including it in our own product or application. </li>
+            </ul>
+        </div>
+
+
+
+        <div class="container">
+        <h2><b>Resource Naming</b></h2>
+
+            <p><b>Domain:</b> http://www.grafosconocimiento.es/</p>
+            <p><b>Path:</b> http://www.grafosconocimiento.es/lcc/</p>
+            <p><b>Data:</b> http://www.grafosconocimiento.es/lcc/resources/</p>
+            <p><b>Ontology:</b> http://www.grafosconocimiento.es/lcc/ontology/estudiocoches</p>
+
+            <p><b>Classes:</b> http://www.grafosconocimiento.es/lcc/ontology/estudiocoches/classes#[className] . </p>
+            <p><b>Properties:</b> http://www.grafosconocimiento.es/lcc/ontology/estudiocoches/properties#[propertyName] . </p>
+            <p><b>Individual:</b> http://www.grafosconocimiento.es/lcc/resources/[className]/[identifier] . </p>
+        </div>
+
+
+        <div class=" container table-responsive ">
+            <h2><b>Data Characteristics</b></h2><br>
+        <table class="table table-bordered table-sm ">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Column</th>
+                    <th>Type</th>
+                    <th>Range</th>
+                    <th>Problems</th>
+                </tr>
+            </thead>
+
+            <tr>
+                <td>Number</td>
+                <td>String</td>
+                <td>Unique? Empty values</td>
+                <td>Repeated values</td>
+            </tr>
+
+            <tr>
+                <td>Registration</td>
+                <td>String</td>
+                <td>Unique? Empty values (1 cell)</td>
+                <td>Some registrations are repeated</td>
+            </tr>
+
+            <tr>
+                <td>Details (vehicle's model)</td>
+                <td>String</td>
+                <td>Not unique (293 models), empty values</td>
+				<td>Eight cells with empty values </td>
+            </tr>
+
+            <tr>
+                <td>Product (type of fuel)</td>
+                <td>String</td>
+                <td>Not unique (2 types considering that <br>
+                    gasoil and diesel are the same type), empty values</td>
+				<td> </td>	
+            </tr>
+
+            <tr>
+                <td>Odometer (Km)</td>
+                <td>Decimal</td>
+                <td>0-424905</td>
+                <td>Some cells with negative values (discarded)</td>
+            </tr>
+
+            <tr>
+                <td>Distance (Km)</td>
+                <td>Decimal</td>
+                <td>0-49463</td>
+                <td>Some cells with negative values (discarded)</td>
+            </tr>
+
+            <tr>
+                <td>Unit</td>
+                <td>String</td>
+                <td>Not Unique (Hours, Kilometres, Miles, No Limit), <br>empty values</td>
+                <td>Two cells with the value No Limit?</td>
+            </tr>
+
+            <tr>
+                <td>Miles per Gallon (MPG)</td>
+                <td>Decimal</td>
+                <td>0-824,85</td>
+                <td>Some cells with negative values (discarded)</td>
+            </tr>
+            
+        </table>
+        </div>
+
+        <div class="container">
+            <b>Note: </b> For the analysis of these data, we have discarded the last cells
+            which doesn't provide any information to the data. <br>
+            We also discarded those cells
+            with negative values in the parameters of Distance, Odometer and Miles per Gallon.
+        </div>
+
+    </body>
+
+</html>
