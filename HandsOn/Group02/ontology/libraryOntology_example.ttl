@@ -1,0 +1,86 @@
+# @prefix  <http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix : <http://www.knowledge.org/g02_libraries/ontologies/Library#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@base <http://www.knowledge.org/g02_libraries/ontologies/Library> .
+@prefix resource: <http://www.knowledgegraph.org/g02_libraries/resource/>.
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.knowledgegraph.org/g02_libraries/resource/1757
+resource:Biblioteca_Pública_Municipal_Aluche rdf:type owl:NamedIndividual ,
+                                                                                                    :Library ;
+                                                                                               :hasContact resource:Contact/Contacto1 ;
+                                                                                               vcard:hasGeo resource:Coordinates/Coordinates1 ;
+                                                                                               :hasPrincipalLocation resource:Location/Location1 ;
+                                                                                               :hasTimeTable resource:Timetable/Timetable1 ;
+                                                                                               :hasTransport resource:Transport/Transporte1 ;
+                                                                                               :hasEquipment "Normas derivadas de la pandemia del coronavirus:   Es obligatorio el uso de mascarilla en el interior de la biblioteca. Se recomienda aplicar gel hidroalcohólico al entrar en el edificio y en aquellos espacios en los que esté a disposición de los usuarios.   Espacios:   Sala de consulta y lectura. Zona de publicaciones periódicas. Sala infantil y juvenil.    Servicios:   Préstamo de libros, multimedia y revistas. Préstamo de dispositivos de ayuda a la lectura (lupas para libros) Servicio de acceso público a Internet. Zona wifi. Información bibliográfica. Animación a la lectura y formación de usuarios: adaptadas a las medidas sanitarias." ;
+                                                                                               vcard:hasUID 1757 ;
+                                                                                               :hasDescription "La Biblioteca Pública de Aluche se inauguró en junio de 1992 con la asistencia del entonces alcalde D. José María Alvarez del Manzano. Se sitúa en la primera planta del Centro Cultural Fernando de los Ríos, diseñado por el arquitecto José María Guijarro. Desde 1986 y hasta la fecha de su inauguración oficial, se encontraba situada en este mismo centro cultural y planta pero en el ala derecha del edificio y con la mitad de superficie. La ubicación de la biblioteca en el centro cultural en la década de los 80  se decidió porque éste era considerado un elemento aglutinador de la vida asociativa y cultural de los distritos." ;
+                                                                                               foaf:name "Biblioteca Pública Municipal Aluche" ;
+                                                                                               vcard:hasURL "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=7f0e3d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+
+###  http://www.knowledgegraph.org/g02_libraries/resource/Contact/Contacto1
+resource:Contact/Contacto1 rdf:type owl:NamedIndividual ,
+                                                                             :Contact ;
+                                                                        vcard:hasEmail "bpaluche@madrid.es" ;
+                                                                        vcard:hasTelephone "91 719 89 96" .
+
+
+###  http://www.knowledgegraph.org/g02_libraries/resource/Coordinates/Coordinates1
+resource:Coordinates/Coordinates1 rdf:type owl:NamedIndividual ,
+                                                                                    :Coordinates ;
+                                                                           :hasLatitude 40.39597072367931 ;
+                                                                           :hasLongitude -3.7562716852987847 .
+
+
+###  http://www.knowledgegraph.org/g02_libraries/resource/Direction/Direccion1
+resource:Direction/Direccion1 rdf:type owl:NamedIndividual ,
+                                                                                :Direction ;
+                                                                       foaf:name "Camarena" ;
+                                                                       :hasNumber 10 ;
+                                                                       :hasZIpCode 28047 ;
+                                                                       :hasVialClass "Calle" .
+
+
+###  http://www.knowledgegraph.org/g02_libraries/resource/Location/Location1
+resource:Location/Location1 rdf:type owl:NamedIndividual ,
+                                                                              :Location ;
+                                                                     :hasDirection resource:Direction/Direccion1 ;
+                                                                     :hasNeighbourhood resource:Neighbourhood/Barrio1 ;
+                                                                     vcard:hasLocality "Madrid" .
+
+
+###  http://www.knowledgegraph.org/g02_libraries/resource/Neighbourhood/Barrio1
+resource:Neighbourhood/Barrio1 rdf:type owl:NamedIndividual ,
+                                                                                 :Neighbourhood ;
+                                                                        :hasDistrict "Latina" ;
+                                                                        foaf:name "Aluche" .
+
+
+ ###  http://www.knowledgegraph.org/g02_libraries/resource/Timetable/Timetable1
+resource:Timetable/Timetable1 rdf:type owl:NamedIndividual ,
+                                                                      :Timetable ;
+                                                             :closingDays "No abre los días festivos, ni el 24 y 31 de diciembre" ;
+                                                             :hasHourClose "21:00:00" ;
+                                                             :hasHourOpen "08:30:00" .
+
+
+
+###  http://www.knowledgegraph.org/g02_libraries/resource/Transport/Transporte1
+resource:Transport/Transporte1 rdf:type owl:NamedIndividual ,
+                                                                                 :Transport ;
+                                                                        :hasBusLine "Laguna; Casa de Campo; Aluche" ;
+                                                                        :hasSubway "25; 31; 138" ;
+                                                                        :hasRenfe "laguna; aluche" .
+
+

@@ -1,0 +1,245 @@
+@prefix : <http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix lib: <http://www.knowledge.org/g02_libraries/ontologies/Library#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@base <http://www.knowledge.org/g02_libraries/ontologies/Library> .
+
+<http://www.knowledge.org/g02_libraries/ontologies/Library> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasContact
+lib:hasContact rdf:type owl:ObjectProperty ;
+               rdfs:domain lib:Library ;
+               rdfs:range lib:Contact .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasDirection
+lib:hasDirection rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf lib:hasPrincipalLocation ;
+                 rdfs:domain lib:Location ;
+                 rdfs:range lib:Direction .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasNeighbourhood
+lib:hasNeighbourhood rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf lib:hasPrincipalLocation ;
+                     rdfs:domain lib:Location ;
+                     rdfs:range lib:Neighbourhood .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasPrincipalLocation
+lib:hasPrincipalLocation rdf:type owl:ObjectProperty ;
+                         rdfs:domain lib:Library ;
+                         rdfs:range lib:Location .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasTimeTable
+lib:hasTimeTable rdf:type owl:ObjectProperty ;
+                 rdfs:domain lib:Library ;
+                 rdfs:range lib:Timetable .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasTransport
+lib:hasTransport rdf:type owl:ObjectProperty ;
+                 rdfs:domain lib:Library ;
+                 rdfs:range lib:Transport .
+
+###  http://www.w3.org/2006/vcard/ns#hasGeo
+vcard:hasGeo rdf:type owl:ObjectProperty ;
+                                         rdfs:domain lib:Library ;
+                                         rdfs:range lib:Coordinates  .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#closingDays
+lib:closingDays rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain lib:Timetable ;
+                rdfs:range xsd:string .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasBusLine
+lib:hasBusLine rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain lib:Transport ;
+               rdfs:range xsd:string .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasDescription
+lib:hasDescription rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain lib:Library ;
+                   rdfs:range xsd:string .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasDistrict
+lib:hasDistrict rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain lib:Neighbourhood ;
+                rdfs:range xsd:string .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasEquipment
+lib:hasEquipment rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain lib:Library ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasFax
+lib:hasFax rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain lib:Contact ;
+           rdfs:range xsd:string .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasHourClose
+lib:hasHourClose rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain lib:Timetable ;
+                 rdfs:range xsd:time .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasHourOpen
+lib:hasHourOpen rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain lib:Timetable ;
+                rdfs:range xsd:time .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasLatitude
+lib:hasLatitude rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain lib:Coordinates ;
+                rdfs:range xsd:string .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasLongitude
+lib:hasLongitude rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain lib:Coordinates ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasNumber
+lib:hasNumber rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain lib:Direction ;
+              rdfs:range xsd:int .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasRenfe
+lib:hasRenfe rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain lib:Transport ;
+             rdfs:range xsd:string .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasSubway
+lib:hasSubway rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain lib:Transport ;
+              rdfs:range xsd:string .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasVialClass
+lib:hasVialClass rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain lib:Direction ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasZipCode
+lib:hasZipCode rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain lib:Direction ;
+               rdfs:range xsd:int .
+
+
+###  http://www.w3.org/2006/vcard/ns#Locality
+vcard:Locality rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf owl:topDataProperty ;
+                                           rdfs:domain lib:Location ;
+                                           rdfs:range xsd:string .
+
+
+###  http://www.w3.org/2006/vcard/ns#hasEmail
+vcard:hasEmail rdf:type owl:DatatypeProperty ;
+                                           rdfs:subPropertyOf owl:topDataProperty ;
+                                           rdfs:domain lib:Contact ;
+                                           rdfs:range xsd:string .
+
+
+###  http://www.w3.org/2006/vcard/ns#hasTelephone
+vcard:hasTelephone rdf:type owl:DatatypeProperty ;
+                                               rdfs:subPropertyOf owl:topDataProperty ;
+                                               rdfs:domain lib:Contact ;
+                                               rdfs:range xsd:string .
+
+
+###  http://www.w3.org/2006/vcard/ns#hasURL
+vcard:hasURL rdf:type owl:DatatypeProperty ;
+                                         rdfs:subPropertyOf owl:topDataProperty ;
+                                         rdfs:domain lib:Library ;
+                                         rdfs:range xsd:anyURI .
+
+
+###  http://xmlns.com/foaf/0.1/name
+foaf:name rdf:type owl:DatatypeProperty ;
+                                 rdfs:subPropertyOf owl:topDataProperty ;
+                                 rdfs:domain lib:Direction ,
+                                             lib:Library ,
+                                             lib:Neighbourhood ;
+                                 rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#Contact
+lib:Contact rdf:type owl:Class .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#Coordinates
+lib:Coordinates rdf:type owl:Class .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#Direction
+lib:Direction rdf:type owl:Class ;
+              rdfs:subClassOf lib:Location .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#Library
+lib:Library rdf:type owl:Class .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#Location
+lib:Location rdf:type owl:Class .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#Neighbourhood
+lib:Neighbourhood rdf:type owl:Class ;
+                  rdfs:subClassOf lib:Location .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#Timetable
+lib:Timetable rdf:type owl:Class .
+
+
+###  http://www.knowledge.org/g02_libraries/ontologies/Library#Transport
+lib:Transport rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

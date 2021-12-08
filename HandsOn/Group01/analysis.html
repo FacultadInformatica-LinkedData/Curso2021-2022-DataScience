@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>
+        Análisis y licencia de los datos
+    </title>
+    <link rel="stylesheet" href="./requirementes/requirements.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body style="background-color: rgb(133, 194, 209);">
+    <h1 style="text-align: left;">Grupo 1. Análisis de los datos</h1>
+    <div style="width: 100%; text-align: justify;">
+        <ol class="indice">
+            <h2> Lista de Requirimientos de los Datos</h2>
+
+            <li><a href="#analisis">Análisis de los datos</a></li>
+            <li><a href="#licencia">Licencia de los Datos</a></li>
+            <li><a href="#estrategia">Resource Naming Strategy</a></li>
+            <li><a href="#complicaciones">Complicaciones RDF</a></li>
+        </ol>
+    </div>
+    <div id="analisis" class="respuesta">
+        <h2>Análisis de los datos</h2>
+        <hr>
+        <P>
+            En este caso, como los datos vienen de la misma funte, el trabajo de limpieza de los datos ha sido sencillo, sólo teniendo que eliminar ciertas columnas vacías o que no fuesemos a utilizar. Hemos comprobado que no hay incosistencias en el nombrado y etiquetado
+            de las categorías usando las Facets de Openrefine dejando los datos listos para su uso.
+        </P>
+        <P>
+            Otro cambio importante que hemos tenido que realizar a los datos es definir sus tipos, ya que vienen como texto de forma predeterminada. Con Openrefine, hemos podido cambiar de manera sencilla algunos textos a tipo numérico, títlecase, etc...
+        </P>
+        <P>
+            Por último, definimos las relaciones entre los datos y su esquema (esto quedará patente en la parte de la ontología) como agrupar todos los datos relacionados con la localización del lugar en una misma categoría o diferenciar entre las propiedades comunes,
+            las que solo tienen los museos, o las que son exclusivas de los munumentos.
+        </P>
+    </div>
+    <div id="licencia" class="respuesta">
+        <h2>Licencia de los datos</h2>
+        <hr>
+        <P>
+            Antes de empezar a utilizar los datos y trasformarlos para crear nuestra aplicación, es necesario analizar todos los derechos y licencias de los datos. Según la página oficial de datos abiertos del ayuntamiento de Madrid, las condiciones de uso de los
+            datos son las siguintes
+        </P>
+        <P>
+            Condiciones generales para la reutilización:
+        </P>
+        <ol>
+            <li>Está prohibido desnaturalizar el sentido de la información.</li>
+            <li>Debe citarse la fuente de los documentos objeto de la reutilización. Esta cita podrá realizarse de la siguiente manera: "Origen de los datos: Ayuntamiento de Madrid (o, en su caso, órgano administrativo, organismo o entidad de que se trate)"</li>
+            <li>Debe mencionarse la fecha de la última actualización de los documentos objeto de la reutilización, siempre y cuando estuviera incluida en el documento original.</li>
+            <li>No se podrá indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa, patrocina o apoya la reutilización que se lleve a cabo con la información.</li>
+            <li>Deben conservarse, no alterarse ni suprimirse los metadatos sobre la fecha de actualización y las condiciones de reutilización aplicables incluidos, en su caso, en el documento puesto a disposición para su reutilización.</li>
+            <li>En caso de información anonimizada por protección de datos personales u otros motivos, está expresamente prohibido realizar labores de re-identificación de personas a partir de estos datos y otras fuentes de datos e información posibles, pasadas,
+                actuales o futuras.</li>
+        </ol>
+        <P>
+            Por tanto, estamos hablando, y como se indica en la página de datos.gob.es del gobierno de España (extrapolabe a los datos abiertos de todo el territorio español) de una licencia de Open Data Commons Attribution License. Esta es una licencia que permite
+            difundir, reutilizar o adaptar los datos con la condición de hacer referencia a la autoría de los datos; en este caso al Ayuntamientode Madrid.
+        </P>
+        <P>
+            En nuestra opinión, la mejor licencia para nuestra base de datos sería esta misma, para respetar las condiciones de la fuente y a su vez que nuestros datos sean accesibles a cualquier persona que los requiera. El objetivo de nuestra aplicación no es el
+            de sacar beneficio de estos datos, sino el de crear conexiones entre ellos para generar un valor y utilidad adicional a partir de la web semántica y linked data que ahora esos datos no tienen. Por lo tanto, creemos que sería de escaso valor
+            el hacer privados este trabajo, y que, por consiguiente, una licencia de Open Data Commons Attribution License es la más indicada para nuestro trabajo. Esto se aplicaría añadiendo al final de nuestra Database el siguiente texto:
+        </P>
+        <P>
+            This 'linkeddatamadrid' database is made available under the Open Data Commons Attribution License: <a href="http://opendatacommons.org/licenses/by/1.0/">http://opendatacommons.org/licenses/by/1.0/</a>
+        </P>
+        <P>
+            <i>*Las condiciones detalladas de esta licencia vienen especificadas en la url que se indica</i><br>
+        </P>
+    </div>
+    <div id="estrategia" class="respuesta">
+        <h2>Resource Naming Strategy</h2>
+        <hr>
+        <p>
+            Las uris se dividirán en dos tipos:
+            <ul>
+                <li> Uris para la definición de la ontología </li>
+                <li> Uris para la definición de los recursos inicializados</li>
+            </ul>
+
+            <h4 style="font-size: 24">Uris de la Ontologia</h4>
+            <p>
+                Todas ellas comienzan por: <b> https://www.mapmadrid.org/ontology/0.1.0/ </b>
+                <br> Estas Uris a su vez se dividen:
+                <ul>
+                    <li> Uris para la definición de la Clases </li>
+                    <li> Uris para la definición de Propiedades</li>
+                </ul>
+
+                Las uris de definición de clases tienen el siguiente formato: <b> https://www.mapmadrid.org/ontology/0.1.0/Clases/ </b>
+                <br> Las uris de definición de propiedades tienen el siguiente formato: <b> https://www.mapmadrid.org/ontology/0.1.0/Propiedades/ </b>
+            </p>
+            <h4 style="font-size: 24">Uris de los Recursos</h4>
+            <p>
+                Todas ellas comienzan por: <b>https://www.mapmadrid.org/Recursos</b>
+                <br> Hay tres uris principales:
+                <ul>
+                    <li>
+                        <h4 style="font-size: 24">En esta categoria: las uris tienen esta forma:</h4> En esta categoria: las uris tienen esta forma: <b> https://www.mapmadrid.org/resources/Museos/ </b>
+                        <br> También se pueden encontrar las uris que inicializados el tipo de museos (Esto es útil para filtrar en una busqueda más eficientemente).
+                        <br> Estas tienen este formato: <b> https://www.mapmadrid.org/resources/MuseumType/ </b>
+                    </li><br>
+                    <li>
+                        <h4 style="font-size: 24">Uris para los Monumentos:</h4> En esta categoria: las uris tienen esta forma: <b> https://www.mapmadrid.org/resources/Monumentos/</b>
+                        <br> También se pueden encontrar las uris en lasque inicializados el subtipo de Monumentos (Esto es útil para filtrar en una busqueda más eficientemente).
+                        <br> Estas tienen este formato: <b> //www.mapmadrid.org/resources/MonumentType/ </b>
+                    </li><br>
+                    <li>
+                        <h4 style="font-size: 24">Uris para los localización:</h4> En esta categoria: las uris tienen esta forma: <b> https://www.mapmadrid.org/resources/Localizaciones/</b>
+                        <br> También se pueden encontrar las uris en las que inicializados y guardamos las coordenadas y otros subnodos de localización .
+                    </li>
+                </ul>
+            </p>
+        </p>
+        <h4 style="font-size: 24">Ejemplos de URIs </h4>
+        <ol>
+            <li>Base uri: www.mapmadrid.es/group01/</li>
+            <li>Class uri: https://www.mapmadrid.org/ontology/0.1.0/Clases/Museos</li>
+            <li>Property uri: https://www.mapmadrid.org/ontology/0.1.0/Propiedades/hasPK</li>
+            <li>Individual uri: https://www.mapmadrid.org/resources/Monuments/2312321</li>
+            <li>Individual uri: https://www.mapmadrid.org/resources/Museos/232131241</li>
+            <li>Individual uri: https://www.mapmadrid.org/resources/Localizaciones/CalleAmaniel</li>
+        </ol>
+
+    </div>
+    <div id="compliaciones" class="respuesta"> 
+        <h2>Complicaciones RDF Mappings</h2>
+        <p>
+            Durante el proceso de mapear los datos y pasarlos a rdf utilizando RML. No pudimos completar dado que la
+            aplicación de helio presentaba problemas si intentabamos correr todos los datos en conjunto de datos
+            medianos ( +100 lineas) y grandes. Daba errores con algun elemento interno que ejecuta Queries SQL y por alguna razón,
+            estas se rompian y daban error al introducir ciertos datos en ellas.
+            Por si acaso y para demostrar que funciona, se han parseado correctamente para todos los museos y alrededor de 100 monumentos.
+        </p>
+    </div>
+
+</body>
+
+</html>

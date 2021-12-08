@@ -1,0 +1,119 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.          
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ex: <http://example.com/ns#>.
+@prefix clases: <https://www.mapmadrid.org/ontology/0.1.0/Clases/>.
+@prefix schema: <http://www.schema.org/>.
+@prefix prop: <https://www.mapmadrid.org/ontology/0.1.0/Propiedades/>.
+@prefix xsd: <https://www.w3.org/XMLSchema/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<#Museos_Mapping> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/museos.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "https://www.mapmadrid.org/resources/Museos/{PK}";
+    rr:termType rr:IRI; rr:class clases:Museos;
+  ];
+
+  # Data Properties
+  rr:predicateObjectMap [
+    rr:predicate prop:hasPK;
+    rr:objectMap [
+      rml:reference "PK"; 
+      rr:datatype xsd:positiveInteger
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:openingHours;
+    rr:objectMap [
+      rml:reference "HORARIO" 
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:nearTransport;
+    rr:objectMap [
+      rml:reference "TRANSPORTE" 
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:contactPhone ;
+    rr:objectMap [
+      rml:reference "TELEFONO" 
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:hasDescription;
+    rr:objectMap [
+      rml:reference "DESCRIPCION" 
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate  prop:equpiment ;
+    rr:objectMap [
+      rml:reference "EQUIPAMIENTO" 
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:hasEntityDescription ;
+    rr:objectMap [
+      rml:reference "DESCRIPCION-ENTIDAD" 
+    ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate prop:contactEmail ;
+    rr:objectMap [
+      rml:reference "EMAIL" 
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:hasName;
+    rr:objectMap [
+      rml:reference "NOMBRE" 
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:isLocated;
+    rr:objectMap [ 
+        rr:parentTriplesMap <#Localizaciones_Mapping>;
+        rr:joinCondition [
+            rr:child "ParsedStreet";  rr:parent "ParsedStreet";];
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:isType;
+    rr:objectMap [ 
+        rr:parentTriplesMap <#TiposMuseos_Mapping>;
+        rr:joinCondition [
+            rr:child "TIPO";  rr:parent "TIPO";];
+    ]
+  ].
+
+<#TiposMuseos_Mapping>  a rr:TriplesMap; 
+    rml:logicalSource[
+        rml:source "./data/museos.csv" ;
+        rml:referenceFormulation ql:CSV
+    ];
+    rr:subjectMap [
+        rr:template "https://www.mapmadrid.org/resources/Museos/Tipos/{TIPO}";
+        rr:termType rr:IRI;
+        rr:class clases:MuseoType;
+    ];
+    rr:predicateObjectMap[
+        rr:predicate prop:fullType;
+        rr:objectMap[
+            rml:reference "TIPO"
+        ]
+    ].
