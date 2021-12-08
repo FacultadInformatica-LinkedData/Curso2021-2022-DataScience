@@ -1,0 +1,57 @@
+
+PREFIX lib: <http://www.knowledgegraph.org/g02_libraries/ontologies/Library#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+
+# 1: Devuelve todas las bibliotecas (50 bibliotecas)
+SELECT ?Library WHERE {
+    ?Library rdf:type lib:Library.
+}
+
+# 2: Devuelve las bibliotecas con fax junto con su teléfono fax (14 bibliotecas)
+SELECT ?Library ?FAX WHERE {
+   ?Library rdf:type lib:Library.
+   ?Library lib:hasContact ?contact.
+   ?contact lib:hasFax ?FAX.
+}
+
+# 3: Devuelve los barrios de Madrid con bibliotecas públicas (44 barrios distintos)
+SELECT DISTINCT ?nombre_barrio WHERE {
+   ?barrio rdf:type lib:Neighbourhood.
+   ?barrio foaf:name ?nombre_barrio.
+}
+
+# 4: Devuelve las librerias a las que se puede acceder con RENFE y sus correspondientes
+        lineas de RENFE (11 librerias)
+SELECT DISTINCT ?Library ?Renfe WHERE {
+   ?Library rdf:type lib:Library.
+   ?Library lib:hasTransport ?transporte.
+   ?transporte lib:hasRenfe ?Renfe.
+}
+
+# 5: Devuelve las librerias cuyo número de via es mayor que 40 y dicho número (9 librerias)
+SELECT ?Library ?num_de_via WHERE {
+   ?Library rdf:type lib:Library.
+   ?Library lib:hasPrincipalLocation ?loc.
+   ?loc lib:hasDirection ?dir.
+   ?dir lib:hasNumber ?num_de_via.
+   FILTER (?num_de_via > 40)
+}
+
+# 6: Devuelve el nombre de los barrios (solo los que aparecen en wikidata) donde están las
+        bibliotecas así como el link de ese barrio en wikidata (47 barrios)
+SELECT ?nombreBarrio ?wikibarrio WHERE {
+    ?Barrio rdf:type lib:Neighbourhood.
+    ?Barrio owl:sameAs ?wikibarrio.
+    ?Barrio foaf:name ?nombreBarrio.
+}
+
+# 7: Devuelve el nombre de las bibliotecas (solo las que están en wikidata) así como su enlace
+        a wikidata (40 bibliotecas)
+SELECT ?nombre_biblio ?wikibiblio WHERE {
+    ?Library rdf:type lib:Library.
+    ?Library owl:sameAs ?wikibiblio.
+    ?Library foaf:name ?nombre_biblio.
+}

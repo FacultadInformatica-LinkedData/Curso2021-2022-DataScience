@@ -1,0 +1,103 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.          
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix sm: <http://www.semanticweb.org/smartcity/>.
+
+<#Contenedor> a rr:TriplesMap;
+ rml:logicalSource [
+   rml:source "./data/contenedores.csv";
+   rml:referenceFormulation ql:CSV ];
+ rr:subjectMap [
+   rr:template "http://www.semanticweb.org/smartcity/Contenedor/{ID}";
+   rr:termType rr:IRI; 
+   rr:class sm:mobiliario_urbano ];
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:frecuencia_media_recolecciones; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "Promedio_llenado_dias";
+	  rr:termType rr:Literal]
+    ];
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:material; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "Material";
+	  rr:termType rr:Literal]
+    ];
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:tieneID; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "ID";
+	  rr:termType rr:Literal]
+    ];
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:ubicadoEn; rr:termType rr:IRI ];
+    rr:objectMap [
+      rr:template "http://www.semanticweb.org/smartcity/Ubicacion/{Ubicacion}";
+	  rr:termType rr:Literal]
+    ];
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:tieneRecoleccion; rr:termType rr:IRI ];
+    rr:objectMap [
+      rr:template "http://www.semanticweb.org/smartcity/Recolecc/{ID_recolecciones}";
+	  rr:termType rr:Literal]
+    ].
+
+<#Recoleccion> a rr:TriplesMap;
+ rml:logicalSource [
+   rml:source "./data/contenedores.csv";
+   rml:referenceFormulation ql:CSV ];
+ rr:subjectMap [
+   rr:template "http://www.semanticweb.org/smartcity/Recolecc/{ID_recolecciones}";
+   rr:termType rr:IRI; 
+   rr:class sm:Recolecciones_pasadas ];
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:fecha; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "Recolecciones";
+	  rr:termType rr:Literal]
+    ];
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:motivo_de_recoleccion; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "Razon";
+	  rr:termType rr:Literal]
+    ];
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:tiempo_respuesta_aviso; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "Tiempo_respuestas_h";
+	  rr:termType rr:Literal]
+    ];
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:porcentaje_de_llenado; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "Porcentaje_llenado";
+	  rr:termType rr:Literal]
+    ];
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:tieneID; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "ID_recolecciones";
+	  rr:termType rr:Literal]
+    ];
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:recolectadoDe; rr:termType rr:IRI ];
+    rr:objectMap [
+      rr:template "http://www.semanticweb.org/smartcity/Contenedor/{ID}";
+	  rr:termType rr:Literal]
+    ].
+	
+<#Ubicacion> a rr:TriplesMap;
+ rml:logicalSource [
+   rml:source "./data/contenedores.csv";
+   rml:referenceFormulation ql:CSV ];
+ rr:subjectMap [
+   rr:template "http://www.semanticweb.org/smartcity/Ubicacion/{Ubicacion}";
+   rr:termType rr:IRI; 
+   rr:class sm:Ubicacion ];
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:ubicacionDe; rr:termType rr:IRI ];
+    rr:objectMap [
+      rr:template "http://www.semanticweb.org/smartcity/Contenedor/{ID}";
+	  rr:termType rr:Literal]
+    ].

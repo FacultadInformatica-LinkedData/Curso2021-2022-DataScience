@@ -1,0 +1,4330 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MPG",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column MPG using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Unit",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Unit using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distance",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Distance using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Odometer",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Odometer using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Product",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Product using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Details using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Registration",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Registration using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Registration",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Registration using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Number using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Details using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Bipper Van Small",
+          "Peugeot Bipper Small Van",
+          "PEUGEOT Bipper Small Van"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Bipper Van Small"
+      },
+      {
+        "from": [
+          "Peugeot Partner Van Small",
+          "Peugeot Partner Small Van",
+          "peugeot Partner Van Small"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Partner Van Small"
+      },
+      {
+        "from": [
+          "Fiat Ducato Welfare",
+          "Fiat Ducato welfare",
+          "Fiat ducato Welfare"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fiat Ducato Welfare"
+      },
+      {
+        "from": [
+          "Vauxhall Corsa Small Van",
+          "Vauxhall Corsa small van",
+          "vauxhall corsa Small Van"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Corsa Small Van"
+      },
+      {
+        "from": [
+          "Up to 7.5t Tipper",
+          "Tipper up to 7.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Up to 7.5t Tipper"
+      },
+      {
+        "from": [
+          "Ford Ranger 4 x 4",
+          "Ford Ranger 4 X 4"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Ranger 4 x 4"
+      },
+      {
+        "from": [
+          "Volkswagen Caddy C20 TDI Maxi Van Small",
+          "Volkswagen Caddy C20 TDI MAXI Van Small"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen Caddy C20 TDI Maxi Van Small"
+      },
+      {
+        "from": [
+          "3 Axle RCV",
+          "3 axle RCV"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "3 Axle RCV"
+      },
+      {
+        "from": [
+          "Renault Traffic Van Medium",
+          "Renault Traffic Van medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Renault Traffic Van Medium"
+      },
+      {
+        "from": [
+          "Vauxall Movano 3.5T Crewcab Tipper",
+          "Vauxall Movano 3.5t Crewcab Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxall Movano 3.5T Crewcab Tipper"
+      },
+      {
+        "from": [
+          "Volkswagon Caddy Life MPV",
+          "Volkswagon Caddy life MPV"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagon Caddy Life MPV"
+      },
+      {
+        "from": [
+          "Ford Transit 3.5t Crewcab Tipper",
+          "Ford Transit 3.5T Crewcab Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit 3.5t Crewcab Tipper"
+      },
+      {
+        "from": [
+          "Vauxhall Movano 3.5t Crewcab Tipper",
+          "Vauxhall Movano 3.5T Crewcab Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano 3.5t Crewcab Tipper"
+      },
+      {
+        "from": [
+          "Kubota RTVX900 ATV",
+          "Kubota RTVx900 ATV"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Kubota RTVX900 ATV"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "MPG",
+          "expression": "grel:value.log()",
+          "columnName": "MPG",
+          "from": -0.23,
+          "to": 2.92,
+          "selectNumeric": false,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Registration",
+          "expression": "value",
+          "columnName": "Registration",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "86901",
+                "l": "86901"
+              }
+            },
+            {
+              "v": {
+                "v": "533KTT",
+                "l": "533KTT"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall Movano 3.5t Crewcab Tipper",
+          "Vauvhall Movano 3.5t Crewcab Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano 3.5t Crewcab Tipper"
+      },
+      {
+        "from": [
+          "Renault Traffic Van Medium",
+          "Renauly Traffic Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Renault Traffic Van Medium"
+      },
+      {
+        "from": [
+          "Vauxhall Movano 3.5T Tipper",
+          "Vauxhall Movarno 3.5T Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano 3.5T Tipper"
+      },
+      {
+        "from": [
+          "Tipper upto 3.5t",
+          "Tipper up to 3.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tipper up to 3.5t"
+      },
+      {
+        "from": [
+          "Iveco Daily 70-150 Forestry Tipper up to 7T",
+          "Iveco Daily 70-150 Forestry Tipper upto 7t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco Daily 70-150 Forestry Tipper up to 7T"
+      },
+      {
+        "from": [
+          "Vauxhall Movano 3.5t Crewcab Tipper",
+          "Vauxall Movano 3.5T Crewcab Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano 3.5T Crewcab Tipper"
+      },
+      {
+        "from": [
+          "Mercedes Sprinter Welfare",
+          "Mercedes Sprinter Welfareq"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Sprinter Welfare"
+      },
+      {
+        "from": [
+          "Ford Ranger 4X4 Utility Vehicle",
+          "Ford Ranger 4X4 Utlility Vehicle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Ranger 4X4 Utility Vehicle"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Volkswagon Crafter Welfare",
+          "Volkswagen Crafter Welfare"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen Crafter Welfare"
+      },
+      {
+        "from": [
+          "Vauxhall Movano 3.5T Crewcab Tipper",
+          "Vauxhall Movano 3.5t Crewcab Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano 3.5T Crewcab Tipper"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "3",
+                "l": "3"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "isEmptyString(value)",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall Movano Tipper to 3.5T"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano Tipper up to 3.5T"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Details",
+          "expression": "grel:facetCount(value, \"value\", \"Details\")",
+          "columnName": "Details",
+          "from": 0,
+          "to": 10,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dennis Eagle Elite 3 Axle Bin",
+          "Dennis Eagle Elite 2 Axle Bin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dennis Eagle Elite"
+      },
+      {
+        "from": [
+          "Ford Transit 17st Minibus Minibus to 17 Seats",
+          "Ford Transit 14st minibus Minibus to 17 Seats"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Minibus"
+      },
+      {
+        "from": [
+          "Mercedes Econic 4 Axle Bin",
+          "Mercedes Econic 2 Axle Bin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Econic "
+      },
+      {
+        "from": [
+          "Ford Transit 300 Van Van Medium",
+          "Ford Transit T300 Van Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Van Medium"
+      },
+      {
+        "from": [
+          "Ford Transit 350L DS T/L Flatback to 3.5t",
+          "Ford Transit 350M DS T/L Flatback to 3.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Flatback"
+      },
+      {
+        "from": [
+          "Ford Transit 350M Dside Flatback to 3.5t",
+          "Ford Transit 350L Dside Flatback to 3.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Dside Flatback"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-star",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "MPG",
+          "expression": "value",
+          "columnName": "MPG",
+          "from": 470,
+          "to": 830,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "starred": true,
+    "description": "Star rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "MPG",
+          "expression": "value",
+          "columnName": "MPG",
+          "from": 470,
+          "to": 830,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "MPG",
+          "expression": "value",
+          "columnName": "MPG",
+          "from": 100,
+          "to": 110,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Expert L2H1 90 Van Van Medium",
+          "Peugeot Expert L1H1 90 Van Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Expert Van Van Medium"
+      },
+      {
+        "from": [
+          "Iveco Daily Flatback over 3.5T",
+          "Iveco Daily Flatback over 7.5T"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco Daily Flatback"
+      },
+      {
+        "from": [
+          "Dennis Elite 3 Axle Bin",
+          "Dennis Elite 2 Axle Bin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dennis Elite Axle Bin"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Transit 350L HR van Van Large",
+          "Ford Transit 350L MR van Van Large"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit HR van Van Large"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "John Deere 5125 Tractor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "John Deere"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "John Deere 5090 Tractor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "John Deere"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Welfare"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Welfare Bus"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Volkswagen Crafter Welfare Bus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen Crafter Welfare"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Volkswagen Crafter CR50 Tip T/L Tipper 3.5t - 7.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen Crafter"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Volkswagen Crafter CR50 CC Tip Tipper 3.5t - 7.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen Crafter"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Volkswagen Crafter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen Crafter Welfare"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Volkswagen Caddy Maxi Life Van"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen Caddy Maxi Van"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Volkswagen Caddy C20 TDI Maxi Van Small"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen Caddy Maxi Van"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall Monanro 3.5T Crewcab ipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall Movano 3.5T Crewcab Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall Movano 3.5T Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall Movano Bus Minibus to 17 Seats"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall MOVANO L3H1 CC Tip 3.5t CC Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall Movano Tipper up to 3.5T"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall Movano Panel Van Van Large"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall CORSA CDTI Car"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Corsa"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall Corsa Car Derived Van"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Corsa"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall Corsa Small Van"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Corsa"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Volkswagen Caddy 7 seater"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen Caddy"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Volkswagen Caddy Maxi Van"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen Caddy"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "vauxha;; Movano Tipper to 3.5T"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall Movano"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Renault Midlum 240.18 Tipper 18t Demount"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Renault Midlum"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Renault Midlum 180.0 Midlum 180.08 Mobile Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Renault Midlum"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Renault Midlum 7.5 Tip Grit Tipper 7.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Renault Midlum"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Expert Welfare MPV Welfare"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Expert"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Expert Combi 9 seat MPV"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Expert"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Expert Tepee MPV"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Expert"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Expert Van Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Expert"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Boxer Van Large"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Boxer"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Boxer Luton"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Boxer"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Boxer Tipper to 3.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Boxer"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Boxer L2 355 Dropside"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Boxer"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Boxer CCab Tipper 3.5t CC Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Boxer"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Boxer 335 Van Van Large"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Boxer"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Boxer 335 Tipper T/L Flatback to 3.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Boxer"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Boxer 330 Van Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Boxer"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Boxer 3.5t Flackback"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot Boxer"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Sprinter van Van Large"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Sprinter"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Sprinter Coachbuilt Coachbuilt Bus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Sprinter"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Sprinter Welfare"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Sprinter"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mereecdes Econic 3 Axle Bin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Econic"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Econic Low Entry 3 Axle Bin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Econic"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Econic 3 Axle Bin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Econic"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Econic "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Econic"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Arocs Hookloader"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Arocs"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Arocs 2635K Tipper over 7.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Arocs "
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Arocs "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Arocs"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Transit Custom 290L1 Van Medium",
+          "Ford Transit 290 Custom Van Medium",
+          "Ford Transit 290 Van Medium",
+          "Ford Transit Custom Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Custom"
+      },
+      {
+        "from": [
+          "Ford Connect T230LWB van Van Small",
+          "Ford Connect T220SWB van Van Small",
+          "Ford Connect T200SWB van Van Small"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Connect"
+      },
+      {
+        "from": [
+          "Ford Transit 3.5t Crewcab Tipper",
+          "Ford Transit 3.5t Crew Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Crewcab Tipper"
+      },
+      {
+        "from": [
+          "Ford Transit 280SWB van Van Medium",
+          "Ford Transit 100SWB van Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Van Medium"
+      },
+      {
+        "from": [
+          "Ford Transit Van Medium",
+          "Ford Transit Custom Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Van Medium"
+      },
+      {
+        "from": [
+          "Ford Transit Van Medium",
+          "Ford Transit 290 Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Van Medium"
+      },
+      {
+        "from": [
+          "Ford Transit 350L tipper Tipper to 3.5t",
+          "Ford Transit 350M Tip T/L Tipper to 3.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Tipper "
+      },
+      {
+        "from": [
+          "Ford Transit 350M Dside T/L Flatback to 3.5t",
+          "Ford Transit 350M Tip T/L Flatback to 3.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Flatback"
+      },
+      {
+        "from": [
+          "Dennis Elite Axle Bin",
+          "Dennis Elite 2 3 Axle Bin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Dennis Elite Axle Bin"
+      },
+      {
+        "from": [
+          "Ford Transit Custom 290L1 Van Medium",
+          "Ford Transit Custom Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Custom Van Medium"
+      },
+      {
+        "from": [
+          "18t Tipper/Gritter/Snowplough",
+          "26t Tipper/Gritter/Snowplough"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tipper/Gritter/Snowplough"
+      },
+      {
+        "from": [
+          "Ford Transit Dside Flatback",
+          "Ford Transit Flatback"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Dside Flatback"
+      },
+      {
+        "from": [
+          "Ford Connect T230LWB van Van Small",
+          "Ford Connect T220SWB van Van Small"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Connect Van Small"
+      },
+      {
+        "from": [
+          "Ford Connect T230LWB van Van Small",
+          "Ford Connect T240LWB Van Van Small"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Connect Van Small"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Transit Dside Flatback",
+          "Ford Transit Flatback"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Flatback"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco Iveco Daily 35C12 Van Large"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco Daily Van Large"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Arocs 1824K Tipper 18t Demount"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes Arocs"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco Daily 70-150 Forestry Tipper up to 7T"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco Daily"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco Daily 65C18A Mobile Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco Daily"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco Daily Flatback"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco Daily"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco Daily Van Large"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco Daily"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco Daily 50C15 Hyd Plat Hyd Access Platform"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco Daily"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Transit 350EF van Van Large"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Van Large"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Transit 350EF BoxVan Luton"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Transit 350CC Tip TL 3.5t CC Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit CC Tipper"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Transit 350LCCtipper 3.5t CC Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit CC Tipper"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Transit 100 T350 MWB Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Van Medium"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Transit 300 CCab Van Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Transit Van Medium"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Daf CF FAD Hookloader"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Daf Hookloader"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Daf CF370 Hookloader"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Daf Hookloader"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco ML75E16K 7.5t Tip TL Tipper 7.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco Tipper"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco 65C18CC Tip T/L Tipper 3.5t - 7.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco Tipper"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco 7.2t Daily Library Bus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco Daily"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Details using expression value.toString()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Transit Custom Van Medium",
+          "Ford Transit Van Medium",
+          "Ford Transit Crewcab Tipper",
+          "Ford Transit Flatback",
+          "Ford Transit Custom",
+          "Ford Transit Courier Van Small",
+          "Ford Transit Minibus",
+          "Ford Transit Tipper",
+          "Ford Transit HR van Van Large",
+          "Ford Transit",
+          "Ford Transit CC Tipper",
+          "Ford Transit Van Large",
+          "Ford Torneo Zetec Hybrid",
+          "Ford Tranist Minibus to 17st"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford"
+      },
+      {
+        "from": [
+          "Volkswagen CR50 Welfare Mellor Welfare Bus",
+          "Volkswagen CR50 Welfare Treka Welfare Bus",
+          "Volkswagen Crafter Welfare",
+          "Volkswagen CR50 Coachbuilt Mell Coachbuilt Bus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen"
+      },
+      {
+        "from": [
+          "Caddy Maxi Life Van",
+          "Caddy Maxi Life Wav"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volskwagen"
+      },
+      {
+        "from": [
+          "Volkswagen Caddy",
+          "Volkswagon Caddy Maxi Welfare"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Volkswagen",
+          "Volkswagen Maxi Life Caddy",
+          "Volkswagen Tranporter 4 Motion Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen"
+      },
+      {
+        "from": [
+          "Vauxhall Corsa",
+          "Vauxhall Astra Van Small",
+          "Vauxhall COMBO Van Small"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall "
+      },
+      {
+        "from": [
+          "Vauxhall Movano",
+          "Vauxhall Mokka 4x4 Utility Vehicle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall "
+      },
+      {
+        "from": [
+          "Ford Connect Van Small",
+          "Ford Connect"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford "
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford",
+          "Ford "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "18t ins tipper/gritter/plough",
+                "l": "18t ins tipper/gritter/plough"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "18t Narrow Track",
+                "l": "18t Narrow Track"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "18t insulated tipper/gritter",
+                "l": "18t insulated tipper/gritter"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "3 Axle Bin",
+                "l": "3 Axle Bin"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "3 Axle RCV",
+                "l": "3 Axle RCV"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "7.5t Cage",
+                "l": "7.5t Cage"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "7.5t Tipper",
+                "l": "7.5t Tipper"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Daf Hookloader",
+                "l": "Daf Hookloader"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Daf LF250 18t Tipp/Gritt Tipper 18t Demount",
+                "l": "Daf LF250 18t Tipp/Gritt Tipper 18t Demount"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Daf LF220 2 Axle Bin",
+                "l": "Daf LF220 2 Axle Bin"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Coachbuilt Bus",
+                "l": "Coachbuilt Bus"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall Vavaro 3.5T Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Volskwagen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volkswagen"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Volvo L45H Loading Shovel Loading Shovel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Volvo"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Welfare Bus",
+                "l": "Welfare Bus"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "VW Caddy",
+                "l": "VW Caddy"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Vauxhall "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Vauxhall"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Up to 7.5t Tipper",
+                "l": "Up to 7.5t Tipper"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dennis Dennis Mun RCV 3 Axle Bin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Axle"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Dennis Eagle Elite",
+                "l": "Dennis Eagle Elite"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Dennis Elite Axle Bin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Axle"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fiat Ducato Welfare"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fiat"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Cargo 75E Tipper Tipper 7.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "DAF Tipper Gritter Snowplough",
+                "l": "DAF Tipper Gritter Snowplough"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Valtra Valmet N111E Tractor",
+                "l": "Valtra Valmet N111E Tractor"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tipper 18t Demount",
+                "l": "Tipper 18t Demount"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tipper up to 3.5t",
+                "l": "Tipper up to 3.5t"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tipper/Gritter/Snowplough",
+                "l": "Tipper/Gritter/Snowplough"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Custom Zetec Hybrid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Fiesta 1.4 TDi Van Car Derived Van"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Ford Transit T470 Tipper 3.5t - 7.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Kuga Zetec 4x4 Utility Vehicle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Mondeo car Car"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Ranger 4x4"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Torneo Custom Zetec Hybrid"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Hookloader",
+                "l": "Hookloader"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco 35S12 LWB HR Meeting Mobile Meeting room"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fuso Canter 7C15 HEV Tipper 7.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fuso"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco 35S12 Van Large"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco 40C12 Minibus to 17 Seats"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco Daily"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco Eurocargo 3 Axle Bin"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco Ford Cargo75E/G Library Mobile Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco Panel Van Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Iveco Tipper"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Iveco"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Kubota RTVX900 ATV",
+                "l": "Kubota RTVX900 ATV"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Landrover 110 LWB Hardtop TD5 4x4 Utility Vehicle",
+                "l": "Landrover 110 LWB Hardtop TD5 4x4 Utility Vehicle"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Library Bus",
+                "l": "Library Bus"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Library Hub",
+                "l": "Library Hub"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Arocs"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Atego Mobile Library Mobile Library"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Econic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mercedes Sprinter"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mercedes"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Minibus",
+                "l": "Minibus"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mitsubishi Cantor 7.5t Tipper Tipper 7.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mitsubishi"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mitsubishi L200 4x4 Pickup"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mitsubishi"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Nissan Note Car"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Nissan"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot 308 Car Car"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot 7 Seater"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Bipper Van Small"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Boxer"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Expert"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Partner Van Small"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Peugeot Tipper Crewcab"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Peugeot"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "RCV",
+                "l": "RCV"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Refuse Vehicle",
+                "l": "Refuse Vehicle"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Renault Kerax Hookloader"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Renault"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Renault Master 120 35 Mobile Meeting room"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Renault"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Renault Midlum"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Renault"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Renault Premium Tipper over 7.5t"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Renault"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Leyland DAF Ley Daf FA45 Library Mobile Library",
+                "l": "Leyland DAF Ley Daf FA45 Library Mobile Library"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Van Large",
+                "l": "Van Large"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Van Medium",
+                "l": "Van Medium"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Toploader",
+                "l": "Toploader"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Renault Traffic Van Medium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Renault"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Small Sweeper",
+                "l": "Small Sweeper"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Ranger 4 x 4"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Motor Company"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Ranger 4 X 4 Utility vehicle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Motor Company"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Ranger 4x4 CCpickup 4x4 Utility Vehicle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Motor Company"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Ranger 4x4 pickup 4x4 Utility Vehicle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Motor Company"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Ranger 4X4 Utility Vehicle"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Motor Company"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Transit Tipper "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Motor Company"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Details",
+          "expression": "value",
+          "columnName": "Details",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Axle",
+                "l": "Axle"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford Motor Company"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  }
+]

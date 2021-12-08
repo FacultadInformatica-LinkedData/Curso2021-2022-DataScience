@@ -1,0 +1,296 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.          
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix lib: <http://www.knowledgegraph.org/g02_libraries/ontologies/Library#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix resource: <http://www.knowledgegraph.org/g02_libraries/resource/>.
+@base <http://www.knowledgegraph.org/g02_libraries/ontologies/libraries> .
+
+
+<#libraryMap>
+  rml:logicalSource [
+    rml:source "./data/library_updated_with_links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Library/{PK}";
+    rr:termType rr:IRI;
+    rr:class lib:Library
+  ];
+  rr:predicateObjectMap [
+    rr:predicate foaf:name;
+    rr:objectMap [
+      rml:reference "NOMBRE" ;
+      rr:dataType xsd:string]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vcard:hasURL;
+    rr:objectMap [
+      rml:reference "CONTENT-URL" ;
+      rr:termType rr:Literal;
+      rr:datatype xsd:anyURI]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasDescription;
+    rr:objectMap [
+      rml:reference "DESCRIPCION-ENTIDAD" ;
+      rr:dataType xsd:string]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasEquipment;
+    rr:objectMap [
+      rml:reference "EQUIPAMIENTO" ;
+      rr:dataType xsd:string]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+    rr:objectMap [
+      rml:reference "SAME_AS_NOMBRE" ;
+      rr:datatype xsd:anyURI]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasContact;
+    rr:objectMap [
+      rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Contact/{PK}";
+      rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vcard:hasGeo;
+    rr:objectMap [
+      rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Coordinates/{PK}";
+      rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasTransport;
+    rr:objectMap [
+       rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Transport/{PK}";
+       rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasTimeTable;
+    rr:objectMap [
+      rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Timetable/{PK}";
+      rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasPrincipalLocation;
+    rr:objectMap [
+      rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Location/{PK}";
+      rr:termType rr:Literal]
+  ].
+<#timetableMap>
+  rml:logicalSource [
+    rml:source "./data/library_updated_with_links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Timetable/{PK}";
+    rr:termType rr:IRI;
+    rr:class lib:Timetable
+
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasHourOpen;
+    rr:objectMap [
+      rml:reference "HORARIO-APERTURA" ;
+      rr:termType xsd:Literal;
+      rr:datatype xsd:time]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasHourClose;
+    rr:objectMap [
+      rml:reference "HORARIO-CIERRE" ;
+      rr:termType rr:Literal;
+      rr:datatype xsd:time]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:closingDays;
+    rr:objectMap [
+      rml:reference "FESTIVOS" ;
+      rr:termType rr:Literal]
+  ].
+<#locationMap>
+  rml:logicalSource [
+    rml:source "./data/library_updated_with_links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Location/{PK}";
+    rr:termType rr:IRI;
+    rr:class lib:Location
+
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vcard:Locality;
+    rr:objectMap [
+      rml:reference "LOCALIDAD" ;
+      rr:termType rr:string]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasNeighbourhood;
+    rr:objectMap [
+      rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Neighbourhood/{PK}";
+      rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasDirection;
+    rr:objectMap [
+      rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Direction/{PK}";
+      rr:termType rr:Literal]
+  ].
+
+  <#coordinatesMap>
+  rml:logicalSource [
+    rml:source "./data/library_updated_with_links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Coordinates/{PK}";
+    rr:termType rr:IRI;
+    rr:class lib:Coordinates
+
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasLongitude;
+    rr:objectMap [
+      rml:reference "LONGITUD" ;
+      rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasLatitude;
+    rr:objectMap [
+      rml:reference "LATITUD" ;
+      rr:termType rr:Literal]
+  ].
+<#contactMap>
+  rml:logicalSource [
+    rml:source "./data/library_updated_with_links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Contact/{PK}";
+    rr:termType rr:IRI;
+    rr:class lib:Contact
+
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasFax;
+    rr:objectMap [
+      rml:reference "FAX" ;
+      rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vcard:hasEmail;
+    rr:objectMap [
+      rml:reference "EMAIL" ;
+      rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate vcard:hasTelephone;
+    rr:objectMap [
+      rml:reference "TELEFONO" ;
+      rr:termType rr:Literal]
+  ].
+
+<#transportMap>
+  rml:logicalSource [
+    rml:source "./data/library_updated_with_links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Transport/{PK}";
+    rr:termType rr:IRI;
+    rr:class lib:Transport
+
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasSubway;
+    rr:objectMap [
+      rml:reference "METRO" ;
+      rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasBusLine;
+    rr:objectMap [
+      rml:reference "BUS" ;
+      rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasRenfe;
+    rr:objectMap [
+      rml:reference "RENFE" ;
+      rr:termType rr:Literal]
+  ].
+
+<#directionMap>
+  rml:logicalSource [
+    rml:source "./data/library_updated_with_links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Direction/{PK}";
+    rr:termType rr:IRI;
+    rr:class lib:Direction
+
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasVialClass;
+    rr:objectMap [
+      rml:reference "CLASE-VIAL" ;
+      rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasNumber;
+    rr:objectMap [
+      rml:reference "NUM" ;
+      rr:termType rr:Literal;
+      rr:datatype xsd:int]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate foaf:name;
+    rr:objectMap [
+      rml:reference "NOMBRE-VIA" ;
+      rr:termType rr:Literal]
+  ];
+   rr:predicateObjectMap [
+    rr:predicate lib:hasZipCode;
+    rr:objectMap [
+      rml:reference "CODIGO-POSTAL" ;
+      rr:termType rr:Literal;
+      rr:datatype xsd:int]
+  ].
+
+<#neighbourhoodMap>
+  rml:logicalSource [
+    rml:source "./data/library_updated_with_links.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "http://www.knowledgegraph.org/g02_libraries/resource/Neighbourhood/{PK}";
+    rr:termType rr:IRI;
+    rr:class lib:Neighbourhood
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate foaf:name ;
+    rr:objectMap [
+      rml:reference "BARRIO" ;
+      rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate lib:hasDistrict;
+    rr:objectMap [
+      rml:reference "DISTRITO" ;
+      rr:termType rr:Literal]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+    rr:objectMap [
+      rml:reference "SAME_AS_BARRIO" ;
+      rr:datatype xsd:anyURI]
+  ].
