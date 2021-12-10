@@ -5,7 +5,7 @@
 
 <#Contenedor> a rr:TriplesMap;
  rml:logicalSource [
-   rml:source "./data/contenedores.csv";
+   rml:source "./data/contenedores-csv.csv";
    rml:referenceFormulation ql:CSV ];
  rr:subjectMap [
    rr:template "http://www.semanticweb.org/smartcity/Contenedor/{ID}";
