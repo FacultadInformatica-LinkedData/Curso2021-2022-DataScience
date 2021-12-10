@@ -2,7 +2,7 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.          
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix sm: <http://www.semanticweb.org/smartcity/>.
-@prefix owl: <http://www.w3.org/2002/07/owl#>
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 
 <#Contenedor> a rr:TriplesMap;
  rml:logicalSource [
