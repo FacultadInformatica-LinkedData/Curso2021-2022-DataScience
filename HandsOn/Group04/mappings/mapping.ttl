@@ -45,7 +45,7 @@
 
 <#Recoleccion> a rr:TriplesMap;
  rml:logicalSource [
-   rml:source "./data/contenedores.csv";
+   rml:source "./data/contenedores-csv.csv";
    rml:referenceFormulation ql:CSV ];
  rr:subjectMap [
    rr:template "http://www.semanticweb.org/smartcity/Recolecc/{ID_recolecciones}";
@@ -90,7 +90,7 @@
 	
 <#Ubicacion> a rr:TriplesMap;
  rml:logicalSource [
-   rml:source "./data/contenedores.csv";
+   rml:source "./data/contenedores-csv.csv";
    rml:referenceFormulation ql:CSV ];
    
  rr:subjectMap [
