@@ -1,0 +1,42 @@
+1)
+  SELECT distinct ?prop
+  WHERE {
+    ?politician rdf:type <http://dbpedia.org/ontology/Politician>.
+    ?politician ?prop ?values
+  } LIMIT 100
+
+2)
+  SELECT distinct ?prop
+  WHERE {
+    ?politican rdf:type <http://dbpedia.org/ontology/Politician>.
+    ?politician ?prop ?values.
+    FILTER(?prop != rdf:type)
+  }
+  LIMIT 100
+  
+3)
+  SELECT distinct ?values
+  WHERE {
+    ?politician rdf:type <http://dbpedia.org/ontology/Politician>.
+    ?politician ?prop ?values.
+    FILTER(?prop != rdf:type)
+  }
+  LIMIT 100
+
+4)
+  SELECT distinct ?prop ?values
+  WHERE {
+    ?politican rdf:type <http://dbpedia.org/ontology/Politician>.
+    ?politican ?prop ?values.
+    FILTER(?prop != rdf:type)
+  }
+  LIMIT 100
+  
+5)
+  SELECT distinct ?prop COUNT(?values)
+  WHERE {
+    ?politician rdf:type <http://dbpedia.org/ontology/Politician>.
+    ?politican ?prop ?values.
+    FILTER(?prop != rdf:type)
+  }  
+  LIMIT 100
