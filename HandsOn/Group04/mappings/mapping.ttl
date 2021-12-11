@@ -33,7 +33,7 @@
  rr:predicateObjectMap [
     rr:predicateMap [ rr:constant sm:ubicadoEn; rr:termType rr:IRI ];
     rr:objectMap [
-      rr:template "http://www.semanticweb.org/smartcity/Ubicacion/{Ubicacion}";
+      rr:template "http://www.semanticweb.org/smartcity/Ubicacion/{Ubicacion_URI}";
 	  rr:termType rr:Literal]
     ];
  rr:predicateObjectMap [
@@ -94,7 +94,7 @@
    rml:referenceFormulation ql:CSV ];
    
  rr:subjectMap [
-   rr:template "http://www.semanticweb.org/smartcity/Ubicacion/{Ubicacion}";
+   rr:template "http://www.semanticweb.org/smartcity/Ubicacion/{Ubicacion_URI}";
    rr:termType rr:IRI; 
    rr:class sm:Ubicacion ];
    
