@@ -1,5 +1,5 @@
 ID,ID_recolecciones,Ubicacion,Ubicacion_URI,sameAs,Capacidad,Razon,Porcentaje_llenado,Tiempo_respuestas_h,Recolecciones,Promedio_llenado_dias,Material
-1527406,15274062021-10-22T19-40Z,"Avenida de América, Madrid",Avenida_de_America,https://wikidata.org/entity/Q5686040,Alto,Llenado,80,341.52,2021-10-22T19:40:00Z,116.2,Residuos
+1527406,15274062021-10-22T19-40Z,Avenida de América Madrid,Avenida_de_America,https://wikidata.org/entity/Q5686040,Alto,Llenado,80,341.52,2021-10-22T19:40:00Z,116.2,Residuos
 1528780,15287802021-11-01T12-35Z,Gran Vía,Gran_Via,https://wikidata.org/entity/Q1324163,Alto,Rutinaria,60,,2021-11-01T12:35:00Z,,Residuos
 1528780,15287802021-11-02T18-23Z,Gran Vía,Gran_Via,https://wikidata.org/entity/Q1324163,Alto,Rutinaria,0,,2021-11-02T18:23:00Z,,Residuos
 1528785,15287852021-10-18T10-52Z,calle del Arenal,calle_del_Arenal,https://wikidata.org/entity/Q5740980,Alto,Llenado,80,62.4,2021-10-18T10:52:00Z,112.3,Residuos
