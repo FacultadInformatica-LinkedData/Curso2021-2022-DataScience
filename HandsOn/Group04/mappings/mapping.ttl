@@ -2,10 +2,11 @@
 @prefix ql: <http://semweb.mmlab.be/ns/ql#>.          
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix sm: <http://www.semanticweb.org/smartcity/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 
 <#Contenedor> a rr:TriplesMap;
  rml:logicalSource [
-   rml:source "./data/contenedores.csv";
+   rml:source "./data/contenedores-csv.csv";
    rml:referenceFormulation ql:CSV ];
  rr:subjectMap [
    rr:template "http://www.semanticweb.org/smartcity/Contenedor/{ID}";
@@ -44,7 +45,7 @@
 
 <#Recoleccion> a rr:TriplesMap;
  rml:logicalSource [
-   rml:source "./data/contenedores.csv";
+   rml:source "./data/contenedores-csv.csv";
    rml:referenceFormulation ql:CSV ];
  rr:subjectMap [
    rr:template "http://www.semanticweb.org/smartcity/Recolecc/{ID_recolecciones}";
@@ -89,7 +90,7 @@
 	
 <#Ubicacion> a rr:TriplesMap;
  rml:logicalSource [
-   rml:source "./data/contenedores.csv";
+   rml:source "./data/contenedores-csv.csv";
    rml:referenceFormulation ql:CSV ];
    
  rr:subjectMap [
@@ -103,6 +104,13 @@
       rr:template "http://www.semanticweb.org/smartcity/Contenedor/{ID}";
 	  rr:termType rr:Literal] 
 	];
+	
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant owl:sameAs; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:template "sameAs";
+	  rr:termType rr:IRI]
+	];
 	  
  rr:predicateObjectMap [
     rr:predicateMap [ rr:constant sm:nombre; rr:termType rr:IRI ];
@@ -110,3 +118,6 @@
       rml:reference "Ubicacion";
 	  rr:termType rr:Literal]
     ].
+	
+	
+	
