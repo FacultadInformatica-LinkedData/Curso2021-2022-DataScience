@@ -15,7 +15,7 @@
   ];
   rr:subjectMap [
     rr:template "https://www.mapmadrid.org/resources/Monument/{PK}";
-    rr:termType rr:IRI; rr:class cult:Monument;
+    rr:termType rr:IRI; rr:class cult:Monumento;
   ];
 
   # Data culterties

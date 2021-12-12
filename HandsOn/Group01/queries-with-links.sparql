@@ -1,0 +1,18 @@
+PREFIX rr: <http://www.w3.org/ns/r2rml#>
+PREFIX rml: <http://semweb.mmlab.be/ns/rml#>
+PREFIX ql: <http://semweb.mmlab.be/ns/ql#>        
+PREFIX ex: <http://example.com/ns#>
+PREFIX xsd: <https://www.w3.org/XMLSchema/>
+PREFIX cult: <https://www.mapmadrid.org/ontologia/>
+PREFIX schema: <http://www.schema.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl>
+
+# Obtener todos los barrios y su representación en wikidata en los que se puede encontrar un museo en Madrid.
+SELECT DISTINCT ?barrio ?wiki_barrio
+WHERE{
+    ?museo a cult:Monumento.
+    ?museo cult:estaLocalizado ?loc.
+    ?loc cult:enBarrio ?barrio.
+    ?barrio owl:sameAs ?wiki_barrio.
+}
+LIMIT 30
