@@ -1,0 +1,300 @@
+
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>. 
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.          
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ns: <http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#>.
+@prefix schema: <http://www.schema.org/>.
+@prefix dbpedia-owl: <https://dbpedia.org/ontology/>.
+
+@prefix vcard: <http://www.w3.org/2006/vcard/ns>.
+@prefix juso: <http://rdfs.co/juso/>.
+@prefix arp: <http://www.arpenteur.org/ontology/Arpenteur.owl#>.
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos/>.
+
+@prefix org: <http://www.w3.org/ns/org/>.
+@prefix a-loc: <https://w3id.org/arco/ontology/location/>.
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix vivo: <http://vivoweb.org/ontology/core#>.
+@prefix cis: <http://dati.beniculturali.it/cis/>.
+
+
+<#TriplesMap1> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/museos-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://museosymonumentos.es/conocemadrid/resource/culturalEntities/Site#{PK}";
+    rr:termType rr:IRI; rr:class cis:CulturalEntity
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dbpedia-owl:name;
+    rr:objectMap [
+      rml:reference "NOMBRE";
+	  rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:openingHours;
+    rr:objectMap [
+      rml:reference "HORARIO";
+	  rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate ns:accessibility;
+    rr:objectMap [
+      rml:reference "ACCESIBILIDAD";
+	  rr:datatype xsd:float
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:description;
+    rr:objectMap [
+      rml:reference "DESCRIPCION-ENTIDAD";
+	  rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:url;
+    rr:objectMap [
+      rml:reference "CONTENT-URL";
+	  rr:datatype xsd:anyUri
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:telephone;
+    rr:objectMap [
+      rml:reference "TELEFONO";
+	  rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:email;
+    rr:objectMap [
+      rml:reference "EMAIL";
+	  rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate rdf:type;
+    rr:objectMap [
+      rml:reference "TIPO";
+	  rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:place;
+    rr:objectMap [
+	  rr:parentTriplesMap <#TriplesMap2>;
+	  rr:joinCondition [
+	    rr:child "PK"; rr:parent "PK"; ]
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate ns:hasNearbyStop;
+    rr:objectMap [
+	  rr:parentTriplesMap <#TriplesMap3>;
+	  rr:joinCondition [
+	    rr:child "PK"; rr:parent "PK"; ]
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate ns:hasNearbyStop;
+    rr:objectMap [
+	  rr:parentTriplesMap <#TriplesMap5>;
+	  rr:joinCondition [
+	    rr:child "PK"; rr:parent "PK"; ]
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate ns:hasNearbyStop;
+    rr:objectMap [
+	  rr:parentTriplesMap <#TriplesMap6>;
+	  rr:joinCondition [
+	    rr:child "PK"; rr:parent "PK"; ]
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate ns:hasNearbyStop;
+    rr:objectMap [
+	  rr:parentTriplesMap <#TriplesMap7>;
+	  rr:joinCondition [
+	    rr:child "PK"; rr:parent "PK"; ]
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate ns:hasNearbyStop;
+    rr:objectMap [
+	  rr:parentTriplesMap <#TriplesMap8>;
+	  rr:joinCondition [
+	    rr:child "PK"; rr:parent "PK"; ]
+      ]
+  ].
+  
+  
+<#TriplesMap2> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/museos-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://museosymonumentos.es/conocemadrid/resource/culturalEntities/PostalAddress#place-{PK}";
+    rr:termType rr:IRI; rr:class schema:Place
+  ];
+    rr:predicateObjectMap [
+    rr:predicate schema:streetAddress;
+    rr:objectMap [
+      rml:reference "DIRECCION";
+	  rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dbpedia-owl:district;
+    rr:objectMap [
+      rml:reference "DISTRITO";
+	  rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dbpedia-owl:neighbourhood;
+    rr:objectMap [
+      rml:reference "BARRIO";
+	  rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:geo;
+    rr:objectMap [
+	  rr:parentTriplesMap <#TriplesMap4>;
+	  rr:joinCondition [
+	    rr:child "PK"; rr:parent "PK"; ]
+      ]
+  ].
+  
+
+<#TriplesMap3> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/museos-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://museosymonumentos.es/conocemadrid/resource/culturalEntities/Stop#parkingStop-{PK}";
+    rr:termType rr:IRI; rr:class ns:Stop
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:description;
+    rr:objectMap [
+      rml:reference "parking";
+	  rr:datatype xsd:string
+      ]
+  ].
+
+<#TriplesMap4> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/museos-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://museosymonumentos.es/conocemadrid/resource/culturalEntities/Coordinates#coord-{PK}";
+    rr:termType rr:IRI; rr:class a-loc:Coordinates
+  ];
+  rr:predicateObjectMap [
+    rr:predicate arp:hasX;
+    rr:objectMap [
+      rml:reference "COORDENADA-X";
+	  rr:datatype xsd:float
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate arp:hasY;
+    rr:objectMap [
+      rml:reference "COORDENADA-Y";
+	  rr:datatype xsd:float
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:latitude;
+    rr:objectMap [
+      rml:reference "LATITUD";
+	  rr:datatype xsd:float
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:longitude;
+    rr:objectMap [
+      rml:reference "LONGITUD";
+	  rr:datatype xsd:float
+      ]
+  ].
+  
+<#TriplesMap5> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/museos-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://museosymonumentos.es/conocemadrid/resource/culturalEntities/Stop#cercaniasStop-{PK}";
+    rr:termType rr:IRI; rr:class ns:Stop
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:description;
+    rr:objectMap [
+      rml:reference "cercanias";
+	  rr:datatype xsd:string
+      ]
+  ].
+
+<#TriplesMap6> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/museos-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://museosymonumentos.es/conocemadrid/resource/culturalEntities/Stop#bicimadStop-{PK}";
+    rr:termType rr:IRI; rr:class ns:Stop
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:description;
+    rr:objectMap [
+      rml:reference "bicimad";
+	  rr:datatype xsd:string
+      ]
+  ].
+
+<#TriplesMap7> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/museos-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://museosymonumentos.es/conocemadrid/resource/culturalEntities/Stop#busStop-{PK}";
+    rr:termType rr:IRI; rr:class ns:Stop
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:description;
+    rr:objectMap [
+      rml:reference "bus";
+	  rr:datatype xsd:string
+      ]
+  ].
+  
+<#TriplesMap8> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/museos-updated.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://museosymonumentos.es/conocemadrid/resource/culturalEntities/Stop#metroStop-{PK}";
+    rr:termType rr:IRI; rr:class ns:Stop
+  ];
+  rr:predicateObjectMap [
+    rr:predicate schema:description;
+    rr:objectMap [
+      rml:reference "metro";
+	  rr:datatype xsd:string
+      ]
+  ].
+ 

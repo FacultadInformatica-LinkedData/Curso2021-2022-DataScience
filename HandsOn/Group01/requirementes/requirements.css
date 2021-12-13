@@ -1,0 +1,64 @@
+body {
+    color: black;
+    background-color: rgb(133, 194, 209);
+    font-size: 20px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 100px 50px 100px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    align-items: center;
+}
+
+text {
+    text-align: left;
+    color: black;
+    font-size: 10px;
+}
+
+a {
+    color: black;
+}
+
+
+/* 
+    ---------- CLASSES ------------------
+*/
+
+.respuesta,
+.indice {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 75%;
+    border: black outset;
+    text-align: justify;
+}
+
+.iconos {
+    width: 25%;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.respuesta {
+    width: 82.5%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.respuesta text {
+    font-size: 20px
+}
+
+.indice li {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}

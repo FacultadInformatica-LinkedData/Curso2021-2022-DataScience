@@ -1,0 +1,77 @@
+{
+    "@context":{
+        "base": "http://www.example.org",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "name": "foaf:name",
+        "PrimerApellido": "foaf:surname",
+        "SegundoApellido": "foaf:surname",
+        "place": "rdfs:label",
+        "almaMater": "rdfs:label",
+        "subjects": "rdfs:container",
+        "UniversitySubject": "https://www.upm.es/UniversitySubject",
+        "brief-description": "rdfs:comment"
+    },
+    "@id": "http://www.example.org/Alumnos/RubenCid",
+    "@type": "foaf:Person",
+    "fullName":{
+        "@id": "http://www.example.org/Alumnos/RubenCid/FullName",
+        "name": "Rubén",
+        "surname": "Cid",
+        "lastName": "Costa"
+    },
+    "HomeTown": "Boadilla del Monte",
+    "age": 19,
+    "almaMater": "UPM",
+    "parents": [
+        {
+            "@id": "http://www.example.org/Alumnos/RubenCid/Padre",
+            "@type": "foaf:Person",
+            "fullName":{
+                "@id": "http://www.example.org/Alumnos/RubenCid/Padre/fullName",
+                "name": "Ricardo"
+            }
+        },
+        {
+            "@id": "http://www.example.org/Alumnos/RubenCid/Madre",
+            "@type": "foaf:Person",
+            "fullName":{
+                "@id": "http://www.example.org/Alumnos/RubenCid/Madre/fullName",
+                "name": "Margarita"
+            }
+        }
+    ],
+    "subjects":[
+        {
+            "@id": "https://www.upm.es/subjects/IA",
+            "@type": "UniversitySubject",
+            "name": "Inteligencia Artificial",
+            "teacher": {
+                "@type": "foaf:Person",
+                "@id": "https://www.upm.es/teachers/MariaLopez",
+                "fullName": {
+                    "@id": "https://www.upm.es/teachers/MariaLopez/fullName",
+                    "name": "Maria",
+                    "surname": "Lopez"
+                }
+            },
+            "brief-description": "Se enseñarán los fundamentos de la Inteligencia Artificial y de la representación del conocimiento"
+        },
+        {
+            "@id": "https://www.upm.es/subjects/WebSemantica",
+            "@type": "UniversitySubject",
+            "name": "Web Semantica",
+            "teacher": {
+                "@type": "foaf:Person",
+                "@id": "https://www.upm.es/teachers/MariaLopez",
+                "fullName": {
+                    "@id": "https://www.upm.es/teachers/OscarCorcho/fullName",
+                    "name": "Oscar",
+                    "surname": "Corcho"
+                }
+            },
+            "brief-description": "Web Semántica, Linked Data y Grafos de Conocimientos."
+        }
+    ] 
+}
