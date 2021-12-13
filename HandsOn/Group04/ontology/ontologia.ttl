@@ -12,107 +12,113 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/smartcity/#recolectadaDe
-<http://www.semanticweb.org/smartcity/#recolectadaDe> rdf:type owl:ObjectProperty ;
-                                                      owl:inverseOf <http://www.semanticweb.org/smartcity/#tieneRecoleccion> ;
-                                                      rdfs:domain :Recolecciones_pasadas ;
-                                                      rdfs:range :Contenedor .
+###  http://www.semanticweb.org/smartcity//#recolectadaDe
+<http://www.semanticweb.org/smartcity//#recolectadaDe> rdf:type owl:ObjectProperty ;
+                                                       owl:inverseOf <http://www.semanticweb.org/smartcity//#tieneRecoleccion> ;
+                                                       rdfs:domain <http://www.semanticweb.org/smartcity//Recolecciones_pasadas> ;
+                                                       rdfs:range <http://www.semanticweb.org/smartcity//Contenedor> .
 
 
-###  http://www.semanticweb.org/smartcity/#tieneRecoleccion
-<http://www.semanticweb.org/smartcity/#tieneRecoleccion> rdf:type owl:ObjectProperty ;
-                                                         rdfs:domain :Contenedor ;
-                                                         rdfs:range :Recolecciones_pasadas .
+###  http://www.semanticweb.org/smartcity//#tieneRecoleccion
+<http://www.semanticweb.org/smartcity//#tieneRecoleccion> rdf:type owl:ObjectProperty ;
+                                                          rdfs:domain <http://www.semanticweb.org/smartcity//Contenedor> ;
+                                                          rdfs:range <http://www.semanticweb.org/smartcity//Recolecciones_pasadas> .
 
 
-###  http://www.semanticweb.org/smartcity/#ubicacionDe
-<http://www.semanticweb.org/smartcity/#ubicacionDe> rdf:type owl:ObjectProperty ;
-                                                    owl:inverseOf <http://www.semanticweb.org/smartcity/#ubicadoEn> ;
-                                                    rdfs:domain :Ubicacion ;
-                                                    rdfs:range :Contenedor .
+###  http://www.semanticweb.org/smartcity//#ubicacionDe
+<http://www.semanticweb.org/smartcity//#ubicacionDe> rdf:type owl:ObjectProperty ;
+                                                     owl:inverseOf <http://www.semanticweb.org/smartcity//#ubicadoEn> ;
+                                                     rdfs:domain <http://www.semanticweb.org/smartcity//Ubicacion> ;
+                                                     rdfs:range <http://www.semanticweb.org/smartcity//Contenedor> .
 
 
-###  http://www.semanticweb.org/smartcity/#ubicadoEn
-<http://www.semanticweb.org/smartcity/#ubicadoEn> rdf:type owl:ObjectProperty ;
-                                                  rdfs:domain :Contenedor ;
-                                                  rdfs:range :Ubicacion .
+###  http://www.semanticweb.org/smartcity//#ubicadoEn
+<http://www.semanticweb.org/smartcity//#ubicadoEn> rdf:type owl:ObjectProperty ;
+                                                   rdfs:domain <http://www.semanticweb.org/smartcity//Contenedor> ;
+                                                   rdfs:range <http://www.semanticweb.org/smartcity//Ubicacion> .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/smartcity/nombre
-:nombre rdf:type owl:DatatypeProperty ;
-        rdfs:domain :Ubicacion .
+###  http://www.semanticweb.org/smartcity//capacidad
+<http://www.semanticweb.org/smartcity//capacidad> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:domain <http://www.semanticweb.org/smartcity//Contenedor> ;
+                                                  rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/smartcity/#fecha
-<http://www.semanticweb.org/smartcity/#fecha> rdf:type owl:DatatypeProperty ;
-                                              rdfs:domain :Recolecciones_pasadas ;
-                                              rdfs:range xsd:dateTime .
+###  http://www.semanticweb.org/smartcity//nombre
+<http://www.semanticweb.org/smartcity//nombre> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://www.semanticweb.org/smartcity//Ubicacion> .
 
 
-###  http://www.semanticweb.org/smartcity/#frecuencia_media_recolecciones
-<http://www.semanticweb.org/smartcity/#frecuencia_media_recolecciones> rdf:type owl:DatatypeProperty ;
-                                                                       rdfs:domain :Contenedor ;
-                                                                       rdfs:range xsd:float ;
-                                                                       rdfs:comment "Frecuencia media de recolecciones medida en dias"@es .
+###  http://www.semanticweb.org/smartcity//#fecha
+<http://www.semanticweb.org/smartcity//#fecha> rdf:type owl:DatatypeProperty ;
+                                               rdfs:domain <http://www.semanticweb.org/smartcity//Recolecciones_pasadas> ;
+                                               rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/smartcity/#litros_recolectados
-<http://www.semanticweb.org/smartcity/#litros_recolectados> rdf:type owl:DatatypeProperty ;
-                                                            rdfs:domain :Recolecciones_pasadas ;
-                                                            rdfs:range xsd:float .
+###  http://www.semanticweb.org/smartcity//#frecuencia_media_recolecciones
+<http://www.semanticweb.org/smartcity//#frecuencia_media_recolecciones> rdf:type owl:DatatypeProperty ;
+                                                                        rdfs:domain <http://www.semanticweb.org/smartcity//Contenedor> ;
+                                                                        rdfs:range xsd:float ;
+                                                                        rdfs:comment "Frecuencia media de recolecciones medida en dias"@es .
 
 
-###  http://www.semanticweb.org/smartcity/#material
-<http://www.semanticweb.org/smartcity/#material> rdf:type owl:DatatypeProperty ;
-                                                 rdfs:domain :Contenedor ;
-                                                 rdfs:range xsd:string .
+###  http://www.semanticweb.org/smartcity//#litros_recolectados
+<http://www.semanticweb.org/smartcity//#litros_recolectados> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:domain <http://www.semanticweb.org/smartcity//Recolecciones_pasadas> ;
+                                                             rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/smartcity/#motivo_de_recoleccion
-<http://www.semanticweb.org/smartcity/#motivo_de_recoleccion> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:domain :Recolecciones_pasadas ;
-                                                              rdfs:range xsd:string .
+###  http://www.semanticweb.org/smartcity//#material
+<http://www.semanticweb.org/smartcity//#material> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:domain <http://www.semanticweb.org/smartcity//Contenedor> ;
+                                                  rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/smartcity/#porcentaje_de_llenado
-<http://www.semanticweb.org/smartcity/#porcentaje_de_llenado> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:domain :Recolecciones_pasadas ;
-                                                              rdfs:range xsd:nonNegativeInteger .
+###  http://www.semanticweb.org/smartcity//#motivo_de_recoleccion
+<http://www.semanticweb.org/smartcity//#motivo_de_recoleccion> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain <http://www.semanticweb.org/smartcity//Recolecciones_pasadas> ;
+                                                               rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/smartcity/#tiempo_respuesta_aviso
-<http://www.semanticweb.org/smartcity/#tiempo_respuesta_aviso> rdf:type owl:DatatypeProperty ;
-                                                               rdfs:domain :Recolecciones_pasadas ;
-                                                               rdfs:range xsd:float ;
-                                                               rdfs:comment "Tiempo de respuesta a aviso medido en horas"@es .
+###  http://www.semanticweb.org/smartcity//#porcentaje_de_llenado
+<http://www.semanticweb.org/smartcity//#porcentaje_de_llenado> rdf:type owl:DatatypeProperty ;
+                                                               rdfs:domain <http://www.semanticweb.org/smartcity//Recolecciones_pasadas> ;
+                                                               rdfs:range xsd:nonNegativeInteger .
 
 
-###  http://www.semanticweb.org/smartcity/#tieneId
-<http://www.semanticweb.org/smartcity/#tieneId> rdf:type owl:DatatypeProperty ;
-                                                rdfs:domain :Contenedor ,
-                                                            :Recolecciones_pasadas ;
-                                                rdfs:range xsd:nonNegativeInteger ,
-                                                           xsd:string .
+###  http://www.semanticweb.org/smartcity//#tiempo_respuesta_aviso
+<http://www.semanticweb.org/smartcity//#tiempo_respuesta_aviso> rdf:type owl:DatatypeProperty ;
+                                                                rdfs:domain <http://www.semanticweb.org/smartcity//Recolecciones_pasadas> ;
+                                                                rdfs:range xsd:float ;
+                                                                rdfs:comment "Tiempo de respuesta a aviso medido en horas"@es .
+
+
+###  http://www.semanticweb.org/smartcity//#tieneId
+<http://www.semanticweb.org/smartcity//#tieneId> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:domain <http://www.semanticweb.org/smartcity//Contenedor> ,
+                                                             <http://www.semanticweb.org/smartcity//Recolecciones_pasadas> ;
+                                                 rdfs:range xsd:nonNegativeInteger ,
+                                                            xsd:string .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/smartcity/Contenedor
-:Contenedor rdf:type owl:Class .
+###  http://www.semanticweb.org/smartcity//Contenedor
+<http://www.semanticweb.org/smartcity//Contenedor> rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/smartcity/Recolecciones_pasadas
-:Recolecciones_pasadas rdf:type owl:Class .
+###  http://www.semanticweb.org/smartcity//Recolecciones_pasadas
+<http://www.semanticweb.org/smartcity//Recolecciones_pasadas> rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/smartcity/Ubicacion
-:Ubicacion rdf:type owl:Class .
+###  http://www.semanticweb.org/smartcity//Ubicacion
+<http://www.semanticweb.org/smartcity//Ubicacion> rdf:type owl:Class .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
