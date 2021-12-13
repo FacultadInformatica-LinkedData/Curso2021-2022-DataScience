@@ -1,0 +1,64 @@
+@prefix car: <http://www.grafosconocimiento.es/lcc/ontology/estudiocoches#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+### Ontology
+
+<http://www.grafosconocimiento.es/lcc/ontology/estudiocoches> rdf:type owl:Ontology .
+
+###################
+####Individuals####
+###################
+
+###  http://www.grafosconocimiento.es/lcc/resources/Vehicle/12
+<http://www.grafosconocimiento.es/lcc/resources/GovID/12> rdf:type owl:NamedIndividual ,
+                                                                     car:GovID ;
+                                                            car:numberID "12"^^xsd:string ;
+                                                            car:hasFueLType <http://www.grafosconocimiento.es/lcc/resources/Fuel/Diesel> ;
+                                                            car:hasMPG <http://www.grafosconocimiento.es/lcc/resources/FuelEfficiency/5002> ;
+                                                            car:hasOdometer <http://www.grafosconocimiento.es/lcc/resources/Odometer/9329> ;
+                                                            car:hasModelCar <http://www.grafosconocimiento.es/lcc/Brand/Jaguar> ;
+                                                            car:hasRegistration <http://www.grafosconocimiento.es/lcc/CarIdentifier/FL65FBA> .
+
+
+###  http://www.grafosconocimiento.es/lcc/resources/CarIdentifier/FL65FBA
+<http://www.grafosconocimiento.es/lcc/CarIdentifier/FL65FBA> rdf:type owl:NamedIndividual ,
+                                                                      car:Vehicle ;
+                                                             car:registration "FL65FBA"^^xsd:string .
+
+###  http://www.grafosconocimiento.es/lcc/resources/Brand/Jaguar
+<http://www.grafosconocimiento.es/lcc/Brand/Jaguar> rdf:type owl:NamedIndividual ,
+                                                             car:Brand ;
+                                                    car:carModel "Jaguar_XJL_Portfolio_V6_D_Limousine"^^xsd:string .
+
+###  http://www.grafosconocimiento.es/lcc/resources/Fuel/Diesel
+<http://www.grafosconocimiento.es/lcc/resources/Fuel/Diesel> rdf:type owl:NamedIndividual ,
+                                                                      car:Fuel ;
+                                                             car:fuelType "Diesel"^^xsd:string .
+
+###  http://www.grafosconocimiento.es/lcc/resources/FuelEfficiency/5002
+<http://www.grafosconocimiento.es/lcc/resources/FuelEfficiency/5002> rdf:type owl:NamedIndividual ,
+                                                                              car:FuelEfficiency ;
+                                                                     car:milesPerGallon "50.02"^^xsd:decimal .
+
+###  http://www.grafosconocimiento.es/lcc/resources/Odometer/9329
+<http://www.grafosconocimiento.es/lcc/resources/Odometer/9329> rdf:type owl:NamedIndividual ,
+                                                                            car:Odometer ;
+                                                               car:odometer "9329"^^xsd:decimal ;
+                                                               car:hasQuantityUnitMeasurement <http://www.grafosconocimiento.es/lcc/resources/Unit_of_Measure/Miles> ;
+                                                               car:yearDistance <http://www.grafosconocimiento.es/lcc/resources/Distance/2849> .
+
+###  http://www.grafosconocimiento.es/lcc/resources/Distance/2849
+<http://www.grafosconocimiento.es/lcc/resources/Distance/2849> rdf:type owl:NamedIndividual ,
+                                                                        car:Distance ;
+                                                               car:distance "2849"^^xsd:decimal ;
+                                                               car:hasQuantityUnitMeasurement <http://www.grafosconocimiento.es/lcc/resources/Unit_of_Measure/Miles> .
+
+###  http://www.grafosconocimiento.es/lcc/resources/Unit_of_Measure/Miles
+<http://www.grafosconocimiento.es/lcc/resources/Unit_of_Measure/Miles> rdf:type owl:NamedIndividual ,
+                                                                            car:Unit_of_Measure ;
+                                                                       car:unit_of_Measurement "Miles"^^xsd:string .

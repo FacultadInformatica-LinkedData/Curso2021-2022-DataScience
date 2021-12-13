@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="analysis.css">
+    <script src="https://kit.fontawesome.com/c66d59c3a5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <center>
+        <h1 style="color: #FFF; font-weight: bolder;">License & Naming Strategy</h1>
+    </center>
+    <details>
+        <summary>License</summary>
+        <ul>
+            <b>Origen de los datos</b><br> El origen de los datos es del conjunto de datos abieryos del Ayuntamiento de Madrid y de la Comunidad de Madrid.<br> <br>
+            <b>Condiciones de uso</b><br> Las condiciones generales permiten la reutilización de los datos asociados al documento para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento
+            de Madrid, siempre que dicho uso no constituya una actividad administrativa pública. <br> <br>
+            <b>Condiciones reutilización de la información del documento</b><br>
+            <em>Condiciones de uso de los datos abiertos de bibliotecas de la Comunidad de Madrid y del Ayuntamiento de Madrid.</em> <br> Recientemente se ha unificado el sistema de gestión de las bibliotecas de la ciudad de Madrid, y ahora el mismo incluye
+            los datos del catálogo y préstamos tanto de bibliotecas gestionadas por la Comunidad de Madrid, como bibliotecas gestionadas por el Ayuntamiento de Madrid. Por ello, la propiedad de los datos es compartida entre ambas organizaciones. <br>            <br>
+
+            <em>Autorización de reutilización y cesión no exclusiva de derechos de propiedad intelectual</em> <br> Las presentes condiciones permiten la reutilización del documento y datos abiertos del catálogo y préstamos de bibliotecas sometidos a ellas
+            para fines comerciales y no comerciales. Se entiende por reutilización de esta información, el uso del documento que obra en poder de la Comunidad de Madrid y del Ayuntamiento de Madrid adscritos a ellos, por personas físicas o jurídicas,
+            con fines comerciales o no comerciales, siempre que dicho uso no constituya una actividad administrativa pública. Por ejemplo, la reutilización autorizada incluye actividades como la copia, difusión, modificación, adaptación, extracción, reordenación
+            y combinación de la información. <br> <br> El concepto de documento es el establecido en el apartado 2 del artículo 3 de la Ley 37/2007, de 16 de noviembre, sobre Reutilización de la Información del Sector Público, por lo que comprende toda
+            información cualquiera que sea su soporte material o electrónico así como su forma de expresión gráfica, sonora o en imagen utilizada, incluyendo, en consecuencia, también los datos en sus niveles más desagregados o “en bruto”. <br> <br> Esta
+            autorización conlleva, asimismo, la cesión gratuita y no exclusiva de los derechos de propiedad intelectual, en su caso, correspondientes a tal documento, autorizándose la realización de actividades de reproducción, distribución, comunicación
+            pública o transformación, necesarias para desarrollar la actividad de reutilización autorizada, en cualquier modalidad y bajo cualquier formato, para todo el mundo y por el plazo máximo permitido por la Ley. <br> <br>
+
+            <em>Condiciones generales para la reutilización</em> <br> Son de aplicación las siguientes condiciones generales para la reutilización de los documentos sometidos a ellas: <br> 1. Está prohibido desnaturalizar el sentido de la información.
+            <br> 2. Debe citarse la fuente de los documentos objeto de la reutilización. Esta cita podrá realizarse de la siguiente manera: "Origen de los datos: Comunidad de Madrid y Ayuntamiento de Madrid <br> 3. Debe mencionarse la fecha de la última
+            actualización de los documentos objeto de la reutilización, siempre y cuando estuviera incluida en el documento original. <br> 4. No se podrá indicar, insinuar o sugerir que la Comunidad de Madrid y el Ayuntamiento de Madrid participan, patrocinan
+            o apoyan la reutilización que se lleve a cabo con la información. Tampoco de las entidades que hagan modificaciones sobre dicho conjunto de datos. <br> 5. Deben conservarse, no alterarse ni suprimirse los metadatos sobre la fecha de actualización
+            y las condiciones de reutilización aplicables incluidos, en su caso, en el documento puesto a disposición para su reutilización. <br> 6. En caso de información anonimizada por protección de datos personales u otros motivos, está expresamente
+            prohibido realizar labores de re-identificación de personas a partir de estos datos y otras fuentes de datos e información posibles, pasados, actuales o futuros. <br> <br>
+
+            <em>Responsabilidad de las personas y/o empresas que reutilicen los datos</em> <br> Quienes reutilicen los datos se hallan sometidos a la normativa aplicable en materia de reutilización de la información del sector público, incluyendo el régimen
+            sancionador previsto en el artículo 11 de la Ley 37/2007, de 16 de noviembre, sobre Reutilización de la Información del Sector Público.
+
+        </ul>
+    </details>
+    <details>
+        <summary>Resources Naming Strategy</summary>
+        <ul>
+            Prefijos usados: <br> @prefix : &lt;http://www.knowledgegraph.org/grupo_02/ontologies/library#&gt;. <br> <br> @prefix vcard: &lt;http://www.w3.org/2006/vcard/ns#&gt;. <br> <br> @prefix resource: &lt;http://www.knowledgegraph.org/grupo_02/resource/&gt;.
+            <br> <br> @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; <br> <br> <br> vcard:hasGeo, vcard:hasEmail, vcard:hasUID, vcard:hasLocality, foaf:name, vcard:hasTelephone, vcard:hasURL<br> <br> NOTA: <br> El resto de URIs que están en el modelo
+            pero no se mencionan es porque llevan el namespace :<br> En cuanto a la instancia, las labels tienen las mismas URIs que en el modelo. En los recursos se usa el prefijo resource.
+
+
+        </ul>
+    </details>
+
+    <center>
+        <h1 style="color: #FFF; font-weight: bolder;">Data Characteristics and Schema </h1>
+        <table class="rwd-table" style="max-width: 300px;">
+            <tr>
+                <td></td>
+                <th scope="col">Column</th>
+                <th scope="col">Type</th>
+                <th scope="col">Comments / Range (rounded)</th>
+                <th scope="col">Problems</th>
+            </tr>
+            <tr>
+                <th></th>
+                <td>PK</td>
+                <td>Int</td>
+                <td>Unique.
+                    <p> Es un campo clave, dentro de la web municipal para el uso interno </p>
+                </td>
+                <td> None</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>Nombre</td>
+                <td>String</td>
+                <td>Unique</td>
+                <td>None</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>Descripción-Entidad</td>
+                <td>String</td>
+                <td>Unique</td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Horario</td>
+                <td>String</td>
+                <td> Not unique</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Equipamiento</td>
+                <td>String</td>
+                <td> Not unique
+                    <p>10 values</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Transporte</td>
+                <td>String</td>
+                <td>Unique</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Descripción</td>
+                <td>String</td>
+                <td> Not unique</td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Accesibilidad</td>
+                <td>String</td>
+                <td> 1-6 y puede contener más de un valor ,donde
+
+                    <p>0 = no accesible</p>
+
+                    <p>1 = Accesible \n</p>
+
+                    <p>2 = Instalación parcialmente accesible para personas con movilidad reducida</p>
+
+                    <p>3 = Sin información sobre accesibilidad para personas con movilidad reducida</p>
+
+                    <p>4 = Lengua de signos</p>
+
+                    <p>5 = Señalización podotáctil</p>
+
+                    <p>6 = Bucle de inducción magnético</p>
+
+                    <p>Not unique</p>
+
+
+
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Content-URL</td>
+                <td>String</td>
+                <td> Unique</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Nombre-vía</td>
+                <td>String</td>
+                <td>Not Unique </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Clase-Vía</td>
+                <td>String</td>
+                <td> Not unique
+                    <p>7 values</p>
+                </td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Tipo-Num</td>
+                <td>String</td>
+                <td> Not unique
+                    <p>2 values</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Num</td>
+                <td>Str</td>
+                <td> Not unique </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Orientación</td>
+                <td>String</td>
+                <td> Unique ,
+                    <p> Empty values</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Localidad</td>
+                <td>String</td>
+                <td> 1 value, MADRID </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Provincia</td>
+                <td>String</td>
+                <td> 1 value , MADRID</td>
+                <td>None</td>
+            </tr>
+
+
+            <tr>
+                <th></th>
+                <td>Código-postal</td>
+                <td>String</td>
+                <td>28002 - 28053
+                    <p>Not unique</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Barrio</td>
+                <td>String</td>
+                <td> Not unique 6 values</td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Distrito</td>
+                <td>String</td>
+                <td> 21 values
+                    <p>Not unique</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Coordenada X</td>
+                <td> Float </td>
+                <td> 449661 - 434685
+                    <p>Coordenada de 6 carateres sobre el plano de la ciudad</p>
+                </td>
+                <td>Repeated sites</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Coordenada Y</td>
+                <td> Float </td>
+                <td> 4465993 - 4482397
+                    <p>Coordenada de 7 caracteres sobre el plano de la ciudad</p>
+                </td>
+                <td>Repeated sites</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Latitud</td>
+                <td> Float </td>
+                <td>None</td>
+                <td> Dos bibliotecas con misma latitud </td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Longitud</td>
+                <td>Float</td>
+                <td>None</td>
+                <td> Dos bibliotecas con misma longitud </td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Teléfono</td>
+                <td>String</td>
+                <td>Unique
+                    <p>Empty values</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Fax</td>
+                <td>String</td>
+                <td> Unique
+                    <p> Empty values </p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Email</td>
+                <td>String</td>
+                <td> Unique
+                    <p>Empty values</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Tipo</td>
+                <td>String</td>
+                <td> No unique , 2 values</td>
+                <td>None</td>
+            </tr>
+
+
+        </table>
+    </center>
+</body>
+
+</html>
+>>>>>>> upstream/master

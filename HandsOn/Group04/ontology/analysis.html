@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Analisis</title>
+</head>
+<body>
+	<div>
+		<h1>Licencia</h1>
+		<p>El autor es el ayuntamiento de Las Rozas</p>
+		<p>Los datos son de dominio público con la licencia "open data" de Creative Commons Attribution. La licencia se mantiene cuando trabajamos en la aplicación.</p>
+	</div>
+	<div>
+		<h1>Ontología</h1>
+        <div>
+            <h2>Clases</h2>
+            <div>
+                <h3>Contenedor</h3>
+                <p>Cada contenedor será una instancia de esta clase.</p>
+		    </div>
+            <div>
+                <h3>Recolecciones_pasadas</h3>
+                <p>Por cada recolección de basura, se crea una instancia de esta clase</p>
+		    </div>
+            <div>
+                <h3>Ubicacion</h3>
+                <p>Representa la ubicación real de cada contenedor</p>
+		    </div>
+        </div>
+		<div>
+			<h2>Propiedades</h2>
+			<div>
+                <h3>ubicadoEn</h3>
+                <p>Dominio: Contenedor</p>
+                <p>Rango: Ubicacion</p>
+				<p>Inverso de: ubicacionDe</p>
+		    </div>
+			<div>
+                <h3>ubicacionDe</h3>
+                <p>Dominio: Contenedor</p>
+                <p>Rango: Ubicacion</p>
+				<p>Inverso de: ubicadoEn</p>
+		    </div>
+            <div>
+                <h3>tieneRecoleccion</h3>
+                <p>Dominio: Contenedor</p>
+                <p>Rango: Recolecciones_pasadas</p>
+				<p>Inverso de: recolectadoDe</p>
+		    </div>
+			<div>
+                <h3>recolectadoDe</h3>
+                <p>Dominio: Contenedor</p>
+                <p>Rango: Recolecciones_pasadas</p>
+				<p>Inverso de: tieneRecoleccion</p>
+		    </div>
+            <div>
+                <h3>fecha</h3>
+                <p>Dominio: Recolecciones_pasadas</p>
+                <p>Rango: Date</p>
+		    </div>
+            <div>
+                <h3>motivo_de_recoleccion</h3>
+                <p>Dominio: Recolecciones_pasadas</p>
+                <p>Rango: String</p>
+		    </div>
+            <div>
+                <h3>tiempo_respuesta_aviso</h3>
+                <p>Dominio: Recolecciones_pasadas</p>
+                <p>Rango: Float</p>
+            </div>
+            <div>
+                <h3>litros_recolectados</h3>
+                <p>Dominio: Recolecciones_pasadas</p>
+                <p>Rango: Float</p>
+            </div>
+            <div>
+                <h3>frecuencia_media_recolecciones</h3>
+                <p>Dominio: Contenedor</p>
+                <p>Rango: Float</p>
+		    </div>
+            <div>
+                <h3>material</h3>
+                <p>Dominio: Contenedor</p>
+                <p>Rango: String</p>
+		    </div>
+            <div>
+                <h3>porcentaje_de_llenado</h3>
+                <p>Dominio: Recolecciones_pasadas</p>
+                <p>Rango: nonNegativeInteger</p>
+		    </div>
+            <div>
+                <h3>tieneId</h3>
+                <p>Dominio: Contenedor</p>
+                <p>Rango: nonNegativeInteger</p>
+		    </div>
+		</div>
+	</div>
+</body>
+</html>

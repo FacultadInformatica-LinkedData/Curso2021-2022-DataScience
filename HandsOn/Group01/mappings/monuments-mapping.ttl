@@ -1,0 +1,98 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rml: <http://semweb.mmlab.be/ns/rml#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix ex: <http://example.com/ns#>.
+@prefix clases: <https://www.mapmadrid.org/ontology/0.1.0/Clases/>.
+@prefix prop: <https://www.mapmadrid.org/ontology/0.1.0/Propiedades/>.
+@prefix xsd: <https://www.w3.org/XMLSchema/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<#Monuments_Mapping> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/monumentos.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+    rr:template "https://www.mapmadrid.org/resources/Monument/{PK}";
+    rr:termType rr:IRI; rr:class clases:Monument;
+  ];
+
+  # Data Properties
+  rr:predicateObjectMap [
+    rr:predicate prop:hasPK;
+    rr:objectMap [
+      rml:reference "PK";
+      rr:datatype xsd:positiveInteger
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:hasName;
+    rr:objectMap [
+      rml:reference "NOMBRE" 
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:hasDescription;
+    rr:objectMap [
+      rml:reference "DESCRIPCION";
+    ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate prop:wasCreated;
+    rr:objectMap [
+      rml:reference "FECHA";
+    ]
+  ];
+
+	rr:predicateObjectMap [
+	  rr:predicate prop:createdBy;
+	  rr:objectMap [
+	    rml:reference "AUTORES"
+	  ]
+	];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:extraInfo ;
+    rr:objectMap [
+      rml:reference "PDF";
+    ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate prop:creationDate;
+    rr:objectMap [
+      rml:reference "FECHA";
+    ]
+  ];
+
+    rr:predicateObjectMap [
+    rr:predicate prop:isLocated;
+    rr:objectMap [
+        rr:template "https://www.mapmadrid.org/resources/Museos/Localizaciones/{ParsedStreet}";
+        rr:termType rr:IRI
+    ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate prop:isSubType;
+    rr:objectMap [ 
+        rr:parentTriplesMap <#TiposMonumentos_Mapping>;
+        rr:joinCondition [
+            rr:child "SubTipoParseado";  rr:parent "SubTipoParseado";];
+    ]
+  ].
+
+<#TiposMonumentos_Mapping> a rr:TriplesMap;
+  rml:logicalSource[
+    rml:source "./data/monumentos.csv" ;
+    rml:referenceFormulation ql:CSV
+  ];
+  rr:subjectMap [
+  rr:template "https://www.mapmadrid.org/resources/Monumentos/SubTipos/{SubTipoParseado}";
+    rr:class clases:MonumentType
+  ].
