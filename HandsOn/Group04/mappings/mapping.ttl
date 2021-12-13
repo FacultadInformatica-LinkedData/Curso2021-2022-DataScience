@@ -36,6 +36,13 @@
       rr:template "http://www.semanticweb.org/smartcity/Ubicacion/{Ubicacion_URI}";
 	  rr:termType rr:Literal]
     ];
+	
+ rr:predicateObjectMap [
+    rr:predicateMap [ rr:constant sm:capacidad; rr:termType rr:IRI ];
+    rr:objectMap [
+      rml:reference "Capacidad";
+	  rr:termType rr:Literal]
+    ];
  rr:predicateObjectMap [
     rr:predicateMap [ rr:constant sm:tieneRecoleccion; rr:termType rr:IRI ];
     rr:objectMap [
