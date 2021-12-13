@@ -119,14 +119,44 @@
 			<http://www.semanticweb.org/smartcity/ubicadoEn> ?ubicacion;
 			<http://www.semanticweb.org/smartcity/tieneID> ?id.
 			?recoleccion <http://www.semanticweb.org/smartcity/motivo_de_recoleccion> 'Llenado';
-			  <http://www.semanticweb.org/smartcity/tiempo_respuesta_aviso> ?tiempo.        	?ubicacion <http://www.semanticweb.org/smartcity/nombre> ?nombre_ub
+			  <http://www.semanticweb.org/smartcity/tiempo_respuesta_aviso> ?tiempo.    
+			?ubicacion <http://www.semanticweb.org/smartcity/nombre> ?nombre_ub
 			
 		  }ORDER BY DESC(?tiempo)
 	  
 	  
 	  
-#Contenedores de cada tipo	  
+#Numero contenedores de residuos
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT DISTINCT (COUNT(?contenedor_residuos) AS ?Residuos) WHERE {
+				?contenedor_residuos 	 <http://www.semanticweb.org/smartcity/material> 'Residuos'.
+		  }  
 	  
-#Contenedores capacidad baja con mas de 2 recolecciones
-#Contenedores capacidad alta con menos de 3 recolecciones
-#Porentaje medio de recogidas por contenedor
+#Recogidas superiores al 60%
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT ?recoleccion  ?porcentaje WHERE {
+				?recoleccion a <http://www.semanticweb.org/smartcity/Recolecciones_pasadas>.
+				?recoleccion <http://www.semanticweb.org/smartcity/porcentaje_de_llenado> ?porcentaje.
+	  FILTER( ?porcentaje >= '60')
+			  }  
+
+
+
+#Contenedores cuyo promedio llenado dias menor a 20
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT ?contenedor   ?frec WHERE {
+		?contenedor a <http://www.semanticweb.org/smartcity/Contenedor>;
+		   <http://www.semanticweb.org/smartcity/frecuencia_media_recolecciones> ?frec.
+		FILTER( ?frec <= '20')
+			  }
+
+
