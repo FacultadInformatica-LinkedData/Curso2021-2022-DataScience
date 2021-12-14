@@ -1,0 +1,34 @@
+﻿ID;Ubicacion;Capacidad;Razon;Porcentaje llenado;Tiempo respuesta aviso;Recolecciones;Promedio de dias para llegar a lleno;Material
+1527406;Avenida de América;Alto;Llenado;80;142.3 días;10/22/21 19:40;116.2 ;Residuos
+1528780;Gran Vía;Alto;Rutinaria;60;-;11/01/2021 12:35;-;Residuos
+1528780;Gran Vía;Alto;Rutinaria;0;-;11/02/2021 18:23;-;Residuos
+1528785;calle del Arenal;Alto;Llenado;80;2.6 días;10/18/21 10:52;112.3 ;Residuos
+1528792;Calle del Clavel;Alto;Rutinaria;0;-;10/07/2021 21:07;-;Residuos
+1528797;Calle Alenza;Alto;Rutinaria;0;-;10/08/2021 8:09;13.1 ;Residuos
+1528797;Calle Alenza;Medio;Llenado;80;< 1.0 horas;10/21/21 11:17;13.1 ;Papel/Cartón
+1528797;Calle Alenza;Medio;Rutinaria;0;-;10/22/21 10:07;13.1 ;Papel/cartón
+1528798;Calle de los Cuchilleros;Bajo;Rutinaria;40;-;10/07/2021 10:42;-;Residuos
+1528804;Calle de Recoletos;Alto;Rutinaria;40;-;10/07/2021 9:39;-;Residuos
+1528805;Calle del Carmen;Alto;Llenado;80;14.0 horas;10/24/21 09:52;18.3 ;Residuos
+1528807;Calle de José del Hierro;Alto;Llenado;80;11.0 horas;10/08/2021 9:08;4.9 ;Residuos
+1528807;Calle de José del Hierro;Alto;Rutinaria;60;-;10/15/21 10:46;4.9 ;Residuos
+1528807;Calle de José del Hierro;Alto;Rutinaria;20;-;10/20/21 13:59;4.9 ;Residuos
+1528807;Calle de José del Hierro;Alto;Rutinaria;60;-;10/24/21 07:50;4.9 ;Residuos
+1528807;Calle de José del Hierro;Alto;Llenado;80;12.0 horas;10/30/21 07:46;4.9 ;Residuos
+1528807;Calle de José del Hierro;Alto;Rutinaria;0;-;11/02/2021 12:12;4.9 ;Residuos
+1528808;Calle de José del Hierro;Alto;Rutinaria;40;-;10/08/2021 9:07;5.2 ;Botellas/latas
+1528808;Calle de José del Hierro;Alto;Llenado;80;12.0 horas;10/15/21 10:45;5.2 ;Botellas/latas
+1528808;Calle de José del Hierro;Alto;Llenado;80;< 1.0 horas;10/20/21 13:55;5.2 ;Botellas/latas
+1528808;Calle de José del Hierro;Alto;Llenado;80;21.0 horas;10/25/21 10:46;5.2 ;Botellas/latas
+1528808;Calle de José del Hierro;Alto;Rutinaria;20;-;10/30/21 07:46;5.2 ;Botellas/latas
+1528808;Calle de José del Hierro;Alto;Rutinaria;40;-;11/02/2021 12:11;5.2 ;Botellas/latas
+1528809;Calle de Preciados;Alto;Llenado;80;10.0 horas;10/23/21 07:22;58.4 ;Residuos
+1528810;Calle de Serrano Galvache;Medio;Llenado;80;1.0 horas;10/08/2021 14:22;33.3 ;Papel/Cartón
+1528810;Calle de Serrano Galvache;Medio;Llenado;80;3.0 horas;11/04/2021 7:05;33.3 ;Papel/Cartón
+1528817;Calle de Sevilla;Alto;Rutinaria;0;-;10/15/21 13:15;20.3 ;Residuos
+1528818;Calle del Conde Duque;Medio;Rutinaria;20;-;10/08/2021 8:43;14.4 ;Residuos
+1528818;Calle del Conde Duque;Medio;Llenado;80;< 1.0 horas;10/22/21 19:58;14.4 ;Residuos
+1528819;Calle de Fernando el Católico;Alto;Llenado;80;1.0 horas;11/02/2021 11:05;43.0 ;Residuos
+1528820;Calle de Recoletos;Bajo;Llenado;80;1.2 días;10/07/2021 9:36;21.7 ;Botellas/latas
+1528822;Calle de Sevilla;Alto;Rutinaria;0;-;10/15/21 13:11;-;Botellas/latas
+1528822;Calle de Sevilla;Alto;Alerta;0;< 1.0 horas;10/15/21 13:21;-;Botellas/latas

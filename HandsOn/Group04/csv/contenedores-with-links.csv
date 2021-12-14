@@ -1,0 +1,34 @@
+ID,ID_recolecciones,Ubicacion,Ubicacion_URI,sameAs,Capacidad,Razon,Porcentaje_llenado,Tiempo_respuestas_h,Recolecciones,Promedio_llenado_dias,Material
+1527406,15274062021-10-22T19-40Z,Avenida de América,Avenida_de_America,https://wikidata.org/entity/Q5686040,Alto,Llenado,80,341.52,2021-10-22T19:40:00Z,116.2,Residuos
+1528780,15287802021-11-01T12-35Z,Gran Vía,Gran_Via,https://wikidata.org/entity/Q1324163,Alto,Rutinaria,60,,2021-11-01T12:35:00Z,,Residuos
+1528780,15287802021-11-02T18-23Z,Gran Vía,Gran_Via,https://wikidata.org/entity/Q1324163,Alto,Rutinaria,0,,2021-11-02T18:23:00Z,,Residuos
+1528785,15287852021-10-18T10-52Z,calle del Arenal,calle_del_Arenal,https://wikidata.org/entity/Q5740980,Alto,Llenado,80,62.4,2021-10-18T10:52:00Z,112.3,Residuos
+1528792,15287922021-10-07T21-07Z,Calle del Clavel,Calle_del_Clavel,https://wikidata.org/entity/Q28051075,Alto,Rutinaria,0,,2021-10-07T21:07:00Z,,Residuos
+1528797,15287972021-10-08T08-09Z,Calle Alenza,Calle_Alenza,https://wikidata.org/entity/Q27313964,Alto,Rutinaria,0,,2021-10-08T08:09:00Z,13.1,Residuos
+1528797,15287972021-10-21T11-17Z,Calle Alenza,Calle_Alenza,https://wikidata.org/entity/Q27313964,Medio,Llenado,80,12,2021-10-21T11:17:00Z,13.1,Papel/Cartón
+1528797,15287972021-10-22T10-07Z,Calle Alenza,Calle_Alenza,https://wikidata.org/entity/Q27313964,Medio,Rutinaria,0,,2021-10-22T10:07:00Z,13.1,Papel/cartón
+1528798,15287982021-10-07T10-42Z,Calle de los Cuchilleros,Calle_de_los_Cuchilleros,https://wikidata.org/entity/Q29005894,Bajo,Rutinaria,40,,2021-10-07T10:42:00Z,,Residuos
+1528804,15288042021-10-07T09-39Z,Calle de Recoletos,Calle_de_Recoletos,https://wikidata.org/entity/Q52664831,Alto,Rutinaria,40,,2021-10-07T09:39:00Z,,Residuos
+1528805,15288052021-10-24T09-52Z,Calle del Carmen,Calle_del_Carmen,https://wikidata.org/entity/Q5740988,Alto,Llenado,80,168,2021-10-24T09:52:00Z,18.3,Residuos
+1528807,15288072021-10-08T09-08Z,Calle de José del Hierro,Calle_de_Jose_del_Hierro,https://wikidata.org/entity/Q29910699,Alto,Llenado,80,132,2021-10-08T09:08:00Z,4.9,Residuos
+1528807,15288072021-10-15T10-46Z,Calle de José del Hierro,Calle_de_Jose_del_Hierro,https://wikidata.org/entity/Q29910699,Alto,Rutinaria,60,,2021-10-15T10:46:00Z,4.9,Residuos
+1528807,15288072021-10-20T13-59Z,Calle de José del Hierro,Calle_de_Jose_del_Hierro,https://wikidata.org/entity/Q29910699,Alto,Rutinaria,20,,2021-10-20T13:59:00Z,4.9,Residuos
+1528807,15288072021-10-24T07-50Z,Calle de José del Hierro,Calle_de_Jose_del_Hierro,https://wikidata.org/entity/Q29910699,Alto,Rutinaria,60,,2021-10-24T07:50:00Z,4.9,Residuos
+1528807,15288072021-10-30T07-46Z,Calle de José del Hierro,Calle_de_Jose_del_Hierro,https://wikidata.org/entity/Q29910699,Alto,Llenado,80,144,2021-10-30T07:46:00Z,4.9,Residuos
+1528807,15288072021-11-02T12-12Z,Calle de José del Hierro,Calle_de_Jose_del_Hierro,https://wikidata.org/entity/Q29910699,Alto,Rutinaria,0,,2021-11-02T12:12:00Z,4.9,Residuos
+1528808,15288082021-10-08T09-07Z,Calle de José del Hierro,Calle_de_Jose_del_Hierro,https://wikidata.org/entity/Q29910699,Alto,Rutinaria,40,,2021-10-08T09:07:00Z,5.2,Botellas/latas
+1528808,15288082021-10-15T10-45Z,Calle de José del Hierro,Calle_de_Jose_del_Hierro,https://wikidata.org/entity/Q29910699,Alto,Llenado,80,144,2021-10-15T10:45:00Z,5.2,Botellas/latas
+1528808,15288082021-10-20T13-55Z,Calle de José del Hierro,Calle_de_Jose_del_Hierro,https://wikidata.org/entity/Q29910699,Alto,Llenado,80,12,2021-10-20T13:55:00Z,5.2,Botellas/latas
+1528808,15288082021-10-25T10-46Z,Calle de José del Hierro,Calle_de_Jose_del_Hierro,https://wikidata.org/entity/Q29910699,Alto,Llenado,80,252,2021-10-25T10:46:00Z,5.2,Botellas/latas
+1528808,15288082021-10-30T07-46Z,Calle de José del Hierro,Calle_de_Jose_del_Hierro,https://wikidata.org/entity/Q29910699,Alto,Rutinaria,20,,2021-10-30T07:46:00Z,5.2,Botellas/latas
+1528808,15288082021-11-02T12-11Z,Calle de José del Hierro,Calle_de_Jose_del_Hierro,https://wikidata.org/entity/Q29910699,Alto,Rutinaria,40,,2021-11-02T12:11:00Z,5.2,Botellas/latas
+1528809,15288092021-10-23T07-22Z,Calle de Preciados,Calle_de_Preciados,https://wikidata.org/entity/Q5552155,Alto,Llenado,80,120,2021-10-23T07:22:00Z,58.4,Residuos
+1528810,15288102021-10-08T14-22Z,Calle de Serrano Galvache,Calle_de_Serrano_Galvache,https://wikidata.org/entity/Q54370755,Medio,Llenado,80,12,2021-10-08T14:22:00Z,33.3,Papel/Cartón
+1528810,15288102021-11-04T07-05Z,Calle de Serrano Galvache,Calle_de_Serrano_Galvache,https://wikidata.org/entity/Q54370755,Medio,Llenado,80,36,2021-11-04T07:05:00Z,33.3,Papel/Cartón
+1528817,15288172021-10-15T13-15Z,Calle de Sevilla,Calle_de_Sevilla,https://wikidata.org/entity/Q20908843,Alto,Rutinaria,0,,2021-10-15T13:15:00Z,20.3,Residuos
+1528818,15288182021-10-08T08-43Z,calle del Conde Duque,calle_del_Conde_Duque,https://wikidata.org/entity/Q27031730,Medio,Rutinaria,20,,2021-10-08T08:43:00Z,14.4,Residuos
+1528818,15288182021-10-22T19-58Z,calle del Conde Duque,calle_del_Conde_Duque,https://wikidata.org/entity/Q27031730,Medio,Llenado,80,12,2021-10-22T19:58:00Z,14.4,Residuos
+1528819,15288192021-11-02T11-05Z,Calle de Fernando el Católico,Calle_de_Fernando_el_Catolico,https://wikidata.org/entity/Q27243299,Alto,Llenado,80,12,2021-11-02T11:05:00Z,43,Residuos
+1528820,15288202021-10-07T09-36Z,Calle de Recoletos,Calle_de_Recoletos,https://wikidata.org/entity/Q52664831,Bajo,Llenado,80,28.79,2021-10-07T09:36:00Z,21.7,Botellas/latas
+1528822,15288222021-10-15T13-11Z,Calle de Sevilla,Calle_de_Sevilla,https://wikidata.org/entity/Q20908843,Alto,Rutinaria,0,,2021-10-15T13:11:00Z,,Botellas/latas
+1528822,15288222021-10-15T13-21Z,Calle de Sevilla,Calle_de_Sevilla,https://wikidata.org/entity/Q20908843,Alto,Alerta,0,12,2021-10-15T13:21:00Z,,Botellas/latas
