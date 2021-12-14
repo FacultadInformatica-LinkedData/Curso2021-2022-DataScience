@@ -1,0 +1,147 @@
+@prefix cult:     <https://www.mapmadrid.org/ontologia/>.
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:    <https://www.schema.org/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <https://www.mapmadrid.org/ontologia>.
+
+# Definición de la Ontologia
+<https://www.mapmadrid.org/ontologia> a owl:Ontology.
+
+
+### CLASSES #####
+cult:Localizacion  rdf:type owl:Class;
+                    rdfs:label "Localizacion".
+
+cult:SitioCultural  rdf:type owl:Class;
+                    rdfs:label "Sitio Cultural(Museos o Monumentos)".
+
+cult:Museo        rdf:type owl:Class;
+                    rdfs:subClassOf cult:SitioCultural;
+                    rdfs:label "Museo".
+
+cult:Monumento      rdf:type owl:Class;
+                    rdfs:subClassOf cult:SitioCultural;
+                    rdfs:label "Monumento".
+
+
+# Este tipo representa el tipo o catégoria de museo
+cult:MuseoTipo    rdf:type owl:Class;
+                    rdfs:label "Museo Tipo".
+                    
+# Este tipo representa el tipo o catégoria de monumento
+cult:MonumentoTipo  rdf:type owl:Class;
+                    rdfs:label "Monumento Tipo".
+
+cult:Barrio  rdf:type owl:Class;
+              rdfs:label "Barrio ".
+
+cult:Distrito  rdf:type owl:Class;
+                rdfs:label "Distrito ".
+              
+
+### Object Properties
+cult:estaLocalizado      rdf:type owl:ObjectProperty;
+                    rdfs:label "Localización de un sitio cultural";
+                    rdfs:domain cult:SitioCultural;
+                    rdfs:range cult:Localizacion.
+
+cult:tieneCoordenadas rdf:type owl:ObjectProperty;
+                    rdfs:label "Localización con coordenadas";
+                    rdfs:domain cult:Localizacion;
+                    rdfs:range schema:GeoCoordinates.
+
+cult:tieneDireccion     rdf:type owl:ObjectProperty;
+                    rdfs:label "Dirección Postal de una Localización";
+                    rdfs:domain cult:Localizacion;
+                    rdfs:range schema:PostalAddress.
+
+cult:esTipo         rdf:type owl:ObjectProperty;
+                    rdfs:label "Tipo de Museo";
+                    rdfs:domain cult:SitioCultural;
+                    rdfs:range cult:MuseoTipo,
+                                cult:MonumentoTipo.
+
+
+cult:enDistrito     rdf:type owl:ObjectProperty;
+                    rdfs:label "is in District";
+                    rdfs:domain cult:Localizacion;
+                    rdfs:range cult:Distrito.
+
+cult:enBarrio rdf:type owl:ObjectProperty;
+                    rdfs:label "is in Neighborhood";
+                    rdfs:domain cult:Localizacion;
+                    rdfs:range cult:Barrio.
+
+### Data Properties
+
+
+# Propiedades de los Sitios Culturales (Clase General)
+
+cult:tienePK          rdf:type owl:DatatypeProperty;
+                    rdfs:label "Identificador PK del sitio cultural";
+                    rdfs:domain cult:SitioCultural;
+                    rdfs:range xsd:positiveInteger.
+
+cult:Descricion rdf:type owl:DatatypeProperty;
+                    rdfs:label "Descripcion Edificio";
+                    rdfs:domain cult:SitioCultural;
+                    rdfs:range xsd:string.
+
+cult:creadoPor      rdf:type owl:DatatypeProperty;
+                    rdfs:label "Autor del Monumento";
+                    rdfs:domain cult:Monumento;
+                    rdfs:range xsd:string.
+
+cult:extraInfo      rdf:type owl:DatatypeProperty;
+                    rdfs:label "PDF con información";
+                    rdfs:domain cult:Monumento;
+                    # Esto es una url pero lo tratamos como texto para el uso de aplicaciones
+                    rdfs:range xsd:string.
+
+cult:horasApertura   rdf:type owl:DatatypeProperty;
+                    rdfs:label "Horas de Apertura";
+                    rdfs:domain cult:Museo;
+                    rdfs:range xsd:string.
+
+cult:transporteCercano  rdf:type owl:DatatypeProperty;
+                    rdfs:label "Medios de Transporte cercanos";
+                    rdfs:domain cult:Museo;
+                    rdfs:range xsd:string.
+
+cult:TelefonoContacto rdf:type owl:DatatypeProperty;
+                    rdfs:label "Telefono Contacto";
+                    rdfs:domain cult:Museo;
+                    rdfs:range xsd:string.
+
+cult:equipamiento      rdf:type owl:DatatypeProperty;
+                    rdfs:label "Equipamiento u otros";
+                    rdfs:domain cult:Museo;
+                    rdfs:range xsd:string.
+                    
+cult:tieneDescripcionEntidad   rdf:type owl:DatatypeProperty;
+                    rdfs:label "Descripción de Entidad de un museo";
+                    rdfs:domain cult:Museo;
+                    rdfs:range xsd:string.
+                    
+cult:emailContacto   rdf:type owl:DatatypeProperty;
+                    rdfs:label "Email de Contacto";
+                    rdfs:domain cult:Museo;
+                    rdfs:range xsd:string.
+
+cult:fechaCreacion   rdf:type owl:DatatypeProperty;
+                    rdfs:label "Año o Periodo de creación del Monumento";
+                    rdfs:domain cult:Monumento;
+                    rdfs:range xsd:string.
+
+cult:tieneNombre        rdf:type owl:DatatypeProperty;
+                    rdfs:label "Nombre del Sitio";
+                    rdfs:domain cult:SitioCultural;
+                    rdfs:range xsd:string.
+
+
+cult:clasificacion rdf:type owl:DatatypeProperty;
+                    rdfs:label "Tipo o SubTipo de un Sitio Cultural";
+                    rdfs:domain cult:SitioCultural;
+                    rdfs:range xsd:string.

@@ -1,0 +1,53 @@
+
+{
+	"@context":{
+	   "rdfs:"http://www.w3.org/2000/01/rdf-schema#",
+	   "persona": "http://www.persona.es/persona/",
+	   "foaf": "http://xmlns.com/foaf/0.1/"
+	   "fullName":"foaf:fullName"
+	   "name": "rdfs:label",
+	   "hometown": "rdfs:label",
+	   "age":"rdfs:label",
+	   "almaMater": "rdfs:label",
+	   "motherName": "rdfs:label",
+	   "fatherName": "rdfs:label",
+	   "subject": "http://www.subjects_course.com/subject/#",
+	   "teacher": "http://www.teacher_course.com/subject/teacher/#",
+	   "briefdescription":"rdf:comment"
+	  
+	  
+	},
+	"@type":"persona:estudiante",
+	"@id": "http://www.persona.es/recurso/PabloG",
+	"fullName":"Pablo Gomez Martín",
+	"hometown": "Madrid",
+	"age":"19",
+	"almaMater" :"UPM",
+	"motherName": "Toñi",
+	"fatherName":"Alberto",
+	"subject":[{
+
+	 "@id":"http://www.subjects_course.com/subject/KnowledgeGraph",
+	 "@type": "subjects:subject"
+	 "name":"Knowledge graph"
+	 "teacher": "teacher:Óscar Corcho"
+	 "briefdescription" :"Asignatura en la cual se desempeña, especialmente, el aprendizaje de los grafos de conocimientos en el ámbito de la informática"
+
+	},
+	{"@id":"http://www.subjects_course.com/subject/AlgoritmicaNumerica",
+	 "@type": "subjects:subject"
+	 "name":"Algorítmica Numérica"
+	 "teacher": "teacher:Antonio López"
+	 "briefdescription" :"Desempeño de la programación matemática en el ámbito de la informática"
+
+	}
+	{"@id":"http://www.subjects_course.com/subject/ProgramaciónCienciaDeDatos",
+	 "@type": "subjects:subject"
+	 "name":"Programacion orientada a la Ciencia de Datos"
+	 "teacher": "teacher: Guillermo Vigueras"
+	 "briefdescription" :"Principales conococimientos en lenguaje Python sobre la orientación en la programación sobre la Ciencia de Datos"
+
+	}]
+	
+
+}

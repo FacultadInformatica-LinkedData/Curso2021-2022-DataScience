@@ -1,0 +1,51 @@
+
+Alumno: Rubén Cid
+Github User: Ruben_Cid35
+
+# Ejercicio 1.
+a) Query:
+SELECT DISTINCT ?prop
+WHERE{
+    ?name a <http://dbpedia.org/ontology/Politician>.
+    ?name ?prop ?value.
+}
+
+
+# Ejercicio 2.
+
+SELECT DISTINCT ?prop
+WHERE{
+    ?name a <http://dbpedia.org/ontology/Politician>.
+    ?name ?prop ?value.
+    FILTER(?prop != rdf:type).
+} 
+
+# Ejercicio 3.
+
+SELECT DISTINCT ?prop
+WHERE{
+    ?name a <http://dbpedia.org/ontology/Politician>.
+    ?name ?prop ?value.
+    FILTER(?prop != rdf:type).
+}
+
+# Ejercicio 4.
+
+SELECT DISTINCT ?propValue
+where
+{
+ ?name a <http://dbpedia.org/ontology/Politician> .
+ ?name ?prop ?value.
+ FILTER(?prop != rdf:type)
+}
+
+
+# Ejercicios 5.
+
+SELECT  ?prop,
+         COUNT(DISTINCT ?values) as ?posiblesValores
+WHERE{ 
+    ?name a <http://dbpedia.org/ontology/Politician>.
+    ?name ?prop ?values.
+    FILTER(?prop != rdf:type).
+}

@@ -1,0 +1,185 @@
+@prefix : <https://www.mapmadrid.org/ontologia/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://www.schema.org/> .
+@base <https://www.mapmadrid.org/ontologia/> .
+
+<https://www.mapmadrid.org/ontologia/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://www.mapmadrid.org/ontologia/enBarrio
+:enBarrio rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Localizacion ;
+          rdfs:range :Barrio .
+
+
+###  https://www.mapmadrid.org/ontologia/enDistrito
+:enDistrito rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Localizacion ;
+            rdfs:range :Distrito .
+
+
+###  https://www.mapmadrid.org/ontologia/estaLocalizado
+:estaLocalizado rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :SitioCultural ;
+                rdfs:range :Localizacion .
+
+
+###  https://www.mapmadrid.org/ontologia/tieneCoordenadas
+:tieneCoordenadas rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Localizacion ;
+                  rdfs:range <http://schema.org/GeoCoordinates> .
+
+
+###  https://www.mapmadrid.org/ontologia/tieneDirreccion
+:tieneDirreccion rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:domain :Localizacion ;
+                 rdfs:range <http://schema.org/PostalAddress> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://www.mapmadrid.org/ontologia/Descripcion
+:Descripcion rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :SitioCultural ;
+             rdfs:range xsd:string .
+
+
+###  https://www.mapmadrid.org/ontologia/TelefonoContacto
+:TelefonoContacto rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Museo ;
+                  rdfs:range xsd:string .
+
+
+###  https://www.mapmadrid.org/ontologia/clasificacion
+:clasificacion rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :SitioCultural ;
+               rdfs:range xsd:string .
+
+
+###  https://www.mapmadrid.org/ontologia/creadoPor
+:creadoPor rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Monumento ;
+           rdfs:range xsd:string .
+
+
+###  https://www.mapmadrid.org/ontologia/emailContacto
+:emailContacto rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Museo ;
+               rdfs:range xsd:string .
+
+
+###  https://www.mapmadrid.org/ontologia/equipamiento
+:equipamiento rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain :Museo ;
+              rdfs:range xsd:string .
+
+
+###  https://www.mapmadrid.org/ontologia/extraInfo
+:extraInfo rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Monumento ;
+           rdfs:range xsd:anyURI .
+
+
+###  https://www.mapmadrid.org/ontologia/fechaCreacion
+:fechaCreacion rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Monumento ;
+               rdfs:range xsd:string .
+
+
+###  https://www.mapmadrid.org/ontologia/horasApertura
+:horasApertura rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Museo ;
+               rdfs:range xsd:string .
+
+
+###  https://www.mapmadrid.org/ontologia/tieneDescripcionEntidad
+:tieneDescripcionEntidad rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty ;
+                         rdfs:domain :Museo ;
+                         rdfs:range xsd:string .
+
+
+###  https://www.mapmadrid.org/ontologia/tieneNombre
+:tieneNombre rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :SitioCultural ;
+             rdfs:range xsd:string .
+
+
+###  https://www.mapmadrid.org/ontologia/tienePk
+:tienePk rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :SitioCultural ;
+         rdfs:range xsd:nonNegativeInteger .
+
+
+###  https://www.mapmadrid.org/ontologia/transporteCercano
+:transporteCercano rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain :Museo ;
+                   rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://schema.org/GeoCoordinates
+<http://schema.org/GeoCoordinates> rdf:type owl:Class .
+
+
+###  http://schema.org/PostalAddress
+<http://schema.org/PostalAddress> rdf:type owl:Class .
+
+
+###  https://www.mapmadrid.org/ontologia/Barrio
+:Barrio rdf:type owl:Class .
+
+
+###  https://www.mapmadrid.org/ontologia/Distrito
+:Distrito rdf:type owl:Class .
+
+
+###  https://www.mapmadrid.org/ontologia/Localizacion
+:Localizacion rdf:type owl:Class .
+
+
+###  https://www.mapmadrid.org/ontologia/Monumento
+:Monumento rdf:type owl:Class ;
+           rdfs:subClassOf :SitioCultural ;
+           owl:disjointWith :Museo .
+
+
+###  https://www.mapmadrid.org/ontologia/Museo
+:Museo rdf:type owl:Class ;
+       rdfs:subClassOf :SitioCultural .
+
+
+###  https://www.mapmadrid.org/ontologia/SitioCultural
+:SitioCultural rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
