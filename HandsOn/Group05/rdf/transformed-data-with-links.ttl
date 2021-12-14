@@ -245,15 +245,15 @@
         <http://www.schema.org/description>
                 "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://museosymonumentos.es/resource/BusStop#2058>
-        a       <http://www.schema.org/BusStop> ;
-        <http://www.schema.org/description>
-                "10; 14; 27; 34; 37; 45"^^<http://www.w3.org/2001/XMLSchema#string> .
-
 <http://museosymonumentos.es/resource/BicimadStop#2213>
         a       <http://museosymonumentos.es/ontology/ConoceMadrid#BicimadStop> ;
         <http://www.schema.org/description>
                 "Estación 177 (Calle Bolívar 3)"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://museosymonumentos.es/resource/BusStop#2058>
+        a       <http://www.schema.org/BusStop> ;
+        <http://www.schema.org/description>
+                "10; 14; 27; 34; 37; 45"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/Site#2114>
         a                              <http://www.w3.org/ns/org/Site> ;
@@ -290,6 +290,18 @@
         <http://www.schema.org/description>
                 "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
 
+<http://museosymonumentos.es/resource/CityDistrict#2086>
+        a       <https://dbpedia.org/ontology/CityDistrict> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q1763376"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
+        <https://dbpedia.org/ontology/name>
+                "Centro"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://museosymonumentos.es/resource/BusStop#2072>
+        a       <http://www.schema.org/BusStop> ;
+        <http://www.schema.org/description>
+                "143; 2; 30; 56; 71; C2; 28"^^<http://www.w3.org/2001/XMLSchema#string> .
+
 <http://museosymonumentos.es/resource/Coordinates#10091450>
         a       <https://w3id.org/arco/ontology/location/Coordinates> ;
         <http://www.arpenteur.org/ontology/Arpenteur.owl#hasX>
@@ -300,18 +312,6 @@
                 "40.480173612860305"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.schema.org/longitude>
                 "-3.6831595451893273"^^<http://www.w3.org/2001/XMLSchema#float> .
-
-<http://museosymonumentos.es/resource/BusStop#2072>
-        a       <http://www.schema.org/BusStop> ;
-        <http://www.schema.org/description>
-                "143; 2; 30; 56; 71; C2; 28"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://museosymonumentos.es/resource/CityDistrict#2086>
-        a       <https://dbpedia.org/ontology/CityDistrict> ;
-        <http://www.w3.org/2002/07/owl#sameAs>
-                "https://wikidata.org/entity/Q1763376"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-        <https://dbpedia.org/ontology/name>
-                "Centro"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/Coordinates#5873478>
         a       <https://w3id.org/arco/ontology/location/Coordinates> ;
@@ -957,17 +957,17 @@
         <http://www.schema.org/description>
                 "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
 
+<http://museosymonumentos.es/resource/MetroStation#2079>
+        a       <https://dbpedia.org/ontology/MetroStation> ;
+        <http://www.schema.org/description>
+                "Estación del Arte (Atocha) (línea 1)"^^<http://www.w3.org/2001/XMLSchema#string> .
+
 <http://museosymonumentos.es/resource/Neighborhood#7071384>
         a       <http://rdfs.co/juso/Neighborhood> ;
         <http://www.w3.org/2002/07/owl#sameAs>
                 "https://wkidata.org/entity/Q3813741"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
         <https://dbpedia.org/ontology/name>
                 "Vista Alegre"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://museosymonumentos.es/resource/MetroStation#2079>
-        a       <https://dbpedia.org/ontology/MetroStation> ;
-        <http://www.schema.org/description>
-                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/Place#5873478>
         a                            <http://www.schema.org/Place> ;
@@ -1072,7 +1072,7 @@
 <http://museosymonumentos.es/resource/BusStop#2079>
         a       <http://www.schema.org/BusStop> ;
         <http://www.schema.org/description>
-                "https://wikidata.org/entity/Q23093"^^<http://www.w3.org/2001/XMLSchema#string> .
+                "10; 14; 24; 32; 37; 54; 57; 141; 26; C1; C2; 102"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/Coordinates#2072>
         a       <https://w3id.org/arco/ontology/location/Coordinates> ;
@@ -1165,22 +1165,22 @@
 <http://museosymonumentos.es/resource/Site#2079>
         a                              <http://www.w3.org/ns/org/Site> ;
         <http://museosymonumentos.es/ontology/ConoceMadrid#accessibility>
-                "10; 14; 24; 32; 37; 54; 57; 141; 26; C1; C2; 102"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "1"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://museosymonumentos.es/ontology/ConoceMadrid#hasNearbyStop>
                 <http://museosymonumentos.es/resource/MetroStation#2079> , <http://museosymonumentos.es/resource/BicimadStop#2079> , <http://museosymonumentos.es/resource/BusStop#2079> , <http://museosymonumentos.es/resource/ParkingFacility#2079> , <http://museosymonumentos.es/resource/TrainStation#2079> ;
         <http://www.schema.org/description>
-                " Madrid\""^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://www.schema.org/email>  "-3.683413041846525"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "La construcción de este edificio responde a dos de las constantes de fines de siglo: la arquitectura historicista y la escultura funeraria. En él reposan trece personajes ilustres de la historia política y militar española."^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.schema.org/email>  "info@patrimonionacional.es"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://www.schema.org/openingHours>
-                "https://wikidata.org/entity/Q59138537"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "De martes a sábado de 10 a 14 y de 16 a 18:30 horas Domingos y festivos de 10 a 15 horas Cerrado todos los lunes del año"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://www.schema.org/place>  <http://museosymonumentos.es/resource/Place#2079> ;
         <http://www.schema.org/telephone>
-                "40.40622617519116"^^<http://www.w3.org/2001/XMLSchema#string> ;
-        <http://www.schema.org/url>    "Estación del Arte (Atocha) (línea 1)"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+                "914 548 700 (Información general)"^^<http://www.w3.org/2001/XMLSchema#string> ;
+        <http://www.schema.org/url>    "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=361cef4d7f71c010VgnVCM1000000b205a0aRCRD"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
         <http://www.w3.org/2002/07/owl#sameAs>
-                " Cementerio de San Justo"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
+                "https://wikidata.org/entity/Q59138537"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
         <https://dbpedia.org/ontology/name>
-                "\"Panteón de Hombres Ilustres"^^<http://www.w3.org/2001/XMLSchema#string> .
+                "Panteón de Hombres Ilustres Cementerio de San Justo Madrid"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/ParkingFacility#6019032>
         a       <http://www.schema.org/ParkingFacility> ;
@@ -1209,17 +1209,17 @@
         <https://dbpedia.org/ontology/name>
                 "Goya"^^<http://www.w3.org/2001/XMLSchema#string> .
 
+<http://museosymonumentos.es/resource/ParkingFacility#3349>
+        a       <http://www.schema.org/ParkingFacility> ;
+        <http://www.schema.org/description>
+                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
+
 <http://museosymonumentos.es/resource/TrainStation#2064>
         a       <http://www.schema.org/TrainStation> ;
         <http://www.schema.org/description>
                 "Atocha Railway Station"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://www.w3.org/2002/07/owl#sameAs>
                 "https://wikidata.org/entity/Q23093"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-
-<http://museosymonumentos.es/resource/ParkingFacility#3349>
-        a       <http://www.schema.org/ParkingFacility> ;
-        <http://www.schema.org/description>
-                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/MetroStation#6337393>
         a       <https://dbpedia.org/ontology/MetroStation> ;
@@ -1314,7 +1314,7 @@
 <http://museosymonumentos.es/resource/ParkingFacility#2079>
         a       <http://www.schema.org/ParkingFacility> ;
         <http://www.schema.org/description>
-                "La construcción de este edificio responde a dos de las constantes de fines de siglo: la arquitectura historicista y la escultura funeraria. En él reposan trece personajes ilustres de la historia política y militar española."^^<http://www.w3.org/2001/XMLSchema#string> .
+                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/CityDistrict#7685664>
         a       <https://dbpedia.org/ontology/CityDistrict> ;
@@ -1766,7 +1766,7 @@
         a                            <http://www.schema.org/Place> ;
         <http://www.schema.org/geo>  <http://museosymonumentos.es/resource/Coordinates#2079> ;
         <http://www.schema.org/streetAddress>
-                "1"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "CALLE JULIAN GAYARRE 3 28014 MADRID"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <https://dbpedia.org/ontology/district>
                 <http://museosymonumentos.es/resource/CityDistrict#2079> ;
         <https://dbpedia.org/ontology/neighbourhood>
@@ -1787,13 +1787,13 @@
 <http://museosymonumentos.es/resource/Coordinates#2079>
         a       <https://w3id.org/arco/ontology/location/Coordinates> ;
         <http://www.arpenteur.org/ontology/Arpenteur.owl#hasX>
-                "Retiro"^^<http://www.w3.org/2001/XMLSchema#float> ;
-        <http://www.arpenteur.org/ontology/Arpenteur.owl#hasY>
-                "https://wikidata.org/entity/Q2002296"^^<http://www.w3.org/2001/XMLSchema#float> ;
-        <http://www.schema.org/latitude>
                 "442012"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        <http://www.arpenteur.org/ontology/Arpenteur.owl#hasY>
+                "4473070"^^<http://www.w3.org/2001/XMLSchema#float> ;
+        <http://www.schema.org/latitude>
+                "40.40622617519116"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.schema.org/longitude>
-                "4473070"^^<http://www.w3.org/2001/XMLSchema#float> .
+                "-3.683413041846525"^^<http://www.w3.org/2001/XMLSchema#float> .
 
 <http://museosymonumentos.es/resource/Place#5682031>
         a                            <http://www.schema.org/Place> ;
@@ -1827,17 +1827,17 @@
         <https://dbpedia.org/ontology/name>
                 "Palacio"^^<http://www.w3.org/2001/XMLSchema#string> .
 
+<http://museosymonumentos.es/resource/ParkingFacility#2087>
+        a       <http://www.schema.org/ParkingFacility> ;
+        <http://www.schema.org/description>
+                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
+
 <http://museosymonumentos.es/resource/CityDistrict#6337393>
         a       <https://dbpedia.org/ontology/CityDistrict> ;
         <http://www.w3.org/2002/07/owl#sameAs>
                 "https://wikidata.org/entity/Q1763376"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
         <https://dbpedia.org/ontology/name>
                 "Centro"^^<http://www.w3.org/2001/XMLSchema#string> .
-
-<http://museosymonumentos.es/resource/ParkingFacility#2087>
-        a       <http://www.schema.org/ParkingFacility> ;
-        <http://www.schema.org/description>
-                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/BusStop#5727435>
         a       <http://www.schema.org/BusStop> ;
@@ -1890,9 +1890,9 @@
 <http://museosymonumentos.es/resource/Neighborhood#2079>
         a       <http://rdfs.co/juso/Neighborhood> ;
         <http://www.w3.org/2002/07/owl#sameAs>
-                "CALLE JULIAN GAYARRE 3 28014 MADRID"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
+                "https://wkidata.org/entity/Q3773753"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
         <https://dbpedia.org/ontology/name>
-                "http://www.madrid.es/sites/v/index.jsp?vgnextchannel=bfa48ab43d6bb410VgnVCM100000171f5a0aRCRD&vgnextoid=361cef4d7f71c010VgnVCM1000000b205a0aRCRD"^^<http://www.w3.org/2001/XMLSchema#string> .
+                "Pacífico"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/Site#6337393>
         a                              <http://www.w3.org/ns/org/Site> ;
@@ -2005,6 +2005,11 @@
         <http://www.w3.org/2002/07/owl#sameAs>
                 "NULL"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 
+<http://museosymonumentos.es/resource/BicimadStop#2079>
+        a       <http://museosymonumentos.es/ontology/ConoceMadrid#BicimadStop> ;
+        <http://www.schema.org/description>
+                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
+
 <http://museosymonumentos.es/resource/Place#85301>
         a                            <http://www.schema.org/Place> ;
         <http://www.schema.org/geo>  <http://museosymonumentos.es/resource/Coordinates#85301> ;
@@ -2014,11 +2019,6 @@
                 <http://museosymonumentos.es/resource/CityDistrict#85301> ;
         <https://dbpedia.org/ontology/neighbourhood>
                 <http://museosymonumentos.es/resource/Neighborhood#85301> .
-
-<http://museosymonumentos.es/resource/BicimadStop#2079>
-        a       <http://museosymonumentos.es/ontology/ConoceMadrid#BicimadStop> ;
-        <http://www.schema.org/description>
-                "Atocha Railway Station"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/Site#2050>
         a                              <http://www.w3.org/ns/org/Site> ;
@@ -2421,9 +2421,9 @@
 <http://museosymonumentos.es/resource/TrainStation#2079>
         a       <http://www.schema.org/TrainStation> ;
         <http://www.schema.org/description>
-                "De martes a sábado de 10 a 14 y de 16 a 18:30 horas Domingos y festivos de 10 a 15 horas Cerrado todos los lunes del año"^^<http://www.w3.org/2001/XMLSchema#string> ;
+                "Atocha Railway Station"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://www.w3.org/2002/07/owl#sameAs>
-                "NULL"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+                "https://wikidata.org/entity/Q23093"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
 
 <http://museosymonumentos.es/resource/CityDistrict#2072>
         a       <https://dbpedia.org/ontology/CityDistrict> ;
@@ -3111,19 +3111,19 @@
         <http://www.schema.org/description>
                 "Colón (2) en Plaza de Colón s/n"^^<http://www.w3.org/2001/XMLSchema#string> .
 
+<http://museosymonumentos.es/resource/CityDistrict#2079>
+        a       <https://dbpedia.org/ontology/CityDistrict> ;
+        <http://www.w3.org/2002/07/owl#sameAs>
+                "https://wikidata.org/entity/Q2002296"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
+        <https://dbpedia.org/ontology/name>
+                "Retiro"^^<http://www.w3.org/2001/XMLSchema#string> .
+
 <http://museosymonumentos.es/resource/TrainStation#85301>
         a       <http://www.schema.org/TrainStation> ;
         <http://www.schema.org/description>
                 "Madrid Chamartín station"^^<http://www.w3.org/2001/XMLSchema#string> ;
         <http://www.w3.org/2002/07/owl#sameAs>
                 "https://wikidata.org/entity/Q23081"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
-
-<http://museosymonumentos.es/resource/CityDistrict#2079>
-        a       <https://dbpedia.org/ontology/CityDistrict> ;
-        <http://www.w3.org/2002/07/owl#sameAs>
-                "https://wkidata.org/entity/Q3773753"^^<http://www.w3.org/2001/XMLSchema#anyURI> ;
-        <https://dbpedia.org/ontology/name>
-                "Pacífico"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/Coordinates#4997114>
         a       <https://w3id.org/arco/ontology/location/Coordinates> ;
@@ -3216,15 +3216,15 @@
         <http://www.schema.org/description>
                 "Sol (líneas 1; 2 y 3) Tirso de Molina (línea 1)"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://museosymonumentos.es/resource/BusStop#3348>
-        a       <http://www.schema.org/BusStop> ;
-        <http://www.schema.org/description>
-                "3; 25; 39; 148"^^<http://www.w3.org/2001/XMLSchema#string> .
-
 <http://museosymonumentos.es/resource/BusStop#6019032>
         a       <http://www.schema.org/BusStop> ;
         <http://www.schema.org/description>
                 "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://museosymonumentos.es/resource/BusStop#3348>
+        a       <http://www.schema.org/BusStop> ;
+        <http://www.schema.org/description>
+                "3; 25; 39; 148"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/ParkingFacility#4949641>
         a       <http://www.schema.org/ParkingFacility> ;
@@ -3506,20 +3506,25 @@
         <http://www.schema.org/description>
                 "27; 34; C03; C1; 26; 32; 6; 59; 85; E1; C2; 119; 36; 41; 001; 10; 14; 37; 45"^^<http://www.w3.org/2001/XMLSchema#string> .
 
-<http://museosymonumentos.es/resource/BicimadStop#2071>
-        a       <http://museosymonumentos.es/ontology/ConoceMadrid#BicimadStop> ;
-        <http://www.schema.org/description>
-                "Estación 142 (Paseo de la Castellana n&amp;ordm;42)"^^<http://www.w3.org/2001/XMLSchema#string> .
-
 <http://museosymonumentos.es/resource/ParkingFacility#7071384>
         a       <http://www.schema.org/ParkingFacility> ;
         <http://www.schema.org/description>
                 "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
 
+<http://museosymonumentos.es/resource/BicimadStop#2071>
+        a       <http://museosymonumentos.es/ontology/ConoceMadrid#BicimadStop> ;
+        <http://www.schema.org/description>
+                "Estación 142 (Paseo de la Castellana n&amp;ordm;42)"^^<http://www.w3.org/2001/XMLSchema#string> .
+
 <http://museosymonumentos.es/resource/BicimadStop#5873478>
         a       <http://museosymonumentos.es/ontology/ConoceMadrid#BicimadStop> ;
         <http://www.schema.org/description>
                 "Estación 13 (calle Conde Duque 22)"^^<http://www.w3.org/2001/XMLSchema#string> .
+
+<http://museosymonumentos.es/resource/BicimadStop#4707297>
+        a       <http://museosymonumentos.es/ontology/ConoceMadrid#BicimadStop> ;
+        <http://www.schema.org/description>
+                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/Coordinates#2084>
         a       <https://w3id.org/arco/ontology/location/Coordinates> ;
@@ -3531,11 +3536,6 @@
                 "40.424403779665376"^^<http://www.w3.org/2001/XMLSchema#float> ;
         <http://www.schema.org/longitude>
                 "-3.6914362030084815"^^<http://www.w3.org/2001/XMLSchema#float> .
-
-<http://museosymonumentos.es/resource/BicimadStop#4707297>
-        a       <http://museosymonumentos.es/ontology/ConoceMadrid#BicimadStop> ;
-        <http://www.schema.org/description>
-                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/MetroStation#2073>
         a       <https://dbpedia.org/ontology/MetroStation> ;
@@ -4341,11 +4341,6 @@
         <http://www.schema.org/longitude>
                 "-3.6987835425963063"^^<http://www.w3.org/2001/XMLSchema#float> .
 
-<http://museosymonumentos.es/resource/BicimadStop#5727435>
-        a       <http://museosymonumentos.es/ontology/ConoceMadrid#BicimadStop> ;
-        <http://www.schema.org/description>
-                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
-
 <http://museosymonumentos.es/resource/Place#2073>
         a                            <http://www.schema.org/Place> ;
         <http://www.schema.org/geo>  <http://museosymonumentos.es/resource/Coordinates#2073> ;
@@ -4355,6 +4350,11 @@
                 <http://museosymonumentos.es/resource/CityDistrict#2073> ;
         <https://dbpedia.org/ontology/neighbourhood>
                 <http://museosymonumentos.es/resource/Neighborhood#2073> .
+
+<http://museosymonumentos.es/resource/BicimadStop#5727435>
+        a       <http://museosymonumentos.es/ontology/ConoceMadrid#BicimadStop> ;
+        <http://www.schema.org/description>
+                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/TrainStation#4997114>
         a       <http://www.schema.org/TrainStation> ;
@@ -5236,6 +5236,11 @@
         <https://dbpedia.org/ontology/name>
                 "Centro Cultural La Corrala"^^<http://www.w3.org/2001/XMLSchema#string> .
 
+<http://museosymonumentos.es/resource/ParkingFacility#2213>
+        a       <http://www.schema.org/ParkingFacility> ;
+        <http://www.schema.org/description>
+                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
+
 <http://museosymonumentos.es/resource/Place#4566286>
         a                            <http://www.schema.org/Place> ;
         <http://www.schema.org/geo>  <http://museosymonumentos.es/resource/Coordinates#4566286> ;
@@ -5245,11 +5250,6 @@
                 <http://museosymonumentos.es/resource/CityDistrict#4566286> ;
         <https://dbpedia.org/ontology/neighbourhood>
                 <http://museosymonumentos.es/resource/Neighborhood#4566286> .
-
-<http://museosymonumentos.es/resource/ParkingFacility#2213>
-        a       <http://www.schema.org/ParkingFacility> ;
-        <http://www.schema.org/description>
-                "NULL"^^<http://www.w3.org/2001/XMLSchema#string> .
 
 <http://museosymonumentos.es/resource/Place#914%20673%20898%20(contestador%20autom%C3%A1tico%20de%20informaci%C3%B3n)%22>
         <http://www.schema.org/geo>  <http://museosymonumentos.es/resource/Coordinates#914%20673%20898%20(contestador%20autom%C3%A1tico%20de%20informaci%C3%B3n)%22> ;
