@@ -12,16 +12,26 @@
 @prefix a-loc: <https://w3id.org/arco/ontology/location/> .
 @prefix arp: <http://www.arpenteur.org/ontology/Arpenteur.owl#> .
 @prefix org: <http://www.w3.org/ns/org/> .
+@prefix juso: <http://rdfs.co/juso/>.
+
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 
 
 <#TriplesMap1> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/museos-updated.csv" ;
+    rml:source "./data/museos-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
     rr:template "http://museosymonumentos.es/resource/Site#{PK}";
     rr:termType rr:IRI; rr:class org:Site
+  ];
+  rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+    rr:objectMap [
+      rml:reference "same_as_nombre";
+	  rr:datatype xsd:anyURI
+      ]
   ];
   rr:predicateObjectMap [
     rr:predicate dbpedia-owl:name;
@@ -124,7 +134,7 @@
   
 <#TriplesMap2> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/museos-updated.csv" ;
+    rml:source "./data/museos-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -139,17 +149,19 @@
       ]
   ];
   rr:predicateObjectMap [
-    rr:predicate dbpedia-owl:district;
+    rr:predicate dbpedia-owl:neighbourhood;
     rr:objectMap [
-      rml:reference "DISTRITO";
-	  rr:datatype xsd:string
+	  rr:parentTriplesMap <#TriplesMap9>;
+	  rr:joinCondition [
+	    rr:child "PK"; rr:parent "PK"; ]
       ]
   ];
   rr:predicateObjectMap [
-    rr:predicate dbpedia-owl:neighbourhood;
+    rr:predicate dbpedia-owl:district;
     rr:objectMap [
-      rml:reference "BARRIO";
-	  rr:datatype xsd:string
+	  rr:parentTriplesMap <#TriplesMap10>;
+	  rr:joinCondition [
+	    rr:child "PK"; rr:parent "PK"; ]
       ]
   ];
   rr:predicateObjectMap [
@@ -164,7 +176,7 @@
 
 <#TriplesMap3> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/museos-updated.csv" ;
+    rml:source "./data/museos-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -181,7 +193,7 @@
 
 <#TriplesMap4> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/museos-updated.csv" ;
+    rml:source "./data/museos-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -219,7 +231,7 @@
   
 <#TriplesMap5> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/museos-updated.csv" ;
+    rml:source "./data/museos-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -229,14 +241,21 @@
   rr:predicateObjectMap [
     rr:predicate schema:description;
     rr:objectMap [
-      rml:reference "cercanias";
+      rml:reference "cercanias 1";
 	  rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+    rr:objectMap [
+      rml:reference "same_as_cercanias1";
+	  rr:datatype xsd:anyURI
       ]
   ].
 
 <#TriplesMap6> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/museos-updated.csv" ;
+    rml:source "./data/museos-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -253,7 +272,7 @@
 
 <#TriplesMap7> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/museos-updated.csv" ;
+    rml:source "./data/museos-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -270,7 +289,7 @@
   
 <#TriplesMap8> a rr:TriplesMap;
   rml:logicalSource [
-    rml:source "./data/museos-updated.csv" ;
+    rml:source "./data/museos-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV 
   ];
   rr:subjectMap [
@@ -285,3 +304,50 @@
       ]
   ].
  
+  <#TriplesMap9> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/museos-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://museosymonumentos.es/resource/Neighborhood#{PK}";
+    rr:termType rr:IRI; rr:class juso:Neighborhood
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dbpedia-owl:name;
+    rr:objectMap [
+      rml:reference "BARRIO";
+	  rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+    rr:objectMap [
+      rml:reference "same_as_barrio";
+	  rr:datatype xsd:anyURI
+      ]
+  ].
+  
+<#TriplesMap10> a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "./data/museos-updated-with-links.csv" ;
+    rml:referenceFormulation ql:CSV 
+  ];
+  rr:subjectMap [
+    rr:template "http://museosymonumentos.es/resource/CityDistrict#{PK}";
+    rr:termType rr:IRI; rr:class dbpedia-owl:CityDistrict
+  ];
+  rr:predicateObjectMap [
+    rr:predicate dbpedia-owl:name;
+    rr:objectMap [
+      rml:reference "DISTRITO";
+	  rr:datatype xsd:string
+      ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate owl:sameAs;
+    rr:objectMap [
+      rml:reference "same_as_distrito";
+	  rr:datatype xsd:anyURI
+      ]
+  ].
