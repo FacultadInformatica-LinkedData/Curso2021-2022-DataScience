@@ -1,0 +1,6 @@
+{
+  "@id": "http://example.org/resource/Class01",
+  "@context": "http://schema.org/",
+  "includes": [{"@id": "http://example.org/resource/Sensor029", "hasMeasurement": {"@id": "http://example.org/resource/Measurement8401", "hasTemperature": 29, "atTime": "2010-06-12T12:00:12"}}, {"@id": "http://example.org/resource/Computer01", "hasOwner": {"@id": "http://example.org/resource/User10A", "hasName": "Pedro"}}]
+  
+} 
