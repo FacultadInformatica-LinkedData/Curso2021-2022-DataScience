@@ -1,0 +1,4 @@
+select distinct ?prop where{
+{?instance rdf:type <http://dbpedia.org/ontology/Politician>} .
+{?instance ?prop ?unknown}
+} 
