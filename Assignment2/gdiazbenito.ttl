@@ -1,0 +1,12 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://example.org#> .
+@prefix property: <http://example.org/property#>.
+
+
+:class01 property:includes :sensor029;
+         property:includes :computer101.
+:sensor029 property:hasMeasurement :measurement8401.
+:measurement8401 property:hasTemperature "29"^^xsd:int;
+                 property:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+:computer101 property:hasOwner :User10A.
+:User10A property:hasName "Pedro".
