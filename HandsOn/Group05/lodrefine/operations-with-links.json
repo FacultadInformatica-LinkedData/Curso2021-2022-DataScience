@@ -1,0 +1,1347 @@
+﻿[
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "DISTRITO",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://wdreconcile.toolforge.org/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q3032114",
+                "name": "district of Madrid"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column DISTRITO to type Q3032114"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "DISTRITO",
+        "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+        "onError": "set-to-blank",
+        "newColumnName": "same_as_distrito",
+        "columnInsertIndex": 14,
+        "description": "Create column same_as_distrito at index 14 based on column DISTRITO using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+    },
+    {
+        "op": "core/column-split",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "cercanias",
+        "guessCellType": true,
+        "removeOriginalColumn": true,
+        "mode": "separator",
+        "separator": "(",
+        "regex": false,
+        "maxColumns": 0,
+        "description": "Split column cercanias by separator"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "cercanias 1",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://wdreconcile.toolforge.org/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q55488",
+                "name": "railway station"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column cercanias 1 to type Q55488"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "cercanias 1",
+        "similarValue": "Atocha ",
+        "judgment": "matched",
+        "match": {
+            "id": "Q23093",
+            "name": "Atocha Railway Station",
+            "types": [
+                "Q55485",
+                "Q1406904",
+                "Q22808404",
+                "Q55488"
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Atocha Railway Station (Q23093) for cells containing \"Atocha \" in column cercanias 1"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "cercanias 1",
+        "similarValue": "Chamartín",
+        "judgment": "matched",
+        "match": {
+            "id": "Q23081",
+            "name": "Madrid Chamartín station",
+            "types": [
+                "Q55488"
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Madrid Chamartín station (Q23081) for cells containing \"Chamartín\" in column cercanias 1"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "cercanias 1",
+        "similarValue": "Atocha",
+        "judgment": "matched",
+        "match": {
+            "id": "Q23093",
+            "name": "Atocha Railway Station",
+            "types": [
+                "Q55485",
+                "Q1406904",
+                "Q22808404",
+                "Q55488"
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Atocha Railway Station (Q23093) for cells containing \"Atocha\" in column cercanias 1"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "cercanias 1",
+        "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+        "onError": "set-to-blank",
+        "newColumnName": "same_as_cercanias1",
+        "columnInsertIndex": 6,
+        "description": "Create column same_as_cercanias1 at index 6 based on column cercanias 1 using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+    },
+    {
+        "op": "core/column-removal",
+        "columnName": "cercanias 2",
+        "description": "Remove column cercanias 2"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "BARRIO",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://wdreconcile.toolforge.org/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q10267336",
+                "name": "neighborhood of Madrid"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column BARRIO to type Q10267336"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "BARRIO",
+        "similarValue": "CENTRO",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1763376",
+            "name": "Centro",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Centro (Q1763376) for cells containing \"CENTRO\" in column BARRIO"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "BARRIO",
+        "expression": "grel:\"https://wkidata.org/entity/\"+cell.recon.match.id",
+        "onError": "set-to-blank",
+        "newColumnName": "same_as_barrio",
+        "columnInsertIndex": 14,
+        "description": "Create column same_as_barrio at index 14 based on column BARRIO using expression grel:\"https://wkidata.org/entity/\"+cell.recon.match.id"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://wdreconcile.toolforge.org/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q1329623",
+                "name": "cultural center"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column NOMBRE to type Q1329623"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Casa Museo Lope de Vega",
+        "judgment": "matched",
+        "match": {
+            "id": "Q948580",
+            "name": "House-Museum of Lope de Vega",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item House-Museum of Lope de Vega (Q948580) for cells containing \"Casa Museo Lope de Vega\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Casita - Museo del Ratón Pérez",
+        "judgment": "matched",
+        "match": {
+            "id": "Q107291466",
+            "name": "Category:Casita-Museo del Ratón Pérez",
+            "types": [
+                ""
+            ],
+            "score": 43
+        },
+        "shareNewTopics": false,
+        "description": "Match item Category:Casita-Museo del Ratón Pérez (Q107291466) for cells containing \"Casita - Museo del Ratón Pérez\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Castillo de la Alameda",
+        "judgment": "matched",
+        "match": {
+            "id": "Q8342365",
+            "name": "castle of La Alameda",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item castle of La Alameda (Q8342365) for cells containing \"Castillo de la Alameda\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Casón del Buen Retiro. Museo Nacional del Prado: Centro de Estudios",
+        "judgment": "new",
+        "shareNewTopics": true,
+        "description": "Mark to create one single new item for all cells containing \"Casón del Buen Retiro. Museo Nacional del Prado: Centro de Estudios\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Casón del Buen Retiro. Museo Nacional del Prado: Centro de Estudios",
+        "judgment": "matched",
+        "match": {
+            "id": "Q3321174",
+            "name": "Casón del Buen Retiro",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Casón del Buen Retiro (Q3321174) for cells containing \"Casón del Buen Retiro. Museo Nacional del Prado: Centro de Estudios\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Centro Social y Cultural La Casa Encendida",
+        "judgment": "matched",
+        "match": {
+            "id": "Q5962732",
+            "name": "La Casa Encendida",
+            "types": [
+                "Q1329623",
+                "Q77115"
+            ],
+            "score": 58
+        },
+        "shareNewTopics": false,
+        "description": "Match item La Casa Encendida (Q5962732) for cells containing \"Centro Social y Cultural La Casa Encendida\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Centro Cultural La Corrala. Museo de Artes y Tradiciones Populares",
+        "judgment": "matched",
+        "match": {
+            "id": "Q22810167",
+            "name": "Centro Cultural La Corrala",
+            "types": [
+                "Q1329623"
+            ],
+            "score": 74
+        },
+        "shareNewTopics": false,
+        "description": "Match item Centro Cultural La Corrala (Q22810167) for cells containing \"Centro Cultural La Corrala. Museo de Artes y Tradiciones Populares\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Ermita de San Antonio de la Florida (Museo)",
+        "judgment": "matched",
+        "match": {
+            "id": "Q3109752",
+            "name": "Royal Chapel of St. Anthony of La Florida",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Royal Chapel of St. Anthony of La Florida (Q3109752) for cells containing \"Ermita de San Antonio de la Florida (Museo)\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo de la Real Academia de Bellas Artes de San Fernando",
+        "judgment": "matched",
+        "match": {
+            "id": "Q96658155",
+            "name": "MUSEO DE LA REAL ACADEMIA DE BELLAS ARTES DE SAN FERNANDO",
+            "types": [
+                ""
+            ],
+            "score": 50
+        },
+        "shareNewTopics": false,
+        "description": "Match item MUSEO DE LA REAL ACADEMIA DE BELLAS ARTES DE SAN FERNANDO (Q96658155) for cells containing \"Museo de la Real Academia de Bellas Artes de San Fernando\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo ABC",
+        "judgment": "matched",
+        "match": {
+            "id": "Q21564330",
+            "name": "Museo ABC",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo ABC (Q21564330) for cells containing \"Museo ABC\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "NOMBRE: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "NOMBRE",
+                    "from": 29,
+                    "to": 75,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Naval",
+        "judgment": "matched",
+        "match": {
+            "id": "Q26958661",
+            "name": "naval museum",
+            "types": [
+                ""
+            ],
+            "score": 50
+        },
+        "shareNewTopics": false,
+        "description": "Match item naval museum (Q26958661) for cells containing \"Museo Naval\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon",
+        "engineConfig": {
+            "facets": [
+                {
+                    "type": "range",
+                    "name": "NOMBRE: best candidate's score",
+                    "expression": "cell.recon.best.score",
+                    "columnName": "NOMBRE",
+                    "from": 29,
+                    "to": 75,
+                    "selectNumeric": true,
+                    "selectNonNumeric": true,
+                    "selectBlank": false,
+                    "selectError": true
+                }
+            ],
+            "mode": "row-based"
+        },
+        "columnName": "BARRIO",
+        "config": {
+            "mode": "standard-service",
+            "service": "https://wdreconcile.toolforge.org/en/api",
+            "identifierSpace": "http://www.wikidata.org/entity/",
+            "schemaSpace": "http://www.wikidata.org/prop/direct/",
+            "type": {
+                "id": "Q10267336",
+                "name": "neighborhood of Madrid"
+            },
+            "autoMatch": true,
+            "columnDetails": [],
+            "limit": 0
+        },
+        "description": "Reconcile cells in column BARRIO to type Q10267336"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "same_as_barrio",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [],
+                "fromBlank": true,
+                "fromError": false,
+                "to": "NULL"
+            }
+        ],
+        "description": "Mass edit cells in column same_as_barrio"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Fundación AMYC (Arte Moderno y Contemporáneo). Casa Museo Fuente del Rey",
+        "judgment": "matched",
+        "match": {
+            "id": "Q28808141",
+            "name": "Fuente del Rey House-Museum",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Fuente del Rey House-Museum (Q28808141) for cells containing \"Fundación AMYC (Arte Moderno y Contemporáneo). Casa Museo Fuente del Rey\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Arqueológico Nacional",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1352282",
+            "name": "National Archaeological Museum",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item National Archaeological Museum (Q1352282) for cells containing \"Museo Arqueológico Nacional\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Casa de la Moneda",
+        "judgment": "matched",
+        "match": {
+            "id": "Q39072661",
+            "name": "Museo Casa de la Moneda",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo Casa de la Moneda (Q39072661) for cells containing \"Museo Casa de la Moneda\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Cerralbo",
+        "judgment": "matched",
+        "match": {
+            "id": "Q976019",
+            "name": "Museum Cerralbo",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museum Cerralbo (Q976019) for cells containing \"Museo Cerralbo\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Geominero",
+        "judgment": "matched",
+        "match": {
+            "id": "Q13532751",
+            "name": "Museo Geominero",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo Geominero (Q13532751) for cells containing \"Museo Geominero\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Histórico Minero Don Felipe de Borbón y Grecia",
+        "judgment": "matched",
+        "match": {
+            "id": "Q53997723",
+            "name": "Museo Histórico Minero Don Felipe de Borbón y Grecia",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo Histórico Minero Don Felipe de Borbón y Grecia (Q53997723) for cells containing \"Museo Histórico Minero Don Felipe de Borbón y Grecia\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo ICO",
+        "judgment": "matched",
+        "match": {
+            "id": "Q60829823",
+            "name": "Museo ICO",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo ICO (Q60829823) for cells containing \"Museo ICO\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Nacional Centro de Arte Reina Sofía (MNCARS)",
+        "judgment": "matched",
+        "match": {
+            "id": "Q460889",
+            "name": "Museo Nacional Centro de Arte Reina Sofía",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo Nacional Centro de Arte Reina Sofía (Q460889) for cells containing \"Museo Nacional Centro de Arte Reina Sofía (MNCARS)\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo del Ferrocarril de Madrid",
+        "judgment": "matched",
+        "match": {
+            "id": "Q6034436",
+            "name": "Railway Museum of Madrid",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Railway Museum of Madrid (Q6034436) for cells containing \"Museo del Ferrocarril de Madrid\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo de la Farmacia Hispana",
+        "judgment": "matched",
+        "match": {
+            "id": "Q105942790",
+            "name": "Museo de la Farmacia Hispana",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo de la Farmacia Hispana (Q105942790) for cells containing \"Museo de la Farmacia Hispana\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo de la Biblioteca Nacional de España",
+        "judgment": "matched",
+        "match": {
+            "id": "Q750403",
+            "name": "Biblioteca Nacional de España",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Biblioteca Nacional de España (Q750403) for cells containing \"Museo de la Biblioteca Nacional de España\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Lázaro Galdiano",
+        "judgment": "matched",
+        "match": {
+            "id": "Q386570",
+            "name": "Museo Lázaro Galdiano",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo Lázaro Galdiano (Q386570) for cells containing \"Museo Lázaro Galdiano\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Nacional Thyssen-Bornemisza",
+        "judgment": "matched",
+        "match": {
+            "id": "Q176251",
+            "name": "Thyssen-Bornemisza Museum",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Thyssen-Bornemisza Museum (Q176251) for cells containing \"Museo Nacional Thyssen-Bornemisza\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Nacional de Antropología",
+        "judgment": "matched",
+        "match": {
+            "id": "Q2917041",
+            "name": "Museo Nacional de Antropología",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo Nacional de Antropología (Q2917041) for cells containing \"Museo Nacional de Antropología\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Nacional de Artes Decorativas",
+        "judgment": "matched",
+        "match": {
+            "id": "Q5361303",
+            "name": "Museo Nacional de Artes Decorativas",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo Nacional de Artes Decorativas (Q5361303) for cells containing \"Museo Nacional de Artes Decorativas\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Sorolla",
+        "judgment": "matched",
+        "match": {
+            "id": "Q52238471",
+            "name": "Museo Sorolla building",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo Sorolla building (Q52238471) for cells containing \"Museo Sorolla\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo de San Isidro. Los Orígenes de Madrid",
+        "judgment": "matched",
+        "match": {
+            "id": "Q5556798",
+            "name": "Museo de San Isidro",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo de San Isidro (Q5556798) for cells containing \"Museo de San Isidro. Los Orígenes de Madrid\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Postal y Telegráfico",
+        "judgment": "matched",
+        "match": {
+            "id": "Q6033677",
+            "name": "Museo Postal y Telegráfico",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo Postal y Telegráfico (Q6033677) for cells containing \"Museo Postal y Telegráfico\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Tiflológico",
+        "judgment": "matched",
+        "match": {
+            "id": "Q107313856",
+            "name": "museo tiflológico",
+            "types": [
+                ""
+            ],
+            "score": 50
+        },
+        "shareNewTopics": false,
+        "description": "Match item museo tiflológico (Q107313856) for cells containing \"Museo Tiflológico\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo de América",
+        "judgment": "matched",
+        "match": {
+            "id": "Q52246620",
+            "name": "Museo de América building",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo de América building (Q52246620) for cells containing \"Museo de América\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Taurino de la Comunidad de Madrid",
+        "judgment": "matched",
+        "match": {
+            "id": "Q27500479",
+            "name": "Museo Taurino de Madrid",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo Taurino de Madrid (Q27500479) for cells containing \"Museo Taurino de la Comunidad de Madrid\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo Nacional de Ciencias Naturales",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1966699",
+            "name": "National Museum of Natural History",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item National Museum of Natural History (Q1966699) for cells containing \"Museo Nacional de Ciencias Naturales\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo de Aeronáutica y Astronáutica",
+        "judgment": "matched",
+        "match": {
+            "id": "Q11057120",
+            "name": "Museo de Aeronáutica y Astronáutica",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo de Aeronáutica y Astronáutica (Q11057120) for cells containing \"Museo de Aeronáutica y Astronáutica\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo de Arte Contemporáneo de Madrid",
+        "judgment": "matched",
+        "match": {
+            "id": "Q6940528",
+            "name": "Museo de Arte Contemporáneo",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo de Arte Contemporáneo (Q6940528) for cells containing \"Museo de Arte Contemporáneo de Madrid\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo de Mineralogía",
+        "judgment": "matched",
+        "match": {
+            "id": "Q65161205",
+            "name": "Museo de Mineralogía",
+            "types": [
+                ""
+            ],
+            "score": 50
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo de Mineralogía (Q65161205) for cells containing \"Museo de Mineralogía\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo de Historia de Madrid",
+        "judgment": "matched",
+        "match": {
+            "id": "Q876383",
+            "name": "Museo de Historia de Madrid",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo de Historia de Madrid (Q876383) for cells containing \"Museo de Historia de Madrid\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo de Cera",
+        "judgment": "matched",
+        "match": {
+            "id": "Q15121263",
+            "name": "Wax Museum of Madrid",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Wax Museum of Madrid (Q15121263) for cells containing \"Museo de Cera\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo de Escultura al Aire Libre de la Castellana",
+        "judgment": "matched",
+        "match": {
+            "id": "Q2283575",
+            "name": "Museo de Escultura al Aire Libre de La Castellana",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo de Escultura al Aire Libre de La Castellana (Q2283575) for cells containing \"Museo de Escultura al Aire Libre de la Castellana\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo del Prado",
+        "judgment": "matched",
+        "match": {
+            "id": "Q160112",
+            "name": "Museo del Prado",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo del Prado (Q160112) for cells containing \"Museo del Prado\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo del Romanticismo",
+        "judgment": "matched",
+        "match": {
+            "id": "Q6974501",
+            "name": "Museum of Romanticism",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museum of Romanticism (Q6974501) for cells containing \"Museo del Romanticismo\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo del Traje. Centro de Investigación del Patrimonio Etnológico (CIPE)",
+        "judgment": "matched",
+        "match": {
+            "id": "Q9047135",
+            "name": "Museo del Traje",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo del Traje (Q9047135) for cells containing \"Museo del Traje. Centro de Investigación del Patrimonio Etnológico (CIPE)\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Palacio Real de El Pardo",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1368571",
+            "name": "Royal Palace of El Pardo",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Royal Palace of El Pardo (Q1368571) for cells containing \"Palacio Real de El Pardo\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Palacio Real de Madrid",
+        "judgment": "matched",
+        "match": {
+            "id": "Q171517",
+            "name": "Royal Palace of Madrid",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Royal Palace of Madrid (Q171517) for cells containing \"Palacio Real de Madrid\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Panteón de Hombres Ilustres",
+        "judgment": "matched",
+        "match": {
+            "id": "Q59138537",
+            "name": "Panteón de Hombres Ilustres, Cementerio de San Justo, Madrid",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Panteón de Hombres Ilustres, Cementerio de San Justo, Madrid (Q59138537) for cells containing \"Panteón de Hombres Ilustres\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Templo de Debod",
+        "judgment": "matched",
+        "match": {
+            "id": "Q1140249",
+            "name": "Temple of Debod",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Temple of Debod (Q1140249) for cells containing \"Templo de Debod\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Real Monasterio de la Encarnación",
+        "judgment": "matched",
+        "match": {
+            "id": "Q205524",
+            "name": "Royal Convent of La Encarnación",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Royal Convent of La Encarnación (Q205524) for cells containing \"Real Monasterio de la Encarnación\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Real Monasterio de Santa Isabel",
+        "judgment": "matched",
+        "match": {
+            "id": "Q9067089",
+            "name": "Royal Monastery of Santa Isabel",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Royal Monastery of Santa Isabel (Q9067089) for cells containing \"Real Monasterio de Santa Isabel\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Real Fábrica de Tapices",
+        "judgment": "matched",
+        "match": {
+            "id": "Q570665",
+            "name": "Royal Tapestry Factory",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Royal Tapestry Factory (Q570665) for cells containing \"Real Fábrica de Tapices\" in column NOMBRE"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Planetario de Madrid",
+        "judgment": "matched",
+        "match": {
+            "id": "Q9060456",
+            "name": "Madrid Planetarium",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Madrid Planetarium (Q9060456) for cells containing \"Planetario de Madrid\" in column NOMBRE"
+    },
+    {
+        "op": "core/column-addition",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "baseColumnName": "NOMBRE",
+        "expression": "grel:\"https://wikidata.org/entity/\"+cell.recon.match.id",
+        "onError": "set-to-blank",
+        "newColumnName": "same_as_nombre",
+        "columnInsertIndex": 2,
+        "description": "Create column same_as_nombre at index 2 based on column NOMBRE using expression grel:\"https://wikidata.org/entity/\"+cell.recon.match.id"
+    },
+    {
+        "op": "core/recon-judge-similar-cells",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "NOMBRE",
+        "similarValue": "Museo de la Catedral de la Almudena",
+        "judgment": "matched",
+        "match": {
+            "id": "Q107611898",
+            "name": "Museo de la Catedral de la Almudena",
+            "types": [
+                ""
+            ],
+            "score": 100
+        },
+        "shareNewTopics": false,
+        "description": "Match item Museo de la Catedral de la Almudena (Q107611898) for cells containing \"Museo de la Catedral de la Almudena\" in column NOMBRE"
+    },
+    {
+        "op": "core/mass-edit",
+        "engineConfig": {
+            "facets": [],
+            "mode": "row-based"
+        },
+        "columnName": "same_as_cercanias1",
+        "expression": "value",
+        "edits": [
+            {
+                "from": [
+                    ""
+                ],
+                "fromBlank": true,
+                "fromError": false,
+                "to": "NULL"
+            }
+        ],
+        "description": "Mass edit cells in column same_as_cercanias1"
+    }
+]

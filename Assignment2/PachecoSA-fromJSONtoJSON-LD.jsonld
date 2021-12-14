@@ -1,0 +1,16 @@
+{
+"@id": "http://example.org/resource/Isaac",
+"@context":"http://schema.org/", ,
+"fname":"Isaac de Taranco Yáñez",
+"hometown":"Majadahonda",
+"age":19,
+"almaMater": "UPM",
+"parents": [{"@id":"http://example.org/resource/Isaac/parents/Olga", "name": "Olga"},{"@id":"http://example.org/resource/Isaac/parents/Jose", "name": "Jose"}],
+"subjects": [{"@id":"http://example.org/resource/Isaac/subjects/IA", "name": "Inteligencia Artificial"
+, "teachers":[{"@id":"http://example.org/resource/teachers/Asuncion_Gomez", "fname":"Asunción Gómez"}, {"@id":"http://example.org/resource/teachers/Vicente_Martinez", "fname":"Vicente Martínez"}], "description":"Conocer las aplicaciones de la inteligencia artificial"},
+{"@id":"http://example.org/resource/Isaac/subjects/Algoritmica_numerica", "name": "Programaciön para CD"
+, "teachers":[{"@id":"http://example.org/resource/teachers/Sergio_Paraiso", "fname":"Sergio Paraíso"}], "description":"Aprender las técnicas de prográmación más usadas en el ámbito de la Ciencia de Datos"},
+{"@id":"http://example.org/resource/Isaac/subjects/Knowledge_Graphs", "name": "Knowledge Graphs"
+, "teachers":[{"@id":"http://example.org/resource/teachers/Oscar_Corcho", "fname":"Oscar Corcho"}], "description":"Representar conocimiento en grafos"}]
+
+}

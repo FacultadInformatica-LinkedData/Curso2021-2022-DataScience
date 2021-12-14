@@ -1,0 +1,99 @@
+@prefix car: <http://www.grafosconocimiento.es/lcc/ontology/estudiocoches#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+car: a owl:Ontology ;
+    dc:description "Ontology code created by Chowlk" .
+
+
+#######################
+### Data properties ###
+#######################
+
+car:carModel a owl:DatatypeProperty ;
+    rdfs:label "car model" ;
+    rdfs:domain car:Brand ;
+    rdfs:range xsd:string .
+
+car:distance a owl:DatatypeProperty ;
+    rdfs:label "distance" ;
+    rdfs:domain car:Distance ;
+    rdfs:range xsd:decimal .
+
+car:fuelType a owl:DatatypeProperty ;
+    rdfs:label "fuel type" ;
+    rdfs:domain car:Fuel ;
+    rdfs:range xsd:string .
+
+car:numberID a owl:DatatypeProperty ;
+    rdfs:label "number i d" ;
+    rdfs:domain car:GovID ;
+    rdfs:range xsd:string .
+
+car:odometer a owl:DatatypeProperty ;
+    rdfs:label "odometer" ;
+    rdfs:domain car:Odometer ;
+    rdfs:range xsd:decimal .
+
+car:registration a owl:DatatypeProperty ;
+    rdfs:label "registration" ;
+    rdfs:domain car:GovID ;
+    rdfs:range xsd:string .
+
+car:unit_of_Measurement a owl:DatatypeProperty ;
+    rdfs:label "unit_of_measurement" ;
+    rdfs:domain car:Odometer,
+        car:Distance;
+    rdfs:range xsd:string .
+
+car:milesPerGallon a owl:DatatypeProperty ;
+    rdfs:label "miles per gallon" ;
+    rdfs:domain car:GovID ;
+    rdfs:range xsd:decimal .
+
+#########################
+### Object Properties ###
+#########################
+
+car:hasModelCar a owl:ObjectProperty ;
+    rdfs:label "has model car" ;
+    rdfs:domain car:GovID ;
+    rdfs:range car:Brand .
+
+car:hasFuelType a owl:ObjectProperty ;
+    rdfs:label "has fuel type" ;
+    rdfs:domain car:GovID ;
+    rdfs:range car:Fuel .
+
+car:hasOdometer a owl:ObjectProperty ;
+    rdfs:label "has odometer" ;
+    rdfs:domain car:GovID ;
+    rdfs:range car:Odometer .
+
+car:yearDistance a owl:ObjectProperty ;
+    rdfs:label "year distance" ;
+    rdfs:domain car:Odometer ;
+    rdfs:range car:Distance .
+
+
+#################
+#### Classes ####
+#################
+
+car:Distance a owl:Class ;
+    rdfs:label "Distance" .
+
+car:Odometer a owl:Class ;
+    rdfs:label "Odometer" .
+
+car:GovID a owl:Class ;
+    rdfs:label "Gov I D" .
+
+car:Brand a owl:Class ;
+    rdfs:label "Brand" .
+
+car:Fuel a owl:Class ;
+    rdfs:label "Fuel" .
+

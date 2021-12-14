@@ -1,0 +1,56 @@
+
+1.-
+
+	select distinct ?pred
+
+	where{
+	<http://dbpedia.org/ontology/Politician> a ?politician.
+	?politician ?pred ?values.
+	} 
+
+
+2.-
+
+	select distinct ?pred
+
+	where{
+	<http://dbpedia.org/ontology/Politician> a ?politician.
+	?politician ?pred ?values.
+
+	FILTER(?pred != rdf:type)
+	} 
+
+
+3.-
+
+	select distinct ?values
+
+	where{
+	<http://dbpedia.org/ontology/Politician> a ?politician.
+	?politician ?pred ?values.
+
+	FILTER(?pred != rdf:type)
+	} 
+
+
+4.-
+
+	select distinct ?values ?pred
+
+	where{
+	<http://dbpedia.org/ontology/Politician> a ?politician.
+	?politician ?pred ?values.
+
+	FILTER(?pred != rdf:type)
+	} 
+
+5.-
+
+	select distinct COUNT(?values) ?pred
+
+	where{
+	<http://dbpedia.org/ontology/Politician> a ?politician.
+	?politician ?pred ?values.
+
+	FILTER(?pred != rdf:type)
+	} 

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="analysis.css">
+    <script src="https://kit.fontawesome.com/c66d59c3a5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <center>
+        <h1 style="color: #FFF; font-weight: bolder;">License & Naming Strategy</h1>
+    </center>
+    <details>
+        <summary>License</summary>
+        <ul>
+            <b>Origen de los datos</b> <br>
+            El origen de los datos es del conjunto de datos abiertos del Ayuntamiento de Madrid y de la Comunidad de Madrid. <br> <br>
+            <b>Condiciones de uso</b><br>
+            Las condiciones generales permiten la reutilización de los documentos para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid, siempre que dicho uso no constituya una actividad administrativa pública <br> <br>
+            <b>Condiciones generales para la reutilización</b> <br>
+            Son de aplicación las siguientes condiciones generales para la reutilización del: <br>
+            1.  Está prohibido desnaturalizar el sentido de la información. <br>
+            2.  Debe citarse la fuente de los documentos objeto de la reutilización. Esta cita podrá realizarse de la siguiente manera: "Origen de los datos: Ayuntamiento de Madrid (o, en su caso, órgano administrativo, organismo o entidad de que se trate)" <br>
+            3.  Debe mencionarse la fecha de la última actualización de los documentos objeto de la reutilización, siempre y cuando estuviera incluida en el documento original. <br>
+            4.  No se podrá indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa, patrocina o apoya la reutilización que se lleve a cabo con la información. <br>
+            5.  Deben conservarse, no alterarse ni suprimirse los metadatos sobre la fecha de actualización y las condiciones de reutilización aplicables incluidos, en su caso, en el documento puesto a disposición para su reutilización. <br>
+            6.  En caso de información anonimizada por protección de datos personales u otros motivos, está expresamente prohibido realizar labores de re-identificación de personas a partir de estos datos y otras fuentes de datos e información posibles, pasadas, actuales o futuras. <br> <br>
+
+            Por tanto, se trata, y como se indica en la página de datos.gob.es del gobierno de España (extrapolabe a los datos abiertos de todo el territorio español) de una licencia de Open Data Commons Attribution License. Esta es una licencia que permite difundir, reutilizar o adaptar los datos con la condición de hacer referencia a la autoría de los datos; en este caso al Ayuntamiento de Madrid. <br>
+            Por ello este dataset está disponible bajo una licencia Open Data Commons Attribution que se encuentra disponible en el siguiente enlace: <br>"http://opendatacommons.org/licenses/by/1.0 <br>
+
+        </ul>
+    </details>
+    <details>
+        <summary>Resources Naming Strategy</summary>
+        <ul>
+            <b>Resources naming strategy</b> <br>
+            Las URIS se dividen en dos: <br>   
+            Uris para la definición de la ontología (el modelo) <br>
+            Para la definición de las URIs en la ontología se crean los siguientes prefijos: <br>
+            @prefix : &lt;http://www.knowledge.org/g02_libraries/ontologies/Library#> . <br>
+            @prefix foaf: &lt;http://xmlns.com/foaf/0.1/>. <br>
+            @prefix vcard: &lt;http://www.w3.org/2006/vcard/ns#>. <br>
+            Los que tienen el prefijo vcard define las siguientes propiedades: vcard:hasGeo, vcard:hasEmail, vcard:hasUID, vcard:hasLocality, foaf:name, vcard:hasTelephone, vcard:hasURL <br>
+            El prefijo foaf se usa para definir la propiedad foaf:name <br>
+            EL prefijo : se usa para el resto de propiedades y clases de la ontología. La estructura es <br>
+            http://www.knowledge.org/g02_libraries/ontologies/Library# + nombre de la clase o propiedad <br>
+            Por ejemplo  http://www.knowledge.org/g02_libraries/ontologies/Library#hasTransport <br> <br>
+
+            Uris para la definición de las instancias (los recursos) <br>
+            Para la definición de las URIs en las instancias se crea el siguiente prefijo: <br>
+            @prefix resource: &lt;http://www.knowledgegraph.org/g02_libraries/resource/>. <br>
+            Este prefijo se utilizará para las clases de las instancias. La URI tendrá la siguiente estructura: <br>
+            Resource + Nombre de la clase + / + Identificador de la biblioteca <br>
+            Por ejemplo  http://www.knowledgegraph.org/g02_libraries/resource/Transport/1765 <br>
+
+
+        </ul>
+    </details>
+
+    <center>
+        <h1 style="color: #FFF; font-weight: bolder;">Data Characteristics and Schema </h1>
+        <table class="rwd-table" style="max-width: 300px;">
+            <tr>
+                <td></td>
+                <th scope="col">Column</th>
+                <th scope="col">Type</th>
+                <th scope="col">Comments / Range (rounded)</th>
+                <th scope="col">Problems</th>
+            </tr>
+            <tr>
+                <th></th>
+                <td>PK</td>
+                <td>Int</td>
+                <td>Unique.
+                    <p> Es un campo clave, dentro de la web municipal para el uso interno </p>
+                </td>
+                <td> None</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>Nombre</td>
+                <td>String</td>
+                <td>Unique</td>
+                <td>None</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>Descripción-Entidad</td>
+                <td>String</td>
+                <td>Unique</td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Horario</td>
+                <td>String</td>
+                <td> Not unique</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Equipamiento</td>
+                <td>String</td>
+                <td> Not unique
+                    <p>10 values</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Transporte</td>
+                <td>String</td>
+                <td>Unique</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Descripción</td>
+                <td>String</td>
+                <td> Not unique</td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Accesibilidad</td>
+                <td>String</td>
+                <td> 1-6 y puede contener más de un valor ,donde
+
+                    <p>0 = no accesible</p>
+
+                    <p>1 = Accesible \n</p>
+
+                    <p>2 = Instalación parcialmente accesible para personas con movilidad reducida</p>
+
+                    <p>3 = Sin información sobre accesibilidad para personas con movilidad reducida</p>
+
+                    <p>4 = Lengua de signos</p>
+
+                    <p>5 = Señalización podotáctil</p>
+
+                    <p>6 = Bucle de inducción magnético</p>
+
+                    <p>Not unique</p>
+
+
+
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Content-URL</td>
+                <td>String</td>
+                <td> Unique</td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Nombre-vía</td>
+                <td>String</td>
+                <td>Not Unique </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Clase-Vía</td>
+                <td>String</td>
+                <td> Not unique
+                    <p>7 values</p>
+                </td>
+                <td> </td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Tipo-Num</td>
+                <td>String</td>
+                <td> Not unique
+                    <p>2 values</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Num</td>
+                <td>Str</td>
+                <td> Not unique </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Orientación</td>
+                <td>String</td>
+                <td> Unique ,
+                    <p> Empty values</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Localidad</td>
+                <td>String</td>
+                <td> 1 value, MADRID </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Provincia</td>
+                <td>String</td>
+                <td> 1 value , MADRID</td>
+                <td>None</td>
+            </tr>
+
+
+            <tr>
+                <th></th>
+                <td>Código-postal</td>
+                <td>String</td>
+                <td>28002 - 28053
+                    <p>Not unique</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Barrio</td>
+                <td>String</td>
+                <td> Not unique 6 values</td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Distrito</td>
+                <td>String</td>
+                <td> 21 values
+                    <p>Not unique</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Coordenada X</td>
+                <td> Float </td>
+                <td> 449661 - 434685
+                    <p>Coordenada de 6 carateres sobre el plano de la ciudad</p>
+                </td>
+                <td>Repeated sites</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Coordenada Y</td>
+                <td> Float </td>
+                <td> 4465993 - 4482397
+                    <p>Coordenada de 7 caracteres sobre el plano de la ciudad</p>
+                </td>
+                <td>Repeated sites</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Latitud</td>
+                <td> Float </td>
+                <td>None</td>
+                <td> Dos bibliotecas con misma latitud </td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Longitud</td>
+                <td>Float</td>
+                <td>None</td>
+                <td> Dos bibliotecas con misma longitud </td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Teléfono</td>
+                <td>String</td>
+                <td>Unique
+                    <p>Empty values</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Fax</td>
+                <td>String</td>
+                <td> Unique
+                    <p> Empty values </p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Email</td>
+                <td>String</td>
+                <td> Unique
+                    <p>Empty values</p>
+                </td>
+                <td>None</td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td>Tipo</td>
+                <td>String</td>
+                <td> No unique , 2 values</td>
+                <td>None</td>
+            </tr>
+
+
+        </table>
+    </center>
+</body>
+
+</html>
+>>>>>>> upstream/master

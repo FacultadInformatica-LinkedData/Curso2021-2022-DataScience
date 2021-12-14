@@ -1,0 +1,49 @@
+{
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "persona": "https://www.persona.es/personas/españa#",
+        "briefDescription": "rdf:comment",
+        "name": "http://schema.org/name",
+        "fullName": "name:fullName",
+        "firstName": "name:firstName",
+        "secondName": "name:secondName",
+        "thirdName": "name:thirdName",
+        "hometown": "rdfs:label",
+        "age": "rdfs:label",
+        "almaMmater": "rdfs:label",
+        "fatherName": "rdfs:label",
+        "motherName": "rdfs:label",
+        "subjects": "rdfs:container"},
+        
+        
+    "@id": "http://www.persona.es/recurso/cristinaasandoval",
+    "@type": "persona:estudiante",
+    "fullName": {"@id": "http://www.persona.es/recurso/fullName/Gonzalo/Rivera/delPino",
+        "@type": "Name",
+        "firstName": "Cristina",
+        "secondName": "Sandoval",
+        "thirdName": "Nuño"},
+    "hometown": "Madrid",
+    "age": 19,
+    "almaMmater": "UPM",
+    "fatherName": "Leonardo",
+    "motherName": "Nuria",
+    "subjects": [
+        {"@id": "http://www.persona.es/recurso/collegueSubject/IA",
+            "@type": "Subject",
+            "name": "Inteligencia Artificial",
+            "teacher": "Vicente",
+            "brief_description": "Sistemas de producion"},
+        {"@id": "http://www.persona.es/recurso/collegueSubject/KG",
+            "@type": "Subject",
+            "name": "PLN",
+            "teacher": "Mariano",
+            "brief_description":"Procesamiento del lenguaje natural con R"},
+        {"@id": "http://www.persona.es/recurso/collegueSubject/programm",
+            "@type": "Subject",
+            "name": "Algoritmica numerica",
+            "teacher": "Antonio",
+            "brief_description": "Trabajo con matrices en MATLAB"}
+                    ]
+
+}

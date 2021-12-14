@@ -1,0 +1,398 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Recolecciones",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Recolecciones using expression value.toDate()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "ID",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "ID2",
+    "columnInsertIndex": 1,
+    "description": "Create column ID2 at index 1 based on column ID using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID2",
+    "expression": "join ([coalesce(cells['ID2'].value,''),coalesce(cells['Recolecciones'].value,'')],'')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID2 using expression join ([coalesce(cells['ID2'].value,''),coalesce(cells['Recolecciones'].value,'')],'')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID2",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID2 using expression value.toString()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "ID2",
+    "newColumnName": "ID_recolecciones",
+    "description": "Rename column ID2 to ID_recolecciones"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_recolecciones",
+    "expression": "grel:value.replace(':','-')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_recolecciones using expression grel:value.replace(':','-')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ID_recolecciones",
+    "expression": "grel:value.replace(' ','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ID_recolecciones using expression grel:value.replace(' ','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ubicacion",
+    "expression": "grel:value.replace(';','-')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ubicacion using expression grel:value.replace(';','-')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ubicacion",
+    "expression": "grel:value.replace(' ','_')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ubicacion using expression grel:value.replace(' ','_')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ubicacion",
+    "expression": "grel:value.replace('á','a')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ubicacion using expression grel:value.replace('á','a')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ubicacion",
+    "expression": "grel:value.replaceChars('áéíóú','aeiou')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ubicacion using expression grel:value.replaceChars('áéíóú','aeiou')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Tiempo respuesta aviso",
+    "expression": "grel:value.replaceChars('díashoras <','').toNumber()",
+    "onError": "set-to-blank",
+    "newColumnName": "Tiempo de respuesta (en int)",
+    "columnInsertIndex": 7,
+    "description": "Create column Tiempo de respuesta (en int) at index 7 based on column Tiempo respuesta aviso using expression grel:value.replaceChars('díashoras <','').toNumber()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Tiempo respuesta aviso",
+    "expression": "grel:value.replaceChars('1234567890 <.','')",
+    "onError": "set-to-blank",
+    "newColumnName": "Medida horaria",
+    "columnInsertIndex": 7,
+    "description": "Create column Medida horaria at index 7 based on column Tiempo respuesta aviso using expression grel:value.replaceChars('1234567890 <.','')"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Medida horaria",
+    "expression": "grel:value.startsWith('d')",
+    "onError": "set-to-blank",
+    "newColumnName": "Es días",
+    "columnInsertIndex": 8,
+    "description": "Create column Es días at index 8 based on column Medida horaria using expression grel:value.startsWith('d')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tiempo de respuesta (en int)",
+    "expression": "grel:if(cells['Es días'].value, value*24, value*12)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tiempo de respuesta (en int) using expression grel:if(cells['Es días'].value, value*24, value*12)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Tiempo de respuesta (en int)",
+    "expression": "join ([coalesce(cells['Tiempo de respuesta (en int)'].value,''),coalesce(cells['Medida horaria'].value,'')],' ')",
+    "onError": "keep-original",
+    "newColumnName": "Tiempo de respuestas",
+    "columnInsertIndex": 10,
+    "description": "Create column Tiempo de respuestas at index 10 based on column Tiempo de respuesta (en int) using expression join ([coalesce(cells['Tiempo de respuesta (en int)'].value,''),coalesce(cells['Medida horaria'].value,'')],' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tiempo de respuestas",
+    "expression": "grel:value.replace('días','horas')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tiempo de respuestas using expression grel:value.replace('días','horas')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tiempo de respuesta (en int)",
+    "description": "Remove column Tiempo de respuesta (en int)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Es días",
+    "description": "Remove column Es días"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Medida horaria",
+    "description": "Remove column Medida horaria"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Tiempo respuesta aviso",
+    "description": "Remove column Tiempo respuesta aviso"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tiempo de respuestas",
+    "expression": "grel:value.replace('horas','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tiempo de respuestas using expression grel:value.replace('horas','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tiempo de respuestas",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tiempo de respuestas using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "%Lleno",
+    "expression": "grel:value.replace('%','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column %Lleno using expression grel:value.replace('%','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "%Lleno",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column %Lleno using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ubicacion",
+    "expression": "grel:value.replace('°','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ubicacion using expression grel:value.replace('°','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ubicacion",
+    "expression": "grel:value.replace('ñ','n')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Ubicacion using expression grel:value.replace('ñ','n')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "%Lleno",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column %Lleno using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Tiempo de respuestas",
+    "newColumnName": "Tiempo de respuestas (h)",
+    "description": "Rename column Tiempo de respuestas to Tiempo de respuestas (h)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tiempo de respuestas (h)",
+    "expression": "grel:value.replace('-','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tiempo de respuestas (h) using expression grel:value.replace('-','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tiempo de respuestas (h)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Tiempo de respuestas (h) using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Promedio de dias para llegar a lleno",
+    "expression": "grel:value.replace('-','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Promedio de dias para llegar a lleno using expression grel:value.replace('-','')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Promedio de dias para llegar a lleno",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Promedio de dias para llegar a lleno using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Razón",
+    "expression": "grel:value.replace(' ','_')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Razón using expression grel:value.replace(' ','_')"
+  }
+]
