@@ -1,16 +1,18 @@
-@prefix : <http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#> .
-@prefix ns: <http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#> .
+@prefix : <http://museosymonumentos.es/ontology/ConoceMadrid#> .
+@prefix ns: <http://museosymonumentos.es/ontology/ConoceMadrid#> .
+
 @prefix arp: <http://www.arpenteur.org/ontology/Arpenteur.owl#> .
-@prefix cis: <http://dati.beniculturali.it/cis#> .
+@prefix a-loc: <https://w3id.org/arco/ontology/location/> .
+@prefix schema: <http://www.schema.org/> .
+@prefix dbpedia-owl: <https://dbpedia.org/ontology/> .
+@prefix org: <http://www.w3.org/ns/org/> .
+
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix a-loc: <https://w3id.org/arco/ontology/location#> .
-@prefix schema: <http://www.schema.org#> .
-@prefix dbpedia-owl: <https://dbpedia.org/ontology#> .
-@base <http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#> .
+
 
 <http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#> rdf:type owl:Ontology .
 
@@ -18,9 +20,9 @@
 #    Object Properties
 #################################################################
 
-###  http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#hasNearbyStop
+###  http://museosymonumentos.es/ontology/ConoceMadrid#hasNearbyStop
 ns:hasNearbyStop rdf:type owl:ObjectProperty ;
-                 rdfs:domain <http://www.w3.org/ns/org/cis:CulturalEntity> ;
+                 rdfs:domain org:Site ;
                  rdfs:range ns:Stop .
 
 
@@ -34,9 +36,9 @@ ns:hasNearbyStop rdf:type owl:ObjectProperty ;
 owl:topObjectProperty rdf:type owl:FunctionalProperty .
 
 
-###  https://dbpedia.org/ontology#place
+###  https://dbpedia.org/ontology/place
 dbpedia-owl:place rdf:type owl:ObjectProperty ;
-                  rdfs:domain <http://www.w3.org/ns/org/cis:CulturalEntity> ;
+                  rdfs:domain org:Site ;
                   rdfs:range dbpedia-owl:Place .
 
 
@@ -44,9 +46,9 @@ dbpedia-owl:place rdf:type owl:ObjectProperty ;
 #    Data properties
 #################################################################
 
-###  http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#accessibility
+###  http://museosymonumentos.es/ontology/ConoceMadrid#accessibility
 ns:accessibility rdf:type owl:DatatypeProperty ;
-                 rdfs:domain <http://www.w3.org/ns/org/cis:CulturalEntity> ;
+                 rdfs:domain org:Site ;
                  rdfs:range xsd:string .
 
 
@@ -58,14 +60,13 @@ ns:accessibility rdf:type owl:DatatypeProperty ;
 
 ###  http://schema.org/description
 <http://schema.org/description> rdf:type owl:DatatypeProperty ;
-                                rdfs:domain ns:Stop ,
-                                            <http://www.w3.org/ns/org/cis:CulturalEntity> ;
+                                rdfs:domain org:Site ;
                                 rdfs:range xsd:string .
 
 
 ###  http://schema.org/email
 <http://schema.org/email> rdf:type owl:DatatypeProperty ;
-                          rdfs:domain <http://www.w3.org/ns/org/cis:CulturalEntity> ;
+                          rdfs:domain org:Site ;
                           rdfs:range xsd:string .
 
 
@@ -83,20 +84,21 @@ ns:accessibility rdf:type owl:DatatypeProperty ;
 
 ###  http://schema.org/openingHours
 <http://schema.org/openingHours> rdf:type owl:DatatypeProperty ;
-                                 rdfs:domain <http://www.w3.org/ns/org/cis:CulturalEntity> ;
+                                 rdfs:domain org:Site ;
                                  rdfs:range xsd:string .
 
 
 ###  http://schema.org/telephone
 <http://schema.org/telephone> rdf:type owl:DatatypeProperty ;
-                              rdfs:domain <http://www.w3.org/ns/org/cis:CulturalEntity> ;
+                              rdfs:domain org:Site ;
                               rdfs:range xsd:string .
 
 
 ###  http://schema.org/url
 <http://schema.org/url> rdf:type owl:DatatypeProperty ;
-                        rdfs:domain <http://www.w3.org/ns/org/cis:CulturalEntity> ;
+                        rdfs:domain org:Site ;
                         rdfs:range xsd:anyURI .
+
 
 
 ###  http://www.arpenteur.org/ontology/Arpenteur.owl#hasX
@@ -111,19 +113,25 @@ arp:hasY rdf:type owl:DatatypeProperty ;
          rdfs:range xsd:float .
 
 
-###  https://dbpedia.org/ontology#district
+###  https://dbpedia.org/ontology/information
+dbpedia-owl:information rdf:type owl:DatatypeProperty ;
+                                rdfs:domain ns:Stop ;
+                                rdfs:range xsd:string .
+
+
+###  https://dbpedia.org/ontology/district
 dbpedia-owl:district rdf:type owl:DatatypeProperty ;
                      rdfs:domain dbpedia-owl:Place ;
                      rdfs:range xsd:string .
 
 
-###  https://dbpedia.org/ontology#name
+###  https://dbpedia.org/ontology/name
 dbpedia-owl:name rdf:type owl:DatatypeProperty ;
-                 rdfs:domain <http://www.w3.org/ns/org/cis:CulturalEntity> ;
+                 rdfs:domain org:Site ;
                  rdfs:range xsd:string .
 
 
-###  https://dbpedia.org/ontology#neighbourhood
+###  https://dbpedia.org/ontology/neighbourhood
 dbpedia-owl:neighbourhood rdf:type owl:DatatypeProperty ;
                           rdfs:domain dbpedia-owl:Place ;
                           rdfs:range xsd:string .
@@ -133,48 +141,33 @@ dbpedia-owl:neighbourhood rdf:type owl:DatatypeProperty ;
 #    Classes
 #################################################################
 
-###  http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#BicimadStop
+###  http://museosymonumentos.es/ontology/ConoceMadrid#BicimadStop
 ns:BicimadStop rdf:type owl:Class ;
                rdfs:subClassOf ns:Stop .
 
 
-###  http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#Stop
+###  http://museosymonumentos.es/ontology/ConoceMadrid#Stop
 ns:Stop rdf:type owl:Class .
 
 
-###  http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#dbepedia-owl:MetroStation
-ns:dbepedia-owl:MetroStation rdf:type owl:Class ;
-                             rdfs:subClassOf ns:Stop .
-
-
-###  http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#ns:Planetary
-ns:ns:Planetary rdf:type owl:Class ;
-                rdfs:subClassOf <http://www.w3.org/ns/org/cis:CulturalEntity> .
-
-
-###  http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#org:Organization
-ns:org:Organization rdf:type owl:Class ;
-                    rdfs:subClassOf <http://www.w3.org/ns/org/cis:CulturalEntity> .
-
-
-###  http://museosymonumentos.es/conocemadrid/ontology/culturalEntities#vivo:Foundation
-ns:vivo:Foundation rdf:type owl:Class ;
-                   rdfs:subClassOf <http://www.w3.org/ns/org/cis:CulturalEntity> .
+###  https://dbpedia.org/ontology/MetroStation
+dbpedia-owl:MetroStation rdf:type owl:Class ;
+                         rdfs:subClassOf ns:Stop .
 
 
 ###  http://schema.org/BusStop
-<http://schema.org/BusStop> rdf:type owl:Class ;
-                            rdfs:subClassOf ns:Stop .
+schema:BusStop rdf:type owl:Class ;
+               rdfs:subClassOf ns:Stop .
 
 
 ###  http://schema.org/ParkingFacility
-<http://schema.org/ParkingFacility> rdf:type owl:Class ;
-                                    rdfs:subClassOf ns:Stop .
+schema:ParkingFacility rdf:type owl:Class ;
+                       rdfs:subClassOf ns:Stop .
 
 
 ###  http://schema.org/TrainStation
-<http://schema.org/TrainStation> rdf:type owl:Class ;
-                                 rdfs:subClassOf ns:Stop .
+schema:TrainStation rdf:type owl:Class ;
+                    rdfs:subClassOf ns:Stop .
 
 
 ###  http://www.w3.org/2001/XMLSchema#float
@@ -189,25 +182,16 @@ xsd:integer rdf:type owl:Class .
 xsd:string rdf:type owl:Class .
 
 
-###  http://www.w3.org/ns/org/cis:CulturalEntity
-<http://www.w3.org/ns/org/cis:CulturalEntity> rdf:type owl:Class .
+###  http://www.w3.org/ns/org/Site
+org:Site rdf:type owl:Class .
 
 
-###  https://dbpedia.org/ontology#Monument
-dbpedia-owl:Monument rdf:type owl:Class ;
-                     rdfs:subClassOf <http://www.w3.org/ns/org/cis:CulturalEntity> .
-
-
-###  https://dbpedia.org/ontology#Place
+###  https://dbpedia.org/ontology/Place
 dbpedia-owl:Place rdf:type owl:Class .
 
 
-###  https://dbpedia.org/ontology/dbpedia-owl:Museum
-<https://dbpedia.org/ontology/dbpedia-owl:Museum> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.w3.org/ns/org/cis:CulturalEntity> .
 
-
-###  https://w3id.org/arco/ontology/location#Coordinates
+###  https://w3id.org/arco/ontology/location/Coordinates
 a-loc:Coordinates rdf:type owl:Class .
 
 

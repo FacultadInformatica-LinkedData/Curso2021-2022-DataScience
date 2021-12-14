@@ -1,0 +1,39 @@
+SELECT ?sujeto ?parada
+WHERE {?sujeto <http://museosymonumentos.es/ontology/ConoceMadrid#hasNearbyStop> ?parada}
+
+SELECT ?sujeto ?barrio
+WHERE {?sujeto <http://www.schema.org/place> ?direcc.
+	?direcc <https://dbpedia.org/ontology/neighborhood> ?barrio}
+	
+SELECT ?sujeto ?distrito
+WHERE {?sujeto <http://www.schema.org/place> ?direcc.
+	?direcc <https://dbpedia.org/ontology/district> ?distrito}
+
+SELECT ?sujeto ?direcc ?coord
+WHERE {?sujeto <http://www.schema.org/place> ?direcc.
+	?direcc <http://www.schema.org/geo> ?coord}
+
+SELECT ?sujeto ?lat ?long
+WHERE {?sujeto <http://www.schema.org/place> ?direcc.
+	?direcc <http://www.schema.org/geo> ?coord.
+	?coord <http://www.schema.org/latitude> ?lat.
+	?coord <http://www.schema.org/longitude> ?long}
+
+SELECT ?sujeto ?access
+WHERE {?sujeto <http://museosymonumentos.es/ontology/ConoceMadrid#accessibility> ?access}
+
+SELECT ?sujeto ?nombre
+WHERE {?sujeto <https://dbpedia.org/ontology/name> ?nombre}
+
+SELECT ?sujeto ?web
+WHERE {?sujeto <http://www.schema.org/url> ?web}
+
+SELECT ?sujeto ?email
+WHERE {?sujeto <http://www.schema.org/email> ?email}
+
+SELECT ?sujeto ?telef
+WHERE {?sujeto <http://www.schema.org/telephone> ?telef}
+
+SELECT ?sujeto ?stop
+WHERE {?sujeto <http://museosymonumentos.es/ontology/ConoceMadrid#hasNearbyStop> ?stop}
+
