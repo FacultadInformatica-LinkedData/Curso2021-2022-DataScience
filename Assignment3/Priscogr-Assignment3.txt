@@ -1,0 +1,50 @@
+# EXERCISE 1
+
+SELECT DISTINCT ?prop
+WHERE
+{
+    ?name rdf:type <http://dbpedia.org/ontology/Politician>.
+    ?name ?prop ?value.
+} LIMIT 100
+
+
+# EXERCISE 2
+
+SELECT DISTINCT ?prop
+WHERE
+{
+    ?name rdf:type <http://dbpedia.org/ontology/Politician>.
+    ?name ?prop ?value.
+    FILTER(?prop != rdf:type).
+} LIMIT 100
+
+# EXERCISE 3
+
+SELECT DISTINCT ?value
+WHERE
+{
+    ?name rdf:type <http://dbpedia.org/ontology/Politician>.
+    ?name ?prop ?value.
+    FILTER(?prop != rdf:type).
+} LIMIT 100
+
+# EXERCISE 4
+
+SELECT DISTINCT ?prop ?value
+WHERE
+{
+	?name rdf:type <http://dbpedia.org/ontology/Politician> .
+	?name ?prop ?value.
+	FILTER(?prop != rdf:type)
+} LIMIT 100
+
+
+# EXERCISE 5
+
+SELECT DISTINCT ?prop COUNT(?value)
+WHERE 
+{
+	?name rdf:type <http://dbpedia.org/ontology/Politician>.
+	?name ?prop ?value.
+	FILTER(?prop != rdf:type)
+} LIMIT 100
