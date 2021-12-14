@@ -1,0 +1,7 @@
+
+select distinct ?propValue where
+{
+ {?instance rdf:type <http://dbpedia.org/ontology/Politician>} .
+ {?instance ?prop ?propValue} .
+ filter (?prop != rdf:type)
+}

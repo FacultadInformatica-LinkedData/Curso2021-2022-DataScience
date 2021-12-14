@@ -7,7 +7,7 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 SELECT ?brand ?wiki
 WHERE
 {
-    ?brand rdf:type car:Brand .
+    ?brand a car:Brand .
     ?brand owl:sameAs ?wiki .
 }
 
@@ -15,14 +15,6 @@ WHERE
 SELECT ?fuel ?wiki
 WHERE
 {
-    ?fuel rdf:type car:Fuel .
+    ?fuel a car:Fuel .
     ?fuel owl:sameAs ?wiki .
-}
-
-# QUERY 3
-SELECT ?unit ?wiki
-WHERE
-{
-    ?unit rdf:type car:Unit_of_Measure .
-    ?unit owl:sameAs ?wiki .
 }

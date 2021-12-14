@@ -1,0 +1,93 @@
+{
+	"@context":{
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"persona": "http://www.persona.es/persona/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"fullName": "foaf:fullName",
+		"name": "foaf:name",
+		"familyName": "name:familyName",
+		"hometown": "rdfs:label",
+		"age": "rdfs:label",
+		"almaMater": "rdfs:label",
+        "parents": "foaf:Person",
+		"subjects": "rdfs:container",
+        "UniversitySubject": "https://www.upm.es/UniversitySubject",
+        "description": "rdfs:comment"
+
+	},
+	"@id":"http://www.persona.es/resource/XiyaSun",
+	"@type":"foaf:Student",
+	"fullName":{
+	      "@id":"http://www.persona.es/resource/XiyaSun/fullName",
+	      "@type":"name",
+	      "name":"Xiya",
+	      "familyName":"Sun"
+	},
+	"hometown":"Madrid",
+	"age":"19",
+	"almaMater":"UPM",
+	"parents": [
+	      {"@id":"http://www.persona.es/resource/XiyaSun/father",
+	       "@type":"foaf:Person",
+	       "name":"Yunwu"
+	      },
+	      {"@id":"http://www.persona.es/resource/XiyaSun/mother",
+	      "@type":"foaf:Person",
+	      "name":"Xiaowu"
+	      }
+    ],
+    "subjects":[
+           {"@id":"https://www.upm.es/subjects/AI",
+            "@type":"UniversitySubject",
+            "name":"Inteligencia Artificial",
+            "teacher":{
+                 "@id":"https://www.upm.es/teachers/AsuncionGomez",
+                 "@type":"foaf:Person",
+                 "fullName":{
+	                   "@id":"https://www.upm.es/teachers/AsuncionGomez/fullName",
+	                   "@type":"name",
+	                   "name":"Asunción",
+	                   "familyName":"Gómez"
+                 }
+            },
+            "description":"Knowledge representation"
+           },
+           {"@id":"https://www.upm.es/subjects/AN",
+            "@type":"UniversitySubject",
+            "name":"Algorítmica Numérica",
+            "teacher":{
+                 "@id":"https://www.upm.es/teachers/AntonioTabernero",
+                 "@type":"foaf:Person",
+                 "fullName":{
+	                   "@id":"https://www.upm.es/teachers/AntonioTabernero/fullName",
+	                   "@type":"name",
+	                   "name":"Antonio",
+	                   "familyName":"Tabernero"
+	             }
+	        },
+	        "description":"Resolve problems with Matlab"
+           },
+           {"@id":"https://www.upm.es/subjects/KG",
+            "@type":"UniversitySubject",
+            "name":"Knowledge Graphs",
+            "teacher":{
+                 "@id":"https://www.upm.es/teachers/OscarCorcho",
+                 "@type":"foaf:Person",
+                 "fullName":{
+	                   "@id":"https://www.upm.es/teachers/OscarCorcho/fullName",
+	                   "@type":"name",
+	                   "name":"Óscar",
+	                   "familyName":"Corcho"
+	             }
+	        },
+	        "description":"Semantic Web, Linked Data and Knowledge Graphs"
+           }
+           ]
+    }
+
+
+
+
+
+

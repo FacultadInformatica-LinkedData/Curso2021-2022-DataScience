@@ -1,0 +1,51 @@
+PREFIX rr: <http://www.w3.org/ns/r2rml#>
+PREFIX rml: <http://semweb.mmlab.be/ns/rml#>
+PREFIX ql: <http://semweb.mmlab.be/ns/ql#>        
+PREFIX ex: <http://example.com/ns#>
+PREFIX xsd: <https://www.w3.org/XMLSchema/>
+PREFIX cult: <https://www.mapmadrid.org/ontologia/>
+PREFIX schema: <http://www.schema.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl>
+
+# Obtener todos los barrios y su representación en wikidata en los que se puede encontrar un museo en Madrid.
+SELECT DISTINCT ?barrio ?wiki_barrio
+WHERE{
+    ?museo a cult:Monumento.
+    ?museo cult:estaLocalizado ?loc.
+    ?loc cult:enBarrio ?barrio.
+    ?barrio owl:sameAs ?wiki_barrio.
+}
+LIMIT 30
+
+#Devolver los barrios en los que hay museos
+SELECT DISTINCT ?value
+WHERE{
+    ?name rdf:type cult:Museo.
+	?name cult:estaLocalizado ?loc.
+    ?loc cult:enBarrio ?value.
+}
+
+#Devolver el número de museos que hay en cada distrito
+SELECT  ?values,
+          COUNT(?values) as ?posiblesValores
+WHERE{ 
+    ?name rdf:type cult:Museo.
+	?name cult:estaLocalizado ?loc.
+    ?loc cult:enDistrito ?values.
+
+}
+
+#Devolver todas las propiedades que se le pueden aplicar a un monumento
+SELECT DISTINCT ?prop
+WHERE{
+    ?name rdf:type cult:Monumento.
+    ?name ?prop ?value.
+}
+
+#Devolver los nombres de todos los monumentos de la base de datos.
+SELECT DISTINCT ?value
+WHERE{
+    ?name rdf:type cult:Museo.
+    ?name cult:tieneNombre> ?value.
+	
+}
