@@ -8,14 +8,15 @@
 @prefix car: <http://www.grafosconocimiento.es/lcc/ontology/estudiocoches#> .
 @base <http://www.grafosconocimiento.es/lcc/ontology/estudiocoches#>.
 
-
 <#TriplesMap1>
   rml:logicalSource [
-    rml:source "./data/fuel_performance_april_updated-with-links.csv" ;
+    rml:source "./data/fuel-performance-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
     rr:template "http://www.grafosconocimiento.es/resources/GovID/{Number}";
+    rr:termType rr:IRI;
+    rr:class car:GovID
   ];
 
   rr:predicateObjectMap [
@@ -27,10 +28,18 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicate car:hasRegistration;
+    rr:predicate car:registration;
     rr:objectMap [
-      rr:template "http://www.grafosconocimiento.es/resources/CarIdentifier/{Registration}";
-      rr:termType rr:Literal
+      rml:reference "Registration" ;
+      rr:dataType xsd:string
+      ]
+  ];
+
+  rr:predicateObjectMap [
+    rr:predicate car:millesPerGallon;
+    rr:objectMap [
+      rml:reference "MPG" ;
+      rr:dataType xsd:decimal
       ]
   ];
 
@@ -51,14 +60,6 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicate car:hasMPG;
-    rr:objectMap [
-      rr:template "http://www.grafosconocimiento.es/resources/FuelEfficiency/{MPG}";
-      rr:termType rr:Literal
-      ]
-  ];
-
-  rr:predicateObjectMap [
     rr:predicate car:hasOdometer;
     rr:objectMap [
       rr:template "http://www.grafosconocimiento.es/resources/Odometer/{Odometer}";
@@ -69,29 +70,13 @@
 
 <#TriplesMap2>
   rml:logicalSource [
-    rml:source "./data/fuel_performance_april_updated-with-links.csv" ;
-    rml:referenceFormulation ql:CSV
-  ];
-  rr:subjectMap [
-    rr:template "http://www.grafosconocimiento.es/resources/CarIdentifier/{Registration}";
-  ];
-
-  rr:predicateObjectMap [
-    rr:predicate car:registration;
-    rr:objectMap [
-      rml:reference "Registration";
-      rr:dataType xsd:string
-      ]
-  ].
-
-
-<#TriplesMap3>
-  rml:logicalSource [
-    rml:source "./data/fuel_performance_april_updated-with-links.csv" ;
+    rml:source "./data/fuel-performance-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
     rr:template "http://www.grafosconocimiento.es/resources/Brand/{Details}";
+    rr:termType rr:IRI;
+    rr:class car:Brand
   ];
 
   rr:predicateObjectMap [
@@ -106,18 +91,20 @@
     rr:predicate owl:sameAs;
     rr:objectMap [
       rml:reference "same_as_wikidata_marcas";
-      rr:termType rr:IRI
+      rr:dataType xsd:anyURI
       ]
   ].
 
 
-<#TriplesMap4>
+<#TriplesMap3>
   rml:logicalSource [
-    rml:source "./data/fuel_performance_april_updated-with-links.csv" ;
+    rml:source "./data/fuel-performance-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
     rr:template "http://www.grafosconocimiento.es/resources/Fuel/{Product}";
+    rr:termType rr:IRI;
+    rr:class car:Fuel
   ];
 
   rr:predicateObjectMap [
@@ -132,36 +119,20 @@
     rr:predicate owl:sameAs;
     rr:objectMap [
       rml:reference "same_as_wikidata_combustibles";
-      rr:termType rr:IRI
+      rr:dataType xsd:anyURI
       ]
   ].
 
 
-<#TriplesMap5>
+<#TriplesMap4>
   rml:logicalSource [
-    rml:source "./data/fuel_performance_april_updated-with-links.csv" ;
-    rml:referenceFormulation ql:CSV
-  ];
-  rr:subjectMap [
-    rr:template "http://www.grafosconocimiento.es/resources/FuelEfficiency/{MPG}";
-  ];
-
-  rr:predicateObjectMap [
-    rr:predicate car:milesPerGallon;
-    rr:objectMap [
-      rml:reference "MPG";
-      rr:dataType xsd:decimal
-      ]
-  ].
-
-
-<#TriplesMap6>
-  rml:logicalSource [
-    rml:source "./data/fuel_performance_april_updated-with-links.csv" ;
+    rml:source "./data/fuel-performance-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
     rr:template "http://www.grafosconocimiento.es/resources/Odometer/{Odometer}";
+    rr:termType rr:IRI;
+    rr:class car:Odometer
   ];
 
   rr:predicateObjectMap [
@@ -173,29 +144,31 @@
   ];
 
   rr:predicateObjectMap [
+    rr:predicate car:unit_of_measurement;
+    rr:objectMap [
+      rml:reference "Unit";
+      rr:dataType xsd:string
+      ]
+  ];
+
+  rr:predicateObjectMap [
     rr:predicate car:yearDistance;
     rr:objectMap [
       rr:template "http://www.grafosconocimiento.es/resources/Distance/{Distance}";
       rr:termType rr:Literal
       ]
-  ];
-
-  rr:predicateObjectMap [
-    rr:predicate car:hasQuantityUnitMeasurement;
-    rr:objectMap [
-      rr:template "http://www.grafosconocimiento.es/resources/Unit/{Unit}";
-      rr:termType rr:Literal
-      ]
   ].
 
 
-<#TriplesMap7>
+<#TriplesMap5>
   rml:logicalSource [
-    rml:source "./data/fuel_performance_april_updated-with-links.csv" ;
+    rml:source "./data/fuel-performance-updated-with-links.csv" ;
     rml:referenceFormulation ql:CSV
   ];
   rr:subjectMap [
     rr:template "http://www.grafosconocimiento.es/resources/Distance/{Distance}";
+    rr:termType rr:IRI;
+    rr:class car:Distance
   ];
 
   rr:predicateObjectMap [
@@ -207,35 +180,9 @@
   ];
 
   rr:predicateObjectMap [
-    rr:predicate car:hasQuantityUnitMeasurement;
-    rr:objectMap [
-      rr:template "http://www.grafosconocimiento.es/resources/Unit/{Unit}";
-      rr:termType rr:Literal
-      ]
-  ].
-
-
-<#TriplesMap8>
-  rml:logicalSource [
-    rml:source "./data/fuel_performance_april_updated-with-links.csv" ;
-    rml:referenceFormulation ql:CSV
-  ];
-  rr:subjectMap [
-    rr:template "http://www.grafosconocimiento.es/resources/Unit/{Unit}";
-  ];
-
-  rr:predicateObjectMap [
     rr:predicate car:unit_of_measurement;
     rr:objectMap [
       rml:reference "Unit";
       rr:dataType xsd:string
-      ]
-  ];
-
-   rr:predicateObjectMap [
-    rr:predicate owl:sameAs;
-    rr:objectMap [
-      rml:reference "same_as_wikidata_medidas";
-      rr:termType rr:IRI
       ]
   ].

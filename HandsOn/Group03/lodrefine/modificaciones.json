@@ -4326,5 +4326,105 @@
       }
     ],
     "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Registration",
+    "expression": "grel:value.replace(' ', '')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Registration using expression grel:value.replace(' ', '')"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Ford Motor Company"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Ford"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Details",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "John Deere"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "John-Deere"
+      }
+    ],
+    "description": "Mass edit cells in column Details"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Registration",
+          "expression": "value",
+          "columnName": "Registration",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ML19HMV",
+                "l": "ML19HMV"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
   }
 ]

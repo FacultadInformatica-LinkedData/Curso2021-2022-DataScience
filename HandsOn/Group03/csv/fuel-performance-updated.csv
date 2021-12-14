@@ -15,17 +15,17 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 0034,YG20GRK,Volkswagen,Diesel,784,756,Miles,26.26
 0035,YG20YGZ,Volkswagen,Diesel,393,318,Miles,18.5
 0039,YG20WFR,Volkswagen,Diesel,350,300,Miles,17.98
-0080,YC59GZB,Ford Motor Company,Diesel,83027,7311,Miles,36.89
+0080,YC59GZB,Ford,Diesel,83027,7311,Miles,36.89
 0081,YG10KZP,Peugeot,Diesel,223513,13264,Miles,58.76
 0082,YG10ZHL,Peugeot,Diesel,233374,7010,Miles,46.89
 0084,YG10TZO,Peugeot,Diesel,88679,6204,Miles,34.02
 0085,YG10KZK,Peugeot,Diesel,112787,782,Miles,20.78
-0086,YP59ZSK,Ford Motor Company,Diesel,57892,4819,Miles,31.4
+0086,YP59ZSK,Ford,Diesel,57892,4819,Miles,31.4
 0095,YL63CHZ,Peugeot,Diesel,38763,6976,Miles,32.41
 0098,YD14UWM,Peugeot,Diesel,58386,2952,Miles,38.03
 0099,YG63ETR,Peugeot,Diesel,8342,508,Miles,23.02
-0106,YF13TLN,Ford Motor Company,Diesel,43780,4475,Miles,42.93
-0107,YB13YCG,Ford Motor Company,Diesel,55372,6885,Miles,46.73
+0106,YF13TLN,Ford,Diesel,43780,4475,Miles,42.93
+0107,YB13YCG,Ford,Diesel,55372,6885,Miles,46.73
 0108,FP15SRO,Vauxhall,Diesel,78563,4363,Miles,58.36
 0110,FP15PUO,Vauxhall,Diesel,59217,1676,Miles,44.65
 0111,FP15SMV,Vauxhall,Diesel,43059,2685,Miles,42.1
@@ -49,7 +49,7 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 0206,YJ16CVT,Volkswagen,Diesel,39415,7112,Miles,17.97
 0207,YJ16CRZ,Volkswagen,Diesel,49801,12449,Miles,18.3
 0208,YJ16CRX,Volkswagen,Diesel,66485,18169,Miles,19.69
-0209,YJ16 CRV,Volkswagen,Diesel,89844,16460,Miles,19.37
+0209,YJ16CRV,Volkswagen,Diesel,89844,16460,Miles,19.37
 0210,YJ16CUO,Volkswagen,Diesel,62435,11404,Miles,18.25
 0211,YJ16CUC,Volkswagen,Diesel,56759,15551,Miles,20.78
 0212,YJ16CVF,Volkswagen,Diesel,60345,14258,Miles,18.82
@@ -86,7 +86,7 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 0246,YJ19BZA,Volkswagen,Diesel,8962,8881,Miles,19.53
 0247,YJ19BZB,Volkswagen,Diesel,10325,10220,Miles,18.8
 0248,YJ19BZC,Volkswagen,Diesel,5479,5389,Miles,18.28
-0249,YJ69 BYV,Volkswagen,Diesel,4844,4771,Miles,17.12
+0249,YJ69BYV,Volkswagen,Diesel,4844,4771,Miles,17.12
 0250,YJ69BYX,Volkswagen,Diesel,5264,5183,Miles,20.16
 0251,YJ69BYZ,Volkswagen,Diesel,6850,6766,Miles,19.94
 0253,YJ69BYY,Volkswagen,Diesel,6467,6384,Miles,19.46
@@ -118,12 +118,12 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 0295,YJ66DSV,Volkswagen,Diesel,56132,16564,Miles,20.98
 0296,YJ66EAW,Volkswagen,Diesel,40496,13499,Miles,19.15
 0297,YJ66DSU,Volkswagen,Diesel,48177,13402,Miles,21.66
-0358,YH08CKO,Ford Motor Company,Diesel,53739,2453,Miles,33.07
-0368,YG59GBV,Ford Motor Company,Diesel,106827,10019,Miles,36.6
-0369,YB60HYK,Ford Motor Company,Diesel,55439,2538,Miles,34.75
-0375,YH14FNO,Ford Motor Company,Diesel,20860,2176,Miles,37.87
-0376,YF65FKA,Ford Motor Company,Diesel,28747,10392,Miles,35.44
-0377,YF65FKR,Ford Motor Company,Diesel,21705,923,Miles,26.81
+0358,YH08CKO,Ford,Diesel,53739,2453,Miles,33.07
+0368,YG59GBV,Ford,Diesel,106827,10019,Miles,36.6
+0369,YB60HYK,Ford,Diesel,55439,2538,Miles,34.75
+0375,YH14FNO,Ford,Diesel,20860,2176,Miles,37.87
+0376,YF65FKA,Ford,Diesel,28747,10392,Miles,35.44
+0377,YF65FKR,Ford,Diesel,21705,923,Miles,26.81
 0378,MW17UZU,Vauxhall,Diesel,6853,2578,Kilometres,3.03
 0379,MV17BKA,Vauxhall,Diesel,17990,3920,Miles,55.18
 0401,SF68LJL,Fiat,Diesel,18284,12059,Miles,21.07
@@ -171,7 +171,7 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 0441,LX19BCU,Mercedes,Diesel,11349,11087,Miles,16.92
 0444,YJ14DXP,Volkswagen,Diesel,86888,1629,Miles,19.23
 0446,LX66AHJ,Mercedes,Diesel,43358,11345,Miles,21.43
-0447,LX66 AFY,Mercedes,Diesel,50280,16158,Miles,21.16
+0447,LX66AFY,Mercedes,Diesel,50280,16158,Miles,21.16
 0448,LX66ALO,Mercedes,Diesel,50184,9368,Miles,18.36
 0449,LX66AMU,Mercedes,Diesel,36754,8686,Miles,18.22
 0450,LX66AJY,Mercedes,Diesel,38501,10164,Miles,16.67
@@ -224,14 +224,14 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 0495,YJ64NZE,Volkswagen,Diesel,73348,8703,Miles,24.08
 0496,YJ64NZF,Volkswagen,Diesel,73800,8753,Miles,18.23
 0497,YJ15BXE,Volkswagen,Diesel,61331,10200,Miles,20.5
-0527,YH59OLN,Mitsubishi Motors,Diesel,53746,1887,Miles,24.37
-0530,YC63CPN,Ford Motor Company,Diesel,36624,3078,Miles,69.38
-0531,YB63OJW,Ford Motor Company,Diesel,34751,6022,Miles,26.52
-0532,YL17PHV,Ford Motor Company,Diesel,6358,451,Miles,19.81
-0533,YL17OYR,Ford Motor Company,Diesel,28244,750,Miles,17.94
-0534,YL17PMO,Ford Motor Company,Diesel,14406,1784,Miles,26.46
-0535,YL17PLF,Ford Motor Company,Diesel,7963,2738,Miles,19.97
-0536,YL17PHN,Ford Motor Company,Diesel,9718,4244,Miles,28.92
+0527,YH59OLN,Mitsubishi,Diesel,53746,1887,Miles,24.37
+0530,YC63CPN,Ford,Diesel,36624,3078,Miles,69.38
+0531,YB63OJW,Ford,Diesel,34751,6022,Miles,26.52
+0532,YL17PHV,Ford,Diesel,6358,451,Miles,19.81
+0533,YL17OYR,Ford,Diesel,28244,750,Miles,17.94
+0534,YL17PMO,Ford,Diesel,14406,1784,Miles,26.46
+0535,YL17PLF,Ford,Diesel,7963,2738,Miles,19.97
+0536,YL17PHN,Ford,Diesel,9718,4244,Miles,28.92
 0700,MJ16XMA,Vauxhall,Diesel,30632,7824,Miles,61.46
 0701,MJ16XLX,Vauxhall,Diesel,28260,6095,Miles,53.15
 0702,MJ16XLY,Vauxhall,Diesel,58080,9725,Miles,61.56
@@ -261,15 +261,15 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 0736,MV17CPY,Vauxhall,Diesel,34461,12307,Miles,55.2
 0737,MV17CPZ,Vauxhall,Diesel,26779,11163,Miles,63.01
 0740,MW16DCY,Vauxhall,Diesel,32602,8764,Miles,52.88
-0743,YF10WXR,Ford Motor Company,Diesel,74098,5365,Miles,70.58
+0743,YF10WXR,Ford,Diesel,74098,5365,Miles,70.58
 0746,MW16DDZ,Vauxhall,Diesel,38417,3361,Miles,49.26
 0748,MW16CZY,Vauxhall,Diesel,37461,3454,Miles,56.87
 0753,MW16DDJ,Vauxhall,Diesel,34903,5454,Miles,60.83
 0754,MW16DAU,Vauxhall,Diesel,55072,4772,Miles,57.93
 0853,YF08BFZ,Vauxhall,Diesel,67898,4624,Miles,31.66
-0957,YE07FAF,Ford Motor Company,Diesel,78094,2033,Miles,43.77
-0959,YC07ONJ,Ford Motor Company,Diesel,95895,6117,Miles,40.08
-0976,YF07GGZ,Ford Motor Company,Diesel,82661,5215,Miles,38.35
+0957,YE07FAF,Ford,Diesel,78094,2033,Miles,43.77
+0959,YC07ONJ,Ford,Diesel,95895,6117,Miles,40.08
+0976,YF07GGZ,Ford,Diesel,82661,5215,Miles,38.35
 1006,YB63URX,Peugeot,Diesel,62776,2831,Miles,38.87
 1007,YB63URZ,Peugeot,Diesel,79930,4567,Miles,48.03
 1008,YB63USC,Peugeot,Diesel,26071,576,Miles,27.65
@@ -338,60 +338,60 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 1072,YB15OEE,Peugeot,Diesel,19797,4810,Miles,37.53
 1073,YB15OEC,Peugeot,Diesel,49030,14298,Miles,41.66
 1075,YB15WDV,Peugeot,Diesel,35758,4191,Miles,40.22
-1076,YJ65XUR,Ford Motor Company,Diesel,68673,18249,Miles,49.41
-1077,YJ65XTG,Ford Motor Company,Diesel,80530,20981,Miles,48.68
-1078,YJ65XXD,Ford Motor Company,Diesel,76325,25374,Miles,48.14
-1079,YC65MTF,Ford Motor Company,Diesel,49386,16333,Miles,47.94
-1080,YC65GMF,Ford Motor Company,Diesel,48883,5283,Miles,50.13
-1081,YC65MVD,Ford Motor Company,Diesel,45633,3449,Miles,44.5
-1082,YC65MUU,Ford Motor Company,Diesel,74595,15539,Miles,48.76
-1083,YC65MVA,Ford Motor Company,Diesel,45807,2091,Miles,35.72
+1076,YJ65XUR,Ford,Diesel,68673,18249,Miles,49.41
+1077,YJ65XTG,Ford,Diesel,80530,20981,Miles,48.68
+1078,YJ65XXD,Ford,Diesel,76325,25374,Miles,48.14
+1079,YC65MTF,Ford,Diesel,49386,16333,Miles,47.94
+1080,YC65GMF,Ford,Diesel,48883,5283,Miles,50.13
+1081,YC65MVD,Ford,Diesel,45633,3449,Miles,44.5
+1082,YC65MUU,Ford,Diesel,74595,15539,Miles,48.76
+1083,YC65MVA,Ford,Diesel,45807,2091,Miles,35.72
 1084,YF65NUE,Peugeot,Diesel,34146,9457,Miles,43.72
 1100,FL65EFY,Vauxhall,Diesel,22502,5086,Miles,39.3
 1101,YJ65HWN,Peugeot,Diesel,11842,7727,Miles,35.75
 1115,ML60LXS,Peugeot,Diesel,71515,2590,Miles,46.96
-1122,YJ13ZLX,Ford Motor Company,Diesel,28956,2649,Miles,40.27
-1124,YJ13ZFX,Ford Motor Company,Diesel,54887,1249,Miles,35.03
-1126,YJ13ZPN,Ford Motor Company,Diesel,24197,1347,Miles,33.37
-1127,YK13UTM,Ford Motor Company,Diesel,34630,3218,Miles,37.51
-1128,YE13NPJ,Ford Motor Company,Diesel,69875,10435,Miles,37.45
-1129,YE13ULH,Ford Motor Company,Diesel,36336,5972,Miles,34.25
-1131,YE13NVB,Ford Motor Company,Diesel,36014,6927,Miles,36.12
-1132,YF13TLX,Ford Motor Company,Diesel,47844,6322,Miles,33.13
-1133,YF13TLU,Ford Motor Company,Diesel,49250,5573,Miles,35.72
-1135,YF13TMO,Ford Motor Company,Diesel,49205,2507,Miles,33.78
-1136,YF13TMX,Ford Motor Company,Diesel,45405,3655,Miles,35.19
-1137,YF13WCT,Ford Motor Company,Diesel,55510,6193,Miles,31.39
-1138,YF13TKU,Ford Motor Company,Diesel,41530,4892,Miles,30.9
-1139,YF13VCP,Ford Motor Company,Diesel,54380,8280,Miles,35.25
-1140,YF13WCD,Ford Motor Company,Diesel,46005,5409,Miles,33.64
-1141,YF13VBP,Ford Motor Company,Diesel,48089,6736,Miles,37.75
-1142,YF13VBN,Ford Motor Company,Diesel,39592,2399,Miles,32.7
-1143,YF13VBY,Ford Motor Company,Diesel,40728,2906,Miles,35.77
-1144,YF13VCJ,Ford Motor Company,Diesel,34470,2840,Miles,30.08
-1145,YF13TNN,Ford Motor Company,Diesel,46551,4201,Miles,28.55
-1147,YB13YBS,Ford Motor Company,Diesel,50822,7041,Miles,34.27
-1148,YF13TKZ,Ford Motor Company,Diesel,34309,1909,Miles,33.63
-1149,YF13TMY,Ford Motor Company,Diesel,45100,8829,Miles,31.53
-1150,YB13FRU,Ford Motor Company,Diesel,33761,2386,Miles,31.73
-1151,YB13LTZ,Ford Motor Company,Diesel,66825,11337,Miles,28.49
-1152,YB13PHK,Ford Motor Company,Diesel,57216,10035,Miles,37.14
-1153,YB13PGO,Ford Motor Company,Diesel,52126,9096,Miles,36.09
-1154,YB13LSX,Ford Motor Company,Diesel,69980,7399,Miles,33.96
-1155,YB13LTJ,Ford Motor Company,Diesel,47911,7218,Miles,22.44
-1156,YB13LTA,Ford Motor Company,Diesel,40254,5160,Miles,32.89
-1157,YB13LTO,Ford Motor Company,Diesel,59065,10435,Miles,32.03
-1158,YF13TKV,Ford Motor Company,Diesel,60667,4173,Miles,28.7
-1160,YF13EPK,Ford Motor Company,Diesel,59351,8626,Miles,30.42
-1161,YF13TMU,Ford Motor Company,Diesel,67970,9070,Miles,37.05
-1162,YF13VCO,Ford Motor Company,Diesel,67370,9662,Miles,35.54
-1164,YF13TLV,Ford Motor Company,Diesel,47334,3946,Miles,28.36
-1165,YF13VBO,Ford Motor Company,Diesel,71246,8561,Miles,29.89
-1166,YF13TNE,Ford Motor Company,Diesel,61536,10127,Miles,35.39
-1167,YF13VBX,Ford Motor Company,Diesel,70630,8657,Miles,32.2
-1168,YF13VBU,Ford Motor Company,Diesel,58868,9795,Miles,29.87
-1169,YF13EPD,Ford Motor Company,Diesel,74921,13162,Miles,34.64
-1170,YA13YMT,Ford Motor Company,Diesel,65869,1289,Miles,24.21
+1122,YJ13ZLX,Ford,Diesel,28956,2649,Miles,40.27
+1124,YJ13ZFX,Ford,Diesel,54887,1249,Miles,35.03
+1126,YJ13ZPN,Ford,Diesel,24197,1347,Miles,33.37
+1127,YK13UTM,Ford,Diesel,34630,3218,Miles,37.51
+1128,YE13NPJ,Ford,Diesel,69875,10435,Miles,37.45
+1129,YE13ULH,Ford,Diesel,36336,5972,Miles,34.25
+1131,YE13NVB,Ford,Diesel,36014,6927,Miles,36.12
+1132,YF13TLX,Ford,Diesel,47844,6322,Miles,33.13
+1133,YF13TLU,Ford,Diesel,49250,5573,Miles,35.72
+1135,YF13TMO,Ford,Diesel,49205,2507,Miles,33.78
+1136,YF13TMX,Ford,Diesel,45405,3655,Miles,35.19
+1137,YF13WCT,Ford,Diesel,55510,6193,Miles,31.39
+1138,YF13TKU,Ford,Diesel,41530,4892,Miles,30.9
+1139,YF13VCP,Ford,Diesel,54380,8280,Miles,35.25
+1140,YF13WCD,Ford,Diesel,46005,5409,Miles,33.64
+1141,YF13VBP,Ford,Diesel,48089,6736,Miles,37.75
+1142,YF13VBN,Ford,Diesel,39592,2399,Miles,32.7
+1143,YF13VBY,Ford,Diesel,40728,2906,Miles,35.77
+1144,YF13VCJ,Ford,Diesel,34470,2840,Miles,30.08
+1145,YF13TNN,Ford,Diesel,46551,4201,Miles,28.55
+1147,YB13YBS,Ford,Diesel,50822,7041,Miles,34.27
+1148,YF13TKZ,Ford,Diesel,34309,1909,Miles,33.63
+1149,YF13TMY,Ford,Diesel,45100,8829,Miles,31.53
+1150,YB13FRU,Ford,Diesel,33761,2386,Miles,31.73
+1151,YB13LTZ,Ford,Diesel,66825,11337,Miles,28.49
+1152,YB13PHK,Ford,Diesel,57216,10035,Miles,37.14
+1153,YB13PGO,Ford,Diesel,52126,9096,Miles,36.09
+1154,YB13LSX,Ford,Diesel,69980,7399,Miles,33.96
+1155,YB13LTJ,Ford,Diesel,47911,7218,Miles,22.44
+1156,YB13LTA,Ford,Diesel,40254,5160,Miles,32.89
+1157,YB13LTO,Ford,Diesel,59065,10435,Miles,32.03
+1158,YF13TKV,Ford,Diesel,60667,4173,Miles,28.7
+1160,YF13EPK,Ford,Diesel,59351,8626,Miles,30.42
+1161,YF13TMU,Ford,Diesel,67970,9070,Miles,37.05
+1162,YF13VCO,Ford,Diesel,67370,9662,Miles,35.54
+1164,YF13TLV,Ford,Diesel,47334,3946,Miles,28.36
+1165,YF13VBO,Ford,Diesel,71246,8561,Miles,29.89
+1166,YF13TNE,Ford,Diesel,61536,10127,Miles,35.39
+1167,YF13VBX,Ford,Diesel,70630,8657,Miles,32.2
+1168,YF13VBU,Ford,Diesel,58868,9795,Miles,29.87
+1169,YF13EPD,Ford,Diesel,74921,13162,Miles,34.64
+1170,YA13YMT,Ford,Diesel,65869,1289,Miles,24.21
 1172,YC14UTS,Peugeot,Diesel,55280,7395,Miles,38.61
 1174,YA63TWP,Peugeot,Diesel,67844,7185,Miles,46.3
 1175,YL63CBX,Peugeot,Diesel,45226,8498,Miles,46.27
@@ -401,15 +401,15 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 1179,YD14UWS,Peugeot,Diesel,59785,12531,Miles,42.88
 1180,YG14PGK,Peugeot,Diesel,39354,4969,Miles,37.21
 1181,YG14PGO,Peugeot,Diesel,31315,4580,Miles,41.05
-1182,YD14VPU,Ford Motor Company,Diesel,61954,9655,Miles,44.5
-1183,YD14VTN,Ford Motor Company,Diesel,48601,13723,Miles,44.36
-1184,YD14VTP,Ford Motor Company,Diesel,37792,5944,Miles,46.26
-1185,YG14FUV,Ford Motor Company,Diesel,33351,9454,Miles,44.72
-1186,YG14WWP,Ford Motor Company,Diesel,82399,9695,Miles,39.11
-1187,YG14WXL,Ford Motor Company,Diesel,87497,13629,Miles,42.13
-1188,YG14WWN,Ford Motor Company,Diesel,37706,1419,Miles,37.04
-1189,YG14FUJ,Ford Motor Company,Diesel,83248,6278,Miles,39.72
-1190,YG14WXJ,Ford Motor Company,Diesel,84754,13660,Miles,41.06
+1182,YD14VPU,Ford,Diesel,61954,9655,Miles,44.5
+1183,YD14VTN,Ford,Diesel,48601,13723,Miles,44.36
+1184,YD14VTP,Ford,Diesel,37792,5944,Miles,46.26
+1185,YG14FUV,Ford,Diesel,33351,9454,Miles,44.72
+1186,YG14WWP,Ford,Diesel,82399,9695,Miles,39.11
+1187,YG14WXL,Ford,Diesel,87497,13629,Miles,42.13
+1188,YG14WWN,Ford,Diesel,37706,1419,Miles,37.04
+1189,YG14FUJ,Ford,Diesel,83248,6278,Miles,39.72
+1190,YG14WXJ,Ford,Diesel,84754,13660,Miles,41.06
 1192,YG14PFY,Peugeot,Diesel,55006,7406,Miles,42.51
 1193,YL63CCD,Peugeot,Diesel,28620,313,Miles,21.12
 1194,YB63URT,Peugeot,Diesel,52943,5985,Miles,43.89
@@ -428,7 +428,7 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 1212,YL16ZFT,Peugeot,Diesel,101867,8691,Miles,45.61
 1213,YL16ZGA,Peugeot,Diesel,112891,6214,Miles,41.21
 1214,YL16ZFS,Peugeot,Diesel,28377,14996,Miles,41.59
-1215,YD54GZG,Ford Motor Company,Diesel,97721,3702,Miles,31.55
+1215,YD54GZG,Ford,Diesel,97721,3702,Miles,31.55
 1216,YF16MYG,Peugeot,Diesel,30726,7779,Miles,43.07
 1217,YF16MYD,Peugeot,Diesel,19263,4427,Miles,37.57
 1218,YF16MYB,Peugeot,Diesel,27506,6696,Miles,51.74
@@ -452,48 +452,48 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 1242,YA19TMY,Peugeot,Diesel,6106,5843,Miles,38.2
 1243,YA19TNE,Peugeot,Diesel,1666,1359,Miles,33.59
 1244,YA19TMZ,Peugeot,Diesel,4802,4586,Miles,41.72
-13/22,YJ13CPO,John Deere,Diesel,3373,392,Miles,0.61
-1340,YD13GPX,Ford Motor Company,Diesel,56711,1564,Miles,20.12
-1341,YG13OAJ,Ford Motor Company,Diesel,41636,1692,Miles,20.24
-1342,YD13BXE,Ford Motor Company,Diesel,56954,2129,Miles,24.62
-1343,YJ13ZKW,Ford Motor Company,Diesel,61090,2493,Miles,25.87
-1344,YG13FHR,Ford Motor Company,Diesel,50106,1651,Miles,30.74
-1345,YJ13ZMX,Ford Motor Company,Diesel,52285,1448,Miles,28.35
-1346,YJ13ZHX,Ford Motor Company,Diesel,49116,649,Miles,15.37
-1347,YG13OEW,Ford Motor Company,Diesel,41306,479,Miles,14.22
-1350,YD13GPZ,Ford Motor Company,Diesel,49490,2043,Miles,22.21
-1351,YC13DXJ,Ford Motor Company,Diesel,33557,238,Miles,12.87
-1352,YC13HVZ,Ford Motor Company,Diesel,58023,2086,Miles,38.47
-1353,YC13DVJ,Ford Motor Company,Diesel,45240,1357,Miles,28.45
-1355,YC13DNJ,Ford Motor Company,Diesel,46313,1571,Miles,26.4
-1358,YC13DYP,Ford Motor Company,Diesel,54314,1118,Miles,17.21
+13/22,YJ13CPO,John-Deere,Diesel,3373,392,Miles,0.61
+1340,YD13GPX,Ford,Diesel,56711,1564,Miles,20.12
+1341,YG13OAJ,Ford,Diesel,41636,1692,Miles,20.24
+1342,YD13BXE,Ford,Diesel,56954,2129,Miles,24.62
+1343,YJ13ZKW,Ford,Diesel,61090,2493,Miles,25.87
+1344,YG13FHR,Ford,Diesel,50106,1651,Miles,30.74
+1345,YJ13ZMX,Ford,Diesel,52285,1448,Miles,28.35
+1346,YJ13ZHX,Ford,Diesel,49116,649,Miles,15.37
+1347,YG13OEW,Ford,Diesel,41306,479,Miles,14.22
+1350,YD13GPZ,Ford,Diesel,49490,2043,Miles,22.21
+1351,YC13DXJ,Ford,Diesel,33557,238,Miles,12.87
+1352,YC13HVZ,Ford,Diesel,58023,2086,Miles,38.47
+1353,YC13DVJ,Ford,Diesel,45240,1357,Miles,28.45
+1355,YC13DNJ,Ford,Diesel,46313,1571,Miles,26.4
+1358,YC13DYP,Ford,Diesel,54314,1118,Miles,17.21
 1359,YL66UWA,Volkswagen,Diesel,41104,13352,Miles,32.07
 1360,YL66UVU,Volkswagen,Diesel,39008,12905,Miles,30.81
-1416,YG69JMV,Ford Motor Company,Diesel,4348,4173,Miles,30.84
-1418,YG69JKU,Ford Motor Company,Diesel,1673,1566,Miles,26.05
-1419,YG69JKV,Ford Motor Company,Diesel,2476,2356,Miles,26.86
-1420,YG69JOA,Ford Motor Company,Diesel,4219,4142,Miles,30.49
-1421,YG69JOH,Ford Motor Company,Diesel,1311,1235,Miles,23.68
-1423,YG69JNF,Ford Motor Company,Diesel,3054,2978,Miles,29.79
-1424,YG69JNX,Ford Motor Company,Diesel,3926,3850,Miles,30.58
-1425,YG69JMX,Ford Motor Company,Diesel,4373,4297,Miles,29.11
-1428,YG69JLV,Ford Motor Company,Diesel,3510,3431,Miles,29.19
-1429,YG69JKY,Ford Motor Company,Diesel,3901,3759,Miles,31.3
-1435,YB07UGO,Ford Motor Company,Diesel,100200,314,Miles,40.65
-1453,YG57SOE,Ford Motor Company,Diesel,76471,960,Miles,25.64
-1454,YH57DSY,Ford Motor Company,Diesel,105447,1447,Miles,22.1
-1477,YB13LSL,Ford Motor Company,Diesel,39031,1756,Miles,28.27
-1478,YB13LUA,Ford Motor Company,Diesel,54725,2424,Miles,27.94
-1479,YB13LSV,Ford Motor Company,Diesel,77967,1964,Miles,29.58
-1480,YB13LTT,Ford Motor Company,Diesel,55792,7223,Miles,29.05
-1481,YB13VBP,Ford Motor Company,Diesel,68332,10985,Miles,28.48
+1416,YG69JMV,Ford,Diesel,4348,4173,Miles,30.84
+1418,YG69JKU,Ford,Diesel,1673,1566,Miles,26.05
+1419,YG69JKV,Ford,Diesel,2476,2356,Miles,26.86
+1420,YG69JOA,Ford,Diesel,4219,4142,Miles,30.49
+1421,YG69JOH,Ford,Diesel,1311,1235,Miles,23.68
+1423,YG69JNF,Ford,Diesel,3054,2978,Miles,29.79
+1424,YG69JNX,Ford,Diesel,3926,3850,Miles,30.58
+1425,YG69JMX,Ford,Diesel,4373,4297,Miles,29.11
+1428,YG69JLV,Ford,Diesel,3510,3431,Miles,29.19
+1429,YG69JKY,Ford,Diesel,3901,3759,Miles,31.3
+1435,YB07UGO,Ford,Diesel,100200,314,Miles,40.65
+1453,YG57SOE,Ford,Diesel,76471,960,Miles,25.64
+1454,YH57DSY,Ford,Diesel,105447,1447,Miles,22.1
+1477,YB13LSL,Ford,Diesel,39031,1756,Miles,28.27
+1478,YB13LUA,Ford,Diesel,54725,2424,Miles,27.94
+1479,YB13LSV,Ford,Diesel,77967,1964,Miles,29.58
+1480,YB13LTT,Ford,Diesel,55792,7223,Miles,29.05
+1481,YB13VBP,Ford,Diesel,68332,10985,Miles,28.48
 1482,YL63CEF,Peugeot,Diesel,65141,7001,Miles,36.62
 1483,YL63CCE,Peugeot,Diesel,61576,7913,Miles,38.95
 1484,YL63CCF,Peugeot,Diesel,37727,3129,Miles,29.58
 1486,YG14SBO,Peugeot,Diesel,70040,7560,Miles,39.04
-1496,FV69ZTU,Ford Motor Company,Diesel,1713,1623,Miles,27.11
-1497,FV69ZZS,Ford Motor Company,Diesel,4026,3928,Miles,26.94
-1498,FT69AVK,Ford Motor Company,Diesel,1397,1309,Miles,23.21
+1496,FV69ZTU,Ford,Diesel,1713,1623,Miles,27.11
+1497,FV69ZZS,Ford,Diesel,4026,3928,Miles,26.94
+1498,FT69AVK,Ford,Diesel,1397,1309,Miles,23.21
 1501,YL63CCJ,Peugeot,Diesel,42202,4002,Miles,34.12
 1502,YL63CCK,Peugeot,Diesel,38348,3966,Miles,33.16
 1503,YL63CCN,Peugeot,Diesel,59864,7951,Miles,38.32
@@ -513,88 +513,88 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 1517,YL63CHX,Peugeot,Diesel,75578,6836,Miles,34.12
 1518,YL63CHY,Peugeot,Diesel,50607,3686,Miles,29.32
 1519,YA14WSF,Peugeot,Diesel,98358,13254,Miles,27.45
-1520,YF15ZHP,Ford Motor Company,Diesel,34474,5368,Miles,25.08
-1521,YB15DMU,Ford Motor Company,Diesel,48591,9778,Miles,28.51
-1522,YF15ZGC,Ford Motor Company,Diesel,27516,5612,Miles,22.22
-1523,YB15DNJ,Ford Motor Company,Diesel,34647,7524,Miles,26.43
-1524,YB15DKD,Ford Motor Company,Diesel,41480,4865,Miles,23.43
-1525,YB15DKF,Ford Motor Company,Diesel,51415,9897,Miles,29.79
-1526,YB15DKJ,Ford Motor Company,Diesel,34990,11171,Miles,32.89
-1527,YF15ZFZ,Ford Motor Company,Diesel,49008,10092,Miles,29.44
-1528,YB15DLF,Ford Motor Company,Diesel,30163,5792,Miles,26.97
-1529,YE15VNW,Ford Motor Company,Diesel,47502,6887,Miles,24.78
-1530,YB15DND,Ford Motor Company,Diesel,25807,5705,Miles,27.85
-1531,YB15DKV,Ford Motor Company,Diesel,48442,10473,Miles,28.79
-1532,YF15LLW,Ford Motor Company,Diesel,31835,6724,Miles,26.4
-1533,YF15LSE,Ford Motor Company,Diesel,41249,7775,Miles,23.22
-1534,YB15DMY,Ford Motor Company,Diesel,29144,4742,Miles,26.67
-1535,YB15DKX,Ford Motor Company,Diesel,25270,5206,Miles,28.57
-1536,YB15DLK,Ford Motor Company,Diesel,30814,6137,Miles,25.19
-1537,YB15DNO,Ford Motor Company,Diesel,40670,7696,Miles,26.32
-1538,YB15DLY,Ford Motor Company,Diesel,20290,4011,Miles,22.63
-1539,YF15LWD,Ford Motor Company,Diesel,40290,4664,Miles,24.92
-1540,YB15DLZ,Ford Motor Company,Diesel,22650,1817,Miles,28.09
-1541,YF15LLA,Ford Motor Company,Diesel,60210,17482,Miles,31.24
-1542,YF15LMJ,Ford Motor Company,Diesel,41569,8343,Miles,28.1
-1543,YF15LUD,Ford Motor Company,Diesel,37939,5471,Miles,27.02
-1544,YF15LJN,Ford Motor Company,Diesel,42824,8002,Miles,25.43
-1545,YF15LRJ,Ford Motor Company,Diesel,37564,7852,Miles,28.74
-1546,YF15LPE,Ford Motor Company,Diesel,48721,5650,Miles,30.46
-1547,YF15LWO,Ford Motor Company,Diesel,34209,5549,Miles,29.37
-1548,YF15LJY,Ford Motor Company,Diesel,33797,7631,Miles,26.33
-1549,YE15VFD,Ford Motor Company,Diesel,50942,10481,Miles,25.25
-1550,YF15LNU,Ford Motor Company,Diesel,54287,8777,Miles,30.8
-1551,YF15LKN,Ford Motor Company,Diesel,42045,7352,Miles,29.77
-1552,YF15LLK,Ford Motor Company,Diesel,27958,5419,Miles,26.57
-1553,YF15LWU,Ford Motor Company,Diesel,37362,4042,Miles,28.31
-1554,YF15LKJ,Ford Motor Company,Diesel,123754,20033,Miles,32.72
-1555,YF15LKE,Ford Motor Company,Diesel,58274,12374,Miles,28.94
-1556,YF15LLV,Ford Motor Company,Diesel,38440,10186,Miles,29.29
-1557,YB15ZZN,Ford Motor Company,Diesel,49696,12074,Miles,31.54
-1558,YA15AHL,Ford Motor Company,Diesel,39370,7754,Miles,22.97
-1559,YA15GPO,Ford Motor Company,Diesel,36482,7148,Miles,29.52
-1560,YA15GPK,Ford Motor Company,Diesel,27690,4933,Miles,25.15
-1561,YF15LNW,Ford Motor Company,Diesel,47026,10541,Miles,29.43
-1562,YJ16EGW,Ford Motor Company,Diesel,19686,4899,Miles,26.84
-1563,YJ16EGM,Ford Motor Company,Diesel,41357,8435,Miles,29.5
-1564,YJ16EJR,Ford Motor Company,Diesel,12963,2383,Miles,25.48
-1565,YJ16MTS,Ford Motor Company,Diesel,19944,5174,Miles,26.94
-1566,YJ16EJP,Ford Motor Company,Diesel,24987,7047,Miles,26.28
-1567,YJ16EGS,Ford Motor Company,Diesel,32271,7820,Miles,27.04
-1568,YJ16MTP,Ford Motor Company,Diesel,21813,6099,Miles,21.29
-1569,YJ16MTC,Ford Motor Company,Diesel,35683,4775,Miles,27.42
-1570,YJ16MSS,Ford Motor Company,Diesel,23367,4696,Miles,29.87
-1571,YJ16MSW,Ford Motor Company,Diesel,38564,9928,Miles,34.9
-1572,YJ16EEK,Ford Motor Company,Diesel,22953,6942,Miles,27.88
-1573,YJ16CBK,Ford Motor Company,Diesel,22770,4996,Miles,23.51
-1574,YJ16CBZ,Ford Motor Company,Diesel,39314,6758,Miles,27.6
-1575,YJ16MSZ,Ford Motor Company,Diesel,17692,5448,Miles,30.81
-1576,YJ16EGT,Ford Motor Company,Diesel,23572,5989,Miles,28.52
-1577,YJ16EJT,Ford Motor Company,Diesel,21341,5702,Miles,32.08
-1578,YJ16EJS,Ford Motor Company,Diesel,24977,6512,Miles,29.02
-1579,YJ16MTL,Ford Motor Company,Diesel,22567,6620,Miles,26.63
-1580,YJ16MTW,Ford Motor Company,Diesel,31867,8430,Miles,30.1
-1581,YJ16EGA,Ford Motor Company,Diesel,28573,6774,Miles,28.73
-1582,YJ16MSR,Ford Motor Company,Diesel,33953,5869,Miles,25.29
-1583,YJ16MUR,Ford Motor Company,Diesel,26921,6654,Miles,32.83
-1584,YJ16MSP,Ford Motor Company,Diesel,42347,13135,Miles,33.3
-1585,YJ16EJB,Ford Motor Company,Diesel,25948,6619,Miles,26.42
-1586,YJ16EHA,Ford Motor Company,Diesel,45548,11917,Miles,28.69
-1587,YJ16EED,Ford Motor Company,Diesel,30936,7107,Miles,28.27
-1588,YJ16MTR,Ford Motor Company,Diesel,59914,15734,Miles,32.53
-1589,YL16XLX,Ford Motor Company,Diesel,19172,1805,Miles,22.32
-1590,YL16ZXD,Ford Motor Company,Diesel,27030,12107,Miles,30.73
-1591,YL16ZYA,Ford Motor Company,Diesel,32583,8807,Miles,30.27
-1592,YL16ZXB,Ford Motor Company,Diesel,41587,10591,Miles,29.99
-1593,YL16XVT,Ford Motor Company,Diesel,22746,3958,Miles,29.31
-1594,YL16ZXE,Ford Motor Company,Diesel,40915,12506,Miles,33.56
-1595,YD16MGT,Ford Motor Company,Diesel,30765,7539,Miles,28.51
-1596,YL16ZXW,Ford Motor Company,Diesel,38573,10592,Miles,30.92
-1597,YH66UPG,Ford Motor Company,Diesel,40599,14695,Miles,30.74
-1598,YH66UPF,Ford Motor Company,Diesel,19180,5885,Miles,26.97
-1599,YH66URE,Ford Motor Company,Diesel,29188,8291,Miles,26.97
-1600,YH66UPJ,Ford Motor Company,Diesel,42926,12106,Miles,32.89
-1602,YL66AWR,Ford Motor Company,Diesel,23505,6296,Miles,33.13
+1520,YF15ZHP,Ford,Diesel,34474,5368,Miles,25.08
+1521,YB15DMU,Ford,Diesel,48591,9778,Miles,28.51
+1522,YF15ZGC,Ford,Diesel,27516,5612,Miles,22.22
+1523,YB15DNJ,Ford,Diesel,34647,7524,Miles,26.43
+1524,YB15DKD,Ford,Diesel,41480,4865,Miles,23.43
+1525,YB15DKF,Ford,Diesel,51415,9897,Miles,29.79
+1526,YB15DKJ,Ford,Diesel,34990,11171,Miles,32.89
+1527,YF15ZFZ,Ford,Diesel,49008,10092,Miles,29.44
+1528,YB15DLF,Ford,Diesel,30163,5792,Miles,26.97
+1529,YE15VNW,Ford,Diesel,47502,6887,Miles,24.78
+1530,YB15DND,Ford,Diesel,25807,5705,Miles,27.85
+1531,YB15DKV,Ford,Diesel,48442,10473,Miles,28.79
+1532,YF15LLW,Ford,Diesel,31835,6724,Miles,26.4
+1533,YF15LSE,Ford,Diesel,41249,7775,Miles,23.22
+1534,YB15DMY,Ford,Diesel,29144,4742,Miles,26.67
+1535,YB15DKX,Ford,Diesel,25270,5206,Miles,28.57
+1536,YB15DLK,Ford,Diesel,30814,6137,Miles,25.19
+1537,YB15DNO,Ford,Diesel,40670,7696,Miles,26.32
+1538,YB15DLY,Ford,Diesel,20290,4011,Miles,22.63
+1539,YF15LWD,Ford,Diesel,40290,4664,Miles,24.92
+1540,YB15DLZ,Ford,Diesel,22650,1817,Miles,28.09
+1541,YF15LLA,Ford,Diesel,60210,17482,Miles,31.24
+1542,YF15LMJ,Ford,Diesel,41569,8343,Miles,28.1
+1543,YF15LUD,Ford,Diesel,37939,5471,Miles,27.02
+1544,YF15LJN,Ford,Diesel,42824,8002,Miles,25.43
+1545,YF15LRJ,Ford,Diesel,37564,7852,Miles,28.74
+1546,YF15LPE,Ford,Diesel,48721,5650,Miles,30.46
+1547,YF15LWO,Ford,Diesel,34209,5549,Miles,29.37
+1548,YF15LJY,Ford,Diesel,33797,7631,Miles,26.33
+1549,YE15VFD,Ford,Diesel,50942,10481,Miles,25.25
+1550,YF15LNU,Ford,Diesel,54287,8777,Miles,30.8
+1551,YF15LKN,Ford,Diesel,42045,7352,Miles,29.77
+1552,YF15LLK,Ford,Diesel,27958,5419,Miles,26.57
+1553,YF15LWU,Ford,Diesel,37362,4042,Miles,28.31
+1554,YF15LKJ,Ford,Diesel,123754,20033,Miles,32.72
+1555,YF15LKE,Ford,Diesel,58274,12374,Miles,28.94
+1556,YF15LLV,Ford,Diesel,38440,10186,Miles,29.29
+1557,YB15ZZN,Ford,Diesel,49696,12074,Miles,31.54
+1558,YA15AHL,Ford,Diesel,39370,7754,Miles,22.97
+1559,YA15GPO,Ford,Diesel,36482,7148,Miles,29.52
+1560,YA15GPK,Ford,Diesel,27690,4933,Miles,25.15
+1561,YF15LNW,Ford,Diesel,47026,10541,Miles,29.43
+1562,YJ16EGW,Ford,Diesel,19686,4899,Miles,26.84
+1563,YJ16EGM,Ford,Diesel,41357,8435,Miles,29.5
+1564,YJ16EJR,Ford,Diesel,12963,2383,Miles,25.48
+1565,YJ16MTS,Ford,Diesel,19944,5174,Miles,26.94
+1566,YJ16EJP,Ford,Diesel,24987,7047,Miles,26.28
+1567,YJ16EGS,Ford,Diesel,32271,7820,Miles,27.04
+1568,YJ16MTP,Ford,Diesel,21813,6099,Miles,21.29
+1569,YJ16MTC,Ford,Diesel,35683,4775,Miles,27.42
+1570,YJ16MSS,Ford,Diesel,23367,4696,Miles,29.87
+1571,YJ16MSW,Ford,Diesel,38564,9928,Miles,34.9
+1572,YJ16EEK,Ford,Diesel,22953,6942,Miles,27.88
+1573,YJ16CBK,Ford,Diesel,22770,4996,Miles,23.51
+1574,YJ16CBZ,Ford,Diesel,39314,6758,Miles,27.6
+1575,YJ16MSZ,Ford,Diesel,17692,5448,Miles,30.81
+1576,YJ16EGT,Ford,Diesel,23572,5989,Miles,28.52
+1577,YJ16EJT,Ford,Diesel,21341,5702,Miles,32.08
+1578,YJ16EJS,Ford,Diesel,24977,6512,Miles,29.02
+1579,YJ16MTL,Ford,Diesel,22567,6620,Miles,26.63
+1580,YJ16MTW,Ford,Diesel,31867,8430,Miles,30.1
+1581,YJ16EGA,Ford,Diesel,28573,6774,Miles,28.73
+1582,YJ16MSR,Ford,Diesel,33953,5869,Miles,25.29
+1583,YJ16MUR,Ford,Diesel,26921,6654,Miles,32.83
+1584,YJ16MSP,Ford,Diesel,42347,13135,Miles,33.3
+1585,YJ16EJB,Ford,Diesel,25948,6619,Miles,26.42
+1586,YJ16EHA,Ford,Diesel,45548,11917,Miles,28.69
+1587,YJ16EED,Ford,Diesel,30936,7107,Miles,28.27
+1588,YJ16MTR,Ford,Diesel,59914,15734,Miles,32.53
+1589,YL16XLX,Ford,Diesel,19172,1805,Miles,22.32
+1590,YL16ZXD,Ford,Diesel,27030,12107,Miles,30.73
+1591,YL16ZYA,Ford,Diesel,32583,8807,Miles,30.27
+1592,YL16ZXB,Ford,Diesel,41587,10591,Miles,29.99
+1593,YL16XVT,Ford,Diesel,22746,3958,Miles,29.31
+1594,YL16ZXE,Ford,Diesel,40915,12506,Miles,33.56
+1595,YD16MGT,Ford,Diesel,30765,7539,Miles,28.51
+1596,YL16ZXW,Ford,Diesel,38573,10592,Miles,30.92
+1597,YH66UPG,Ford,Diesel,40599,14695,Miles,30.74
+1598,YH66UPF,Ford,Diesel,19180,5885,Miles,26.97
+1599,YH66URE,Ford,Diesel,29188,8291,Miles,26.97
+1600,YH66UPJ,Ford,Diesel,42926,12106,Miles,32.89
+1602,YL66AWR,Ford,Diesel,23505,6296,Miles,33.13
 1605,MH68FWL,Renault,Diesel,4304,3858,Miles,26.59
 1606,MH68FWK,Renault,Diesel,3010,2539,Miles,18.82
 1607,MH68FWG,Renault,Diesel,7028,6953,Miles,31.05
@@ -630,7 +630,6 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 1638,ML19HNK,Renault,Diesel,7210,7096,Miles,31.68
 1640,ML19HNH,Renault,Diesel,8331,8256,Miles,29.19
 1641,ML19HPE,Renault,Diesel,5965,5895,Miles,24.97
-1644,ML19HMV,Renault,Diesel,9457,9377,Miles,30.35
 1646,ML19HMV,Renault,Diesel,10176,10097,Miles,30.91
 1647,ML19HNE,Renault,Diesel,7290,7215,Miles,30.18
 1648,ML19HND,Renault,Diesel,10261,10182,Miles,31.07
@@ -645,48 +644,48 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 1657,ML19HMK,Renault,Diesel,13098,13021,Miles,30.05
 1658,ML19HMJ,Renault,Diesel,7097,7013,Miles,28.59
 1659,ML19HMH,Renault,Diesel,7407,7333,Miles,35.39
-1739,YF13HZJ,Ford Motor Company,Diesel,39837,4721,Miles,25.93
-1740,YB13VYK,Ford Motor Company,Diesel,65366,5614,Miles,27.65
-1741,YF13WXN,Ford Motor Company,Diesel,56019,7651,Miles,27.2
-1742,YF13WYO,Ford Motor Company,Diesel,70288,5951,Miles,24.78
-1749,YF13TKX,Ford Motor Company,Diesel,77750,4244,Miles,25.09
+1739,YF13HZJ,Ford,Diesel,39837,4721,Miles,25.93
+1740,YB13VYK,Ford,Diesel,65366,5614,Miles,27.65
+1741,YF13WXN,Ford,Diesel,56019,7651,Miles,27.2
+1742,YF13WYO,Ford,Diesel,70288,5951,Miles,24.78
+1749,YF13TKX,Ford,Diesel,77750,4244,Miles,25.09
 1750,YL63CMY,Peugeot,Diesel,71419,8612,Miles,28.44
 1800,YG17FWW,Iveco,Diesel,37172,13879,Miles,20.89
 1801,YH17VCG,Peugeot,Diesel,38032,13929,Miles,27.91
 1802,MW17UYJ,Vauxhall,Diesel,17074,5963,Miles,22.26
 1803,MW17UYK,Vauxhall,Diesel,49060,14061,Miles,27.87
-18/57,YG68HXT,John Deere,Diesel,644,137,Miles,0.6
+18/57,YG68HXT,John-Deere,Diesel,644,137,Miles,0.6
 1866,MK16YUY,Vauxhall,Diesel,29443,7358,Miles,26.71
-1872,YP57YXK,Ford Motor Company,Diesel,184059,2755,Miles,35.31
-1874,YL08KHP,Ford Motor Company,Diesel,70822,4280,Miles,18.48
-1879,YH09VPC,Ford Motor Company,Diesel,65854,1180,Miles,22.74
-1880,YH09VOY,Ford Motor Company,Diesel,125640,5125,Miles,30.14
-1881,YH09OSE,Ford Motor Company,Diesel,59742,712,Miles,27.54
-1882,YC09DWO,Ford Motor Company,Diesel,82063,1477,Miles,19.48
-1890,YF13WCP,Ford Motor Company,Diesel,84859,10077,Miles,26.1
+1872,YP57YXK,Ford,Diesel,184059,2755,Miles,35.31
+1874,YL08KHP,Ford,Diesel,70822,4280,Miles,18.48
+1879,YH09VPC,Ford,Diesel,65854,1180,Miles,22.74
+1880,YH09VOY,Ford,Diesel,125640,5125,Miles,30.14
+1881,YH09OSE,Ford,Diesel,59742,712,Miles,27.54
+1882,YC09DWO,Ford,Diesel,82063,1477,Miles,19.48
+1890,YF13WCP,Ford,Diesel,84859,10077,Miles,26.1
 1891,YL63CEJ,Peugeot,Diesel,99217,13228,Miles,26.32
 1893,YG14RZV,Peugeot,Diesel,62864,9094,Miles,24.64
 1894,YD14UWB,Peugeot,Diesel,61588,7930,Miles,27.11
 1895,YG14RZW,Peugeot,Diesel,90971,13017,Miles,22.4
-1948,YE07FBN,Ford Motor Company,Diesel,136474,668,Miles,32.53
-1955,YB57ZKL,Ford Motor Company,Diesel,84765,4822,Miles,20.34
+1948,YE07FBN,Ford,Diesel,136474,668,Miles,32.53
+1955,YB57ZKL,Ford,Diesel,84765,4822,Miles,20.34
 1960,YE12PHV,Peugeot,Diesel,45948,3294,Miles,27.85
 1961,YC12UFR,Peugeot,Diesel,66171,12190,Miles,33.59
-1962,YJ63UWY,Ford Motor Company,Diesel,46566,8766,Miles,23.29
-1963,YJ63UUZ,Ford Motor Company,Diesel,50810,3165,Miles,19.89
+1962,YJ63UWY,Ford,Diesel,46566,8766,Miles,23.29
+1963,YJ63UUZ,Ford,Diesel,50810,3165,Miles,19.89
 1964,YJ14SJU,Peugeot,Diesel,57830,3936,Miles,22.82
 1965,YJ65HWD,Peugeot,Diesel,46123,12102,Miles,28.41
-1966,YB65WZP,Ford Motor Company,Diesel,42863,8647,Miles,24.68
-1967,YB65NSZ,Ford Motor Company,Diesel,49957,10777,Miles,25.57
-1968,YF65BZH,Ford Motor Company,Diesel,40460,7079,Miles,18.5
-1969,YF65VVH,Ford Motor Company,Diesel,60093,8683,Miles,22.76
-1970,YH17UAP,Ford Motor Company,Diesel,21665,7653,Miles,25.47
-1971,YH17UBG,Ford Motor Company,Diesel,53213,22352,Miles,28.26
-1972,YH17TXC,Ford Motor Company,Diesel,7844,1937,Miles,22.33
-1973,YB66XRY,Ford Motor Company,Diesel,23424,7114,Miles,23.72
-1974,YB66XNC,Ford Motor Company,Diesel,32941,11061,Miles,26.03
-1975,YB17CUV,Ford Motor Company,Diesel,19154,10364,Miles,22.85
-1976,YA17KHB,Ford Motor Company,Diesel,24649,2041,Miles,28.27
+1966,YB65WZP,Ford,Diesel,42863,8647,Miles,24.68
+1967,YB65NSZ,Ford,Diesel,49957,10777,Miles,25.57
+1968,YF65BZH,Ford,Diesel,40460,7079,Miles,18.5
+1969,YF65VVH,Ford,Diesel,60093,8683,Miles,22.76
+1970,YH17UAP,Ford,Diesel,21665,7653,Miles,25.47
+1971,YH17UBG,Ford,Diesel,53213,22352,Miles,28.26
+1972,YH17TXC,Ford,Diesel,7844,1937,Miles,22.33
+1973,YB66XRY,Ford,Diesel,23424,7114,Miles,23.72
+1974,YB66XNC,Ford,Diesel,32941,11061,Miles,26.03
+1975,YB17CUV,Ford,Diesel,19154,10364,Miles,22.85
+1976,YA17KHB,Ford,Diesel,24649,2041,Miles,28.27
 1977,MIK19TEV,Vauxhall,Diesel,9165,9001,Miles,22.42
 1978,MK19TEY,Vauxhall,Diesel,5889,5648,Miles,22.49
 1979,MK19TDZ,Vauxhall,Diesel,6487,6339,Miles,23.45
@@ -694,12 +693,12 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 1981,YG69OAD,Peugeot,Diesel,642,484,Miles,12.24
 1984,YG69OAE,Peugeot,Diesel,1539,1410,Miles,9.53
 1985,YG69OAJ,Peugeot,Diesel,2071,1887,Miles,20.32
-2211,YG08XBT,Ford Motor Company,Diesel,112206,3232,Miles,19.95
+2211,YG08XBT,Ford,Diesel,112206,3232,Miles,19.95
 2214,PO58JDF,Renault,Diesel,11991,659,Miles,11.27
 2217,YJ58OUA,Iveco,Diesel,20080,281,Miles,6.57
 2218,YJ58OTZ,Iveco,Diesel,19449,589,Miles,12.35
 2219,YJ58OTY,Iveco,Diesel,27610,1253,Miles,21.89
-2220,YG58LZC,Ford Motor Company,Diesel,96213,1818,Miles,33.55
+2220,YG58LZC,Ford,Diesel,96213,1818,Miles,33.55
 2221,YJ58BDU,Iveco,Diesel,25266,2868,Miles,19.16
 2222,YJ58OTG,Iveco,Diesel,52600,5026,Miles,30.89
 2223,YJ60CZS,Iveco,Diesel,29154,3395,Miles,29.84
@@ -720,8 +719,8 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 2618,MV67KTA,Vauxhall,Diesel,25349,10697,Miles,16.72
 2619,MV67KTL,Vauxhall,Diesel,28091,9351,Miles,17.52
 2620,MV17CVW,Vauxhall,Diesel,25537,9416,Miles,19.49
-2623,YK06YZV,Ford Motor Company,Diesel,106030,253,Miles,18.5
-2680,YC63CUV,Ford Motor Company,Diesel,90562,13738,Miles,33.82
+2623,YK06YZV,Ford,Diesel,106030,253,Miles,18.5
+2680,YC63CUV,Ford,Diesel,90562,13738,Miles,33.82
 2681,MV17CNX,Vauxhall,Diesel,18747,398,Miles,11.64
 2682,MW17CWR,Vauxhall,Diesel,30066,3754,Miles,19.37
 2683,MV17CYA,Vauxhall,Diesel,16826,1646,Miles,15.85
@@ -734,30 +733,30 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 2691,MV17CZK,Vauxhall,Diesel,12288,1596,Miles,15.84
 2692,MV17CFY,Vauxhall,Diesel,9403,1367,Miles,19.46
 2693,MV17DGF,Vauxhall,Diesel,23277,1451,Miles,16.43
-2702,YB63HFS,Ford Motor Company,Diesel,74359,2828,Miles,21.55
-2703,YB63HFN,Ford Motor Company,Diesel,53277,1802,Miles,18.12
-2704,YB63HFR,Ford Motor Company,Diesel,44639,1876,Miles,16.4
-2705,YB63HFP,Ford Motor Company,Diesel,52853,2676,Miles,16.22
-2706,YB63HGA,Ford Motor Company,Diesel,59621,2051,Miles,14.58
-2707,YB63HFT,Ford Motor Company,Diesel,64686,2015,Miles,16.04
-2708,YB63HFU,Ford Motor Company,Diesel,42419,3129,Miles,18.5
-2709,YB63HFV,Ford Motor Company,Diesel,43410,2559,Miles,16.04
-2711,YB63HGU,Ford Motor Company,Diesel,39456,2326,Miles,17.62
-2712,YB63HGX,Ford Motor Company,Diesel,51712,1655,Miles,10.73
-2713,YB63HHA,Ford Motor Company,Diesel,66707,11259,Miles,22.85
-2714,YB63HGF,Ford Motor Company,Diesel,48699,3249,Miles,27.39
-2715,YB63HGL,Ford Motor Company,Diesel,46188,2709,Miles,18.54
-2716,YB63HFY,Ford Motor Company,Diesel,64004,6394,Miles,37.66
-2717,YB63HGJ,Ford Motor Company,Diesel,79836,6376,Miles,40.78
-2718,YB63HGG,Ford Motor Company,Diesel,50964,6329,Miles,37.41
-2719,YB63HGK,Ford Motor Company,Diesel,55671,2362,Miles,22.97
-2721,YB63HGZ,Ford Motor Company,Diesel,38902,2917,Miles,26.44
-2723,YB63HGD,Ford Motor Company,Diesel,60806,11126,Miles,22.7
-2724,YB63HGM,Ford Motor Company,Diesel,66066,778,Miles,13.66
-2725,YB63HGN,Ford Motor Company,Diesel,46124,1651,Miles,17.73
-2727,YB63HGC,Ford Motor Company,Diesel,48391,1448,Miles,18.49
-2729,YB63HGE,Ford Motor Company,Diesel,48543,5780,Miles,50.05
-2731,YA63UPG,Ford Motor Company,Diesel,63652,1961,Miles,19.27
+2702,YB63HFS,Ford,Diesel,74359,2828,Miles,21.55
+2703,YB63HFN,Ford,Diesel,53277,1802,Miles,18.12
+2704,YB63HFR,Ford,Diesel,44639,1876,Miles,16.4
+2705,YB63HFP,Ford,Diesel,52853,2676,Miles,16.22
+2706,YB63HGA,Ford,Diesel,59621,2051,Miles,14.58
+2707,YB63HFT,Ford,Diesel,64686,2015,Miles,16.04
+2708,YB63HFU,Ford,Diesel,42419,3129,Miles,18.5
+2709,YB63HFV,Ford,Diesel,43410,2559,Miles,16.04
+2711,YB63HGU,Ford,Diesel,39456,2326,Miles,17.62
+2712,YB63HGX,Ford,Diesel,51712,1655,Miles,10.73
+2713,YB63HHA,Ford,Diesel,66707,11259,Miles,22.85
+2714,YB63HGF,Ford,Diesel,48699,3249,Miles,27.39
+2715,YB63HGL,Ford,Diesel,46188,2709,Miles,18.54
+2716,YB63HFY,Ford,Diesel,64004,6394,Miles,37.66
+2717,YB63HGJ,Ford,Diesel,79836,6376,Miles,40.78
+2718,YB63HGG,Ford,Diesel,50964,6329,Miles,37.41
+2719,YB63HGK,Ford,Diesel,55671,2362,Miles,22.97
+2721,YB63HGZ,Ford,Diesel,38902,2917,Miles,26.44
+2723,YB63HGD,Ford,Diesel,60806,11126,Miles,22.7
+2724,YB63HGM,Ford,Diesel,66066,778,Miles,13.66
+2725,YB63HGN,Ford,Diesel,46124,1651,Miles,17.73
+2727,YB63HGC,Ford,Diesel,48391,1448,Miles,18.49
+2729,YB63HGE,Ford,Diesel,48543,5780,Miles,50.05
+2731,YA63UPG,Ford,Diesel,63652,1961,Miles,19.27
 2733,YJ14SJX,Peugeot,Diesel,25305,1281,Miles,16.98
 2734,YJ14SJY,Peugeot,Diesel,41600,5052,Miles,21.5
 2735,YJ14SJV,Peugeot,Diesel,22383,2911,Miles,17.11
@@ -767,9 +766,9 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 3113,YG14LFU,Volkswagen,Diesel,11468,519,Miles,12.75
 3114,YG14LGA,Volkswagen,Diesel,20937,414,Miles,13.88
 3115,YG14LFX,Volkswagen,Diesel,28530,255,Miles,9.16
-3116,YF17CHO,Ford Motor Company,Diesel,17016,5277,Miles,20.4
-3117,YF17PRZ,Ford Motor Company,Diesel,13667,7699,Miles,22.09
-3118,YF17CJE,Ford Motor Company,Diesel,38490,12940,Miles,19.74
+3116,YF17CHO,Ford,Diesel,17016,5277,Miles,20.4
+3117,YF17PRZ,Ford,Diesel,13667,7699,Miles,22.09
+3118,YF17CJE,Ford,Diesel,38490,12940,Miles,19.74
 3201,YF67OJV,Iveco,Diesel,18539,12082,Miles,19
 3301,YJ10LCG,Iveco,Diesel,107593,7587,Miles,22.87
 3302,YJ10OHK,Iveco,Diesel,125412,7084,Miles,21.19
@@ -784,27 +783,27 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 3408,YH19TZD,Iveco,Diesel,1973,1893,Kilometres,10.56
 3409,YH19TZE,Iveco,Diesel,797,404,Miles,10.12
 3419,YJ07ZVB,Iveco,Diesel,138437,2029,Miles,20.54
-3431,YJ10KWK,Ford Motor Company,Diesel,11494,7445,Miles,18.22
-3432,YC63WSY,Mitsubishi Motors,Diesel,25400,123,Miles,12.02
-3439,YD67KFU,Mitsubishi Fuso Truck and Bus Corporation,Diesel,6086,2725,Miles,16.76
-3441,YD67JBV,Mitsubishi Fuso Truck and Bus Corporation,Diesel,58157,26241,Miles,26.89
-3442,YD67JBX,Mitsubishi Fuso Truck and Bus Corporation,Diesel,25890,11373,Miles,15.13
-3443,YD67JBY,Mitsubishi Fuso Truck and Bus Corporation,Diesel,30007,19781,Miles,38.4
-3444,YD67JBZ,Mitsubishi Fuso Truck and Bus Corporation,Diesel,22642,8984,Miles,17.67
-3445,YD67JCJ,Mitsubishi Fuso Truck and Bus Corporation,Diesel,55132,36168,Miles,37.57
-3446,YD67JCO,Mitsubishi Fuso Truck and Bus Corporation,Diesel,37075,14193,Miles,24.53
-3447,YD67JCV,Mitsubishi Fuso Truck and Bus Corporation,Diesel,32479,19101,Miles,47.32
-3448,YD67JCX,Mitsubishi Fuso Truck and Bus Corporation,Diesel,27522,13696,Miles,16.86
-3449,YD67JNJ,Mitsubishi Fuso Truck and Bus Corporation,Diesel,20588,9031,Miles,17.12
-3450,YD67KGA,Mitsubishi Fuso Truck and Bus Corporation,Diesel,19711,7910,Miles,14.43
-3451,YD67KGE,Mitsubishi Fuso Truck and Bus Corporation,Diesel,25361,11304,Miles,16.89
-3452,YD67KGF,Mitsubishi Fuso Truck and Bus Corporation,Diesel,17170,8033,Miles,14.83
-3453,YD67KGJ,Mitsubishi Fuso Truck and Bus Corporation,Diesel,27278,12941,Miles,16.53
-3454,YD67KGK,Mitsubishi Fuso Truck and Bus Corporation,Diesel,14123,6068,Miles,14.47
-3455,YD67KGN,Mitsubishi Fuso Truck and Bus Corporation,Diesel,27431,9055,Miles,16.6
-3456,YD67KGO,Mitsubishi Fuso Truck and Bus Corporation,Diesel,24922,10469,Miles,16.45
-3457,YD67KGP,Mitsubishi Fuso Truck and Bus Corporation,Diesel,24245,9443,Miles,15.13
-3458,YD67KGX,Mitsubishi Fuso Truck and Bus Corporation,Diesel,40001,24389,Kilometres,25.24
+3431,YJ10KWK,Ford,Diesel,11494,7445,Miles,18.22
+3432,YC63WSY,Mitsubishi,Diesel,25400,123,Miles,12.02
+3439,YD67KFU,Fuso,Diesel,6086,2725,Miles,16.76
+3441,YD67JBV,Fuso,Diesel,58157,26241,Miles,26.89
+3442,YD67JBX,Fuso,Diesel,25890,11373,Miles,15.13
+3443,YD67JBY,Fuso,Diesel,30007,19781,Miles,38.4
+3444,YD67JBZ,Fuso,Diesel,22642,8984,Miles,17.67
+3445,YD67JCJ,Fuso,Diesel,55132,36168,Miles,37.57
+3446,YD67JCO,Fuso,Diesel,37075,14193,Miles,24.53
+3447,YD67JCV,Fuso,Diesel,32479,19101,Miles,47.32
+3448,YD67JCX,Fuso,Diesel,27522,13696,Miles,16.86
+3449,YD67JNJ,Fuso,Diesel,20588,9031,Miles,17.12
+3450,YD67KGA,Fuso,Diesel,19711,7910,Miles,14.43
+3451,YD67KGE,Fuso,Diesel,25361,11304,Miles,16.89
+3452,YD67KGF,Fuso,Diesel,17170,8033,Miles,14.83
+3453,YD67KGJ,Fuso,Diesel,27278,12941,Miles,16.53
+3454,YD67KGK,Fuso,Diesel,14123,6068,Miles,14.47
+3455,YD67KGN,Fuso,Diesel,27431,9055,Miles,16.6
+3456,YD67KGO,Fuso,Diesel,24922,10469,Miles,16.45
+3457,YD67KGP,Fuso,Diesel,24245,9443,Miles,15.13
+3458,YD67KGX,Fuso,Diesel,40001,24389,Kilometres,25.24
 3501,PE63VRG,Renault,Diesel,66722,9155,Miles,17.18
 3502,PE63VRK,Renault,Diesel,53929,5203,Miles,18.62
 3503,PE63VRJ,Renault,Diesel,33892,695,Miles,19.07
@@ -843,15 +842,15 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 4434,YJ65DJD,Mercedes,Diesel,90334,14641,Kilometres,3.22
 4435,LX68AOZ,Mercedes,Diesel,9872,8449,Kilometres,1.48
 4436,YJ16ZWD,Mercedes,Diesel,38341,16452,Kilometres,3.41
-4437,YJ16 ZWB,Mercedes,Diesel,44308,6083,Kilometres,1.23
-4438,YJ16 ZWC,Mercedes,Diesel,68780,36361,Kilometres,6.99
-4439,YJ16 ZWK,Mercedes,Diesel,77132,39827,Kilometres,8.13
-4440,YJ16 ZWL,Mercedes,Diesel,46020,11586,Kilometres,2.68
-4441,YJ16 ZWM,Mercedes,Diesel,34107,7166,Kilometres,1.93
-4442,YJ16 ZWP,Mercedes,Diesel,74643,16734,Kilometres,3.5
-4443,YJ16 ZWR,Mercedes,Diesel,38314,9532,Kilometres,1.88
-4444,YJ16 ZWS,Mercedes,Diesel,36241,8570,Kilometres,1.73
-4445,YJ16 ZWE,Mercedes,Diesel,57793,7197,Kilometres,2.51
+4437,YJ16ZWB,Mercedes,Diesel,44308,6083,Kilometres,1.23
+4438,YJ16ZWC,Mercedes,Diesel,68780,36361,Kilometres,6.99
+4439,YJ16ZWK,Mercedes,Diesel,77132,39827,Kilometres,8.13
+4440,YJ16ZWL,Mercedes,Diesel,46020,11586,Kilometres,2.68
+4441,YJ16ZWM,Mercedes,Diesel,34107,7166,Kilometres,1.93
+4442,YJ16ZWP,Mercedes,Diesel,74643,16734,Kilometres,3.5
+4443,YJ16ZWR,Mercedes,Diesel,38314,9532,Kilometres,1.88
+4444,YJ16ZWS,Mercedes,Diesel,36241,8570,Kilometres,1.73
+4445,YJ16ZWE,Mercedes,Diesel,57793,7197,Kilometres,2.51
 4446,YJ16ZWF,Mercedes,Diesel,64617,15872,Kilometres,2.31
 4447,YJ16ZWG,Mercedes,Diesel,94236,23884,Kilometres,3.48
 4448,YJ16ZWH,Mercedes,Diesel,65254,15573,Kilometres,2.23
@@ -880,34 +879,34 @@ Number,Registration,Details,Product,Odometer,Distance,Unit,MPG
 5048,YC66WSL,Mercedes,Diesel,41331,10652,Miles,10.82
 5049,YE66JTV,Mercedes,Diesel,29425,6651,Miles,5.96
 78004,YK53CDF,Iveco,Diesel,34405,1130,Miles,23.64
-78016,YS54OHG,Ford Motor Company,Diesel,28619,606,Miles,15.3
+78016,YS54OHG,Ford,Diesel,28619,606,Miles,15.3
 78043,GN56NHB,Iveco,Diesel,22329,723,Miles,19.1
 78058,YK60WKV,Mercedes,Diesel,220524,20511,Miles,20.45
-78080,YO54AXP,Ford Motor Company,Diesel,69115,1639,Miles,24.43
+78080,YO54AXP,Ford,Diesel,69115,1639,Miles,24.43
 78084,YJ56UVD,Iveco,Diesel,26628,1770,Miles,17.23
-78092,HJ12URD,Ford Motor Company,Diesel,152419,6182,Miles,20.14
+78092,HJ12URD,Ford,Diesel,152419,6182,Miles,20.14
 784464,YE58SYU,Mercedes,Diesel,205257,11620,Kilometres,3.35
 784499,YR09CXN,Mercedes,CNG,137023,6579,Kilometres,2.48
 784500,YK53FLP,Iveco,Diesel,161253,1529,Kilometres,6.04
-86902,EU66CWJ,Volvo,Gasoil,2117,788,Miles,0.85
-86903,EU66CWK,Volvo,Gasoil,1403,326,Miles,0.65
-880101,YA10HUV,Ford Motor Company,Diesel,48409,4495,Miles,41.62
-880102,YH60OYD,Ford Motor Company,Diesel,69100,3790,Miles,44.02
-880103,YH60OUY,Ford Motor Company,Diesel,77629,8359,Miles,51.62
-880104,YH60OYB,Ford Motor Company,Diesel,43030,3706,Miles,43.66
-880105,YA10HVO,Ford Motor Company,Diesel,56990,2298,Miles,40.61
-880739,YE59YVZ,Ford Motor Company,Diesel,60377,6457,Miles,53.46
-880741,YF59YLS,Ford Motor Company,Diesel,42743,5467,Miles,49.03
-880749,YD56VMA,Ford Motor Company,Diesel,63675,1358,Miles,32.76
-880752,YG56KLV,Ford Motor Company,Diesel,63176,682,Miles,30.39
-880755,YG56VUT,Ford Motor Company,Diesel,50312,839,Miles,34.11
-880928,YG06COU,Ford Motor Company,Diesel,70504,964,Miles,26.54
-880945,YA07ZVX,Ford Motor Company,Diesel,67562,7705,Miles,41.99
-880953,YC07ORX,Ford Motor Company,Diesel,113448,11049,Miles,31.57
-880980,YF07GFU,Ford Motor Company,Diesel,105330,3429,Miles,29.15
-880993,YF57PJU,Ford Motor Company,Diesel,76033,1273,Miles,32.84
-881106,YK58UDO,Ford Motor Company,Diesel,91350,4998,Miles,27.56
-881108,YK58UDD,Ford Motor Company,Diesel,86223,6762,Miles,31.46
-881111,YK09KDN,Ford Motor Company,Diesel,81221,3758,Miles,37.04
-881114,YH60OXC,Ford Motor Company,Diesel,98830,1948,Miles,29.03
-881951,YA07XMB,Ford Motor Company,Diesel,67305,919,Miles,13.69
+86902,EU66CWJ,Volvo,Diesel,2117,788,Miles,0.85
+86903,EU66CWK,Volvo,Diesel,1403,326,Miles,0.65
+880101,YA10HUV,Ford,Diesel,48409,4495,Miles,41.62
+880102,YH60OYD,Ford,Diesel,69100,3790,Miles,44.02
+880103,YH60OUY,Ford,Diesel,77629,8359,Miles,51.62
+880104,YH60OYB,Ford,Diesel,43030,3706,Miles,43.66
+880105,YA10HVO,Ford,Diesel,56990,2298,Miles,40.61
+880739,YE59YVZ,Ford,Diesel,60377,6457,Miles,53.46
+880741,YF59YLS,Ford,Diesel,42743,5467,Miles,49.03
+880749,YD56VMA,Ford,Diesel,63675,1358,Miles,32.76
+880752,YG56KLV,Ford,Diesel,63176,682,Miles,30.39
+880755,YG56VUT,Ford,Diesel,50312,839,Miles,34.11
+880928,YG06COU,Ford,Diesel,70504,964,Miles,26.54
+880945,YA07ZVX,Ford,Diesel,67562,7705,Miles,41.99
+880953,YC07ORX,Ford,Diesel,113448,11049,Miles,31.57
+880980,YF07GFU,Ford,Diesel,105330,3429,Miles,29.15
+880993,YF57PJU,Ford,Diesel,76033,1273,Miles,32.84
+881106,YK58UDO,Ford,Diesel,91350,4998,Miles,27.56
+881108,YK58UDD,Ford,Diesel,86223,6762,Miles,31.46
+881111,YK09KDN,Ford,Diesel,81221,3758,Miles,37.04
+881114,YH60OXC,Ford,Diesel,98830,1948,Miles,29.03
+881951,YA07XMB,Ford,Diesel,67305,919,Miles,13.69
