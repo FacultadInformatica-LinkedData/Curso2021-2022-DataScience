@@ -1,0 +1,6 @@
+SELECT DISTINCT ?prop
+WHERE {
+  
+  ?Person rdf:type <http://dbpedia.org/ontology/Politician>.
+  ?Person ?prop ?value.
+} 
