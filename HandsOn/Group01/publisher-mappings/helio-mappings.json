@@ -9,13 +9,18 @@
             "id": "Museos",
             "handler": {"type": "RDFHandler", "format": "TTL"},
             "provider": {"type": "FileProvider", "file": "./rdf/museos_linked.ttl"}
+        },
+        {
+            "id": "Ontologia",
+            "handler": {"type": "RDFHandler", "format": "TTL"},
+            "provider": {"type": "FileProvider", "file": "./rdf/ontology.ttl"}
         }
     
     ],
     "resource_rules":[
         {
             "id": "RDF file rules",
-            "datasource_ids": ["Monumentos", "Museos"]
+            "datasource_ids": ["Monumentos", "Museos", "Ontologia"]
         }
     ]
 }
