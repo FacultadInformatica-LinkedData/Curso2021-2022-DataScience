@@ -5,5 +5,8 @@
 env/*
 env_3.9/*
 
+*.jar
+helio-storage/
+
 Assignment4/.ipynb_checkpoints/*
 Assignment4/course_materials/notebooks/.ipynb_checkpoints/*

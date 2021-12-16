@@ -113,7 +113,7 @@
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate cult:;
+    rr:predicate cult:tieneDirreccion;
     rr:objectMap [ 
         rr:parentTriplesMap <#Postaldress_Mapping>;
         rr:joinCondition [
@@ -121,7 +121,7 @@
     ]
   ];
   rr:predicateObjectMap [
-    rr:predicate cult:hasCoordinates;
+    rr:predicate cult:tieneCoordenadas;
     rr:objectMap [ 
         rr:parentTriplesMap <#Coordenadas_Mapping>;
         rr:joinCondition [
@@ -133,7 +133,7 @@
 
 <#Coordenadas_Mapping> a rr:TriplesMap;
     rml:logicalSource[
-        rml:source "./data/museos.csv";
+        rml:source "./data/monumentos_linked.csv";
         rml:referenceFormulation ql:CSV
     ];
     

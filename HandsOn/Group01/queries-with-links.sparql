@@ -6,6 +6,7 @@ PREFIX xsd: <https://www.w3.org/XMLSchema/>
 PREFIX cult: <https://www.mapmadrid.org/ontologia/>
 PREFIX schema: <http://www.schema.org/>
 PREFIX owl: <http://www.w3.org/2002/07/owl>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 
 # Obtener todos los barrios y su representación en wikidata en los que se puede encontrar un museo en Madrid.
 SELECT DISTINCT ?barrio ?wiki_barrio
@@ -26,14 +27,13 @@ WHERE{
 }
 
 #Devolver el número de museos que hay en cada distrito
-SELECT  ?values,
-          COUNT(?values) as ?posiblesValores
+SELECT  ?values (COUNT(?values) as ?posiblesValores)
 WHERE{ 
     ?name rdf:type cult:Museo.
 	?name cult:estaLocalizado ?loc.
     ?loc cult:enDistrito ?values.
-
 }
+GROUP BY ?values
 
 #Devolver todas las propiedades que se le pueden aplicar a un monumento
 SELECT DISTINCT ?prop
@@ -46,6 +46,5 @@ WHERE{
 SELECT DISTINCT ?value
 WHERE{
     ?name rdf:type cult:Museo.
-    ?name cult:tieneNombre> ?value.
-	
+    ?name cult:tieneNombre ?value.
 }
