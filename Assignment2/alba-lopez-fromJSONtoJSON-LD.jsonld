@@ -1,0 +1,49 @@
+{
+    "@context": {
+		"base": "http://www.example.org/",
+		"properties": "http://www.oeg-upm.net/Properties#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		
+		"persona": "base:persona#",
+      	"fullname": "rdfs:label",
+        "homeTown": "rdfs:label",
+        "almaMmater": "rdfs:label",
+        "fatherName": "rdfs:label",
+        "motherName": "rdfs:label",
+		
+		"subjects": "rdfs:container",
+        "uniSubject": "base:subject#", 
+		"name": "rdfs:label",
+      	"teachers": "rdfs:container",
+		"briefDescription": "rdfs:comment"
+    },
+    "@id": "http://www.example.org/persona#AlbaLopez",
+    "@type": "persona:Alumno",
+    "fullName": "Alba López González",
+    "homeTown": "Madrid",
+    "age": 19,
+    "almaMater": "UPM",
+    "fathersName": "Eliseo",
+    "mothersName": "Marta", 
+"subjects": [
+        {   
+            "@id": "http://www.example.org/subject#WebSemantica",
+          	"@type": "uniSubject",
+            "name": "Web Semántica, Linked Data y Knowledge Graphs",
+          	"teachers": {"@id": "http://www.example.org/persona#OscarCorcho", 
+						"@type": "persona:profesor", 
+						"fullName": "Oscar Corcho"},
+            "briefDescription": "Estructuración y publicación de datos en forma de grafo."
+        },
+        {   
+            "@id": "http://www.example.org/subject#IA",
+          	"@type": "uniSubject",
+            "name": "Inteligencia Artificial",
+          	"teachers": {"@id": "http://www.example.org/persona#AsuncionGomez", 
+						"@type": "persona:Profesor", 
+						"fullName": "Asunción Gómez Pérez"},
+          	"briefDescription": "Desarrollo de algoritmos y sistemas inteligentes."
+        }
+    ]	
+}

@@ -1,0 +1,35 @@
+{ "@context":{"base": "http://www.example.org/",
+			  "properties": "http://www.oeg-upm.net/Properties#",
+			  "xsd": "http://www.w3.org/2001/XMLSchema#",
+			  
+			  "includes": "properties:includes",
+              "properties:hasMeasurement": {
+                "@type": "xsd:integrer"
+		},
+			  "hasTemperature": "properties:hasTemperature"	, 
+			  "properties:atTime": {
+                "@type": "xsd:date"
+		},
+			  "hasOwner": "properties:hasOwner", 
+              "properties:hasName": {
+                "@type": "xsd:string"
+		}, 
+			  
+			  "Sensor029": "base:Sensor029",
+			  "Measurement8401": "base:Measurement8401", 
+			  "Computer101": "base:Computer101", 
+			  "User10A": "base:User10A"
+			  },
+ 
+   "Class01":{"includes":
+            {"Sensor029":{"hasMeasurement":
+                          {"Measurement8401":{"properties:hasTemperature":"29",
+                                              "properties:atTime":"2010-06-12T12:00:12"}
+                          }
+                         },
+   			
+             "Computer101":{"hasOwner":
+                            {"User10A":{"properties:hasName":"Pedro"}}}
+			}
+        } 
+}
