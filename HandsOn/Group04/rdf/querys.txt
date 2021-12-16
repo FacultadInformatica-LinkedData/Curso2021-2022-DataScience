@@ -1,0 +1,162 @@
+#Contenedores en los que no ha saltado aviso de estar llenos
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT ?contenedor ?recoleccion WHERE {
+	  ?contenedor a <http://www.semanticweb.org/smartcity/Contenedor>.
+
+	  FILTER NOT EXISTS { ?contenedor <http://www.semanticweb.org/smartcity/frecuencia_media_recolecciones> ?recoleccion }
+	  
+	} 
+	ORDER BY (?contenedor)
+	
+#Vemos cual es el intervalo de fechas entre los que se tomaron los datos
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT (MAX(?fecha) AS ?maxfecha) (MIN(?fecha) AS ?minfecha) WHERE {
+		?contenedor a <http://www.semanticweb.org/smartcity/Contenedor>.
+		?contenedor <http://www.semanticweb.org/smartcity/tieneRecoleccion> ?recoleccion.
+		?recoleccion <http://www.semanticweb.org/smartcity/fecha> ?fecha.  
+	} 
+
+#Ubicacion contenedores capacidad alta 
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT ?contenedor ?nombre WHERE {
+		?contenedor a <http://www.semanticweb.org/smartcity/Contenedor>;
+				 <http://www.semanticweb.org/smartcity/capacidad> "Alto";
+			 <http://www.semanticweb.org/smartcity/ubicadoEn> ?ubicacion.
+		?ubicacion <http://www.semanticweb.org/smartcity/nombre> ?nombre.
+	  } 
+
+#Numero de recolecciones en cada calle
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+	SELECT ?ubicacion_name (COUNT(?recoleccion) AS ?n_recolecciones) WHERE {
+		?contenedor a <http://www.semanticweb.org/smartcity/Contenedor>.
+		?contenedor <http://www.semanticweb.org/smartcity/tieneRecoleccion> ?recoleccion.
+		?contenedor <http://www.semanticweb.org/smartcity/ubicadoEn> ?ubicacion.
+		?ubicacion <http://www.semanticweb.org/smartcity/nombre> ?ubicacion_name.	  
+		}
+	  GROUP BY ?ubicacion_name
+	  ORDER BY DESC(?n_recolecciones)
+	  
+	  
+#Numero de recolecciones por contenedor
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+	SELECT ?contenedor (COUNT(?recoleccion) AS ?n_recolecciones) (COUNT(?n_recolecciones) AS ?total_rec)WHERE {
+		?contenedor a <http://www.semanticweb.org/smartcity/Contenedor>.
+		?contenedor <http://www.semanticweb.org/smartcity/tieneRecoleccion> ?recoleccion.
+	  ?recoleccion <http://www.semanticweb.org/smartcity/porcentaje_de_llenado> ?porcentaje.}
+	  GROUP BY ?contenedor
+
+#Contenedores capacidad baja con mas de 3 recolecciones
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT ?contenedor (COUNT(?recoleccion) AS ?n_recolecciones) WHERE {
+			?contenedor a <http://www.semanticweb.org/smartcity/Contenedor>;
+					 <http://www.semanticweb.org/smartcity/capacidad> "Bajo".
+			?contenedor <http://www.semanticweb.org/smartcity/tieneRecoleccion> ?recoleccion.
+		  }
+	GROUP BY ?contenedor
+	HAVING (?n_recolecciones >= 3)
+
+
+
+#Cuantas recogidas por aviso ha habido
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT ?id (COUNT(?recoleccion) AS ?n_recolecciones) WHERE {
+			?contenedor a <http://www.semanticweb.org/smartcity/Contenedor>;
+			 <http://www.semanticweb.org/smartcity/tieneRecoleccion> ?recoleccion;
+			<http://www.semanticweb.org/smartcity/tieneID> ?id.
+			
+			?recoleccion <http://www.semanticweb.org/smartcity/motivo_de_recoleccion> 'Llenado'.
+		  }
+		GROUP BY ?id
+		ORDER BY DESC(?n_recolecciones)
+
+
+#Contenedores con mayor/menor tiempo respuesta
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT ?id ?tiempo WHERE {
+			?contenedor a <http://www.semanticweb.org/smartcity/Contenedor>;
+			 <http://www.semanticweb.org/smartcity/tieneRecoleccion> ?recoleccion;
+			<http://www.semanticweb.org/smartcity/tieneID> ?id.
+			?recoleccion <http://www.semanticweb.org/smartcity/motivo_de_recoleccion> 'Llenado';
+			  <http://www.semanticweb.org/smartcity/tiempo_respuesta_aviso> ?tiempo.        
+			
+		  }
+	ORDER BY ASC(?tiempo)
+	
+#Recogidas mas lentas, contenedor y ubicacion
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT ?id ?tiempo ?nombre_ub WHERE  {
+			?contenedor a <http://www.semanticweb.org/smartcity/Contenedor>;
+			 <http://www.semanticweb.org/smartcity/tieneRecoleccion> ?recoleccion;
+			<http://www.semanticweb.org/smartcity/ubicadoEn> ?ubicacion;
+			<http://www.semanticweb.org/smartcity/tieneID> ?id.
+			?recoleccion <http://www.semanticweb.org/smartcity/motivo_de_recoleccion> 'Llenado';
+			  <http://www.semanticweb.org/smartcity/tiempo_respuesta_aviso> ?tiempo.    
+			?ubicacion <http://www.semanticweb.org/smartcity/nombre> ?nombre_ub
+			
+		  }ORDER BY DESC(?tiempo)
+	  
+	  
+	  
+#Numero contenedores de residuos
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT DISTINCT (COUNT(?contenedor_residuos) AS ?Residuos) WHERE {
+				?contenedor_residuos 	 <http://www.semanticweb.org/smartcity/material> 'Residuos'.
+		  }  
+	  
+#Recogidas superiores al 60%
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT ?recoleccion  ?porcentaje WHERE {
+				?recoleccion a <http://www.semanticweb.org/smartcity/Recolecciones_pasadas>.
+				?recoleccion <http://www.semanticweb.org/smartcity/porcentaje_de_llenado> ?porcentaje.
+	  FILTER( ?porcentaje >= '60')
+			  }  
+
+
+
+#Contenedores cuyo promedio llenado dias menor a 20
+
+	PREFIX sm: <http://topbraid.org/sparqlmotion#>
+	PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+	PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+	SELECT ?contenedor   ?frec WHERE {
+		?contenedor a <http://www.semanticweb.org/smartcity/Contenedor>;
+		   <http://www.semanticweb.org/smartcity/frecuencia_media_recolecciones> ?frec.
+		FILTER( ?frec <= '20')
+			  }
+
+

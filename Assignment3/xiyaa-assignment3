@@ -1,0 +1,40 @@
+#exercise 1
+
+SELECT ?prop
+WHERE { ?Subject a <http://dbpedia.org/ontology/Politician> .
+        ?Subject ?prop ?value . }
+
+#exercise 2
+
+SELECT ?prop
+WHERE { ?Subject a <http://dbpedia.org/ontology/Politician> .
+        ?Subject ?prop ?value .
+        FILTER (?prop != rdf:type) }
+
+#exercise 3
+
+SELECT DISTINCT ?value
+WHERE { ?Subject a <http://dbpedia.org/ontology/Politician> .
+        ?Subject ?prop ?value .
+        FILTER (?prop != rdf:type) }
+
+#exercise 4
+
+SELECT DISTINCT ?prop ?value
+WHERE { ?Subject a <http://dbpedia.org/ontology/Politician> .
+        ?Subject ?prop ?value .
+        FILTER (?prop != rdf:type) }
+
+#exercise 5
+
+SELECT DISTINCT ?prop (count(?value) as ?values)
+WHERE { ?Subject a <http://dbpedia.org/ontology/Politician> .
+        ?Subject ?prop ?value .
+        FILTER (?prop != rdf:type) }
+
+
+
+
+
+
+

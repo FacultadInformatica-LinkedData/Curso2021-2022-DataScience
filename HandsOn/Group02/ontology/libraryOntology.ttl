@@ -131,14 +131,14 @@ lib:hasHourOpen rdf:type owl:DatatypeProperty ;
 lib:hasLatitude rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf owl:topDataProperty ;
                 rdfs:domain lib:Coordinates ;
-                rdfs:range xsd:string .
+                rdfs:range xsd:float .
 
 
 ###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasLongitude
 lib:hasLongitude rdf:type owl:DatatypeProperty ;
                  rdfs:subPropertyOf owl:topDataProperty ;
                  rdfs:domain lib:Coordinates ;
-                 rdfs:range xsd:string .
+                 rdfs:range xsd:float .
 
 
 ###  http://www.knowledge.org/g02_libraries/ontologies/Library#hasNumber

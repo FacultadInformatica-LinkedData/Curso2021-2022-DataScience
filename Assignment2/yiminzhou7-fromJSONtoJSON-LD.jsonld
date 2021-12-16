@@ -1,0 +1,65 @@
+{
+	"@context":{
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"university": "http://oeg.fi.upm.es/organisations/academic/university",
+		"fullName": "foaf:Student",
+		"name": "foaf:name",
+		"familyName": "name:familyName",
+		"hometown": "rdfs:label",
+		"age": "rdfs:label",
+		"almaMater": "rdfs:label",
+		"parentsName": "foaf:Person",
+		"subjects": "university:subjects"
+	
+	},
+	"@id": "http://estudiante.es/resource/YiminZhou",
+	"@type": "foaf:Student",
+	"fullName": {
+		"@id": "http://estudiante.es/resource/YiminZhou/fullName",
+		"@type": "Name",
+		"name": "Yimin",
+		"familyName": "Zhou"
+	},
+	"hometown": "Torrelodones",
+	"age": "19",
+	"almaMater": "UPM",
+	"parentsName":[
+		{
+			"@id": "http://estudiante.es/resource/YiminZhou/father",
+			"@type": "foaf:Person",
+			"name": "Xuren"
+		},
+		{
+			"@id": "http://es/resource/YiminZhou/mother",
+			"@type": "foaf:Person",
+			"name": "Xianfen"
+		}
+	],
+	"subjects":[
+		{
+			"@id": "http://es/resource/YiminZhou/subjects/KG",
+			"@type": "university:subject",
+			"name": "Knowledge Graphs",
+			"teacher": "Óscar",
+			"briefDescription": "Knowledge Graphs, Linked data and Semantic Web"
+		},
+		{
+			"@id": "http://es/resource/YiminZhou/subjects/AlgoritmicaNumerica",
+			"@type": "university:subject",
+			"name": "Algorítmica Númerica",
+			"teacher": "Antonio",
+			"briefDescription": "Resolver problemas de las matemáticas continuas a través de métodos numéricos de discretización."
+		},
+		{
+			"@id": "http://es/resource/YiminZhou/subjects/Programacion",
+			"@type": "university:subject",
+			"name": "Programación para Ciencia de Datos",
+			"teacher": "Guillermo",
+			"briefDescription": "Programación orientada para Ciencia de Datos"
+		}
+	
+	]
+	
+}
